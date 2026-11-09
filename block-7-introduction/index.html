@@ -1,0 +1,855 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B7-CS24,25,26-INTRODUCTION-2027-V2",
+    "title": "Block 7 Introduction — Cold War at Home and Abroad",
+    "type": "introduction",
+    "block": 7,
+    "standards": [
+      24,
+      25,
+      26
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 24",
+      "prompt": "A loyalty board treats lawful associations as suspicious. What question tests its fairness?",
+      "choices": [
+        "Does the association appear in newspapers?",
+        "Does the board claim patriotic intentions?",
+        "Does the accused hold unpopular opinions?",
+        "Does evidence establish individual wrongdoing?"
+      ],
+      "answer": 3,
+      "explanation": "Does evidence establish individual wrongdoing?.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate suspicion about beliefs from evidence of conduct.",
+      "hint": "Separate suspicion about beliefs from evidence of conduct.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 24",
+      "prompt": "Why did Soviet influence abroad affect employment inside America?",
+      "choices": [
+        "Foreign fears encouraged domestic suspicion of subversion",
+        "Foreign fears required direct Soviet control of employers",
+        "Employment disputes replaced ideological disagreement between governments",
+        "Employment disputes resulted only from trade competition"
+      ],
+      "answer": 0,
+      "explanation": "Foreign fears encouraged domestic suspicion of subversion.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace international anxieties into domestic institutions.",
+      "hint": "Trace international anxieties into domestic institutions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 24",
+      "prompt": "A performer loses work without a criminal conviction. What does blacklisting illustrate?",
+      "choices": [
+        "Entertainment companies acquired constitutional authority over citizenship",
+        "Entertainment companies remained unaffected by political pressure",
+        "Punishment required a formal finding of espionage",
+        "Punishment could operate outside courtroom procedures"
+      ],
+      "answer": 3,
+      "explanation": "Punishment could operate outside courtroom procedures.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare economic punishment with a criminal verdict.",
+      "hint": "Compare economic punishment with a criminal verdict.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 24",
+      "prompt": "Compare an espionage conviction with an unverified public accusation.",
+      "choices": [
+        "National-security language removes the possibility of false charges",
+        "National-security language makes courtroom procedures irrelevant",
+        "Evidence and due process distinguish guilt from suspicion",
+        "Public attention establishes equivalent proof in both cases"
+      ],
+      "answer": 2,
+      "explanation": "Evidence and due process distinguish guilt from suspicion.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check the procedures and evidence behind each conclusion.",
+      "hint": "Check the procedures and evidence behind each conclusion.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 24",
+      "prompt": "Why could McCarthy's methods weaken trust in investigations?",
+      "choices": [
+        "Unsupported allegations made all espionage concerns imaginary",
+        "Investigations depended only on officials' electoral popularity",
+        "Unsupported allegations blurred security work and intimidation",
+        "Investigations eliminated disputes over individual constitutional rights"
+      ],
+      "answer": 2,
+      "explanation": "Unsupported allegations blurred security work and intimidation.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish an allegation's impact from its reliability.",
+      "hint": "Distinguish an allegation's impact from its reliability.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 24",
+      "prompt": "Congressional hearings demand names of political associates. What broader tension appears?",
+      "choices": [
+        "Associates' names established responsibility without examining particular conduct",
+        "Congressional publicity ensured that witnesses could respond without employment pressure",
+        "Naming associates establishes criminal responsibility without further evidence",
+        "Investigative authority can pressure lawful expression and association"
+      ],
+      "answer": 3,
+      "explanation": "Investigative authority can pressure lawful expression and association.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the pressure placed on lawful association.",
+      "hint": "Consider the pressure placed on lawful association.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 24",
+      "prompt": "How did the Second Red Scare extend beyond federal offices?",
+      "choices": [
+        "Universities controlled all national counterintelligence investigations",
+        "Labor unions held exclusive authority over military appointments",
+        "Media companies determined membership in international security alliances",
+        "Universities, unions, and media also faced scrutiny"
+      ],
+      "answer": 3,
+      "explanation": "Universities, unions, and media also faced scrutiny.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look beyond federal offices to other institutions.",
+      "hint": "Look beyond federal offices to other institutions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 24",
+      "prompt": "Why assess a senator's allegations through corroboration rather than repetition?",
+      "choices": [
+        "Elected office makes political incentives historically irrelevant",
+        "Elected office provides expertise on every alleged conspiracy",
+        "Frequent claims need not have independent evidentiary support",
+        "Repeated claims necessarily become more accurate over time"
+      ],
+      "answer": 2,
+      "explanation": "Frequent claims need not have independent evidentiary support.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whether repetitions have independent supporting evidence.",
+      "hint": "Ask whether repetitions have independent supporting evidence.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 24",
+      "prompt": "A union organizer criticizes wages and is labeled disloyal. What distinction matters?",
+      "choices": [
+        "Economic protest differs from evidence of foreign subversion",
+        "Workplace conflict chiefly demonstrated the absence of domestic economic grievances",
+        "Foreign ideological rivalry supplied sufficient explanation for local wage demands",
+        "Economic protest demonstrates commitment to military revolution"
+      ],
+      "answer": 0,
+      "explanation": "Economic protest differs from evidence of foreign subversion.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish an employment demand from a foreign plot.",
+      "hint": "Distinguish an employment demand from a foreign plot.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 24",
+      "prompt": "What evidence best shows the social impact of McCarthyism?",
+      "choices": [
+        "Employment and speech choices shaped by fear of accusations",
+        "Only the number of nuclear weapons held abroad",
+        "Only the dates of unrelated overseas territorial disputes",
+        "Election totals without information about affected institutions"
+      ],
+      "answer": 0,
+      "explanation": "Employment and speech choices shaped by fear of accusations.",
+      "standards": [
+        24
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Choose records showing effects on people's decisions.",
+      "hint": "Choose records showing effects on people's decisions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 25",
+      "prompt": "Why did Chinese intervention in Korea change American strategic choices?",
+      "choices": [
+        "Chinese intervention reduced the chance of a broader confrontation",
+        "The intervention resolved the dispute through immediate Korean unification",
+        "Regional escalation created risks beyond the original battlefield",
+        "Regional escalation ended Soviet-American military competition"
+      ],
+      "answer": 2,
+      "explanation": "Regional escalation created risks beyond the original battlefield.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how another army changed escalation risks.",
+      "hint": "Consider how another army changed escalation risks.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 25",
+      "prompt": "An armistice ends fighting but preserves Korean division. What consequence follows?",
+      "choices": [
+        "The settlement transformed military division into an uncontested political border",
+        "A ceasefire can leave enduring security commitments",
+        "Ending combat removed the need for continuing allied deterrence",
+        "Military division proves the conflict had no international effects"
+      ],
+      "answer": 1,
+      "explanation": "A ceasefire can leave enduring security commitments.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate stopping combat from settling political division.",
+      "hint": "Separate stopping combat from settling political division.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 25",
+      "prompt": "Why connect Vietnam budgets with Great Society debates?",
+      "choices": [
+        "Military expenditures made domestic financing politically irrelevant",
+        "Social programs required the same budget as overseas combat",
+        "Social programs controlled military decisions in Southeast Asia",
+        "Competing expenditures raised questions about national priorities"
+      ],
+      "answer": 3,
+      "explanation": "Competing expenditures raised questions about national priorities.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow competing claims on government resources.",
+      "hint": "Follow competing claims on government resources.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 25",
+      "prompt": "A draft-age student challenges official war claims. Which domestic development appears?",
+      "choices": [
+        "War mobilization generated contested citizenship obligations",
+        "War mobilization eliminated constitutional protections for public criticism",
+        "Student opposition meant every veteran rejected military service",
+        "Student opposition necessarily represented foreign government direction"
+      ],
+      "answer": 0,
+      "explanation": "War mobilization generated contested citizenship obligations.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare service obligations with contested public consent.",
+      "hint": "Compare service obligations with contested public consent.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 25",
+      "prompt": "Compare public protests and congressional war debates.",
+      "choices": [
+        "Congressional debate required unanimous public agreement on strategy",
+        "Congressional debate replaced citizens' right to peaceful assembly",
+        "Both transferred military command directly to protest organizers",
+        "Different institutions contested the legitimacy and costs of policy"
+      ],
+      "answer": 3,
+      "explanation": "Different institutions contested the legitimacy and costs of policy.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish institutional debate from direct military command.",
+      "hint": "Distinguish institutional debate from direct military command.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 25",
+      "prompt": "Why did placing missiles in Cuba create wider danger?",
+      "choices": [
+        "Missile presence reduced the strategic importance of geography",
+        "A regional deployment concerned only Cuba's domestic elections",
+        "Missile presence made negotiation unnecessary for both governments",
+        "A regional deployment threatened superpower nuclear escalation"
+      ],
+      "answer": 3,
+      "explanation": "A regional deployment threatened superpower nuclear escalation.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace local weapons placement into wider retaliation risks.",
+      "hint": "Trace local weapons placement into wider retaliation risks.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 25",
+      "prompt": "A covert operation fails to remove a foreign government. What should analysis consider?",
+      "choices": [
+        "Covert activity's immunity from foreign political reactions",
+        "Covert activity's complete separation from public accountability",
+        "Intervention's limits and diplomatic consequences",
+        "Intervention's automatic success in every later regional crisis"
+      ],
+      "answer": 2,
+      "explanation": "Intervention's limits and diplomatic consequences.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare intended results with diplomatic consequences.",
+      "hint": "Compare intended results with diplomatic consequences.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 25",
+      "prompt": "How could anti-communist priorities affect Middle Eastern alliances?",
+      "choices": [
+        "Containment prohibited cooperation beyond Europe and East Asia",
+        "Strategic partnerships could outweigh concerns about local democracy",
+        "Containment treated access and regional influence as unrelated to security",
+        "Strategic partnerships required identical domestic institutions among allies"
+      ],
+      "answer": 1,
+      "explanation": "Strategic partnerships could outweigh concerns about local democracy.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider which priorities shaped the choice of allies.",
+      "hint": "Consider which priorities shaped the choice of allies.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 25",
+      "prompt": "Why might a president continue a costly war despite public doubts?",
+      "choices": [
+        "Public doubts proved battlefield reports were uniformly inaccurate",
+        "Officials could not legally change military policy during conflict",
+        "Officials feared withdrawal would damage broader credibility",
+        "Public doubts automatically transferred authority to allied governments"
+      ],
+      "answer": 2,
+      "explanation": "Officials feared withdrawal would damage broader credibility.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask how officials connected one war with wider promises.",
+      "hint": "Ask how officials connected one war with wider promises.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 25",
+      "prompt": "Compare Korea's multinational framework with Vietnam's political controversy.",
+      "choices": [
+        "Shared containment goals operated through different contexts",
+        "The Vietnam conflict had no relationship to domestic spending",
+        "Shared goals required identical legal and diplomatic circumstances",
+        "The Korean conflict produced no lasting regional commitments"
+      ],
+      "answer": 0,
+      "explanation": "Shared containment goals operated through different contexts.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the contexts rather than assuming identical circumstances.",
+      "hint": "Compare the contexts rather than assuming identical circumstances.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 25",
+      "prompt": "Why examine urban unrest alongside wartime policy debates?",
+      "choices": [
+        "Military spending primarily resolved inequalities in access to urban services",
+        "Domestic unrest developed separately from disagreements about national priorities",
+        "War spending meant local grievances lacked historical significance",
+        "Domestic inequalities sharpened disputes about resource allocation"
+      ],
+      "answer": 3,
+      "explanation": "Domestic inequalities sharpened disputes about resource allocation.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect domestic grievances with competing spending priorities.",
+      "hint": "Connect domestic grievances with competing spending priorities.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 25",
+      "prompt": "What evidence would test claims that Vietnam changed public trust?",
+      "choices": [
+        "The assumption that criticism showed unanimous opposition to defense",
+        "Only troop totals without information about public attitudes",
+        "Only the number of speeches supporting national unity",
+        "Official statements compared with records and contemporary responses"
+      ],
+      "answer": 3,
+      "explanation": "Official statements compared with records and contemporary responses.",
+      "standards": [
+        25
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare public claims with evidence available to citizens.",
+      "hint": "Compare public claims with evidence available to citizens.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 26",
+      "prompt": "Soviet military spending rises amid consumer shortages. What relationship matters?",
+      "choices": [
+        "External competition could intensify domestic economic strain",
+        "Consumer shortages proved military spending had no public consequences",
+        "External competition explains collapse without other political conditions",
+        "Consumer shortages required immediate American occupation of Soviet territory"
+      ],
+      "answer": 0,
+      "explanation": "External competition could intensify domestic economic strain.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow military competition into the civilian economy.",
+      "hint": "Follow military competition into the civilian economy.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 26",
+      "prompt": "Why examine reform movements in Eastern Europe alongside American pressure?",
+      "choices": [
+        "Internal mobilization interacted with external constraints",
+        "External military pressure supplied a complete explanation without local political choices",
+        "Local movements mattered only after communist governments had already collapsed",
+        "American pressure prevented local actors from influencing events"
+      ],
+      "answer": 0,
+      "explanation": "Internal mobilization interacted with external constraints.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for actions within the societies undergoing change.",
+      "hint": "Look for actions within the societies undergoing change.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 26",
+      "prompt": "The Berlin Wall opens amid mass demonstrations. What broader development is illustrated?",
+      "choices": [
+        "Communist authorities expanded uncontested control over Eastern Europe",
+        "Communist authorities faced weakening control and legitimacy",
+        "The opening created the initial postwar division of Germany",
+        "The opening ended every difference between European political systems"
+      ],
+      "answer": 1,
+      "explanation": "Communist authorities faced weakening control and legitimacy.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect a symbolic opening with challenges to authority.",
+      "hint": "Connect a symbolic opening with challenges to authority.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 26",
+      "prompt": "Why did Soviet dissolution create new foreign-policy relationships?",
+      "choices": [
+        "Soviet dissolution guaranteed uniform democracy throughout the region",
+        "Soviet dissolution removed economic policy from national governments",
+        "Independent republics retained one indivisible Soviet government",
+        "Independent republics became separate diplomatic actors"
+      ],
+      "answer": 3,
+      "explanation": "Independent republics became separate diplomatic actors.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider what changes when one state becomes several.",
+      "hint": "Consider what changes when one state becomes several.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 26",
+      "prompt": "Compare ending one-party rule with creating a market economy.",
+      "choices": [
+        "Political change automatically settled ownership and price questions",
+        "Political and economic transitions posed distinct challenges",
+        "Market reform prohibited education assistance from other countries",
+        "Market reform necessarily restored the previous governing party"
+      ],
+      "answer": 1,
+      "explanation": "Political and economic transitions posed distinct challenges.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish changing leaders from changing economic institutions.",
+      "hint": "Distinguish changing leaders from changing economic institutions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 26",
+      "prompt": "Why did American assistance continue after rivalry declined?",
+      "choices": [
+        "Reform and instability created new policy concerns",
+        "Postcommunist transitions immediately produced stable institutions without outside assistance",
+        "The decline of rivalry removed economic reform from diplomatic consideration",
+        "Former rivals ceased participating in international trade"
+      ],
+      "answer": 0,
+      "explanation": "Reform and instability created new policy concerns.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask what challenges remain during a transition.",
+      "hint": "Ask what challenges remain during a transition.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 26",
+      "prompt": "A historian credits only American weapons spending for collapse. What evidence broadens the account?",
+      "choices": [
+        "A list of American elections unrelated to foreign policy",
+        "Speeches claiming success without implementation records",
+        "Reform decisions, protests, and economic conditions within communist societies",
+        "Military budgets without examination of their effects"
+      ],
+      "answer": 2,
+      "explanation": "Reform decisions, protests, and economic conditions within communist societies.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare external influence with internal conditions and choices.",
+      "hint": "Compare external influence with internal conditions and choices.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 26",
+      "prompt": "How did reduced superpower tension change security debates?",
+      "choices": [
+        "Inherited alliances became legally invalid when the Soviet Union dissolved",
+        "Governments reconsidered inherited military commitments and costs",
+        "Defense choices continued unchanged because rivalry's decline had no strategic implications",
+        "The end of rivalry prevented further military investment"
+      ],
+      "answer": 1,
+      "explanation": "Governments reconsidered inherited military commitments and costs.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider which inherited commitments might be reassessed.",
+      "hint": "Consider which inherited commitments might be reassessed.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 26",
+      "prompt": "Why distinguish contributing pressure from a sufficient cause?",
+      "choices": [
+        "Multiple causes demonstrate that chronology is irrelevant",
+        "A factor can matter without explaining the whole outcome",
+        "A factor must operate alone to have historical significance",
+        "Multiple causes prevent any defensible historical explanation"
+      ],
+      "answer": 1,
+      "explanation": "A factor can matter without explaining the whole outcome.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish contributing to an outcome from explaining everything.",
+      "hint": "Distinguish contributing to an outcome from explaining everything.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 26",
+      "prompt": "What evidence best evaluates the claim of a simple democratic triumph?",
+      "choices": [
+        "Only a speech predicting regional prosperity",
+        "Only celebrations marking the Berlin Wall's opening",
+        "Different successor states' political and economic trajectories",
+        "The assumption that every regime change produced equal rights"
+      ],
+      "answer": 2,
+      "explanation": "Different successor states' political and economic trajectories.",
+      "standards": [
+        26
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare developments across different successor states.",
+      "hint": "Compare developments across different successor states.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "Why did accusations of subversion gain influence?",
+      "choices": [
+        "International rivalry intensified domestic suspicion",
+        "Labor unions controlled national security investigations",
+        "Universities abolished all study of communism",
+        "International cooperation ended political disagreement"
+      ],
+      "answer": 0,
+      "explanation": "International rivalry intensified domestic suspicion.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace why overseas events intensified suspicion at home.",
+      "hint": "Trace why overseas events intensified suspicion at home.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "How did blacklisting affect civil liberties?",
+      "choices": [
+        "Employment sanctions generally followed completed criminal trials establishing guilt",
+        "Suspected associations could destroy employment",
+        "Private blacklists operated independently of public investigations and political pressure",
+        "Criminal trials guaranteed every dismissal"
+      ],
+      "answer": 1,
+      "explanation": "Suspected associations could destroy employment.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish suspicion from a procedure establishing guilt.",
+      "hint": "Distinguish suspicion from a procedure establishing guilt.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "Why did the Korean War strain relations with China?",
+      "choices": [
+        "The war ended all American Asian alliances",
+        "Chinese intervention widened the military confrontation",
+        "The war transferred Japan to Chinese administration",
+        "Chinese intervention unified Korea peacefully"
+      ],
+      "answer": 1,
+      "explanation": "Chinese intervention widened the military confrontation.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the conflict's implications for surrounding states.",
+      "hint": "Consider the conflict's implications for surrounding states.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "How could Vietnam spending affect domestic politics?",
+      "choices": [
+        "Military costs competed with social-program priorities",
+        "Domestic programs eliminated opposition to conscription",
+        "Domestic programs controlled Vietnamese elections",
+        "Military costs guaranteed unlimited domestic funding"
+      ],
+      "answer": 0,
+      "explanation": "Military costs competed with social-program priorities.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare wartime expenditure with competing domestic commitments.",
+      "hint": "Compare wartime expenditure with competing domestic commitments.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "Why did Soviet military costs matter to Cold War's end?",
+      "choices": [
+        "Competition created unlimited consumer prosperity",
+        "Military costs prevented reform movements entirely",
+        "Competition intensified existing economic strains",
+        "Military costs alone explain every political change"
+      ],
+      "answer": 2,
+      "explanation": "Competition intensified existing economic strains.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Examine pressure alongside existing economic vulnerabilities.",
+      "hint": "Examine pressure alongside existing economic vulnerabilities.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "How did demonstrations interact with communist decline?",
+      "choices": [
+        "Protests merely recorded changes already completed by foreign military intervention",
+        "Popular pressure weakened regimes already facing crisis",
+        "Democratic mobilization chiefly strengthened communist authorities' domestic legitimacy",
+        "Demonstrations required American military occupation everywhere"
+      ],
+      "answer": 1,
+      "explanation": "Popular pressure weakened regimes already facing crisis.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-26",
+      "where": "Section CS 26 — Pressures, reforms, and communist collapse. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how mobilization affected political legitimacy.",
+      "hint": "Consider how mobilization affected political legitimacy.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "Compare security investigations with guilt by association.",
+      "choices": [
+        "Political connections supply evidence equivalent to documented espionage activity",
+        "An investigator's official status substitutes for corroborating particular accusations",
+        "Investigations need evidence beyond mere political connections",
+        "Political connections replace evidence in fair trials"
+      ],
+      "answer": 2,
+      "explanation": "Investigations need evidence beyond mere political connections.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-24",
+      "where": "Section CS 24 — Fear of subversion and individual liberty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask what counts as independent evidence of wrongdoing.",
+      "hint": "Ask what counts as independent evidence of wrongdoing.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "Why did Vietnam protests challenge wartime policymakers?",
+      "choices": [
+        "Opposition established a common rejection of defense responsibilities among citizens",
+        "Citizens disputed costs, legitimacy, and official claims",
+        "Public demonstrations transferred war strategy decisions directly to protest organizations",
+        "Protests transferred command directly to foreign governments"
+      ],
+      "answer": 1,
+      "explanation": "Citizens disputed costs, legitimacy, and official claims.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-7.html#cs-25",
+      "where": "Section CS 25 — Regional conflicts and domestic priorities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish criticizing a war from rejecting all defense.",
+      "hint": "Distinguish criticizing a war from rejecting all defense.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

@@ -1,0 +1,492 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
+<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
+<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
+<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
+<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
+<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
+</main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B1-CS4–5-VOCAB-2027",
+    "title": "Block 1 Vocabulary — Declaration and Northwest Ordinance",
+    "description": "CS 4–5 • Phase II correctable vocabulary mastery • 28 questions.",
+    "practice": "Use feedback and hints to master the essential vocabulary for CS 4–5."
+  },
+  "questions": [
+    {
+      "id": "v28",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Rule declaring slavery and involuntary servitude illegal in the Northwest Territory, except as punishment for crime.",
+      "choices": [
+        "Equality",
+        "Right of revolution",
+        "Prohibition of slavery",
+        "Northwest Territory"
+      ],
+      "answer": 2,
+      "source": "",
+      "where": "",
+      "explanation": "Prohibition of slavery is rule declaring slavery and involuntary servitude illegal in the Northwest Territory, except as punishment for crime. The restriction shaped the development of future states north of the Ohio River.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v25",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Requirement that government follow fair legal procedures before depriving a person of life, liberty, or property.",
+      "choices": [
+        "Due process",
+        "Natural rights",
+        "Rule of law",
+        "Civil liberty"
+      ],
+      "answer": 0,
+      "source": "",
+      "where": "",
+      "explanation": "Due process is requirement that government follow fair legal procedures before depriving a person of life, liberty, or property. Officials must use established law rather than arbitrary punishment.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v09",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Formal complaint identifying an abuse or injustice.",
+      "choices": [
+        "Grievance",
+        "Civil liberty",
+        "Equal footing",
+        "Property rights"
+      ],
+      "answer": 0,
+      "source": "",
+      "where": "",
+      "explanation": "Grievance is formal complaint identifying an abuse or injustice. The Declaration lists actions committed by the British king against the colonies.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v22",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Right to practice religious beliefs without improper government interference.",
+      "choices": [
+        "Public education",
+        "Equality",
+        "Freedom of religion",
+        "Right of revolution"
+      ],
+      "answer": 2,
+      "source": "",
+      "where": "",
+      "explanation": "Freedom of religion is right to practice religious beliefs without improper government interference. The Ordinance stated that religion should not be used to deny civil rights.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v16",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? 1787 law establishing government and a statehood process for the Northwest Territory.",
+      "choices": [
+        "Civil liberties",
+        "Northwest Ordinance",
+        "Public education",
+        "Equality"
+      ],
+      "answer": 1,
+      "source": "",
+      "where": "",
+      "explanation": "Northwest Ordinance is 1787 law establishing government and a statehood process for the Northwest Territory. It provided civil liberties, encouraged education, restricted slavery, and promised equal statehood.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v18",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Temporary government used before a territory qualifies for statehood.",
+      "choices": [
+        "Habeas corpus",
+        "Unalienable rights",
+        "Limited government",
+        "Territorial government"
+      ],
+      "answer": 3,
+      "source": "",
+      "where": "",
+      "explanation": "Territorial government is temporary government used before a territory qualifies for statehood. An appointed governor precedes increasing representative government.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v03",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Principle that legitimate government receives its authority from the people.",
+      "choices": [
+        "Rule of law",
+        "Civil liberty",
+        "Equal footing",
+        "Consent of the governed"
+      ],
+      "answer": 3,
+      "source": "",
+      "where": "",
+      "explanation": "Consent of the governed is principle that legitimate government receives its authority from the people. Citizens authorize government and may change one that violates their rights.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v07",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Principle that governmental power is restricted by law and by the rights of the people.",
+      "choices": [
+        "Civic responsibility",
+        "Territorial government",
+        "Limited government",
+        "Trial by jury"
+      ],
+      "answer": 2,
+      "source": "",
+      "where": "",
+      "explanation": "Limited government is principle that governmental power is restricted by law and by the rights of the people. Officials cannot legitimately exercise unlimited authority.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v02",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Rights people possess by nature rather than receiving from government.",
+      "choices": [
+        "Limited government",
+        "Natural rights",
+        "Marginalized groups",
+        "Statehood"
+      ],
+      "answer": 1,
+      "source": "",
+      "where": "",
+      "explanation": "Natural rights is rights people possess by nature rather than receiving from government. John Locke argued that people are born with fundamental rights.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v06",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Understanding that people establish government to protect rights and agree to follow legitimate laws.",
+      "choices": [
+        "Right of revolution",
+        "Northwest Territory",
+        "Habeas corpus",
+        "Social contract"
+      ],
+      "answer": 3,
+      "source": "",
+      "where": "",
+      "explanation": "Social contract is understanding that people establish government to protect rights and agree to follow legitimate laws. Government owes protection while citizens grant it authority.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v23",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Protection requiring government to justify a person’s detention before a court.",
+      "choices": [
+        "Habeas corpus",
+        "Prohibition of slavery",
+        "Social contract",
+        "Civic responsibility"
+      ],
+      "answer": 0,
+      "source": "",
+      "where": "",
+      "explanation": "Habeas corpus is protection requiring government to justify a person’s detention before a court. A prisoner may challenge whether confinement is lawful.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v15",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? 1776 document announcing separation from Britain and explaining the principles and grievances supporting that decision.",
+      "choices": [
+        "Equal footing",
+        "Declaration of Independence",
+        "Property rights",
+        "Popular sovereignty"
+      ],
+      "answer": 1,
+      "source": "",
+      "where": "",
+      "explanation": "Declaration of Independence is 1776 document announcing separation from Britain and explaining the principles and grievances supporting that decision. It connects natural rights, consent, equality, and the responsibility of government.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v19",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Legal admission of a territory as a state in the Union.",
+      "choices": [
+        "Trial by jury",
+        "Natural rights",
+        "Statehood",
+        "Rule of law"
+      ],
+      "answer": 2,
+      "source": "",
+      "where": "",
+      "explanation": "Statehood is legal admission of a territory as a state in the Union. Population growth and an approved constitution move a territory toward admission.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v11",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? People’s authority to alter or abolish a government that persistently destroys their rights.",
+      "choices": [
+        "Northwest Ordinance",
+        "Right of revolution",
+        "Freedom of religion",
+        "Prohibition of slavery"
+      ],
+      "answer": 1,
+      "source": "",
+      "where": "",
+      "explanation": "Right of revolution is people’s authority to alter or abolish a government that persistently destroys their rights. The Declaration justifies replacing an abusive political system.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v26",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Legal protections for owning and using possessions and land.",
+      "choices": [
+        "Consent of the governed",
+        "Grievance",
+        "Declaration of Independence",
+        "Property rights"
+      ],
+      "answer": 3,
+      "source": "",
+      "where": "",
+      "explanation": "Property rights is legal protections for owning and using possessions and land. The Ordinance protected contracts and prohibited taking property without lawful authority.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v10",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Cruel or oppressive exercise of governmental power.",
+      "choices": [
+        "Declaration of Independence",
+        "Civil liberties",
+        "Public education",
+        "Tyranny"
+      ],
+      "answer": 3,
+      "source": "",
+      "where": "",
+      "explanation": "Tyranny is cruel or oppressive exercise of governmental power. Repeated abuses intended to establish absolute control demonstrate this condition.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v27",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Community-supported schooling intended to spread knowledge and responsible citizenship.",
+      "choices": [
+        "Public education",
+        "Popular sovereignty",
+        "Tyranny",
+        "Northwest Ordinance"
+      ],
+      "answer": 0,
+      "source": "",
+      "where": "",
+      "explanation": "Public education is community-supported schooling intended to spread knowledge and responsible citizenship. The Ordinance encouraged schools because knowledge was considered necessary to good government.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v05",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Principle that people possess equal rights and should receive equal treatment under law.",
+      "choices": [
+        "Tyranny",
+        "Northwest Ordinance",
+        "Equality",
+        "Freedom of religion"
+      ],
+      "answer": 2,
+      "source": "",
+      "where": "",
+      "explanation": "Equality is principle that people possess equal rights and should receive equal treatment under law. The Declaration states that all men are created equal, even though the ideal was not fully applied in 1776.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v01",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Rights every person possesses that cannot legitimately be taken away.",
+      "choices": [
+        "Social contract",
+        "Unalienable rights",
+        "Civic responsibility",
+        "Territorial government"
+      ],
+      "answer": 1,
+      "source": "",
+      "where": "",
+      "explanation": "Unalienable rights is rights every person possesses that cannot legitimately be taken away. The Declaration identifies life, liberty, and the pursuit of happiness as examples.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v08",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Principle that laws govern citizens and public officials alike.",
+      "choices": [
+        "Rule of law",
+        "Marginalized groups",
+        "Statehood",
+        "Due process"
+      ],
+      "answer": 0,
+      "source": "",
+      "where": "",
+      "explanation": "Rule of law is principle that laws govern citizens and public officials alike. A leader remains subject to established legal limits.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v13",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? People excluded from equal power, opportunity, or protection.",
+      "choices": [
+        "Territorial government",
+        "Marginalized groups",
+        "Trial by jury",
+        "Natural rights"
+      ],
+      "answer": 1,
+      "source": "",
+      "where": "",
+      "explanation": "Marginalized groups is people excluded from equal power, opportunity, or protection. Women, enslaved people, and Indigenous peoples did not initially receive the Declaration’s ideals equally.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v20",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Principle that new states enter the Union with the same legal status as existing states.",
+      "choices": [
+        "Due process",
+        "Consent of the governed",
+        "Grievance",
+        "Equal footing"
+      ],
+      "answer": 3,
+      "source": "",
+      "where": "",
+      "explanation": "Equal footing is principle that new states enter the Union with the same legal status as existing states. Western states would not remain permanently subordinate to the original states.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v17",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Region north of the Ohio River, east of the Mississippi River, and south of the Great Lakes.",
+      "choices": [
+        "Freedom of religion",
+        "Northwest Territory",
+        "Prohibition of slavery",
+        "Social contract"
+      ],
+      "answer": 1,
+      "source": "",
+      "where": "",
+      "explanation": "Northwest Territory is region north of the Ohio River, east of the Mississippi River, and south of the Great Lakes. The Ordinance organized this western land for settlement and eventual states.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v24",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Right to have evidence decided by an impartial group of citizens.",
+      "choices": [
+        "Unalienable rights",
+        "Limited government",
+        "Trial by jury",
+        "Marginalized groups"
+      ],
+      "answer": 2,
+      "source": "",
+      "where": "",
+      "explanation": "Trial by jury is right to have evidence decided by an impartial group of citizens. The Ordinance guaranteed this protection in criminal proceedings.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v14",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Freedom protected from improper governmental interference.",
+      "choices": [
+        "Statehood",
+        "Due process",
+        "Consent of the governed",
+        "Civil liberty"
+      ],
+      "answer": 3,
+      "source": "",
+      "where": "",
+      "explanation": "Civil liberty is freedom protected from improper governmental interference. Religious expression and personal freedom are protected against government abuse.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v21",
+      "cs": "CS 5",
+      "topic": "CS 5 Vocabulary",
+      "prompt": "Which term matches this definition? Fundamental freedoms and legal protections held by individuals.",
+      "choices": [
+        "Civil liberties",
+        "Property rights",
+        "Popular sovereignty",
+        "Tyranny"
+      ],
+      "answer": 0,
+      "source": "",
+      "where": "",
+      "explanation": "Civil liberties is fundamental freedoms and legal protections held by individuals. The Ordinance protected religion, jury trial, due process, and property.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v12",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Obligation of citizens to participate in and protect their political community.",
+      "choices": [
+        "Civic responsibility",
+        "Northwest Territory",
+        "Habeas corpus",
+        "Unalienable rights"
+      ],
+      "answer": 0,
+      "source": "",
+      "where": "",
+      "explanation": "Civic responsibility is obligation of citizens to participate in and protect their political community. The Declaration says people must act when government repeatedly violates rights.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    },
+    {
+      "id": "v04",
+      "cs": "CS 4",
+      "topic": "CS 4 Vocabulary",
+      "prompt": "Which term matches this definition? Principle that ultimate political authority rests with the people.",
+      "choices": [
+        "Grievance",
+        "Declaration of Independence",
+        "Popular sovereignty",
+        "Civil liberties"
+      ],
+      "answer": 2,
+      "source": "",
+      "where": "",
+      "explanation": "Popular sovereignty is principle that ultimate political authority rests with the people. The people are the original source of governmental power.",
+      "hint": "Focus on the phrase that distinguishes this term from the other founding-document concepts."
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="app.js"></script></body></html>

@@ -1,0 +1,524 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B2-CS6,7-REVIEW-2027-V2",
+    "title": "Block 2 Review — Constitution and Ratification",
+    "type": "review",
+    "block": 2,
+    "standards": [
+      6,
+      7
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "A president claims electoral victory permits ignoring Congress. Which constitutional reasoning challenges the claim?",
+      "choices": [
+        "Electoral victory authorizes judges to write executive policy",
+        "Popular authority places every branch beneath the executive",
+        "Popular authority operates through divided institutional powers",
+        "Electoral victory suspends written limits until another election"
+      ],
+      "answer": 2,
+      "explanation": "Popular authority operates through divided institutional powers.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "Congress overrides a veto. What relationship does this demonstrate?",
+      "choices": [
+        "Executive authority determines constitutional amendments",
+        "Judicial power can cancel a congressional election",
+        "Legislative power can check an executive objection",
+        "Federalism assigns vetoes to state legislatures"
+      ],
+      "answer": 2,
+      "explanation": "Legislative power can check an executive objection.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "A state taxes goods arriving from another state. Why might national commerce rules matter?",
+      "choices": [
+        "They preserve each state's exclusive control of interstate transactions",
+        "They authorize states to impose conflicting national trade standards",
+        "They transfer private factories into federal ownership",
+        "They limit conflicting barriers within the national market"
+      ],
+      "answer": 3,
+      "explanation": "They limit conflicting barriers within the national market.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "Compare the Constitution with the Articles on national capacity.",
+      "choices": [
+        "The Constitution added direct revenue and stronger enforcement",
+        "The Constitution removed congressional authority over interstate issues",
+        "The Articles gave national courts broader authority over taxation",
+        "The Articles provided stronger executive enforcement of federal law"
+      ],
+      "answer": 0,
+      "explanation": "The Constitution added direct revenue and stronger enforcement.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "Why does representation complement rather than replace limited government?",
+      "choices": [
+        "Representation requires courts to approve every policy choice",
+        "Representation makes civil liberties dependent on popularity",
+        "Elected officials acquire authority above the Constitution",
+        "Elected officials remain subject to constitutional restrictions"
+      ],
+      "answer": 3,
+      "explanation": "Elected officials remain subject to constitutional restrictions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "A constitutional amendment protects a previously excluded group. What does this show?",
+      "choices": [
+        "Formal change requires dissolving the national government",
+        "Formal change can expand rights within a lasting framework",
+        "Rights expansions remove all limits on legislative power",
+        "Rights expansions depend only on presidential proclamations"
+      ],
+      "answer": 1,
+      "explanation": "Formal change can expand rights within a lasting framework.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "Why is a national power to raise armies compatible with limited government?",
+      "choices": [
+        "Military leaders control constitutional interpretation alone",
+        "Constitutional institutions authorize and constrain its use",
+        "A standing army automatically receives legislative authority",
+        "State governors possess sole command of federal armies"
+      ],
+      "answer": 1,
+      "explanation": "Constitutional institutions authorize and constrain its use.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "A state and federal government exercise separate lawful powers. What result reflects federalism?",
+      "choices": [
+        "Authority is divided between levels of government",
+        "Authority is divided only among national branches",
+        "Local authority derives from independent foreign treaties",
+        "National authority excludes every reserved state power"
+      ],
+      "answer": 0,
+      "explanation": "Authority is divided between levels of government.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "Why does a written constitution help citizens challenge official conduct?",
+      "choices": [
+        "It guarantees agreement on every public controversy",
+        "It supplies public standards that officials must obey",
+        "It prevents the electorate from replacing representatives",
+        "It permits officials to revise rights by private order"
+      ],
+      "answer": 1,
+      "explanation": "It supplies public standards that officials must obey.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "A legislature denies an unpopular group legal protection. Which principle limits that action?",
+      "choices": [
+        "State governments may suspend every national guarantee",
+        "Legislative majorities possess unlimited governing authority",
+        "Civil liberties apply only to those holding public office",
+        "Governmental authority remains bounded by protected rights"
+      ],
+      "answer": 3,
+      "explanation": "Governmental authority remains bounded by protected rights.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "Why did strengthening Congress not simply recreate monarchy?",
+      "choices": [
+        "The president could dissolve Congress whenever it disagreed",
+        "Congress inherited permanent authority through hereditary succession",
+        "Federal courts were abolished to speed legislative action",
+        "Power remained divided, representative, and constitutionally limited"
+      ],
+      "answer": 3,
+      "explanation": "Power remained divided, representative, and constitutionally limited.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "How do elections and separated powers protect citizens differently?",
+      "choices": [
+        "Elections provide accountability; divided powers limit institutional dominance",
+        "Elections authorize rights; divided powers grant permanent officeholding",
+        "Elections establish courts; divided powers determine voter eligibility",
+        "Elections eliminate factions; divided powers remove public disagreement"
+      ],
+      "answer": 0,
+      "explanation": "Elections provide accountability; divided powers limit institutional dominance.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "Congress proposes an amendment but cannot enact it alone. What purpose does ratification serve?",
+      "choices": [
+        "It requires agreement beyond the institution proposing change",
+        "It gives judges exclusive authority to revise federalism",
+        "It makes ordinary legislation harder than constitutional change",
+        "It allows the executive to bypass state participation"
+      ],
+      "answer": 0,
+      "explanation": "It requires agreement beyond the institution proposing change.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "Why did taxation authority change the people-government relationship?",
+      "choices": [
+        "Federal officials obtained unlimited control of private income",
+        "National institutions became exempt from representative control",
+        "National responsibilities gained a more reliable funding mechanism",
+        "State governments lost every independent revenue source"
+      ],
+      "answer": 2,
+      "explanation": "National responsibilities gained a more reliable funding mechanism.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "A court applies constitutional limits to a popular law. What tension is illustrated?",
+      "choices": [
+        "Majority policy preferences encounter protected legal boundaries",
+        "Popular legislation acquires authority equivalent to a constitutional amendment",
+        "Judicial enforcement derives its force chiefly from current opinion polls",
+        "Public support permanently overrides constitutional restrictions"
+      ],
+      "answer": 0,
+      "explanation": "Majority policy preferences encounter protected legal boundaries.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "A Federalist defends national taxation while a critic fears repression. What do they dispute?",
+      "choices": [
+        "Whether written governments should possess any public responsibilities",
+        "Whether colonial independence should yield to British sovereignty",
+        "How much central authority liberty and effective government require",
+        "How hereditary offices should divide seats among the states"
+      ],
+      "answer": 2,
+      "explanation": "How much central authority liberty and effective government require.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "A critic fears an army used against citizens. Which proposal most directly answers the broader concern?",
+      "choices": [
+        "Transfer of lawmaking authority to professional military officers",
+        "Enforceable protections limiting government interference with liberty",
+        "Removal of representative institutions from military budgeting",
+        "Permanent abolition of every national defense responsibility"
+      ],
+      "answer": 1,
+      "explanation": "Enforceable protections limiting government interference with liberty.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "Why did adding amendments preserve the Federalists' central achievement?",
+      "choices": [
+        "Rights protections supplemented the ratified national framework",
+        "Rights protections eliminated the federal division of power",
+        "Rights protections restored the Articles without national institutions",
+        "Rights protections transferred national taxes to foreign creditors"
+      ],
+      "answer": 0,
+      "explanation": "Rights protections supplemented the ratified national framework.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "Compare due process with freedom of speech.",
+      "choices": [
+        "Due process protects states while speech protects federal officials",
+        "Both restrain government, addressing different forms of interference",
+        "Speech permits punishment without trial during public criticism",
+        "Both require citizens to approve all criminal verdicts"
+      ],
+      "answer": 1,
+      "explanation": "Both restrain government, addressing different forms of interference.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "Officials suppress a newspaper criticizing taxation. Which debate became a concrete rights issue?",
+      "choices": [
+        "Whether state boundaries could change without geographic surveys",
+        "Whether senators should serve alongside executive department heads",
+        "Whether stronger national power would endanger protected expression",
+        "Whether a national army should replace local police agencies"
+      ],
+      "answer": 2,
+      "explanation": "Whether stronger national power would endanger protected expression.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "A student says Anti-Federalists opposed every form of government. Which evidence best corrects this?",
+      "choices": [
+        "They wanted military officers to ratify the Constitution alone",
+        "They demanded national officials control all state institutions",
+        "They advocated replacing elected leaders with hereditary kings",
+        "They sought stronger safeguards against concentrated national power"
+      ],
+      "answer": 3,
+      "explanation": "They sought stronger safeguards against concentrated national power.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "Why study both sides rather than treating ratification as unanimous?",
+      "choices": [
+        "The settlement adopted the central framework without responding to critics",
+        "The amendments restored the Articles' distribution of national powers",
+        "The ratification process prohibited public discussion of constitutional issues",
+        "The final settlement reflected a contested balance of authority and liberty"
+      ],
+      "answer": 3,
+      "explanation": "The final settlement reflected a contested balance of authority and liberty.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "A state ratifies after receiving assurances about amendments. What causal inference is strongest?",
+      "choices": [
+        "Ratification required abandoning the three-branch national structure",
+        "Commitments to rights protections reduced resistance to the Constitution",
+        "Ratification depended on unanimous approval by individual residents",
+        "Commitments to rights protections eliminated every power of Congress"
+      ],
+      "answer": 1,
+      "explanation": "Commitments to rights protections reduced resistance to the Constitution.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "Why is the Bill of Rights more than a list of desirable policies?",
+      "choices": [
+        "It allows presidents to suspend elections during policy disagreements",
+        "It requires citizens to support the government's economic program",
+        "It establishes enforceable constitutional limits on public power",
+        "It converts every policy disagreement into a criminal proceeding"
+      ],
+      "answer": 2,
+      "explanation": "It establishes enforceable constitutional limits on public power.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "Compare a Federalist structural defense with an Anti-Federalist rights demand.",
+      "choices": [
+        "One favored British taxation; the other rejected American independence",
+        "One demanded hereditary courts; the other opposed all written laws",
+        "One stressed internal restraints; the other sought explicit guarantees",
+        "One defended permanent armies; the other rejected national defense entirely"
+      ],
+      "answer": 2,
+      "explanation": "One stressed internal restraints; the other sought explicit guarantees.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "A search policy is popular but lacks legal safeguards. What would the rights amendments require considering?",
+      "choices": [
+        "Whether official action violates constitutional protections of individuals",
+        "Whether the policy concerns enough voters to override due process",
+        "Whether public approval transfers judicial powers to the executive",
+        "Whether popularity has permanently amended the constitutional text"
+      ],
+      "answer": 0,
+      "explanation": "Whether official action violates constitutional protections of individuals.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "What does the ratification settlement show about constitutional development?",
+      "choices": [
+        "Debate restored unlimited independence for each state government",
+        "Debate replaced representative government with direct military administration",
+        "Debate produced additional protections within a stronger national system",
+        "Debate removed the need for later constitutional interpretation"
+      ],
+      "answer": 2,
+      "explanation": "Debate produced additional protections within a stronger national system.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 6",
+      "standards": [
+        6
+      ],
+      "prompt": "National lawmakers cannot pass a bill without both chambers' approval. What limit is involved?",
+      "choices": [
+        "State governors exercise exclusive authority over federal laws",
+        "Federal judges select the policies Congress must enact",
+        "Executive agencies receive final authority over congressional voting",
+        "Internal legislative division constrains national lawmaking"
+      ],
+      "answer": 3,
+      "explanation": "Internal legislative division constrains national lawmaking.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "Why did objections to national taxation persist despite representative elections?",
+      "choices": [
+        "Elections made additional protections against national power unnecessary",
+        "Critics feared centralized power could still become coercive",
+        "The Constitution required state approval for individual federal tax collections",
+        "Critics believed taxation belonged exclusively to foreign governments"
+      ],
+      "answer": 1,
+      "explanation": "Critics feared centralized power could still become coercive.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 7",
+      "standards": [
+        7
+      ],
+      "prompt": "Compare assembly and petition protections as responses to public power.",
+      "choices": [
+        "Both require officials to accept every citizen demand immediately",
+        "Assembly protects only legislators while petition protects only judges",
+        "Assembly governs taxation while petition governs military recruitment",
+        "Both preserve peaceful methods for challenging government decisions"
+      ],
+      "answer": 3,
+      "explanation": "Both preserve peaceful methods for challenging government decisions.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

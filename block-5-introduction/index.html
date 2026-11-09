@@ -1,0 +1,855 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B5-CS19,20,21-INTRODUCTION-2027-V2",
+    "title": "Block 5 Introduction — Depression, World War II, and Mobilization",
+    "type": "introduction",
+    "block": 5,
+    "standards": [
+      19,
+      20,
+      21
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 19",
+      "prompt": "Share prices fall after purchases financed with loans. Why can losses exceed investors' cash?",
+      "choices": [
+        "Debt remains after the investment loses value",
+        "Loan balances decline whenever stock prices decline",
+        "Margin buying prevents securities from being resold",
+        "Margin buying transfers price risk entirely to brokers"
+      ],
+      "answer": 0,
+      "explanation": "Debt remains after the investment loses value.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Track the loan separately from the share price.",
+      "hint": "Track the loan separately from the share price.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 19",
+      "prompt": "Consumers borrow heavily while incomes stagnate. What vulnerability follows?",
+      "choices": [
+        "Borrowing permanently increases households' earned income",
+        "Consumer credit eliminates business reliance on demand",
+        "Consumer credit protects lenders from unemployment",
+        "Repayments constrain later purchasing capacity"
+      ],
+      "answer": 3,
+      "explanation": "Repayments constrain later purchasing capacity.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare current purchases with later repayment obligations.",
+      "hint": "Compare current purchases with later repayment obligations.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 19",
+      "prompt": "Why can tightening money during contraction deepen recession?",
+      "choices": [
+        "Reduced lending lowers existing debts enough to restore demand",
+        "Restricting money mainly protects borrowers from repayment pressure",
+        "Tighter policy requires banks to forgive existing loans",
+        "Scarcer credit restricts spending and business survival"
+      ],
+      "answer": 3,
+      "explanation": "Scarcer credit restricts spending and business survival.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace how scarce credit affects spending and survival.",
+      "hint": "Trace how scarce credit affects spending and survival.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 19",
+      "prompt": "A factory dismisses workers after orders fall. How might this worsen the original problem?",
+      "choices": [
+        "Layoffs transfer household debts directly to employers",
+        "Layoffs remove financial losses from commercial lenders",
+        "Reduced wages further weaken consumer demand",
+        "Reduced wages ensure immediate expansion of retail sales"
+      ],
+      "answer": 2,
+      "explanation": "Reduced wages further weaken consumer demand.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow the change from employment into household demand.",
+      "hint": "Follow the change from employment into household demand.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 19",
+      "prompt": "Depositors fear failure and withdraw funds simultaneously. What mechanism should be explained?",
+      "choices": [
+        "Withdrawals convert long-term loans instantly into available cash",
+        "Confidence depends only on current stock-market prices",
+        "Confidence increases as banks exhaust their reserves",
+        "Individual withdrawals can produce collective liquidity pressure"
+      ],
+      "answer": 3,
+      "explanation": "Individual withdrawals can produce collective liquidity pressure.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish available cash from longer-term loan assets.",
+      "hint": "Distinguish available cash from longer-term loan assets.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 19",
+      "prompt": "Why did federal deposit insurance differ from telling depositors to remain calm?",
+      "choices": [
+        "A public guarantee chiefly protected stock-market investments from losses",
+        "A public guarantee backed confidence institutionally",
+        "Deposit protection depended mainly on voluntary assurances by banking associations",
+        "Federal insurance shifted deposit responsibility toward local charitable organizations"
+      ],
+      "answer": 1,
+      "explanation": "A public guarantee backed confidence institutionally.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare a reassuring statement with an enforceable guarantee.",
+      "hint": "Compare a reassuring statement with an enforceable guarantee.",
+      "externalSource": "https://openstax.org/books/us-history/pages/26-2-the-first-new-deal"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 19",
+      "prompt": "Compare public works and securities regulation as Depression responses.",
+      "choices": [
+        "One controlled military production; the other rationed household food",
+        "Both guaranteed recovery independent of household purchasing power",
+        "Both were temporary private charity without federal responsibilities",
+        "One supported employment; the other addressed financial practices"
+      ],
+      "answer": 3,
+      "explanation": "One supported employment; the other addressed financial practices.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify different problems addressed by employment and oversight.",
+      "hint": "Identify different problems addressed by employment and oversight.",
+      "externalSource": "https://openstax.org/books/us-history/pages/26-2-the-first-new-deal"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 19",
+      "prompt": "Social Security creates a continuing pension system. What institutional shift does this illustrate?",
+      "choices": [
+        "Old-age support replaces every other federal economic function",
+        "Federal responsibility extends beyond emergency relief",
+        "Federal responsibility ends after a single public appropriation",
+        "Old-age support becomes exclusively a local charitable obligation"
+      ],
+      "answer": 1,
+      "explanation": "Federal responsibility extends beyond emergency relief.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider whether responsibility continues beyond an emergency.",
+      "hint": "Consider whether responsibility continues beyond an emergency.",
+      "externalSource": "https://openstax.org/books/us-history/pages/26-3-the-second-new-deal"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 19",
+      "prompt": "Why examine New Deal effects separately for different occupations?",
+      "choices": [
+        "Eligibility and administration produced unequal access",
+        "National legislation guaranteed uniform access across occupations",
+        "Occupation mattered only before federal legislation existed",
+        "Occupation replaced race and gender as sources of exclusion"
+      ],
+      "answer": 0,
+      "explanation": "Eligibility and administration produced unequal access.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check eligibility rules rather than assuming equal access.",
+      "hint": "Check eligibility rules rather than assuming equal access.",
+      "externalSource": "https://openstax.org/books/us-history/pages/26-2-the-first-new-deal"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 19",
+      "prompt": "A historian blames only the stock crash. What evidence broadens the explanation?",
+      "choices": [
+        "Credit, debt, and monetary conditions before and after it",
+        "Presidential campaign slogans without evidence of economic mechanisms",
+        "The dates of unrelated constitutional ratification debates",
+        "Descriptions of military alliances formed after recovery"
+      ],
+      "answer": 0,
+      "explanation": "Credit, debt, and monetary conditions before and after it.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for mechanisms operating beyond stock prices alone.",
+      "hint": "Look for mechanisms operating beyond stock prices alone.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 19",
+      "prompt": "How did unemployment change arguments about national government?",
+      "choices": [
+        "Large-scale insecurity established agreement on every proposed program",
+        "Private hardship made federal taxation constitutionally unnecessary",
+        "Large-scale insecurity strengthened demands for public intervention",
+        "Private hardship transferred legislative powers to business associations"
+      ],
+      "answer": 2,
+      "explanation": "Large-scale insecurity strengthened demands for public intervention.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect widespread insecurity with demands for public action.",
+      "hint": "Connect widespread insecurity with demands for public action.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 19",
+      "prompt": "Why distinguish expanding government from ending private enterprise?",
+      "choices": [
+        "Assistance prohibits private firms from retaining investment profits",
+        "Regulation and assistance can operate within a market economy",
+        "Assistance requires recipients to become federal government employees",
+        "Regulation necessarily abolishes all private business ownership"
+      ],
+      "answer": 1,
+      "explanation": "Regulation and assistance can operate within a market economy.",
+      "standards": [
+        19
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish regulating markets from replacing private ownership.",
+      "hint": "Distinguish regulating markets from replacing private ownership.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 20",
+      "prompt": "Neutrality laws restrict transactions with belligerents. What earlier concern shaped this strategy?",
+      "choices": [
+        "Neutrality rules were intended to strengthen permanent military alliances",
+        "Restricting trade was chiefly a response to domestic inflation",
+        "Foreign trade was prohibited by the Constitution",
+        "Commercial ties might draw America into war"
+      ],
+      "answer": 3,
+      "explanation": "Commercial ties might draw America into war.",
+      "standards": [
+        20
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Recall concerns about paths from commerce into war.",
+      "hint": "Recall concerns about paths from commerce into war.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 20",
+      "prompt": "Why did fascist expansion complicate strict neutrality?",
+      "choices": [
+        "Avoiding commitments offered reliable protection against expanding military threats",
+        "Noninvolvement could permit threats to grow",
+        "Neutrality required supplying threatened democracies on favorable credit terms",
+        "Neutrality eliminated American interests in Atlantic security"
+      ],
+      "answer": 1,
+      "explanation": "Noninvolvement could permit threats to grow.",
+      "standards": [
+        20
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the possible future costs of inaction.",
+      "hint": "Consider the possible future costs of inaction.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 20",
+      "prompt": "Cash-and-carry favors buyers able to pay and transport goods. What should analysis recognize?",
+      "choices": [
+        "Transport arrangements transferred American war powers to merchants",
+        "Formally limited aid required identical access for every belligerent",
+        "Formally limited aid could have uneven strategic effects",
+        "Transport arrangements made military supplies politically insignificant"
+      ],
+      "answer": 2,
+      "explanation": "Formally limited aid could have uneven strategic effects.",
+      "standards": [
+        20
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the rule's wording with its practical access requirements.",
+      "hint": "Compare the rule's wording with its practical access requirements.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 20",
+      "prompt": "How did Lend-Lease change the practical meaning of nonbelligerency?",
+      "choices": [
+        "American resources increasingly sustained selected combatants",
+        "Supplying weapons required American troops to command recipient armies",
+        "Aid preserved equal material support for opposing belligerents",
+        "Material aid restored the original neutrality restrictions unchanged"
+      ],
+      "answer": 0,
+      "explanation": "American resources increasingly sustained selected combatants.",
+      "standards": [
+        20
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Track whose military effort received material support.",
+      "hint": "Track whose military effort received material support.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 20",
+      "prompt": "A historian traces changing aid policies before Pearl Harbor. What does this reveal?",
+      "choices": [
+        "The supply policies remained strategically neutral toward Axis expansion",
+        "The transition began only after American combat forces deployed",
+        "War entry followed earlier departures from strict isolation",
+        "War entry began without any preceding strategic involvement"
+      ],
+      "answer": 2,
+      "explanation": "War entry followed earlier departures from strict isolation.",
+      "standards": [
+        20
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for intermediate changes rather than a single instant.",
+      "hint": "Look for intermediate changes rather than a single instant.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 20",
+      "prompt": "Why was the Good Neighbor policy a change in regional methods?",
+      "choices": [
+        "It ended every American economic interest in the hemisphere",
+        "Regional diplomacy required annexing neighboring republics",
+        "It reduced reliance on direct intervention in Latin America",
+        "Regional diplomacy became exclusively a European responsibility"
+      ],
+      "answer": 2,
+      "explanation": "It reduced reliance on direct intervention in Latin America.",
+      "standards": [
+        20
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare diplomatic cooperation with direct intervention.",
+      "hint": "Compare diplomatic cooperation with direct intervention.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 20",
+      "prompt": "American leaders announce war aims in cooperation with Britain before Congress declares war. How should those statements be distinguished from the later combat commitment?",
+      "choices": [
+        "Shared principles preceded full American combat commitment",
+        "Shared principles required immediate disbandment of allied forces",
+        "Combat commitment restored strict neutrality toward Britain",
+        "Combat commitment began only after the Axis had surrendered"
+      ],
+      "answer": 0,
+      "explanation": "Shared principles preceded full American combat commitment.",
+      "standards": [
+        20
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish shared aims from formal combat participation.",
+      "hint": "Distinguish shared aims from formal combat participation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 20",
+      "prompt": "Why did Pearl Harbor alter the argument for remaining outside the war?",
+      "choices": [
+        "A direct attack removed Congress from the war decision",
+        "A direct attack transformed the national-security situation",
+        "Pacific conflict made the European struggle economically irrelevant",
+        "Pacific conflict required equal aid to both sides"
+      ],
+      "answer": 1,
+      "explanation": "A direct attack transformed the national-security situation.",
+      "standards": [
+        20
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider what changed when the country itself was attacked.",
+      "hint": "Consider what changed when the country itself was attacked.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 21",
+      "prompt": "An automobile plant builds tanks instead. What social effect follows?",
+      "choices": [
+        "Military demand redirects work and civilian consumption",
+        "Conversion preserved civilian supplies by separating factories from wartime allocation",
+        "Military contracts shifted coordination chiefly to individual household purchases",
+        "Military demand eliminates federal coordination of industrial output"
+      ],
+      "answer": 0,
+      "explanation": "Military demand redirects work and civilian consumption.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow materials and labor into different products.",
+      "hint": "Follow materials and labor into different products.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 21",
+      "prompt": "Why pair price controls with rationing during mobilization?",
+      "choices": [
+        "Price controls replaced military spending as the war's financing",
+        "Price controls made household cooperation economically insignificant",
+        "Scarcity required abolishing every form of civilian exchange",
+        "Scarcity and purchasing power created allocation pressures"
+      ],
+      "answer": 3,
+      "explanation": "Scarcity and purchasing power created allocation pressures.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare available goods with available purchasing power.",
+      "hint": "Compare available goods with available purchasing power.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 21",
+      "prompt": "A family buys bonds and collects scrap. How do these actions differ?",
+      "choices": [
+        "Both transfer household production entirely to federal ownership",
+        "One supplies finance; the other recovers materials",
+        "Both replace taxation as the government's only revenue",
+        "One supplies military recruits; the other sets factory wages"
+      ],
+      "answer": 1,
+      "explanation": "One supplies finance; the other recovers materials.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish a financial contribution from a material contribution.",
+      "hint": "Distinguish a financial contribution from a material contribution.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 21",
+      "prompt": "Why did the draft affect society beyond the battlefield?",
+      "choices": [
+        "Military service ended demand for civilian industrial employment",
+        "Military service changed labor supply and family responsibilities",
+        "The draft guaranteed equal treatment in every military assignment",
+        "The draft removed debates about government authority over citizens"
+      ],
+      "answer": 1,
+      "explanation": "Military service changed labor supply and family responsibilities.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace service obligations into households and workplaces.",
+      "hint": "Trace service obligations into households and workplaces.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 21",
+      "prompt": "Women enter shipyards but face pressure to leave after victory. What does this qualify?",
+      "choices": [
+        "Wartime opportunity did not guarantee permanent equality",
+        "Postwar pressure proves women made no industrial contribution",
+        "Postwar pressure originated solely from constitutional voting restrictions",
+        "Wartime opportunity had no effect on gender expectations"
+      ],
+      "answer": 0,
+      "explanation": "Wartime opportunity did not guarantee permanent equality.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare temporary access with lasting control of opportunities.",
+      "hint": "Compare temporary access with lasting control of opportunities.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 21",
+      "prompt": "Why did the Double V campaign connect military victory with civil rights?",
+      "choices": [
+        "The campaign treated employment as unrelated to citizenship",
+        "Fighting oppression abroad ended racial barriers automatically",
+        "The campaign rejected African American participation in military service",
+        "Fighting oppression abroad exposed inequality at home"
+      ],
+      "answer": 3,
+      "explanation": "Fighting oppression abroad exposed inequality at home.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect the overseas objective with domestic contradictions.",
+      "hint": "Connect the overseas objective with domestic contradictions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 21",
+      "prompt": "Japanese American families lose homes while serving relatives fight abroad. What contradiction appears?",
+      "choices": [
+        "National service coexisted with ancestry-based exclusion",
+        "Military participation ensured family exemptions from ancestry-based restrictions",
+        "Incarceration rested chiefly on individualized criminal convictions",
+        "Military participation proved incarceration followed individual conviction"
+      ],
+      "answer": 0,
+      "explanation": "National service coexisted with ancestry-based exclusion.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare claimed security needs with individual treatment.",
+      "hint": "Compare claimed security needs with individual treatment.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 21",
+      "prompt": "How did Navajo military communication challenge assimilationist assumptions?",
+      "choices": [
+        "Effective communication demonstrated the military value of abandoning Native languages",
+        "Wartime service primarily advanced the existing goal of cultural assimilation",
+        "A distinct Indigenous language became a strategic resource",
+        "A distinct Indigenous language prevented coordinated military operations"
+      ],
+      "answer": 2,
+      "explanation": "A distinct Indigenous language became a strategic resource.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider what a distinct language enabled militarily.",
+      "hint": "Consider what a distinct language enabled militarily.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 21",
+      "prompt": "Temporary agricultural recruitment expands during labor shortages. What additional evidence assesses the Bracero Program?",
+      "choices": [
+        "The assumption that labor demand guaranteed fair conditions",
+        "Only government posters praising national food production",
+        "Contracts and workers' experiences of wages and treatment",
+        "Only the total number of military aircraft produced"
+      ],
+      "answer": 2,
+      "explanation": "Contracts and workers' experiences of wages and treatment.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Seek evidence about implementation and lived conditions.",
+      "hint": "Seek evidence about implementation and lived conditions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 21",
+      "prompt": "Why evaluate wartime propaganda against other records?",
+      "choices": [
+        "Mobilizing messages may emphasize unity over unequal experiences",
+        "Official publication removes the need to consider intended audience",
+        "Mobilizing messages necessarily record every worker's private beliefs",
+        "Official publication establishes that no dissent existed"
+      ],
+      "answer": 0,
+      "explanation": "Mobilizing messages may emphasize unity over unequal experiences.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare a message's purpose with what it omits.",
+      "hint": "Compare a message's purpose with what it omits.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 21",
+      "prompt": "Compare wartime employment expansion with incarceration policy.",
+      "choices": [
+        "Incarceration prevented marginalized groups from contributing to victory",
+        "Opportunity eliminated discrimination across all public institutions",
+        "Incarceration affected only enemy combatants captured overseas",
+        "Opportunity and rights violations developed simultaneously"
+      ],
+      "answer": 3,
+      "explanation": "Opportunity and rights violations developed simultaneously.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Evaluate opportunities and restrictions together.",
+      "hint": "Evaluate opportunities and restrictions together.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 21",
+      "prompt": "A worker earns more but encounters shortages. What connects production and daily life?",
+      "choices": [
+        "Resources prioritized for war limit available civilian goods",
+        "Higher wartime earnings gave workers priority over military material needs",
+        "Scarcity resulted chiefly from reduced military demand for industrial products",
+        "Resources prioritized for war remove household purchasing power entirely"
+      ],
+      "answer": 0,
+      "explanation": "Resources prioritized for war limit available civilian goods.",
+      "standards": [
+        21
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish income from the availability of goods.",
+      "hint": "Distinguish income from the availability of goods.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "Why did margin buying increase financial vulnerability?",
+      "choices": [
+        "Falling share prices reduced loan obligations proportionately",
+        "Brokers assumed the debt when investors lost their cash",
+        "Falling prices left investors owing borrowed funds",
+        "Borrowing prevented prices from exceeding actual earnings"
+      ],
+      "answer": 2,
+      "explanation": "Falling prices left investors owing borrowed funds.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Keep the original debt in view after a price decline.",
+      "hint": "Keep the original debt in view after a price decline.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "How could monetary contraction worsen a downturn?",
+      "choices": [
+        "Reduced credit principally relieved borrowers of repayment obligations",
+        "Monetary contraction increased demand by raising household purchasing power",
+        "Reduced credit deepened failures and falling demand",
+        "Falling prices eliminated the burden of existing debt"
+      ],
+      "answer": 2,
+      "explanation": "Reduced credit deepened failures and falling demand.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow contraction through borrowing and spending.",
+      "hint": "Follow contraction through borrowing and spending.",
+      "externalSource": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "Why did the FDIC represent a larger federal role?",
+      "choices": [
+        "Deposit insurance mainly protected investors against declines in securities prices",
+        "Government backed eligible deposits to restore confidence",
+        "The guarantee left responsibility for confidence chiefly with individual depositors",
+        "Insuring accounts required depositors to exchange cash for federal equity ownership"
+      ],
+      "answer": 1,
+      "explanation": "Government backed eligible deposits to restore confidence.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-19",
+      "where": "Section CS 19 — Depression mechanisms and expanded federal responsibilities. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify what guarantee supported depositors' confidence.",
+      "hint": "Identify what guarantee supported depositors' confidence.",
+      "externalSource": "https://openstax.org/books/us-history/pages/26-2-the-first-new-deal"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "How did Lend-Lease differ from strict neutrality?",
+      "choices": [
+        "Lend-Lease maintained equal access to aid for Axis states",
+        "The policy mainly reinforced the earlier prohibition on arms transfers",
+        "Material aid favored nations resisting Axis aggression",
+        "Both policies automatically declared war against Germany"
+      ],
+      "answer": 2,
+      "explanation": "Material aid favored nations resisting Axis aggression.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare restrictions on aid with the later supply policy.",
+      "hint": "Compare restrictions on aid with the later supply policy.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "Why was Pearl Harbor a turning point in foreign policy?",
+      "choices": [
+        "Direct attack restored neutrality legislation unchanged",
+        "Direct attack produced formal American entry into war",
+        "Congress transferred treaty authority to Japanese officials",
+        "Congress ended support for Britain after the attack"
+      ],
+      "answer": 1,
+      "explanation": "Direct attack produced formal American entry into war.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-20",
+      "where": "Section CS 20 — From neutrality to wartime involvement. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the attack's effect on the war-entry debate.",
+      "hint": "Consider the attack's effect on the war-entry debate.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "How did rationing connect households with war production?",
+      "choices": [
+        "Household coupons replaced the federal military draft",
+        "Limited civilian consumption ended industrial production",
+        "Household coupons guaranteed equal wartime employment",
+        "Limited civilian consumption reserved scarce materials"
+      ],
+      "answer": 3,
+      "explanation": "Limited civilian consumption reserved scarce materials.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace scarce resources from civilian use to military demand.",
+      "hint": "Trace scarce resources from civilian use to military demand.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "Why did the Double V campaign expose a contradiction?",
+      "choices": [
+        "The campaign required immediate surrender to Axis powers",
+        "Americans fought fascism while facing racism at home",
+        "Americans sought military victory by ending all civil rights",
+        "The campaign opposed service by African American troops"
+      ],
+      "answer": 1,
+      "explanation": "Americans fought fascism while facing racism at home.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the campaign's domestic and overseas objectives.",
+      "hint": "Compare the campaign's domestic and overseas objectives.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "How could wartime employment challenge gender expectations?",
+      "choices": [
+        "Expanded industrial hiring permanently settled disputes over equal wages",
+        "Wartime recruitment chiefly reinforced the exclusion of women from factories",
+        "Wartime recruitment eliminated domestic responsibilities entirely",
+        "Industrial demand opened jobs previously restricted to men"
+      ],
+      "answer": 3,
+      "explanation": "Industrial demand opened jobs previously restricted to men.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-5.html#cs-21",
+      "where": "Section CS 21 — Mobilization, opportunity, and unequal treatment. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate access to new jobs from permanent equality.",
+      "hint": "Separate access to new jobs from permanent equality.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-2-the-home-front"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

@@ -1,0 +1,492 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
+<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
+<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
+<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
+<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
+<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
+</main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B7-CS24–26-VOCAB-2027",
+    "title": "Block 7 Vocabulary — Cold War at Home and Abroad",
+    "description": "CS 24–26 • Phase II correctable vocabulary mastery • 28 questions.",
+    "practice": "Use feedback and hints to master the essential vocabulary for CS 24–26."
+  },
+  "questions": [
+    {
+      "id": "v01",
+      "cs": "CS 24",
+      "topic": "Second Red Scare",
+      "prompt": "Which term matches this definition: renewed fear that communists had infiltrated American institutions?",
+      "choices": [
+        "Second Red Scare",
+        "McCarthyism",
+        "Communist China",
+        "Nuclear arms race"
+      ],
+      "answer": 0,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Second Red Scare: renewed fear that communists had infiltrated American institutions.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v02",
+      "cs": "CS 24",
+      "topic": "McCarthyism",
+      "prompt": "Which term matches this definition: reckless public accusations of communist disloyalty without sufficient evidence?",
+      "choices": [
+        "HUAC",
+        "McCarthyism",
+        "Hollywood Ten",
+        "Bay of Pigs"
+      ],
+      "answer": 1,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is McCarthyism: reckless public accusations of communist disloyalty without sufficient evidence.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v03",
+      "cs": "CS 24",
+      "topic": "HUAC",
+      "prompt": "Which term matches this definition: House committee that investigated alleged communist influence?",
+      "choices": [
+        "Blacklisting",
+        "Korean War",
+        "HUAC",
+        "Cuban Missile Crisis"
+      ],
+      "answer": 2,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is HUAC: House committee that investigated alleged communist influence.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v04",
+      "cs": "CS 24",
+      "topic": "Blacklisting",
+      "prompt": "Which term matches this definition: denying employment to people accused of communist ties?",
+      "choices": [
+        "Civil liberties",
+        "Divided Korea",
+        "Vietnam War",
+        "Blacklisting"
+      ],
+      "answer": 3,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Blacklisting: denying employment to people accused of communist ties.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v05",
+      "cs": "CS 24",
+      "topic": "Civil liberties",
+      "prompt": "Which term matches this definition: constitutional freedoms placed at risk during anti-communist investigations?",
+      "choices": [
+        "Civil liberties",
+        "Loyalty program",
+        "U.S.–China tension",
+        "Antiwar movement"
+      ],
+      "answer": 0,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Civil liberties: constitutional freedoms placed at risk during anti-communist investigations.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v06",
+      "cs": "CS 24",
+      "topic": "Loyalty program",
+      "prompt": "Which term matches this definition: government screening intended to identify disloyal employees?",
+      "choices": [
+        "Soviet expansion",
+        "Loyalty program",
+        "U.S.–Japan alliance",
+        "Domestic spending pressure"
+      ],
+      "answer": 1,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Loyalty program: government screening intended to identify disloyal employees.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v07",
+      "cs": "CS 24",
+      "topic": "Soviet expansion",
+      "prompt": "Which term matches this definition: growth of Soviet power that increased American fears of communism?",
+      "choices": [
+        "Communist China",
+        "Nuclear arms race",
+        "Soviet expansion",
+        "Urban unrest"
+      ],
+      "answer": 2,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Soviet expansion: growth of Soviet power that increased American fears of communism.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v08",
+      "cs": "CS 24",
+      "topic": "Communist China",
+      "prompt": "Which term matches this definition: 1949 establishment of a communist government under Mao Zedong?",
+      "choices": [
+        "Hollywood Ten",
+        "Bay of Pigs",
+        "United Nations expansion",
+        "Communist China"
+      ],
+      "answer": 3,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Communist China: 1949 establishment of a communist government under Mao Zedong.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v09",
+      "cs": "CS 24",
+      "topic": "Hollywood Ten",
+      "prompt": "Which term matches this definition: film figures punished after refusing to answer HUAC questions?",
+      "choices": [
+        "Hollywood Ten",
+        "Korean War",
+        "Cuban Missile Crisis",
+        "Berlin Wall"
+      ],
+      "answer": 0,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Hollywood Ten: film figures punished after refusing to answer HUAC questions.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v10",
+      "cs": "CS 25",
+      "topic": "Korean War",
+      "prompt": "Which term matches this definition: Cold War conflict that left Korea divided near the 38th parallel?",
+      "choices": [
+        "Divided Korea",
+        "Korean War",
+        "Vietnam War",
+        "Mass demonstrations"
+      ],
+      "answer": 1,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Korean War: Cold War conflict that left Korea divided near the 38th parallel.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v11",
+      "cs": "CS 25",
+      "topic": "Divided Korea",
+      "prompt": "Which term matches this definition: continuing separation of communist North Korea and noncommunist South Korea?",
+      "choices": [
+        "U.S.–China tension",
+        "Antiwar movement",
+        "Divided Korea",
+        "Soviet collapse"
+      ],
+      "answer": 2,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Divided Korea: continuing separation of communist North Korea and noncommunist South Korea.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v12",
+      "cs": "CS 25",
+      "topic": "U.S.–China tension",
+      "prompt": "Which term matches this definition: hostility intensified when Chinese forces entered the Korean War?",
+      "choices": [
+        "U.S.–Japan alliance",
+        "Domestic spending pressure",
+        "Economic pressure",
+        "U.S.–China tension"
+      ],
+      "answer": 3,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is U.S.–China tension: hostility intensified when Chinese forces entered the Korean War.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v13",
+      "cs": "CS 25",
+      "topic": "U.S.–Japan alliance",
+      "prompt": "Which term matches this definition: postwar partnership strengthened partly by Cold War security needs?",
+      "choices": [
+        "U.S.–Japan alliance",
+        "Nuclear arms race",
+        "Urban unrest",
+        "Democratic reforms"
+      ],
+      "answer": 0,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is U.S.–Japan alliance: postwar partnership strengthened partly by Cold War security needs.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v14",
+      "cs": "CS 25",
+      "topic": "Nuclear arms race",
+      "prompt": "Which term matches this definition: competition to build increasingly powerful nuclear arsenals?",
+      "choices": [
+        "Bay of Pigs",
+        "Nuclear arms race",
+        "United Nations expansion",
+        "Free-market reforms"
+      ],
+      "answer": 1,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Nuclear arms race: competition to build increasingly powerful nuclear arsenals.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v15",
+      "cs": "CS 25",
+      "topic": "Bay of Pigs",
+      "prompt": "Which term matches this definition: failed U.S.-supported invasion of Cuba in 1961?",
+      "choices": [
+        "Cuban Missile Crisis",
+        "Berlin Wall",
+        "Bay of Pigs",
+        "U.S. assistance"
+      ],
+      "answer": 2,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Bay of Pigs: failed U.S.-supported invasion of Cuba in 1961.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v16",
+      "cs": "CS 25",
+      "topic": "Cuban Missile Crisis",
+      "prompt": "Which term matches this definition: 1962 confrontation over Soviet nuclear missiles in Cuba?",
+      "choices": [
+        "Vietnam War",
+        "Mass demonstrations",
+        "Second Red Scare",
+        "Cuban Missile Crisis"
+      ],
+      "answer": 3,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Cuban Missile Crisis: 1962 confrontation over Soviet nuclear missiles in Cuba.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v17",
+      "cs": "CS 25",
+      "topic": "Vietnam War",
+      "prompt": "Which term matches this definition: conflict that deeply divided Americans over containment?",
+      "choices": [
+        "Vietnam War",
+        "Antiwar movement",
+        "Soviet collapse",
+        "McCarthyism"
+      ],
+      "answer": 0,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Vietnam War: conflict that deeply divided Americans over containment.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v18",
+      "cs": "CS 25",
+      "topic": "Antiwar movement",
+      "prompt": "Which term matches this definition: organized opposition to U.S. involvement in Vietnam?",
+      "choices": [
+        "Domestic spending pressure",
+        "Antiwar movement",
+        "Economic pressure",
+        "HUAC"
+      ],
+      "answer": 1,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Antiwar movement: organized opposition to U.S. involvement in Vietnam.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v19",
+      "cs": "CS 25",
+      "topic": "Domestic spending pressure",
+      "prompt": "Which term matches this definition: war costs that competed with funding for programs at home?",
+      "choices": [
+        "Urban unrest",
+        "Democratic reforms",
+        "Domestic spending pressure",
+        "Blacklisting"
+      ],
+      "answer": 2,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Domestic spending pressure: war costs that competed with funding for programs at home.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v20",
+      "cs": "CS 25",
+      "topic": "Urban unrest",
+      "prompt": "Which term matches this definition: riots and violence that intensified domestic division during the Vietnam era?",
+      "choices": [
+        "United Nations expansion",
+        "Free-market reforms",
+        "Civil liberties",
+        "Urban unrest"
+      ],
+      "answer": 3,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Urban unrest: riots and violence that intensified domestic division during the Vietnam era.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v21",
+      "cs": "CS 25",
+      "topic": "United Nations expansion",
+      "prompt": "Which term matches this definition: growth in U.N. membership as former colonies became independent?",
+      "choices": [
+        "United Nations expansion",
+        "Berlin Wall",
+        "U.S. assistance",
+        "Loyalty program"
+      ],
+      "answer": 0,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is United Nations expansion: growth in U.N. membership as former colonies became independent.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v22",
+      "cs": "CS 26",
+      "topic": "Berlin Wall",
+      "prompt": "Which term matches this definition: symbol of Cold War division whose 1989 fall signaled communist collapse?",
+      "choices": [
+        "Mass demonstrations",
+        "Berlin Wall",
+        "Second Red Scare",
+        "Soviet expansion"
+      ],
+      "answer": 1,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Berlin Wall: symbol of Cold War division whose 1989 fall signaled communist collapse.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v23",
+      "cs": "CS 26",
+      "topic": "Mass demonstrations",
+      "prompt": "Which term matches this definition: popular protests that pressured communist governments in Eastern Europe?",
+      "choices": [
+        "Soviet collapse",
+        "McCarthyism",
+        "Mass demonstrations",
+        "Communist China"
+      ],
+      "answer": 2,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Mass demonstrations: popular protests that pressured communist governments in Eastern Europe.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v24",
+      "cs": "CS 26",
+      "topic": "Soviet collapse",
+      "prompt": "Which term matches this definition: 1991 breakup of the USSR into independent republics?",
+      "choices": [
+        "Economic pressure",
+        "HUAC",
+        "Hollywood Ten",
+        "Soviet collapse"
+      ],
+      "answer": 3,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Soviet collapse: 1991 breakup of the USSR into independent republics.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v25",
+      "cs": "CS 26",
+      "topic": "Economic pressure",
+      "prompt": "Which term matches this definition: burden created when the Soviet Union struggled to match U.S. spending and technology?",
+      "choices": [
+        "Economic pressure",
+        "Democratic reforms",
+        "Blacklisting",
+        "Korean War"
+      ],
+      "answer": 0,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Economic pressure: burden created when the Soviet Union struggled to match U.S. spending and technology.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v26",
+      "cs": "CS 26",
+      "topic": "Democratic reforms",
+      "prompt": "Which term matches this definition: changes toward competitive elections and political freedom?",
+      "choices": [
+        "Free-market reforms",
+        "Democratic reforms",
+        "Civil liberties",
+        "Divided Korea"
+      ],
+      "answer": 1,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Democratic reforms: changes toward competitive elections and political freedom.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v27",
+      "cs": "CS 26",
+      "topic": "Free-market reforms",
+      "prompt": "Which term matches this definition: changes replacing central planning with greater private ownership and trade?",
+      "choices": [
+        "U.S. assistance",
+        "Loyalty program",
+        "Free-market reforms",
+        "U.S.–China tension"
+      ],
+      "answer": 2,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Free-market reforms: changes replacing central planning with greater private ownership and trade.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v28",
+      "cs": "CS 26",
+      "topic": "U.S. assistance",
+      "prompt": "Which term matches this definition: American aid supporting transitions after communist rule?",
+      "choices": [
+        "Second Red Scare",
+        "Soviet expansion",
+        "U.S.–Japan alliance",
+        "U.S. assistance"
+      ],
+      "answer": 3,
+      "source": "https://history.state.gov/milestones/1945-1952/korean-war-2",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is U.S. assistance: American aid supporting transitions after communist rule.",
+      "hint": "Focus on the defining clue and its historical role."
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="app.js"></script></body></html>

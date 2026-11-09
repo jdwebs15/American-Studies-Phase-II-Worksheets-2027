@@ -1,0 +1,492 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
+<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
+<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
+<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
+<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
+<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
+</main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B2-CS6–7-VOCAB-2027",
+    "title": "Block 2 Vocabulary — Constitution and Ratification",
+    "description": "CS 6–7 • Phase II correctable vocabulary mastery • 28 questions.",
+    "practice": "Use feedback and hints to master the essential vocabulary for CS 6–7."
+  },
+  "questions": [
+    {
+      "id": "v01",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Governmental authority comes from the people",
+      "choices": [
+        "Popular sovereignty",
+        "Republic",
+        "Bicameralism",
+        "Consent of the governed"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Read the Preamble and focus on who ordains and establishes the Constitution.",
+      "explanation": "Popular sovereignty means the people are the source of governmental authority.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v02",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Limited government",
+      "choices": [
+        "Constitution",
+        "Limited government",
+        "Commerce Clause",
+        "Ratification"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/legislative/resources/education/reviewing-big-ideas",
+      "where": "Find the big idea describing restraints placed on governmental authority.",
+      "explanation": "Limited government restricts public officials and institutions to lawful, granted powers.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v03",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Federalism",
+      "choices": [
+        "Amendment",
+        "Necessary and Proper Clause",
+        "Federalism",
+        "Federalist"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/legislative/resources/education/reviewing-big-ideas",
+      "where": "Find the section explaining shared authority between levels of government.",
+      "explanation": "Federalism divides power between national and state governments.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v04",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Separation of powers",
+      "choices": [
+        "Legislative power",
+        "Supremacy Clause",
+        "Anti-Federalist",
+        "Separation of powers"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/legislative/resources/education/reviewing-big-ideas",
+      "where": "Look for the big idea connected to Articles I, II, and III.",
+      "explanation": "Separation of powers distributes major governmental functions among three branches.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v05",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Ways each branch can restrain the others",
+      "choices": [
+        "Checks and balances",
+        "Executive power",
+        "Enumerated powers",
+        "Federalist Papers"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/legislative/resources/education/reviewing-big-ideas",
+      "where": "Read how the branches interact, including veto, advice and consent, and impeachment.",
+      "explanation": "Checks and balances prevent one branch from exercising unchecked authority.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v06",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Government in which people govern through elected representatives",
+      "choices": [
+        "Judicial power",
+        "Republic",
+        "Implied powers",
+        "Publius"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Connect “We the People” with Article I's elected House of Representatives.",
+      "explanation": "In a republic, citizens exercise political power through representatives.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v07",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? A fundamental framework establishing and limiting government",
+      "choices": [
+        "Bicameralism",
+        "Consent of the governed",
+        "Constitution",
+        "Standing army"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Scan the Preamble and Articles I–VII to see the document's overall function.",
+      "explanation": "A constitution creates the governmental framework, assigns powers, and places limits.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v08",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? A formal addition or change to a constitution",
+      "choices": [
+        "Commerce Clause",
+        "Ratification",
+        "Individual liberty",
+        "Amendment"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Go to Article V and then scan the amendments following Article VII.",
+      "explanation": "An amendment formally adds to or changes constitutional text.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v09",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Making laws",
+      "choices": [
+        "Legislative power",
+        "Necessary and Proper Clause",
+        "Federalist",
+        "Due process of law"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Read Article I, Section 1 and identify the power vested in Congress.",
+      "explanation": "Legislative power is the authority to make laws.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v10",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Carrying out and enforcing laws",
+      "choices": [
+        "Supremacy Clause",
+        "Executive power",
+        "Anti-Federalist",
+        "Search and seizure"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Read Article II, Section 1 and identify the branch led by the president.",
+      "explanation": "Executive power is the authority to administer and enforce laws.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v11",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Interpreting law while deciding cases",
+      "choices": [
+        "Enumerated powers",
+        "Federalist Papers",
+        "Judicial power",
+        "Bill of Rights"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Read Article III and focus on cases and controversies.",
+      "explanation": "Judicial power involves applying and interpreting law in legal cases.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v12",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? A legislature organized into two chambers",
+      "choices": [
+        "Implied powers",
+        "Publius",
+        "Popular sovereignty",
+        "Bicameralism"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Read Article I, Section 1 and identify the Senate and House.",
+      "explanation": "Congress is bicameral because it contains two chambers.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v13",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Congress's power to regulate commerce with foreign nations, among states, and with tribes",
+      "choices": [
+        "Commerce Clause",
+        "Consent of the governed",
+        "Standing army",
+        "Limited government"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "In Article I, Section 8, locate the sentence beginning “To regulate Commerce.”",
+      "explanation": "The Commerce Clause gives Congress authority over interstate and international commerce.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v14",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Authority for Congress to make laws needed to carry out its listed powers",
+      "choices": [
+        "Ratification",
+        "Necessary and Proper Clause",
+        "Individual liberty",
+        "Federalism"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Read the final clause of Article I, Section 8.",
+      "explanation": "The clause authorizes laws needed to execute Congress's enumerated powers.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v15",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? The rule that the Constitution and valid federal laws prevail over conflicting state law",
+      "choices": [
+        "Federalist",
+        "Due process of law",
+        "Supremacy Clause",
+        "Separation of powers"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Read Article VI and find “supreme Law of the Land.”",
+      "explanation": "The Supremacy Clause resolves conflicts in favor of the Constitution and valid federal law.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v16",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Powers specifically listed in the Constitution",
+      "choices": [
+        "Anti-Federalist",
+        "Search and seizure",
+        "Checks and balances",
+        "Enumerated powers"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Scan the list following “The Congress shall have Power” in Article I, Section 8.",
+      "explanation": "Enumerated powers are expressly written into the Constitution.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v17",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Powers reasonably inferred from enumerated powers",
+      "choices": [
+        "Implied powers",
+        "Federalist Papers",
+        "Bill of Rights",
+        "Republic"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Connect an Article I, Section 8 listed power with the final Necessary and Proper Clause.",
+      "explanation": "Implied powers are not stated word-for-word but are reasonably derived from granted powers.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v18",
+      "cs": "CS 6",
+      "prompt": "Which term matches this definition? Legitimate government depends on the people's agreement and authority",
+      "choices": [
+        "Publius",
+        "Consent of the governed",
+        "Popular sovereignty",
+        "Constitution"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "where": "Connect “We the People” with the Constitution's election provisions.",
+      "explanation": "Consent of the governed means political authority rests on the people's authorization.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 6 Vocabulary"
+    },
+    {
+      "id": "v19",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? Formal approval of a proposed constitution or amendment",
+      "choices": [
+        "Standing army",
+        "Limited government",
+        "Ratification",
+        "Amendment"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+      "where": "Look for how state conventions made the proposed Constitution effective.",
+      "explanation": "Ratification is the act of formally approving a proposed governing document.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v20",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? A supporter of the proposed Constitution",
+      "choices": [
+        "Individual liberty",
+        "Federalism",
+        "Legislative power",
+        "Federalist"
+      ],
+      "answer": 3,
+      "source": "https://www.loc.gov/exhibits/creating-the-united-states/convention-and-ratification.html",
+      "where": "Read why the Federalist Papers were written.",
+      "explanation": "Federalists worked for ratification of the proposed Constitution.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v21",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? An opponent of ratification who feared concentrated national power",
+      "choices": [
+        "Anti-Federalist",
+        "Due process of law",
+        "Separation of powers",
+        "Executive power"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+      "where": "Read the section on opposition during ratification and demands for a bill of rights.",
+      "explanation": "Anti-Federalists opposed ratification and emphasized dangers to state power and individual liberty.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v22",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? Essays defending the Constitution and urging ratification",
+      "choices": [
+        "Search and seizure",
+        "Federalist Papers",
+        "Checks and balances",
+        "Judicial power"
+      ],
+      "answer": 1,
+      "source": "https://www.loc.gov/exhibits/creating-the-united-states/convention-and-ratification.html",
+      "where": "Find the exhibit subsection titled “The Federalist Papers.”",
+      "explanation": "The Federalist Papers were persuasive essays supporting ratification.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v23",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? The shared pen name used by Federalist Papers authors",
+      "choices": [
+        "Bill of Rights",
+        "Republic",
+        "Publius",
+        "Bicameralism"
+      ],
+      "answer": 2,
+      "source": "https://www.loc.gov/exhibits/creating-the-united-states/convention-and-ratification.html",
+      "where": "Read the information accompanying the Federalist Papers and their anonymous publication.",
+      "explanation": "Hamilton, Madison, and Jay published the essays under the name Publius.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v24",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? A permanent professional military force maintained in peacetime",
+      "choices": [
+        "Popular sovereignty",
+        "Constitution",
+        "Commerce Clause",
+        "Standing army"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/founding-docs/more-perfect-union",
+      "where": "Read Anti-Federalist concerns about military power in the ratification debate.",
+      "explanation": "A standing army is a permanent military force, not one created only for a temporary emergency.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v25",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? A protected personal freedom",
+      "choices": [
+        "Individual liberty",
+        "Limited government",
+        "Amendment",
+        "Necessary and Proper Clause"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "where": "Scan Amendments I–VIII for protections held by individuals.",
+      "explanation": "Individual liberties protect personal freedom from improper governmental interference.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v26",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? Fair legal procedures government must follow before depriving a person of life, liberty, or property",
+      "choices": [
+        "Federalism",
+        "Due process of law",
+        "Legislative power",
+        "Supremacy Clause"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "where": "Read Amendment V and find “due process of law.”",
+      "explanation": "Due process requires government to follow fair and established legal procedures.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v27",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? Government examination or taking of a person, place, or property for evidence",
+      "choices": [
+        "Separation of powers",
+        "Executive power",
+        "Search and seizure",
+        "Enumerated powers"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "where": "Read Amendment IV and note the people, houses, papers, and effects it protects.",
+      "explanation": "The term concerns government searches for and taking of people or property, constrained by the Fourth Amendment.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    },
+    {
+      "id": "v28",
+      "cs": "CS 7",
+      "prompt": "Which term matches this definition? The first ten amendments protecting liberties and limiting government",
+      "choices": [
+        "Checks and balances",
+        "Judicial power",
+        "Implied powers",
+        "Bill of Rights"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "where": "Read the introductory note and the first ten amendments.",
+      "explanation": "The Bill of Rights consists of the Constitution's first ten amendments.",
+      "hint": "Identify the exact historical term described by the definition, then eliminate terms from other events or concepts.",
+      "topic": "CS 7 Vocabulary"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="app.js"></script></body></html>
