@@ -1,0 +1,855 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B4-CS16,17,18-INTRODUCTION-2027-V2",
+    "title": "Block 4 Introduction — Migration, Culture, and the 1920s",
+    "type": "introduction",
+    "block": 4,
+    "standards": [
+      16,
+      17,
+      18
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 16",
+      "prompt": "Black migrants find factory jobs but restricted housing. What conclusion fits?",
+      "choices": [
+        "Northern employment dissolved racial residential barriers",
+        "Factory demand prevented conflict over neighborhood resources",
+        "Migration was driven solely by housing policy",
+        "Opportunity coexisted with institutional exclusion"
+      ],
+      "answer": 3,
+      "explanation": "Opportunity coexisted with institutional exclusion.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare access to work with access to housing.",
+      "hint": "Compare access to work with access to housing.",
+      "externalSource": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 16",
+      "prompt": "Why did wartime labor competition persist after demobilization?",
+      "choices": [
+        "Demobilization required equal employment access nationwide",
+        "Returning soldiers ended industrial wage disputes",
+        "Demobilization removed nativist attitudes from public life",
+        "Returning soldiers increased pressure on available jobs"
+      ],
+      "answer": 3,
+      "explanation": "Returning soldiers increased pressure on available jobs.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider who reentered the civilian labor market.",
+      "hint": "Consider who reentered the civilian labor market.",
+      "externalSource": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 16",
+      "prompt": "Immigration quotas favor older European origins. What does their design suggest?",
+      "choices": [
+        "Religious pluralism replaced concern about ancestry",
+        "Ethnic hierarchy shaped national admission policy",
+        "Equal national access guided admission policy",
+        "Economic skill alone determined immigration eligibility"
+      ],
+      "answer": 1,
+      "explanation": "Ethnic hierarchy shaped national admission policy.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Inspect the groups favored by the admission formula.",
+      "hint": "Inspect the groups favored by the admission formula.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 16",
+      "prompt": "Officials equate a strike with Bolshevism. What analytical distinction matters?",
+      "choices": [
+        "Labor grievances are not proof of revolution",
+        "Union activity establishes a foreign military threat",
+        "Communist influence explains every postwar workplace dispute",
+        "Labor organizing originated only in Soviet policy"
+      ],
+      "answer": 0,
+      "explanation": "Labor grievances are not proof of revolution.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish a grievance from evidence of conspiracy.",
+      "hint": "Distinguish a grievance from evidence of conspiracy.",
+      "externalSource": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 16",
+      "prompt": "Why could the Klan recruit outside the South?",
+      "choices": [
+        "Racial and religious exclusion had national appeal",
+        "Northern recruitment focused exclusively on agricultural tariffs",
+        "Federal policy required regional Klan membership",
+        "Industrial migration erased prejudice outside southern states"
+      ],
+      "answer": 0,
+      "explanation": "Racial and religious exclusion had national appeal.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider prejudices crossing regional boundaries.",
+      "hint": "Consider prejudices crossing regional boundaries.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 16",
+      "prompt": "A suspected radical faces deportation without individual evidence. Which tension appears?",
+      "choices": [
+        "National expansion versus European colonial rivalry",
+        "Industrial production versus farm mechanization",
+        "Security enforcement versus procedural protections",
+        "Federal taxation versus state revenue collection"
+      ],
+      "answer": 2,
+      "explanation": "Security enforcement versus procedural protections.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whether suspicion establishes individual responsibility.",
+      "hint": "Ask whether suspicion establishes individual responsibility.",
+      "externalSource": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 16",
+      "prompt": "How did racist violence affect migration decisions?",
+      "choices": [
+        "Industrial demand alone explains why families abandoned southern communities",
+        "Threats supplied a push alongside economic pulls",
+        "Racial violence chiefly determined which northern factories paid higher wages",
+        "Violence removed the need for urban housing"
+      ],
+      "answer": 1,
+      "explanation": "Threats supplied a push alongside economic pulls.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate reasons to leave from reasons to choose a destination.",
+      "hint": "Separate reasons to leave from reasons to choose a destination.",
+      "externalSource": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 16",
+      "prompt": "Why examine housing, labor, and political organizations together?",
+      "choices": [
+        "Political organizations operated independently of racial attitudes",
+        "Housing rules alone caused every wartime labor shortage",
+        "Labor supply determined everyone's cultural beliefs identically",
+        "Interacting institutions shaped postwar racial conflict"
+      ],
+      "answer": 3,
+      "explanation": "Interacting institutions shaped postwar racial conflict.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for interacting causes rather than one isolated institution.",
+      "hint": "Look for interacting causes rather than one isolated institution.",
+      "externalSource": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 16",
+      "prompt": "A newspaper blames all newcomers for unrest. What effect might follow?",
+      "choices": [
+        "Collective suspicion ensures impartial criminal investigation",
+        "Immigrant diversity becomes more accurately represented",
+        "Collective suspicion could strengthen exclusionary policies",
+        "Individual conduct becomes the sole focus of debate"
+      ],
+      "answer": 2,
+      "explanation": "Collective suspicion could strengthen exclusionary policies.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the effect of a generalization on policy.",
+      "hint": "Consider the effect of a generalization on policy.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 16",
+      "prompt": "Compare Red Scare deportations with immigration quotas.",
+      "choices": [
+        "Both expressed anxiety through restrictive federal policies",
+        "Both guaranteed equal treatment regardless of nationality",
+        "Deportations concerned only wages; quotas only religion",
+        "Quotas eliminated the political influence of nativism"
+      ],
+      "answer": 0,
+      "explanation": "Both expressed anxiety through restrictive federal policies.",
+      "standards": [
+        16
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the anxieties expressed through both measures.",
+      "hint": "Compare the anxieties expressed through both measures.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 17",
+      "prompt": "A factory lowers production costs, but many households still cannot buy its products. What evidence is needed before concluding that productivity improved their standard of living?",
+      "choices": [
+        "The factory's production capacity without evidence about household resources",
+        "Household income and access to affordable purchasing arrangements",
+        "The number of advertisements without evidence of actual purchases",
+        "The date the new equipment arrived without changes in consumer access"
+      ],
+      "answer": 1,
+      "explanation": "Household income and access to affordable purchasing arrangements.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace the relation between cost and affordability.",
+      "hint": "Trace the relation between cost and affordability.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 17",
+      "prompt": "A radio broadcast reaches rural and urban listeners. What relationship changes?",
+      "choices": [
+        "Broadcasting substitutes entirely for local social institutions",
+        "Broadcasting confines commercial advertising to urban markets",
+        "Shared culture makes regional identities legally irrelevant",
+        "Geographic distance becomes less limiting for shared culture"
+      ],
+      "answer": 3,
+      "explanation": "Geographic distance becomes less limiting for shared culture.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider what changes when audiences share broadcasts.",
+      "hint": "Consider what changes when audiences share broadcasts.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 17",
+      "prompt": "How did automobile ownership interact with leisure?",
+      "choices": [
+        "Road development eliminated generational disagreement over behavior",
+        "Greater mobility restricted travel to railway schedules",
+        "Road development concentrated leisure exclusively near factories",
+        "Greater mobility expanded destinations and social independence"
+      ],
+      "answer": 3,
+      "explanation": "Greater mobility expanded destinations and social independence.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect travel choices with everyday social independence.",
+      "hint": "Connect travel choices with everyday social independence.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 17",
+      "prompt": "Why could rising consumption create intergenerational tension?",
+      "choices": [
+        "Rising consumption required identical lifestyles across classes",
+        "New possibilities challenged established behavioral expectations",
+        "Technological change weakened only industrial production methods",
+        "Technological change prevented young people from traveling independently"
+      ],
+      "answer": 1,
+      "explanation": "New possibilities challenged established behavioral expectations.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare new opportunities with older expectations.",
+      "hint": "Compare new opportunities with older expectations.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 17",
+      "prompt": "A family buys appliances on installments. What does this reveal?",
+      "choices": [
+        "Credit expanded access beyond immediate cash resources",
+        "Credit removed households' continuing repayment obligations",
+        "Appliance ownership eliminated dependence on paid labor",
+        "Appliance ownership demonstrated uniform national prosperity"
+      ],
+      "answer": 0,
+      "explanation": "Credit expanded access beyond immediate cash resources.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate present access from future repayment.",
+      "hint": "Separate present access from future repayment.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 17",
+      "prompt": "Compare talking films and widely circulated magazines.",
+      "choices": [
+        "Magazines required audiences to live near production studios",
+        "Both replaced visual communication with private correspondence",
+        "Films reduced common entertainment while magazines reduced advertising",
+        "Both spread cultural models to larger audiences"
+      ],
+      "answer": 3,
+      "explanation": "Both spread cultural models to larger audiences.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare how each medium broadens its audience.",
+      "hint": "Compare how each medium broadens its audience.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 17",
+      "prompt": "Why did automobile growth stimulate industries beyond assembly plants?",
+      "choices": [
+        "Fuel consumption shifted employment entirely back into farming",
+        "Vehicle production made resource extraction economically unnecessary",
+        "Vehicles increased demand for roads, fuel, and related services",
+        "Road construction reduced demand for public infrastructure investment"
+      ],
+      "answer": 2,
+      "explanation": "Vehicles increased demand for roads, fuel, and related services.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow demand into related industries and infrastructure.",
+      "hint": "Follow demand into related industries and infrastructure.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 17",
+      "prompt": "How should historians qualify claims of universal 1920s prosperity?",
+      "choices": [
+        "Agricultural and industrial incomes necessarily changed together",
+        "Income and opportunity varied across occupations and groups",
+        "Consumer innovations reached every household at comparable rates",
+        "National growth removed regional differences in public services"
+      ],
+      "answer": 1,
+      "explanation": "Income and opportunity varied across occupations and groups.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check whether national averages describe every group.",
+      "hint": "Check whether national averages describe every group.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 17",
+      "prompt": "A moral reformer criticizes films and nightlife. What broader development matters?",
+      "choices": [
+        "Commercial entertainment challenged older cultural authorities",
+        "Commercial entertainment ended political disagreement about modernity",
+        "Urban recreation prevented mass audiences from developing",
+        "Urban recreation primarily restored rural religious institutions"
+      ],
+      "answer": 0,
+      "explanation": "Commercial entertainment challenged older cultural authorities.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify whose cultural authority is being challenged.",
+      "hint": "Identify whose cultural authority is being challenged.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 17",
+      "prompt": "How did advertising connect industrial output with consumer behavior?",
+      "choices": [
+        "Advertising replaced firms' need for efficient production",
+        "Persuasion guaranteed buyers could afford advertised goods",
+        "Persuasion encouraged demand for expanding product supplies",
+        "Advertising removed the role of credit in purchasing"
+      ],
+      "answer": 2,
+      "explanation": "Persuasion encouraged demand for expanding product supplies.",
+      "standards": [
+        17
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect expanding supply with attempts to stimulate purchases.",
+      "hint": "Connect expanding supply with attempts to stimulate purchases.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 18",
+      "prompt": "Why did northern Black communities become cultural centers?",
+      "choices": [
+        "Cultural development preceded every industrial employment opportunity",
+        "Migration concentrated audiences, talent, and supporting institutions",
+        "Cultural development required the disappearance of discrimination",
+        "Migration eliminated regional ties to southern experiences"
+      ],
+      "answer": 1,
+      "explanation": "Migration concentrated audiences, talent, and supporting institutions.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider networks of artists, readers, and venues.",
+      "hint": "Consider networks of artists, readers, and venues.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 18",
+      "prompt": "A poem celebrates Black identity while describing discrimination. What social function appears?",
+      "choices": [
+        "Cultural expression challenged exclusion and asserted dignity",
+        "Cultural expression demonstrated the end of racial inequality",
+        "Artistic recognition replaced the need for political organization",
+        "Artistic recognition required acceptance of prevailing racial stereotypes"
+      ],
+      "answer": 0,
+      "explanation": "Cultural expression challenged exclusion and asserted dignity.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask what the expression asserts and what it contests.",
+      "hint": "Ask what the expression asserts and what it contests.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 18",
+      "prompt": "How did jazz's wider influence change national culture?",
+      "choices": [
+        "Wider influence guaranteed equal treatment for Black performers",
+        "Jazz reached audiences only through formal voting-rights campaigns",
+        "Jazz depended on eliminating earlier African American traditions",
+        "Black artistic innovations reached audiences beyond their communities"
+      ],
+      "answer": 3,
+      "explanation": "Black artistic innovations reached audiences beyond their communities.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow a cultural innovation beyond its original community.",
+      "hint": "Follow a cultural innovation beyond its original community.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 18",
+      "prompt": "Why did suffrage advocates seek constitutional amendment rather than persuasion alone?",
+      "choices": [
+        "State-level reforms had already removed most remaining participation barriers",
+        "A national amendment was needed mainly to regulate women's employment",
+        "Persuasion had already established universal political equality",
+        "National legal protection could overcome state-based exclusions"
+      ],
+      "answer": 3,
+      "explanation": "National legal protection could overcome state-based exclusions.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare moral persuasion with enforceable national protection.",
+      "hint": "Compare moral persuasion with enforceable national protection.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-3-a-new-generation"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 18",
+      "prompt": "Women vote after ratification but still face job barriers. What distinction matters?",
+      "choices": [
+        "Political enfranchisement depends entirely on occupational status",
+        "Political enfranchisement differs from complete economic equality",
+        "Workplace exclusion automatically repeals constitutional voting protections",
+        "Workplace exclusion proves the amendment created no legal change"
+      ],
+      "answer": 1,
+      "explanation": "Political enfranchisement differs from complete economic equality.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish political rights from economic opportunity.",
+      "hint": "Distinguish political rights from economic opportunity.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-3-a-new-generation"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 18",
+      "prompt": "A bootlegger profits despite a national ban. What causal relationship appears?",
+      "choices": [
+        "Alcohol demand depended solely on constitutional permission",
+        "Prohibition eliminated the financial incentives for distribution",
+        "Enforcement costs created universal compliance with the ban",
+        "Continuing demand supported an illegal supply network"
+      ],
+      "answer": 3,
+      "explanation": "Continuing demand supported an illegal supply network.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider demand that persists despite legal restrictions.",
+      "hint": "Consider demand that persists despite legal restrictions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 18",
+      "prompt": "How did Prohibition enforcement affect views of federal authority?",
+      "choices": [
+        "Illegal markets required immediate federal ownership of breweries",
+        "Federal responsibility excluded all state enforcement agencies",
+        "Intrusive and uneven enforcement could weaken policy legitimacy",
+        "A constitutional ban eliminated disputes over individual conduct"
+      ],
+      "answer": 2,
+      "explanation": "Intrusive and uneven enforcement could weaken policy legitimacy.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare legal ambition with implementation experiences.",
+      "hint": "Compare legal ambition with implementation experiences.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 18",
+      "prompt": "Compare the Nineteenth and Twenty-first Amendments.",
+      "choices": [
+        "Constitutional change occurred independently of organized public campaigns",
+        "Both amendments required identical restrictions on household behavior",
+        "Constitutional change could expand participation or reverse social policy",
+        "Both amendments transferred voting eligibility to private associations"
+      ],
+      "answer": 2,
+      "explanation": "Constitutional change could expand participation or reverse social policy.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify different uses of the same amendment process.",
+      "hint": "Identify different uses of the same amendment process.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-3-a-new-generation"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 18",
+      "prompt": "Why connect migration and the Harlem Renaissance without reducing one to the other?",
+      "choices": [
+        "Urban movement alone explains the content of individual artists' work",
+        "Movement created conditions; artists shaped distinct cultural responses",
+        "Cultural innovation supplied the principal cause of industrial recruitment",
+        "Artistic output made employment networks historically insignificant"
+      ],
+      "answer": 1,
+      "explanation": "Movement created conditions; artists shaped distinct cultural responses.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate enabling conditions from artists' creative choices.",
+      "hint": "Separate enabling conditions from artists' creative choices.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 18",
+      "prompt": "What evidence best evaluates Prohibition beyond its supporters' intentions?",
+      "choices": [
+        "Only the amendment's placement in the Constitution",
+        "Only the number of speeches praising temperance",
+        "Patterns of consumption, enforcement, and illegal enterprise",
+        "Only the wording of a presidential campaign slogan"
+      ],
+      "answer": 2,
+      "explanation": "Patterns of consumption, enforcement, and illegal enterprise.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Evaluate outcomes rather than only official intentions.",
+      "hint": "Evaluate outcomes rather than only official intentions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 18",
+      "prompt": "Why did expanded political participation alter parties' calculations?",
+      "choices": [
+        "Women's enfranchisement ended competition between national parties",
+        "Additional voters necessarily supported the same policy positions",
+        "Additional voters created constituencies parties needed to address",
+        "Women's enfranchisement removed all racial restrictions on voting"
+      ],
+      "answer": 2,
+      "explanation": "Additional voters created constituencies parties needed to address.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Think about how parties respond to additional constituents.",
+      "hint": "Think about how parties respond to additional constituents.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-3-a-new-generation"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 18",
+      "prompt": "How can cultural achievement and political exclusion coexist?",
+      "choices": [
+        "Political restrictions make artistic production historically irrelevant",
+        "Cultural success requires unrestricted legal equality before creativity",
+        "Political restrictions prevent any exchange of music or literature",
+        "Recognition in one sphere need not remove barriers elsewhere"
+      ],
+      "answer": 3,
+      "explanation": "Recognition in one sphere need not remove barriers elsewhere.",
+      "standards": [
+        18
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare recognition in one domain with exclusion in another.",
+      "hint": "Compare recognition in one domain with exclusion in another.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "How could wartime labor demand coexist with postwar racial violence?",
+      "choices": [
+        "Economic opportunity did not remove entrenched discrimination",
+        "Northern migration abolished racial political conflict",
+        "Industrial growth eliminated competition for employment",
+        "Factory recruitment guaranteed equal housing access"
+      ],
+      "answer": 0,
+      "explanation": "Economic opportunity did not remove entrenched discrimination.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate economic opportunity from racial acceptance.",
+      "hint": "Separate economic opportunity from racial acceptance.",
+      "externalSource": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "Why did national-origins quotas reflect nativism?",
+      "choices": [
+        "They distributed entry equally among all nationalities",
+        "They made religious persecution a citizenship requirement",
+        "They privileged selected ancestries in admission rules",
+        "They replaced immigration policy with universal entry"
+      ],
+      "answer": 2,
+      "explanation": "They privileged selected ancestries in admission rules.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Inspect who gained preferential admission.",
+      "hint": "Inspect who gained preferential admission.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "Compare Red Scare arrests with ordinary criminal prosecution.",
+      "choices": [
+        "Both processes guaranteed equal treatment for every immigrant",
+        "Political suspicion sometimes displaced evidence of individual wrongdoing",
+        "Both processes excluded government concern about radical politics",
+        "Political suspicion required stronger protections than criminal trials"
+      ],
+      "answer": 1,
+      "explanation": "Political suspicion sometimes displaced evidence of individual wrongdoing.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-16",
+      "where": "Section CS 16 — Racial intolerance, nativism, and the Red Scare. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare political suspicion with individual criminal evidence.",
+      "hint": "Compare political suspicion with individual criminal evidence.",
+      "externalSource": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "Why did radio foster a national consumer culture?",
+      "choices": [
+        "Shared broadcasts carried entertainment and advertising widely",
+        "Radio ownership ended dependence on industrial production",
+        "Shared broadcasts removed regional differences entirely",
+        "Radio ownership made consumer credit unnecessary"
+      ],
+      "answer": 0,
+      "explanation": "Shared broadcasts carried entertainment and advertising widely.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the same message reaching distant audiences.",
+      "hint": "Consider the same message reaching distant audiences.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "How could automobiles alter family and community life?",
+      "choices": [
+        "Greater mobility expanded commuting and leisure choices",
+        "Road construction ended disagreements over social behavior",
+        "Road construction eliminated demand for oil and steel",
+        "Greater mobility concentrated all employment on farms"
+      ],
+      "answer": 0,
+      "explanation": "Greater mobility expanded commuting and leisure choices.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-17",
+      "where": "Section CS 17 — Consumer production and cultural tensions. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace transportation's effects beyond vehicle production.",
+      "hint": "Trace transportation's effects beyond vehicle production.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "Why did migration help create conditions for the Harlem Renaissance?",
+      "choices": [
+        "Migration prevented cultural exchange across city neighborhoods",
+        "Migration required artists to abandon African American themes",
+        "Urban networks connected artists, audiences, and institutions",
+        "Urban networks eliminated racial exclusion in employment"
+      ],
+      "answer": 2,
+      "explanation": "Urban networks connected artists, audiences, and institutions.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect population networks with cultural institutions.",
+      "hint": "Connect population networks with cultural institutions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "Why was the Nineteenth Amendment important but incomplete as equality?",
+      "choices": [
+        "Voting rights expanded while other barriers persisted",
+        "Voting rights automatically guaranteed equal wages nationwide",
+        "Women lost economic participation after national ratification",
+        "Women acquired voting rights only in federal elections"
+      ],
+      "answer": 0,
+      "explanation": "Voting rights expanded while other barriers persisted.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish a new legal right from all other barriers.",
+      "hint": "Distinguish a new legal right from all other barriers.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-3-a-new-generation"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "How did Prohibition create an unintended consequence?",
+      "choices": [
+        "Repeal transferred criminal enforcement to private breweries",
+        "Illegal demand supported bootlegging and organized crime",
+        "Legal restrictions eliminated alcohol consumption entirely",
+        "Repeal required abolishing constitutional amendment procedures"
+      ],
+      "answer": 1,
+      "explanation": "Illegal demand supported bootlegging and organized crime.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-4.html#cs-18",
+      "where": "Section CS 18 — Cultural movements, suffrage, and Prohibition. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider incentives created by persistent illegal demand.",
+      "hint": "Consider incentives created by persistent illegal demand.",
+      "externalSource": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

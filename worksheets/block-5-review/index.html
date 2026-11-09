@@ -1,7 +1,525 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B5-CS19,20,21-REVIEW-2027-V2",
+    "title": "Block 5 Review — Depression, World War II, and Mobilization",
+    "type": "review",
+    "block": 5,
+    "standards": [
+      19,
+      20,
+      21
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "A bank run forces sound loans to be sold quickly. Why can panic spread?",
+      "choices": [
+        "Liquidity pressures can turn fear into wider financial failure",
+        "Forced loan sales increase available funds without affecting asset values",
+        "Deposit withdrawals weaken confidence only in institutions already insolvent",
+        "Bank withdrawals automatically expand business investment"
+      ],
+      "answer": 0,
+      "explanation": "Liquidity pressures can turn fear into wider financial failure.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "Compare stock speculation and weak consumer purchasing power.",
+      "choices": [
+        "Weak demand insulated banks from investment losses",
+        "Financial risk and limited demand could reinforce contraction",
+        "Financial risk guaranteed rising wages for every household",
+        "Weak demand required permanent increases in stock values"
+      ],
+      "answer": 1,
+      "explanation": "Financial risk and limited demand could reinforce contraction.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "Why did heavy debt make unemployment especially damaging?",
+      "choices": [
+        "Lost income made repayment and consumption harder",
+        "Debt obligations disappeared as consumer prices fell",
+        "Debt obligations transferred directly to former employers",
+        "Lost income automatically canceled installment contracts"
+      ],
+      "answer": 0,
+      "explanation": "Lost income made repayment and consumption harder.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "Public works employ jobless workers building roads. What changed?",
+      "choices": [
+        "Public works reduced national responsibility by relying chiefly on private charity",
+        "Federal construction primarily regulated the accuracy of securities disclosures",
+        "Federal spending ended every private construction project",
+        "Federal spending directly supported jobs and infrastructure"
+      ],
+      "answer": 3,
+      "explanation": "Federal spending directly supported jobs and infrastructure.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "How did Social Security differ from emergency food relief?",
+      "choices": [
+        "It regulated the accuracy of stock-market information",
+        "It guaranteed employment for every unemployed adult",
+        "It created a continuing federal social-insurance responsibility",
+        "It required temporary private charity without federal involvement"
+      ],
+      "answer": 2,
+      "explanation": "It created a continuing federal social-insurance responsibility.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "Why should historians examine who New Deal programs excluded?",
+      "choices": [
+        "National eligibility rules produced broadly uniform access across occupations",
+        "Unequal benefits indicate that federal economic responsibilities did not expand",
+        "Expanded assistance did not produce equally distributed benefits",
+        "Exclusions prove the Depression affected only rural communities"
+      ],
+      "answer": 2,
+      "explanation": "Expanded assistance did not produce equally distributed benefits.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "What evidence most directly tests monetary policy's role in contraction?",
+      "choices": [
+        "Changes in money supply, credit, and business failures",
+        "The dates of unrelated territorial admission debates",
+        "Changes in entertainment preferences and film attendance",
+        "The number of amendments adopted before the Civil War"
+      ],
+      "answer": 0,
+      "explanation": "Changes in money supply, credit, and business failures.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "Compare the SEC and FDIC as institutional responses.",
+      "choices": [
+        "The SEC protected bank deposits while the FDIC regulated stock disclosures",
+        "One addressed securities practices; the other protected eligible deposits",
+        "Both agencies chiefly provided direct wages through public construction projects",
+        "One provided pensions; the other built rural electrical systems"
+      ],
+      "answer": 1,
+      "explanation": "One addressed securities practices; the other protected eligible deposits.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "Why does identifying the crash alone give an incomplete explanation?",
+      "choices": [
+        "Debt, banking weakness, and monetary policy also contributed",
+        "Stock prices had no relationship to economic confidence",
+        "Every bank failure resulted from identical individual decisions",
+        "The Depression began only after wartime rationing started"
+      ],
+      "answer": 0,
+      "explanation": "Debt, banking weakness, and monetary policy also contributed.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "A family reduces purchases to pay debts; a factory lays off workers. What mechanism appears?",
+      "choices": [
+        "Reduced demand can deepen income loss in a feedback loop",
+        "Household retrenchment restores factory demand by lowering employment costs",
+        "Factory layoffs offset reduced purchasing by increasing workers' disposable income",
+        "Reduced demand automatically produces higher factory employment"
+      ],
+      "answer": 0,
+      "explanation": "Reduced demand can deepen income loss in a feedback loop.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "Why did neutrality restrictions appeal during the 1930s?",
+      "choices": [
+        "They aimed to guarantee victory for every European democracy",
+        "They aimed to reduce commercial paths into another war",
+        "They required Congress to approve automatic military alliances",
+        "They required permanent American occupations throughout Asia"
+      ],
+      "answer": 1,
+      "explanation": "They aimed to reduce commercial paths into another war.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "Compare cash-and-carry with Lend-Lease.",
+      "choices": [
+        "Both measures required immediate American combat deployment",
+        "Aid ended as Congress prohibited all shipments to Britain",
+        "Aid expanded as earlier payment restrictions became less limiting",
+        "Both measures treated Axis conquest as unrelated to American interests"
+      ],
+      "answer": 2,
+      "explanation": "Aid expanded as earlier payment restrictions became less limiting.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "How did the Good Neighbor approach differ from earlier interventionism?",
+      "choices": [
+        "It expanded routine occupation as the main regional policy",
+        "It transferred Western Hemisphere diplomacy to European empires",
+        "It required annexing every country receiving American investment",
+        "It emphasized reducing direct intervention in Latin America"
+      ],
+      "answer": 3,
+      "explanation": "It emphasized reducing direct intervention in Latin America.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "A historian traces neutrality laws, aid, then war entry. What inference fits?",
+      "choices": [
+        "Policy remained identical until every Axis government surrendered",
+        "Aid to Britain began only after American demobilization",
+        "Policy changed in stages as threats and events escalated",
+        "Neutrality laws required automatic retaliation against any European war"
+      ],
+      "answer": 2,
+      "explanation": "Policy changed in stages as threats and events escalated.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "Why did aid to Britain narrow the gap between neutrality and involvement?",
+      "choices": [
+        "American resources increasingly supported one side's survival",
+        "Aid maintained an equal American stake in both opposing war efforts",
+        "Material support separated American economic resources from the conflict's outcome",
+        "Aid transferred command of American forces to Congress alone"
+      ],
+      "answer": 0,
+      "explanation": "American resources increasingly supported one side's survival.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "What evidence challenges a claim that isolationism ended only with troop deployment?",
+      "choices": [
+        "Congress considered neutrality laws during the Depression",
+        "Many voters remembered American losses in World War I",
+        "Prewar supply policies already favored opponents of Axis expansion",
+        "Americans debated the costs of entering European wars"
+      ],
+      "answer": 2,
+      "explanation": "Prewar supply policies already favored opponents of Axis expansion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "Why did Japanese expansion matter to American policy before Pearl Harbor?",
+      "choices": [
+        "Expansion reduced the strategic value of American interests in Pacific trade",
+        "Pacific interests and aggression generated growing strategic conflict",
+        "Japanese advances mainly eased disputes over American regional commitments",
+        "Pacific interests required abandoning all Asian commercial routes"
+      ],
+      "answer": 1,
+      "explanation": "Pacific interests and aggression generated growing strategic conflict.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "Compare the Atlantic Charter with a declaration of war.",
+      "choices": [
+        "It required all neutral nations to join the Axis alliance",
+        "It ended American material support for nations fighting Germany",
+        "It transferred congressional authority to British voters",
+        "It outlined shared goals without itself declaring American belligerency"
+      ],
+      "answer": 3,
+      "explanation": "It outlined shared goals without itself declaring American belligerency.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "Why did factory conversion change civilian consumption?",
+      "choices": [
+        "Factory conversion reduced demand for industrial labor nationwide",
+        "Military contracts expanded production of every civilian luxury",
+        "Military contracts redirected materials and industrial capacity",
+        "Factory conversion eliminated federal coordination of production"
+      ],
+      "answer": 2,
+      "explanation": "Military contracts redirected materials and industrial capacity.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "Compare war bonds and rationing.",
+      "choices": [
+        "Both enlisted civilians, through finance and resource conservation",
+        "War bonds regulated wages while rationing guaranteed factory profits",
+        "Both replaced military recruitment with voluntary household service",
+        "War bonds restricted food while rationing financed national debt"
+      ],
+      "answer": 0,
+      "explanation": "Both enlisted civilians, through finance and resource conservation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "Why is Japanese American incarceration significant when judging wartime policy?",
+      "choices": [
+        "Ancestry restrictions largely followed individual convictions rather than group classification",
+        "Military needs made detention separate from constitutional rights questions",
+        "Incarceration applied only to foreign military prisoners abroad",
+        "National-security claims enabled severe violations of individual rights"
+      ],
+      "answer": 3,
+      "explanation": "National-security claims enabled severe violations of individual rights.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "How did Navajo Code Talkers challenge exclusionary assumptions?",
+      "choices": [
+        "Their service chiefly confirmed the military advantages of cultural assimilation",
+        "Communication succeeded because Native languages had been replaced by English",
+        "Indigenous language and service provided vital military contributions",
+        "Military service ended federal assimilation policies permanently"
+      ],
+      "answer": 2,
+      "explanation": "Indigenous language and service provided vital military contributions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "What tension did the Bracero Program reveal?",
+      "choices": [
+        "Temporary recruitment granted all workers full political citizenship",
+        "Labor demand eliminated discrimination in wages and housing",
+        "Temporary recruitment ended agricultural employment nationwide",
+        "Labor demand coexisted with unequal treatment of Mexican workers"
+      ],
+      "answer": 3,
+      "explanation": "Labor demand coexisted with unequal treatment of Mexican workers.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "Why did government propaganda accompany economic mobilization?",
+      "choices": [
+        "Propaganda primarily replaced compulsory mobilization with voluntary consumer spending",
+        "Officials sought public cooperation with wartime goals and sacrifices",
+        "Official messages aimed to separate household conduct from military production",
+        "Government messages eliminated disagreement about wartime policies"
+      ],
+      "answer": 1,
+      "explanation": "Officials sought public cooperation with wartime goals and sacrifices.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "Compare expanded employment with persistent discrimination during the war.",
+      "choices": [
+        "War demand redistributed work without challenging earlier barriers to employment",
+        "Expanded employment itself established comparable access and treatment across groups",
+        "Discrimination meant marginalized groups made no war contributions",
+        "New opportunities did not remove unequal access and treatment"
+      ],
+      "answer": 3,
+      "explanation": "New opportunities did not remove unequal access and treatment.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "A worker earns more but cannot purchase rationed goods freely. What explains this?",
+      "choices": [
+        "Higher earnings gave individual workers authority over scarce material allocation",
+        "Wartime allocation constrained spending despite higher income",
+        "Rationing chiefly reflected reduced military requirements for industrial resources",
+        "Higher wages required unrestricted access to scarce materials"
+      ],
+      "answer": 1,
+      "explanation": "Wartime allocation constrained spending despite higher income.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "Why study both military service and protest by marginalized Americans?",
+      "choices": [
+        "Wartime participation signaled that institutional equality had already been secured",
+        "Participation and rights claims developed together despite exclusion",
+        "Rights protests developed independently of marginalized groups' wartime contributions",
+        "Participation proved no group faced discriminatory public policies"
+      ],
+      "answer": 1,
+      "explanation": "Participation and rights claims developed together despite exclusion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 19",
+      "standards": [
+        19
+      ],
+      "prompt": "A New Deal critic fears federal overreach. What development explains the concern?",
+      "choices": [
+        "Washington abandoned all national economic decision-making",
+        "State governments gained exclusive power over banking deposits",
+        "Private charities acquired authority to regulate federal spending",
+        "Washington assumed new regulatory and welfare responsibilities"
+      ],
+      "answer": 3,
+      "explanation": "Washington assumed new regulatory and welfare responsibilities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 20",
+      "standards": [
+        20
+      ],
+      "prompt": "Why did Pearl Harbor change the political context more sharply than overseas aid?",
+      "choices": [
+        "Overseas aid had ended public disagreement about foreign affairs",
+        "A direct attack made national defense an immediate issue",
+        "Overseas aid had already required every American to enter combat",
+        "A direct attack eliminated congressional participation in war decisions"
+      ],
+      "answer": 1,
+      "explanation": "A direct attack made national defense an immediate issue.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 21",
+      "standards": [
+        21
+      ],
+      "prompt": "Why examine employment records alongside internment orders when studying mobilization?",
+      "choices": [
+        "Employment records establish that no wartime rights were restricted",
+        "Internment orders explain every change in wartime wages",
+        "Together they reveal opportunities and unequal treatment",
+        "Together they prove economic growth ended discrimination"
+      ],
+      "answer": 2,
+      "explanation": "Together they reveal opportunities and unequal treatment.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

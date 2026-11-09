@@ -1,0 +1,854 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B8-CS27,28-INTRODUCTION-2027-V2",
+    "title": "Block 8 Introduction — Rights Movements and Postwar Prosperity",
+    "type": "introduction",
+    "block": 8,
+    "standards": [
+      27,
+      28
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 27",
+      "prompt": "Why combine legal challenges with sustained organizing?",
+      "choices": [
+        "Court decisions and public pressure addressed different obstacles",
+        "Court decisions made public participation politically unnecessary",
+        "Organizing replaced the need for enforceable legal protections",
+        "Organizing guaranteed agreement among every affected community"
+      ],
+      "answer": 0,
+      "explanation": "Court decisions and public pressure addressed different obstacles.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare legal rules with obstacles to their implementation.",
+      "hint": "Compare legal rules with obstacles to their implementation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 27",
+      "prompt": "A bus boycott imposes financial costs without violence. How does it pursue reform?",
+      "choices": [
+        "Economic pressure removes the need for constitutional arguments",
+        "Collective withdrawal pressures institutions benefiting from discrimination",
+        "Economic pressure determines every future municipal election",
+        "Collective withdrawal transfers legal ownership to protesters"
+      ],
+      "answer": 1,
+      "explanation": "Collective withdrawal pressures institutions benefiting from discrimination.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace how coordinated withdrawal affects an institution.",
+      "hint": "Trace how coordinated withdrawal affects an institution.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 27",
+      "prompt": "Why did Freedom Riders challenge segregated practices after legal rulings?",
+      "choices": [
+        "Travel restrictions had no connection to federal authority",
+        "Formal decisions had endorsed continuing interstate segregation",
+        "Travel restrictions concerned only private family decisions",
+        "Formal decisions did not ensure local compliance"
+      ],
+      "answer": 3,
+      "explanation": "Formal decisions did not ensure local compliance.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate a court's ruling from local compliance.",
+      "hint": "Separate a court's ruling from local compliance.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 27",
+      "prompt": "A court rejects school segregation but implementation stalls. What should analysis distinguish?",
+      "choices": [
+        "A formal precedent supplies sufficient evidence of completed social transformation",
+        "Legal precedent from actual institutional change",
+        "Delayed implementation shows the decision contained no enforceable constitutional reasoning",
+        "Court authority from evidence of discriminatory treatment"
+      ],
+      "answer": 1,
+      "explanation": "Legal precedent from actual institutional change.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whether a formal decision changes daily practice immediately.",
+      "hint": "Ask whether a formal decision changes daily practice immediately.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 27",
+      "prompt": "How did registration campaigns challenge entrenched political power?",
+      "choices": [
+        "Broader participation could change who influenced government",
+        "Registration mainly changed voting procedures without affecting political influence",
+        "Participation expansion established a common policy agenda among newly registered citizens",
+        "Registration transferred national legislative authority to local activists"
+      ],
+      "answer": 0,
+      "explanation": "Broader participation could change who influenced government.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider who gains influence when participation expands.",
+      "hint": "Consider who gains influence when participation expands.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 27",
+      "prompt": "Compare the SCLC and SNCC as civil-rights organizations.",
+      "choices": [
+        "Different methods show the organizations had unrelated equality objectives",
+        "One organization primarily supplied the other with federal administrative authority",
+        "Different organizing approaches contributed to overlapping equality goals",
+        "One organization controlled the constitutional powers of Congress"
+      ],
+      "answer": 2,
+      "explanation": "Different organizing approaches contributed to overlapping equality goals.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare methods while identifying overlapping goals.",
+      "hint": "Compare methods while identifying overlapping goals.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 27",
+      "prompt": "Why did the March on Washington link jobs with freedom?",
+      "choices": [
+        "Employment demands concerned only federal military recruitment",
+        "Economic opportunity and legal equality were connected concerns",
+        "Economic opportunity made racial discrimination politically irrelevant",
+        "Employment demands required abandoning all voting-rights objectives"
+      ],
+      "answer": 1,
+      "explanation": "Economic opportunity and legal equality were connected concerns.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect formal freedom with access to economic opportunity.",
+      "hint": "Connect formal freedom with access to economic opportunity.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 27",
+      "prompt": "A voting law bans barriers but intimidation persists. What further response is relevant?",
+      "choices": [
+        "Enforcement protecting practical access to participation",
+        "The assumption that intimidation cancels every legal protection",
+        "Enforcement replacing voters' individual political choices",
+        "The assumption that adoption proves equal access"
+      ],
+      "answer": 0,
+      "explanation": "Enforcement protecting practical access to participation.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider what makes a written right usable.",
+      "hint": "Consider what makes a written right usable.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 27",
+      "prompt": "How did farmworker boycotts broaden postwar rights activism?",
+      "choices": [
+        "Workplace dignity became unrelated to economic conditions",
+        "Labor campaigns transferred private agriculture into tribal ownership",
+        "Workplace dignity and bargaining entered wider public campaigns",
+        "Labor campaigns required abandoning civil-rights coalition building"
+      ],
+      "answer": 2,
+      "explanation": "Workplace dignity and bargaining entered wider public campaigns.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow workplace claims into broader public campaigns.",
+      "hint": "Follow workplace claims into broader public campaigns.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-4-challenging-the-status-quo"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 27",
+      "prompt": "Women challenge discriminatory hiring after gaining suffrage. What continuity appears?",
+      "choices": [
+        "Employment equality concerned only state constitutional boundaries",
+        "Formal voting rights left other barriers to contest",
+        "Employment equality required revoking earlier political protections",
+        "Formal voting rights guaranteed equal occupational access"
+      ],
+      "answer": 1,
+      "explanation": "Formal voting rights left other barriers to contest.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish voting eligibility from employment access.",
+      "hint": "Distinguish voting eligibility from employment access.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-4-challenging-the-status-quo"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 27",
+      "prompt": "Why did AIM emphasize land and sovereignty alongside opportunity?",
+      "choices": [
+        "Their platform treated land disputes as separate from political sovereignty",
+        "Their demands primarily concerned the same institutions as industrial wage bargaining",
+        "Reservation policy had no relationship to federal authority",
+        "Indigenous grievances involved distinctive historical political relationships"
+      ],
+      "answer": 3,
+      "explanation": "Indigenous grievances involved distinctive historical political relationships.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the historical meaning of land and sovereignty.",
+      "hint": "Consider the historical meaning of land and sovereignty.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-4-challenging-the-status-quo"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 27",
+      "prompt": "How did Stonewall differ from a final legislative settlement?",
+      "choices": [
+        "The event itself established national legal equality without further organizing",
+        "Legal protection chiefly resulted from ending earlier community institutions",
+        "One event replaced all preceding community organizations",
+        "Resistance helped mobilize continued advocacy for inclusion"
+      ],
+      "answer": 3,
+      "explanation": "Resistance helped mobilize continued advocacy for inclusion.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate a mobilizing event from a completed settlement.",
+      "hint": "Separate a mobilizing event from a completed settlement.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-4-challenging-the-status-quo"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 27",
+      "prompt": "Compare judicial and legislative civil-rights action.",
+      "choices": [
+        "Legislation required Congress to decide individual criminal verdicts",
+        "Courts interpreted protections while statutes supplied additional legal tools",
+        "Legislation ended every disagreement about implementation",
+        "Courts established public opinion while statutes replaced judicial review"
+      ],
+      "answer": 1,
+      "explanation": "Courts interpreted protections while statutes supplied additional legal tools.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare legal interpretation with additional enforcement tools.",
+      "hint": "Compare legal interpretation with additional enforcement tools.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 27",
+      "prompt": "Why evaluate civil-rights victories through affected communities' experiences?",
+      "choices": [
+        "Enactment provides sufficient evidence that the intended benefits were received",
+        "Implementation and remaining barriers shaped practical outcomes",
+        "Formal protection mattered only where previous cultural attitudes had disappeared",
+        "Personal experiences eliminate the need to examine laws"
+      ],
+      "answer": 1,
+      "explanation": "Implementation and remaining barriers shaped practical outcomes.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check implementation through the experiences of affected people.",
+      "hint": "Check implementation through the experiences of affected people.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 27",
+      "prompt": "What evidence best shows the role of collective action?",
+      "choices": [
+        "Only biographies of presidents serving after World War II",
+        "Only a law's signing date without preceding events",
+        "Organizing records linked with public pressure and policy responses",
+        "The assumption that institutional change occurred without mobilization"
+      ],
+      "answer": 2,
+      "explanation": "Organizing records linked with public pressure and policy responses.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect organized action with documented policy responses.",
+      "hint": "Connect organized action with documented policy responses.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 27",
+      "prompt": "Why avoid presenting postwar rights movements as one uniform experience?",
+      "choices": [
+        "Only one group's campaign affected employment and education",
+        "Only one group's campaign involved constitutional protections",
+        "Groups faced different barriers while seeking expanded inclusion",
+        "Groups had no shared interests or opportunities for cooperation"
+      ],
+      "answer": 2,
+      "explanation": "Groups faced different barriers while seeking expanded inclusion.",
+      "standards": [
+        27
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare specific barriers before generalizing across movements.",
+      "hint": "Compare specific barriers before generalizing across movements.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 28",
+      "prompt": "Families increase purchases after years of wartime restrictions. What explains postwar demand?",
+      "choices": [
+        "Military demobilization eliminated every civilian industrial capacity",
+        "Deferred consumption combined with growing household formation",
+        "Military demobilization made consumer credit legally unnecessary",
+        "Deferred consumption reduced demand for housing and appliances"
+      ],
+      "answer": 1,
+      "explanation": "Deferred consumption combined with growing household formation.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect deferred purchases with new family formation.",
+      "hint": "Connect deferred purchases with new family formation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 28",
+      "prompt": "Why did the Baby Boom affect schools and housing together?",
+      "choices": [
+        "Larger families increased demand across connected services",
+        "Larger cohorts chiefly shifted schools and housing into federal ownership",
+        "Population growth reduced demand because families shared the same public facilities",
+        "Population growth eliminated the need for municipal planning"
+      ],
+      "answer": 0,
+      "explanation": "Larger families increased demand across connected services.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow larger cohorts into multiple public and private services.",
+      "hint": "Follow larger cohorts into multiple public and private services.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 28",
+      "prompt": "Compare economic growth with the distribution of prosperity.",
+      "choices": [
+        "Aggregate expansion establishes identical household financial security",
+        "Regional differences prove technology did not affect consumption",
+        "Regional differences make national output impossible to measure",
+        "Aggregate expansion can coexist with unequal access"
+      ],
+      "answer": 3,
+      "explanation": "Aggregate expansion can coexist with unequal access.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate a national total from its distribution.",
+      "hint": "Separate a national total from its distribution.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 28",
+      "prompt": "Automobiles enable longer commutes. How might metropolitan geography change?",
+      "choices": [
+        "Car ownership prevents racial disparities in suburban housing access",
+        "Residential development can spread beyond central employment districts",
+        "Residential development must remain beside established rail stations",
+        "Car ownership makes transport infrastructure a private family concern"
+      ],
+      "answer": 1,
+      "explanation": "Residential development can spread beyond central employment districts.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace how transport changes feasible residential locations.",
+      "hint": "Trace how transport changes feasible residential locations.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 28",
+      "prompt": "Why could television reshape advertising differently from radio?",
+      "choices": [
+        "Radio messages determined constitutional limits on consumer spending",
+        "Radio messages had never reached geographically dispersed households",
+        "Visual demonstrations added another persuasive communication channel",
+        "Visual demonstrations eliminated advertisers' interest in mass audiences"
+      ],
+      "answer": 2,
+      "explanation": "Visual demonstrations added another persuasive communication channel.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the sensory features of the communication media.",
+      "hint": "Compare the sensory features of the communication media.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-4-popular-culture-and-mass-media"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 28",
+      "prompt": "A vaccination campaign reduces childhood polio. What social consequence follows?",
+      "choices": [
+        "Families face less disease-related risk and restriction",
+        "Families no longer require other medical services",
+        "Medical innovation immediately creates equal treatment access",
+        "Medical innovation removes public responsibility for disease prevention"
+      ],
+      "answer": 0,
+      "explanation": "Families face less disease-related risk and restriction.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish reducing one disease risk from ending all health needs.",
+      "hint": "Distinguish reducing one disease risk from ending all health needs.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 28",
+      "prompt": "How could passenger jets affect economic and cultural connections?",
+      "choices": [
+        "Faster travel made commercial aviation chiefly a replacement for local commuting",
+        "Jet service reduced the influence of business and leisure networks across distance",
+        "Commercial aviation makes household income irrelevant to travel access",
+        "Faster travel expands feasible business and leisure networks"
+      ],
+      "answer": 3,
+      "explanation": "Faster travel expands feasible business and leisure networks.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how speed changes practical connections.",
+      "hint": "Consider how speed changes practical connections.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 28",
+      "prompt": "Why did expanding electricity use encourage interest in nuclear power?",
+      "choices": [
+        "Nuclear research made conservation and energy costs irrelevant",
+        "Growing demand guaranteed the safety of every proposed plant",
+        "Growing demand created incentives for new generating capacity",
+        "Nuclear research eliminated debates about public investment"
+      ],
+      "answer": 2,
+      "explanation": "Growing demand created incentives for new generating capacity.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect new capacity with rising demand.",
+      "hint": "Connect new capacity with rising demand.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 28",
+      "prompt": "How did reproductive technology interact with women's opportunities?",
+      "choices": [
+        "Medical access itself resolved major institutional disputes over equal employment",
+        "Reproductive technology prescribed a common family decision for its users",
+        "Greater control over timing could affect education and employment",
+        "Greater control guaranteed an end to hiring discrimination"
+      ],
+      "answer": 2,
+      "explanation": "Greater control over timing could affect education and employment.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate greater choice from guaranteed equality.",
+      "hint": "Separate greater choice from guaranteed equality.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 28",
+      "prompt": "Compare a television purchase with a family vacation by jet.",
+      "choices": [
+        "Different innovations depended only on government military procurement",
+        "Different innovations changed consumption and experiences across distance",
+        "Both purchases eliminated regional cultural variation permanently",
+        "Both purchases were equally affordable for all households"
+      ],
+      "answer": 1,
+      "explanation": "Different innovations changed consumption and experiences across distance.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare different kinds of distance and consumption.",
+      "hint": "Compare different kinds of distance and consumption.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-4-popular-culture-and-mass-media"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 28",
+      "prompt": "Why should historians examine excluded households when describing the boom?",
+      "choices": [
+        "National averages already establish each household's personal experience",
+        "Exclusion proves industrial output did not increase",
+        "Exclusion proves consumer demand was unrelated to income",
+        "National averages can conceal unequal access to gains"
+      ],
+      "answer": 3,
+      "explanation": "National averages can conceal unequal access to gains.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for groups hidden within national averages.",
+      "hint": "Look for groups hidden within national averages.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 28",
+      "prompt": "A suburb expands clinics, schools, and shops. What mechanism appears?",
+      "choices": [
+        "Population growth substitutes services for every industrial product",
+        "Suburban settlement distributes tax resources equally across regions",
+        "Suburban settlement prevents employers from changing locations",
+        "Population growth generates additional service demand"
+      ],
+      "answer": 3,
+      "explanation": "Population growth generates additional service demand.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow population growth into daily service needs.",
+      "hint": "Follow population growth into daily service needs.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 28",
+      "prompt": "Why might improved health affect economic and family decisions?",
+      "choices": [
+        "Medical progress primarily affected institutions without changing household planning",
+        "Health improvements reduced the economic significance of longer participation in work",
+        "Longer healthier lives change planning and participation",
+        "Medical advances remove the effects of workplace discrimination"
+      ],
+      "answer": 2,
+      "explanation": "Longer healthier lives change planning and participation.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how health changes people's planning horizons.",
+      "hint": "Consider how health changes people's planning horizons.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 28",
+      "prompt": "How could television affect national politics as well as leisure?",
+      "choices": [
+        "Visual broadcasting changes how leaders reach mass audiences",
+        "Shared viewing transfers electoral authority to broadcasting companies",
+        "Shared viewing guarantees agreement about every public issue",
+        "Visual broadcasting makes written political arguments unlawful"
+      ],
+      "answer": 0,
+      "explanation": "Visual broadcasting changes how leaders reach mass audiences.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish reaching an audience from persuading everyone.",
+      "hint": "Distinguish reaching an audience from persuading everyone.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-4-popular-culture-and-mass-media"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 28",
+      "prompt": "What evidence best connects technological advances with daily life?",
+      "choices": [
+        "Only national borders shown on a contemporary map",
+        "The assumption that every invention reached every family immediately",
+        "Household practices compared before and after adoption",
+        "Only inventors' birth dates without evidence of use"
+      ],
+      "answer": 2,
+      "explanation": "Household practices compared before and after adoption.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Seek evidence of adoption rather than invention alone.",
+      "hint": "Seek evidence of adoption rather than invention alone.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 28",
+      "prompt": "Why describe the boom as a combination of economic and scientific change?",
+      "choices": [
+        "Income and innovations jointly reshaped available choices",
+        "Income gains made differences in available technology historically insignificant",
+        "Scientific advances affected production without changing choices in daily life",
+        "Income growth eliminated the importance of medical advances"
+      ],
+      "answer": 0,
+      "explanation": "Income and innovations jointly reshaped available choices.",
+      "standards": [
+        28
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for interactions between resources and available technology.",
+      "hint": "Look for interactions between resources and available technology.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Why combine litigation with civil-rights demonstrations?",
+      "choices": [
+        "Legal protection made organized public pressure less relevant to enforcement",
+        "Collective action worked primarily by replacing constitutional claims with economic policy",
+        "Legal challenges made collective action legally unnecessary",
+        "Legal challenges and public pressure targeted different barriers"
+      ],
+      "answer": 3,
+      "explanation": "Legal challenges and public pressure targeted different barriers.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare methods used against different barriers.",
+      "hint": "Compare methods used against different barriers.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-5-the-african-american-struggle-for-civil-rights"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "How did the Freedom Rides reveal limits of court victories?",
+      "choices": [
+        "Federal rulings ended every discriminatory transport practice",
+        "Local resistance persisted despite desegregation rulings",
+        "Local resistance proved courts had endorsed segregation",
+        "Federal rulings prohibited interstate racial equality"
+      ],
+      "answer": 1,
+      "explanation": "Local resistance persisted despite desegregation rulings.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate formal rulings from actual practice.",
+      "hint": "Separate formal rulings from actual practice.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "A national law prohibits employment discrimination, but a local employer continues excluding qualified applicants. Which next step most directly addresses this gap?",
+      "choices": [
+        "Treat enactment as sufficient evidence that hiring practices became equitable",
+        "Expand the customer market without examining the employer's hiring decisions",
+        "Use enforcement mechanisms to make the legal protection effective",
+        "Replace the legal protection with a voluntary statement of goodwill"
+      ],
+      "answer": 2,
+      "explanation": "Use enforcement mechanisms to make the legal protection effective.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how consumer choices can affect workplace bargaining.",
+      "hint": "Consider how consumer choices can affect workplace bargaining.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-4-challenging-the-status-quo"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "How did Stonewall influence later organizing?",
+      "choices": [
+        "Resistance helped mobilize gay liberation activism",
+        "The uprising established a completed national settlement of gay civil rights",
+        "Gay liberation emerged independently of resistance and community mobilization",
+        "Stonewall transferred civil-rights authority to local businesses"
+      ],
+      "answer": 0,
+      "explanation": "Resistance helped mobilize gay liberation activism.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-27",
+      "where": "Section CS 27 — Equality movements and institutional change. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish a turning point from the end of organizing.",
+      "hint": "Distinguish a turning point from the end of organizing.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-4-challenging-the-status-quo"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Why did the Baby Boom affect economic demand?",
+      "choices": [
+        "Growing families ended purchases of household goods",
+        "Population growth guaranteed equal income distribution",
+        "Population growth eliminated demand for public schools",
+        "Growing families increased demand for housing and services"
+      ],
+      "answer": 3,
+      "explanation": "Growing families increased demand for housing and services.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace family formation into demand for goods and services.",
+      "hint": "Trace family formation into demand for goods and services.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "How could a polio vaccine alter American life?",
+      "choices": [
+        "Disease prevention reduced risks and changed family expectations",
+        "Vaccination chiefly replaced other forms of medical care in childhood",
+        "Reduced disease risk demonstrated that access to treatment was already equal",
+        "Vaccination replaced the need for public sanitation"
+      ],
+      "answer": 0,
+      "explanation": "Disease prevention reduced risks and changed family expectations.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how disease risk affects ordinary family decisions.",
+      "hint": "Consider how disease risk affects ordinary family decisions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Compare television and passenger jets as postwar innovations.",
+      "choices": [
+        "Both changed connections across distance in different ways",
+        "Television eliminated advertising while jets eliminated tourism",
+        "Television replaced travel while jets replaced broadcasting",
+        "Both ended regional differences and political disputes"
+      ],
+      "answer": 0,
+      "explanation": "Both changed connections across distance in different ways.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare communication and physical travel across distance.",
+      "hint": "Compare communication and physical travel across distance.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-4-popular-culture-and-mass-media"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Why could prosperity leave some Americans behind?",
+      "choices": [
+        "Growth distributed access through consumption without influence from housing discrimination",
+        "Postwar technology made class and geography less relevant to opportunity by itself",
+        "Prosperity guaranteed identical wealth across all groups",
+        "Discrimination shaped access to housing, education, and jobs"
+      ],
+      "answer": 3,
+      "explanation": "Discrimination shaped access to housing, education, and jobs.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-8.html#cs-28",
+      "where": "Section CS 28 — Prosperity, technology, and daily life. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask who could obtain the opportunities growth created.",
+      "hint": "Ask who could obtain the opportunities growth created.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

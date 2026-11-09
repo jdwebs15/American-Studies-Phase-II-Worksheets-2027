@@ -1,7 +1,525 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B11-CS1,2,3-REVIEW-2027-V2",
+    "title": "Block 11 Review — Historical Thinking and Skills",
+    "type": "review",
+    "block": 11,
+    "standards": [
+      1,
+      2,
+      3
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "A wartime poster claims universal enthusiasm. What limits its evidentiary use?",
+      "choices": [
+        "Official sponsorship establishes that the message accurately measures private opinion",
+        "Mobilizing purpose makes it weak evidence of universal opinion",
+        "The number of copies distributed provides sufficient evidence of universal agreement",
+        "Public distribution guarantees neutral reporting"
+      ],
+      "answer": 1,
+      "explanation": "Mobilizing purpose makes it weak evidence of universal opinion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "An expert writes outside their specialty. How should credibility be judged?",
+      "choices": [
+        "Relevant expertise and supporting evidence still need checking",
+        "Expert status transfers equivalent reliability to claims outside the writer's specialty",
+        "A lack of specialization means supporting citations have little evidentiary value",
+        "Popularity among readers replaces source documentation"
+      ],
+      "answer": 0,
+      "explanation": "Relevant expertise and supporting evidence still need checking.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "Three newspapers repeat one wire report. What cautions against treating them as corroboration?",
+      "choices": [
+        "Publication in different cities establishes that observations were gathered independently",
+        "Repeated wording supplies stronger verification than independently documented accounts",
+        "Newspapers cannot provide evidence about public events",
+        "They may depend on the same original account"
+      ],
+      "answer": 3,
+      "explanation": "They may depend on the same original account.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "A memoir describes events decades later. What factor matters?",
+      "choices": [
+        "The writer's direct experience removes later memory and contextual influences",
+        "Publication date primarily determines whether the writer's perspective is neutral",
+        "Memory and later circumstances may shape recollection",
+        "Memory errors prove the author witnessed nothing"
+      ],
+      "answer": 2,
+      "explanation": "Memory and later circumstances may shape recollection.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "Why compare a photograph with its caption and provenance?",
+      "choices": [
+        "A caption establishes the image's meaning without investigating selection or context",
+        "Provenance chiefly concerns ownership and therefore cannot inform interpretation",
+        "Framing and description influence what the image appears to show",
+        "Captions are inherently more reliable than visual evidence"
+      ],
+      "answer": 2,
+      "explanation": "Framing and description influence what the image appears to show.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "An official report omits injuries documented elsewhere. What is the best response?",
+      "choices": [
+        "Omission proves the author lacked access to any relevant records",
+        "Official status makes the report preferable even when independent evidence conflicts",
+        "Use the report alone because official records are complete",
+        "Investigate purpose and omissions against corroborating records"
+      ],
+      "answer": 3,
+      "explanation": "Investigate purpose and omissions against corroborating records.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "A source uses stereotypes to explain workers' behavior. What concern arises?",
+      "choices": [
+        "Group descriptions provide representative evidence without examining individual conduct",
+        "A source's age makes stereotypes reliable descriptions of historical populations",
+        "Bias may replace evidence with group generalizations",
+        "Biased language makes historical context irrelevant"
+      ],
+      "answer": 2,
+      "explanation": "Bias may replace evidence with group generalizations.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "Why should a historian check internal consistency?",
+      "choices": [
+        "Contradictions may weaken an account's reliability",
+        "A consistent account has sufficient credibility without external corroboration",
+        "Internal contradictions matter only when they conflict with the reader's interpretation",
+        "Consistent chronology makes perspective irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Contradictions may weaken an account's reliability.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "A letter was written under censorship. How does context matter?",
+      "choices": [
+        "Censored correspondence generally records private belief more fully than public writing",
+        "Restricted expression makes the source useful only for establishing dates",
+        "Constraints may shape what the writer could express",
+        "Censorship means no historical evidence survives"
+      ],
+      "answer": 2,
+      "explanation": "Constraints may shape what the writer could express.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "A biography cites archival records and corrects earlier errors. What supports credibility?",
+      "choices": [
+        "The absence of any interpretation of historical events",
+        "Agreement with every reader's prior political beliefs",
+        "A claim that the author cannot make mistakes",
+        "Transparent evidence and willingness to revise claims"
+      ],
+      "answer": 3,
+      "explanation": "Transparent evidence and willingness to revise claims.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "Which claim functions best as a thesis about urban growth?",
+      "choices": [
+        "Industrial jobs and migration jointly reshaped city institutions",
+        "Urban history includes factories, housing, and transport",
+        "Population statistics appear in many census publications",
+        "Several American cities existed during the nineteenth century"
+      ],
+      "answer": 0,
+      "explanation": "Industrial jobs and migration jointly reshaped city institutions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "A thesis says all workers benefited equally. What evidence most directly tests it?",
+      "choices": [
+        "A list of inventions without information about workers",
+        "Wage and condition data separated by occupation and group",
+        "A single business advertisement promising prosperity",
+        "The author's preference for technological progress"
+      ],
+      "answer": 1,
+      "explanation": "Wage and condition data separated by occupation and group.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "Why does contradictory evidence sometimes improve an argument?",
+      "choices": [
+        "A disputed source should be excluded whenever it complicates a clear interpretation",
+        "Contradictory evidence makes general historical explanations inherently unsupported",
+        "Contradictory sources prove history has no defensible conclusions",
+        "Addressing exceptions can refine its scope and explanation"
+      ],
+      "answer": 3,
+      "explanation": "Addressing exceptions can refine its scope and explanation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "A student cites one wealthy household to prove universal prosperity. What is weak?",
+      "choices": [
+        "The evidence cannot support the claim's broad scope",
+        "A vivid example establishes representativeness without examining a broader sample",
+        "Household records have less historical value when their owners were wealthy",
+        "Universal claims require no evidence beyond a vivid example"
+      ],
+      "answer": 0,
+      "explanation": "The evidence cannot support the claim's broad scope.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "How should quotations function in historical argument?",
+      "choices": [
+        "They should be separated from their original context",
+        "They should be interpreted and connected to the claim",
+        "They should be chosen only for dramatic wording",
+        "They should replace all explanation by the writer"
+      ],
+      "answer": 1,
+      "explanation": "They should be interpreted and connected to the claim.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "A thesis blames migration solely on wages. Which evidence refines it?",
+      "choices": [
+        "Letters describe racial violence alongside job opportunities",
+        "A payroll lists the number of industrial workers",
+        "A map locates cities near transportation routes",
+        "A factory announces a higher starting wage"
+      ],
+      "answer": 0,
+      "explanation": "Letters describe racial violence alongside job opportunities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "Why cite a source supporting a disputed interpretation?",
+      "choices": [
+        "Readers no longer need context after seeing a footnote",
+        "Readers can examine the evidence and reasoning",
+        "Citation makes every interpretation automatically true",
+        "Citation prevents other historians from disagreeing"
+      ],
+      "answer": 1,
+      "explanation": "Readers can examine the evidence and reasoning.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "A policy claim relies on national averages alone. What additional evidence helps?",
+      "choices": [
+        "Only a longer title for the historical argument",
+        "Variation across affected groups and regions",
+        "Only more quotations repeating the same average",
+        "The assumption that every household matched the mean"
+      ],
+      "answer": 1,
+      "explanation": "Variation across affected groups and regions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "What distinguishes refuting a claim from attacking its author?",
+      "choices": [
+        "An author's motives make evidence unnecessary",
+        "An author's background alone settles every factual dispute",
+        "Refutation depends on proving the author unpopular",
+        "Refutation tests evidence and reasoning behind the position"
+      ],
+      "answer": 3,
+      "explanation": "Refutation tests evidence and reasoning behind the position.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Unemployment rises after a crash. What establishes a causal explanation?",
+      "choices": [
+        "A list of unrelated events during the same year",
+        "A statement that every earlier event caused unemployment",
+        "Evidence connecting financial disruption to credit and hiring",
+        "The calendar order without any connecting evidence"
+      ],
+      "answer": 2,
+      "explanation": "Evidence connecting financial disruption to credit and hiring.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Compare discrimination and wartime labor demand in the Great Migration.",
+      "choices": [
+        "A long-term push interacted with a shorter-term pull",
+        "Discrimination proves employment opportunities had no influence",
+        "Both factors operated only after migration ended",
+        "Labor demand proves discrimination had no influence"
+      ],
+      "answer": 0,
+      "explanation": "A long-term push interacted with a shorter-term pull.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Why can one event have several consequences?",
+      "choices": [
+        "Historical outcomes are identical across every community",
+        "Effects travel through different institutions and social groups",
+        "Effects must occur at exactly the same moment",
+        "Historical outcomes depend only on individual intentions"
+      ],
+      "answer": 1,
+      "explanation": "Effects travel through different institutions and social groups.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "A reform follows protest and an election. What should analysis avoid?",
+      "choices": [
+        "Assuming the nearest event alone explains change",
+        "Distinguishing longer trends from immediate decisions",
+        "Examining connections among mobilization and institutions",
+        "Testing interpretations against available records"
+      ],
+      "answer": 0,
+      "explanation": "Assuming the nearest event alone explains change.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Why is correlation useful but insufficient for causation?",
+      "choices": [
+        "Correlation excludes the possibility of any common cause",
+        "Co-movement suggests questions without establishing mechanisms",
+        "Correlation requires both events to occur centuries apart",
+        "Co-movement proves a necessary causal relationship"
+      ],
+      "answer": 1,
+      "explanation": "Co-movement suggests questions without establishing mechanisms.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "A war accelerates an existing technological trend. What interpretation fits?",
+      "choices": [
+        "Earlier developments become irrelevant after acceleration",
+        "An event must create every trend from nothing",
+        "Earlier developments prove the war had no effect",
+        "An event can intensify change already underway"
+      ],
+      "answer": 3,
+      "explanation": "An event can intensify change already underway.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "How can a short-term success have long-term costs?",
+      "choices": [
+        "Long-term effects must exactly repeat immediate results",
+        "Successful intentions guarantee permanent beneficial outcomes",
+        "Long-term costs cannot be studied through evidence",
+        "Consequences may change across time and affected groups"
+      ],
+      "answer": 3,
+      "explanation": "Consequences may change across time and affected groups.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Two policies begin together and outcomes improve. What complicates attribution?",
+      "choices": [
+        "Shared timing establishes that the policies contributed equally to the improvement",
+        "An improved outcome supplies sufficient evidence of each policy's independent effect",
+        "Separating each policy's influence requires further evidence",
+        "Improved outcomes eliminate the need to study mechanisms"
+      ],
+      "answer": 2,
+      "explanation": "Separating each policy's influence requires further evidence.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Why examine unintended consequences?",
+      "choices": [
+        "Unintended effects make chronology impossible to establish",
+        "Historical outcomes always match official predictions",
+        "Unintended effects prove no decisions were deliberate",
+        "Historical outcomes can differ from policymakers' stated goals"
+      ],
+      "answer": 3,
+      "explanation": "Historical outcomes can differ from policymakers' stated goals.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "A drought worsens an existing farm debt crisis. What does this illustrate?",
+      "choices": [
+        "Debt must have originated only after the drought",
+        "Environmental shocks eliminate all financial causes",
+        "Environmental shocks can interact with economic vulnerability",
+        "Debt proves climate had no role in the crisis"
+      ],
+      "answer": 2,
+      "explanation": "Environmental shocks can interact with economic vulnerability.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "How should a historian connect sequence and causation?",
+      "choices": [
+        "Establish order, test mechanisms, and consider alternatives",
+        "Establish order and assume every connection is proven",
+        "Ignore dates whenever sources disagree politically",
+        "Ignore alternative causes after finding one plausible factor"
+      ],
+      "answer": 0,
+      "explanation": "Establish order, test mechanisms, and consider alternatives.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

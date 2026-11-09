@@ -1,7 +1,524 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B1-CS4,5-REVIEW-2027-V2",
+    "title": "Block 1 Review — Declaration and Northwest Ordinance",
+    "type": "review",
+    "block": 1,
+    "standards": [
+      4,
+      5
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A ruler claims ancestry authorizes rule without public consent. Which response follows Declaration reasoning?",
+      "choices": [
+        "Authority rests on economic prosperity",
+        "Authority depends on the governed's consent",
+        "Authority rests on uninterrupted tradition",
+        "Authority depends on inherited obligations"
+      ],
+      "answer": 1,
+      "explanation": "Authority depends on the governed's consent.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A legislature argues it may abolish liberty because it originally created liberty. What premise does the Declaration dispute?",
+      "choices": [
+        "Written laws require majority votes",
+        "Basic rights exist before governments",
+        "Governments need public institutions",
+        "Civil disputes require impartial judges"
+      ],
+      "answer": 1,
+      "explanation": "Basic rights exist before governments.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "Why does the Declaration discuss government's purpose before listing royal abuses?",
+      "choices": [
+        "The principles supply criteria for judging conduct",
+        "The principles authorize Parliament's regulations",
+        "The principles substitute for evidence of abuse",
+        "The principles establish colonial court boundaries"
+      ],
+      "answer": 0,
+      "explanation": "The principles supply criteria for judging conduct.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A historian distinguishes independence in 1776 from later equal-rights movements. Which interpretation best connects them?",
+      "choices": [
+        "Later movements extended rights created by monarchs",
+        "Later movements applied founding claims to exclusions",
+        "Later movements treated grievances as federal statutes",
+        "Later movements abandoned consent for hereditary rule"
+      ],
+      "answer": 1,
+      "explanation": "Later movements applied founding claims to exclusions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "Residents lose elections fairly and claim any defeat permits revolution. What weakens their argument?",
+      "choices": [
+        "Losing an election establishes withdrawal of the governed's consent",
+        "Natural rights entitle citizens to their preferred policy outcomes",
+        "Ordinary disagreement differs from sustained rights abuses",
+        "Representative institutions eliminate political conflict"
+      ],
+      "answer": 2,
+      "explanation": "Ordinary disagreement differs from sustained rights abuses.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A reformer quotes equality to challenge unequal schooling. What evidence best establishes the historical tension?",
+      "choices": [
+        "Public institutions depended on tax revenue",
+        "Public institutions used written constitutions",
+        "Public institutions distributed rights unequally",
+        "Public institutions required elected legislators"
+      ],
+      "answer": 2,
+      "explanation": "Public institutions distributed rights unequally.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "Compare unalienable rights with a government's delegated powers.",
+      "choices": [
+        "People retain rights while governments receive authority",
+        "Governments own rights while voters receive permission",
+        "People obtain rights only through government offices",
+        "Governments surrender authority whenever citizens petition"
+      ],
+      "answer": 0,
+      "explanation": "People retain rights while governments receive authority.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A government protects property but denies citizens political participation. Which Declaration principle remains unmet?",
+      "choices": [
+        "Public consent as a source of legitimate power",
+        "National independence as an economic guarantee",
+        "Legislative supremacy as a limit on popular influence",
+        "Private ownership as a universal voting qualification"
+      ],
+      "answer": 0,
+      "explanation": "Public consent as a source of legitimate power.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "Why could the Declaration support criticism of American governments after independence?",
+      "choices": [
+        "Its text delegated enforcement to foreign governments",
+        "Its principles judge governments beyond the original dispute",
+        "Its grievances served as binding federal criminal law",
+        "Its signers required annual constitutional conventions"
+      ],
+      "answer": 1,
+      "explanation": "Its principles judge governments beyond the original dispute.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A public official calls rights a reward for loyalty. Which interpretation challenges that claim?",
+      "choices": [
+        "Rights belong to people independently of obedience",
+        "Rights require approval from elected representatives",
+        "Rights increase with military and financial contributions",
+        "Rights originate with patriotic public service"
+      ],
+      "answer": 0,
+      "explanation": "Rights belong to people independently of obedience.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "How does consent change the political role of ordinary people?",
+      "choices": [
+        "They become the source of governmental authority",
+        "They become administrators of every public decision",
+        "They become exempt from laws they oppose",
+        "They become beneficiaries of royal discretion"
+      ],
+      "answer": 0,
+      "explanation": "They become the source of governmental authority.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A government protects a popular majority while persecuting a minority. Evaluate it using Declaration ideals.",
+      "choices": [
+        "Majority approval proves equality has been achieved",
+        "Minority disagreement automatically ends all authority",
+        "Minority status removes the need for legal protection",
+        "Majority approval cannot resolve the rights violation"
+      ],
+      "answer": 3,
+      "explanation": "Majority approval cannot resolve the rights violation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A student calls the Declaration a description of complete equality in 1776. Which evidence refutes that reading?",
+      "choices": [
+        "The text included complaints against the king",
+        "The colonies were separating from British government",
+        "Slavery persisted despite universal rights language",
+        "Congress approved a public declaration of independence"
+      ],
+      "answer": 2,
+      "explanation": "Slavery persisted despite universal rights language.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "Why is petitioning for redress relevant to the Declaration's justification for separation?",
+      "choices": [
+        "Petitioning removed the need to document abuses",
+        "Petitioning transferred sovereignty back to Parliament",
+        "Ignored remedies strengthened the case against continued rule",
+        "Ignored remedies established universal voting rights"
+      ],
+      "answer": 2,
+      "explanation": "Ignored remedies strengthened the case against continued rule.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Congress plans permanent western dependencies with fewer rights than older states. Which precedent challenges this plan?",
+      "choices": [
+        "Congressional appointment of early territorial officials",
+        "Admission of new states on equal footing",
+        "Federal management of relations with foreign nations",
+        "Surveying public land before settlement began"
+      ],
+      "answer": 1,
+      "explanation": "Admission of new states on equal footing.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "A territorial governor imprisons critics without review. Which Ordinance protection offers the closest remedy?",
+      "choices": [
+        "Equal footing secures eventual state admission",
+        "School support expands civic knowledge",
+        "Habeas corpus challenges unlawful detention",
+        "Republican government establishes legislative districts"
+      ],
+      "answer": 2,
+      "explanation": "Habeas corpus challenges unlawful detention.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Why was encouraging schools a national precedent rather than merely a private preference?",
+      "choices": [
+        "Private schooling became the only lawful education",
+        "School attendance replaced eligibility for voting",
+        "Public policy linked education with good government",
+        "Teachers gained authority to appoint governors"
+      ],
+      "answer": 2,
+      "explanation": "Public policy linked education with good government.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Compare temporary territorial government with eventual state government under the Ordinance.",
+      "choices": [
+        "State government remained subject to royal approval",
+        "A staged process preserved permanent congressional rule",
+        "Territorial government held superior constitutional rank",
+        "A staged process led toward equal membership"
+      ],
+      "answer": 3,
+      "explanation": "A staged process led toward equal membership.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "An author claims Article 6 resolved American slavery in 1787. Which geographic distinction undermines the claim?",
+      "choices": [
+        "Its prohibition covered every existing slave state",
+        "Its prohibition concerned the Northwest Territory",
+        "Its prohibition concerned only foreign slave ships",
+        "Its prohibition applied only to Atlantic ports"
+      ],
+      "answer": 1,
+      "explanation": "Its prohibition concerned the Northwest Territory.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "How did the Ordinance connect expansion with republican principles?",
+      "choices": [
+        "New states were to appoint hereditary governors",
+        "New states were to form republican governments",
+        "Territorial settlers were to lose religious protections",
+        "Territorial officials were to abolish representative bodies"
+      ],
+      "answer": 1,
+      "explanation": "New states were to form republican governments.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "What makes the Ordinance relevant to later constitutional rights?",
+      "choices": [
+        "It amended the Bill of Rights after ratification",
+        "It granted Congress unlimited authority over religion",
+        "It replaced state courts with parliamentary tribunals",
+        "It established written protections before the Constitution"
+      ],
+      "answer": 3,
+      "explanation": "It established written protections before the Constitution.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "A historian pairs religious liberty with jury trials in the Ordinance. What common effect should be explained?",
+      "choices": [
+        "Both abolished property qualifications for voting",
+        "Both determined the size of new states",
+        "Both authorized taxation without representation",
+        "Both limited arbitrary territorial government"
+      ],
+      "answer": 3,
+      "explanation": "Both limited arbitrary territorial government.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Which evidence best challenges a claim that founding principles were applied uniformly?",
+      "choices": [
+        "Congress created institutions for territorial governance",
+        "Statehood depended on an established legal process",
+        "Rights protections coexisted with restricted participation",
+        "Written documents addressed government responsibilities"
+      ],
+      "answer": 2,
+      "explanation": "Rights protections coexisted with restricted participation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Why did territorial statehood rules promote national integration?",
+      "choices": [
+        "Original states could collect tribute from new states",
+        "Settlers could establish foreign alliances before admission",
+        "Original states could reserve all congressional representation",
+        "Settlers could gain full membership rather than colonial status"
+      ],
+      "answer": 3,
+      "explanation": "Settlers could gain full membership rather than colonial status.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "How does protecting a jury trial differ from merely promising benevolent officials?",
+      "choices": [
+        "A public promise prevents future political disagreement",
+        "A public promise gives residents equal economic resources",
+        "A legal safeguard constrains officials regardless of intentions",
+        "A legal safeguard requires officials to share a religion"
+      ],
+      "answer": 2,
+      "explanation": "A legal safeguard constrains officials regardless of intentions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Why can the Ordinance be studied as both achievement and limitation?",
+      "choices": [
+        "It created statehood while banning representative institutions",
+        "It abolished slavery while eliminating all property rights",
+        "It expanded education while requiring hereditary government",
+        "It advanced protections while excluding many residents politically"
+      ],
+      "answer": 3,
+      "explanation": "It advanced protections while excluding many residents politically.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "A western community seeks admission with a monarch. Which Ordinance condition conflicts with its plan?",
+      "choices": [
+        "An obligation to remain below state status",
+        "A republican form of state government",
+        "A permanent ban on public education",
+        "A single approved territorial denomination"
+      ],
+      "answer": 1,
+      "explanation": "A republican form of state government.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Compare the founding documents' treatment of rights and institutions.",
+      "choices": [
+        "The Declaration states ideals; the Ordinance organizes their application",
+        "The Declaration bans slavery; the Ordinance creates natural rights",
+        "The Declaration creates schools; the Ordinance establishes independence",
+        "The Declaration organizes territories; the Ordinance dissolves Congress"
+      ],
+      "answer": 0,
+      "explanation": "The Declaration states ideals; the Ordinance organizes their application.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A policymaker says economic success alone makes government legitimate. Which Declaration standard complicates that claim?",
+      "choices": [
+        "Government must give private owners final authority over law",
+        "Government must preserve inherited status for public officials",
+        "Government must guarantee identical income for every citizen",
+        "Government must also protect rights and rest on consent"
+      ],
+      "answer": 3,
+      "explanation": "Government must also protect rights and rest on consent.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "How does encouraging education complement representative institutions?",
+      "choices": [
+        "Informed residents can participate more effectively in self-government",
+        "Public schools appoint representatives without holding elections",
+        "Educated residents no longer need constitutional protections",
+        "Public schools replace the authority of territorial legislatures"
+      ],
+      "answer": 0,
+      "explanation": "Informed residents can participate more effectively in self-government.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

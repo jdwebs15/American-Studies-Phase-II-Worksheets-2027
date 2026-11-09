@@ -1,0 +1,849 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B9-CS29,30-INTRODUCTION-2027-V2",
+    "title": "Block 9 Introduction — Migration, Demographics, and Public Policy",
+    "type": "introduction",
+    "block": 9,
+    "standards": [
+      29,
+      30
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 29",
+      "prompt": "Households leave a city but continue using regional infrastructure. What fiscal issue may emerge?",
+      "choices": [
+        "Departures reduce fixed public obligations in proportion to lost revenue",
+        "Service responsibilities persist as the tax base shifts",
+        "Regional population growth necessarily raises central-city tax receipts",
+        "Regional growth necessarily increases each municipality's revenue"
+      ],
+      "answer": 1,
+      "explanation": "Service responsibilities persist as the tax base shifts.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare declining revenue with continuing obligations.",
+      "hint": "Compare declining revenue with continuing obligations.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 29",
+      "prompt": "A lender denies credit by neighborhood racial composition. How can this affect wealth?",
+      "choices": [
+        "Restricted ownership equalizes long-term household financial resources",
+        "Mortgage denial affects only the lender's advertising budget",
+        "Mortgage denial directly expands access to suburban schools",
+        "Restricted ownership limits access to property appreciation"
+      ],
+      "answer": 3,
+      "explanation": "Restricted ownership limits access to property appreciation.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow lending access into long-term asset ownership.",
+      "hint": "Follow lending access into long-term asset ownership.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 29",
+      "prompt": "Why might suburban development reinforce educational inequality?",
+      "choices": [
+        "Housing access and district boundaries distribute school resources",
+        "Housing access guarantees equal local property-tax revenue",
+        "School districts determine national eligibility for immigration",
+        "School districts acquire exclusive authority over mortgage lending"
+      ],
+      "answer": 0,
+      "explanation": "Housing access and district boundaries distribute school resources.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect residential patterns with institutional boundaries.",
+      "hint": "Connect residential patterns with institutional boundaries.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 29",
+      "prompt": "A census shows growth in southern states. What political consequence follows?",
+      "choices": [
+        "House representation may shift with apportionment",
+        "The Senate reallocates state seats according to the new census",
+        "Population gains themselves establish a durable majority for one party",
+        "Senate representation must increase proportionately with population"
+      ],
+      "answer": 0,
+      "explanation": "House representation may shift with apportionment.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish population-based representation from equal state representation.",
+      "hint": "Distinguish population-based representation from equal state representation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 29",
+      "prompt": "Compare Rust Belt job losses with Sun Belt hiring.",
+      "choices": [
+        "Regional employment shifts explain migrants' party choices without other factors",
+        "Changing employment geography can redirect internal migration",
+        "Manufacturing decline shows that aggregate national production must also decline",
+        "Regional industrial decline requires ending interstate labor mobility"
+      ],
+      "answer": 1,
+      "explanation": "Changing employment geography can redirect internal migration.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare employment opportunities in origin and destination regions.",
+      "hint": "Compare employment opportunities in origin and destination regions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 29",
+      "prompt": "Why could defense and technology investment influence southern growth?",
+      "choices": [
+        "Employment opportunities eliminated differences among local labor markets",
+        "Federal investment required every migrant to join the military",
+        "Employment opportunities attracted workers and related enterprises",
+        "Federal investment transferred state legislatures to corporate management"
+      ],
+      "answer": 2,
+      "explanation": "Employment opportunities attracted workers and related enterprises.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace investment into jobs and subsequent migration.",
+      "hint": "Trace investment into jobs and subsequent migration.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 29",
+      "prompt": "How did the 1965 act change immigration's regional composition?",
+      "choices": [
+        "Removing national-origins preferences broadened potential admissions",
+        "The act reserved new admissions exclusively for northern Europe",
+        "The act required every newcomer to leave urban centers",
+        "Removing national-origins preferences prohibited family-sponsored immigration"
+      ],
+      "answer": 0,
+      "explanation": "Removing national-origins preferences broadened potential admissions.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check what changed in the admission criteria.",
+      "hint": "Check what changed in the admission criteria."
+    },
+    {
+      "id": "i08",
+      "cs": "CS 29",
+      "prompt": "Why connect immigration trends with language services?",
+      "choices": [
+        "Changing populations make English communication legally unnecessary",
+        "Language services determine national citizenship requirements directly",
+        "Language services prevent immigrants from participating in elections",
+        "Changing populations create different institutional needs"
+      ],
+      "answer": 3,
+      "explanation": "Changing populations create different institutional needs.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect household composition with institutional demand.",
+      "hint": "Connect household composition with institutional demand."
+    },
+    {
+      "id": "i09",
+      "cs": "CS 29",
+      "prompt": "What evidence best tests the political effects of suburbanization?",
+      "choices": [
+        "Only the opening date of one suburban store",
+        "Residential, electoral, and tax patterns over time",
+        "Only the total number of automobiles sold nationally",
+        "A map without demographic or institutional information"
+      ],
+      "answer": 1,
+      "explanation": "Residential, electoral, and tax patterns over time.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Seek evidence connecting residence with politics and resources.",
+      "hint": "Seek evidence connecting residence with politics and resources.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 29",
+      "prompt": "A growing Sun Belt city experiences rising housing costs. What does this qualify?",
+      "choices": [
+        "Regional expansion does not distribute benefits uniformly",
+        "Population growth guarantees higher real wages for everyone",
+        "Population growth necessarily reduces competition for urban land",
+        "Regional expansion requires declining demand for public services"
+      ],
+      "answer": 0,
+      "explanation": "Regional expansion does not distribute benefits uniformly.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate growth in totals from household-level outcomes.",
+      "hint": "Separate growth in totals from household-level outcomes.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 29",
+      "prompt": "Compare immigration with internal Sun Belt migration.",
+      "choices": [
+        "Both reshape communities through different legal and geographic movements",
+        "Both require crossing an international border at entry",
+        "Internal migrants receive congressional seats as individual property",
+        "Internal migrants must renounce previous state citizenship formally"
+      ],
+      "answer": 0,
+      "explanation": "Both reshape communities through different legal and geographic movements.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the boundaries crossed and the rules involved.",
+      "hint": "Compare the boundaries crossed and the rules involved."
+    },
+    {
+      "id": "i12",
+      "cs": "CS 29",
+      "prompt": "Why might suburban and urban voters develop different priorities?",
+      "choices": [
+        "Boundaries establish uniform preferences among residents of each jurisdiction",
+        "Different tax bases and service needs shape interests",
+        "Suburban voters' interests become independent of central-city economic conditions",
+        "Suburban residence determines political party affiliation permanently"
+      ],
+      "answer": 1,
+      "explanation": "Different tax bases and service needs shape interests.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how local circumstances shape public priorities.",
+      "hint": "Consider how local circumstances shape public priorities.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 29",
+      "prompt": "A community expands bilingual education. What historical change may help explain it?",
+      "choices": [
+        "Diversified immigration ended demand for English-language instruction",
+        "Bilingual education required congressional reapportionment before implementation",
+        "Bilingual education reduced the legal authority of local schools",
+        "Diversified immigration increased the number of multilingual households"
+      ],
+      "answer": 3,
+      "explanation": "Diversified immigration increased the number of multilingual households.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for changes in who the institutions serve.",
+      "hint": "Look for changes in who the institutions serve."
+    },
+    {
+      "id": "i14",
+      "cs": "CS 29",
+      "prompt": "Why distinguish population redistribution from automatic electoral victory?",
+      "choices": [
+        "Migration affects demographic composition but never political competition",
+        "Constituencies change, but voters retain varied interests and choices",
+        "Migration transfers election administration directly to census officials",
+        "Constituencies determine each individual's vote without exception"
+      ],
+      "answer": 1,
+      "explanation": "Constituencies change, but voters retain varied interests and choices.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate changes in constituencies from individual political choices.",
+      "hint": "Separate changes in constituencies from individual political choices.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 29",
+      "prompt": "How could white flight and redlining reinforce each other?",
+      "choices": [
+        "Redlining ended the influence of local property values",
+        "Unequal mobility and credit access sustain residential segregation",
+        "Redlining required equal loan approval rates across racial groups",
+        "Unequal mobility guarantees integration of all metropolitan neighborhoods"
+      ],
+      "answer": 1,
+      "explanation": "Unequal mobility and credit access sustain residential segregation.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace unequal access alongside different mobility options.",
+      "hint": "Trace unequal access alongside different mobility options.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 29",
+      "prompt": "Why examine both the sending and receiving regions of migration?",
+      "choices": [
+        "Migration affects only households that physically change addresses",
+        "Sending regions alone acquire new demands for infrastructure",
+        "Receiving regions alone experience changes in political representation",
+        "Population movement redistributes workers, demand, and public resources"
+      ],
+      "answer": 3,
+      "explanation": "Population movement redistributes workers, demand, and public resources.",
+      "standards": [
+        29
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow the consequences at both ends of the move.",
+      "hint": "Follow the consequences at both ends of the move.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 30",
+      "prompt": "Why did Great Society supporters favor public health insurance?",
+      "choices": [
+        "Public insurance principally aimed to replace the existing private medical system",
+        "Federal financing chiefly addressed the training needs of military physicians",
+        "Federal health financing primarily addressed overseas military alliances",
+        "Markets left significant gaps in access and security"
+      ],
+      "answer": 3,
+      "explanation": "Markets left significant gaps in access and security.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify the gap public financing was intended to address.",
+      "hint": "Identify the gap public financing was intended to address.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 30",
+      "prompt": "Why did critics question expanded social-welfare commitments?",
+      "choices": [
+        "Cost and dependency concerns challenged the proposed benefits",
+        "Critics opposed social spending chiefly because its benefits were uniformly received",
+        "Critics treated expanding eligibility as a sufficient guarantee of fiscal savings",
+        "Critics agreed that private markets served no public purpose"
+      ],
+      "answer": 0,
+      "explanation": "Cost and dependency concerns challenged the proposed benefits.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish disagreement over programs from rejecting all government.",
+      "hint": "Distinguish disagreement over programs from rejecting all government.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 30",
+      "prompt": "Compare supply-side tax cuts with direct job programs.",
+      "choices": [
+        "Both strategies operate primarily by directly hiring workers onto federal payrolls",
+        "Supply-side reductions chiefly increase demand through immediate public employment",
+        "They propose different mechanisms for increasing economic activity",
+        "They produce the same distribution of immediate federal benefits"
+      ],
+      "answer": 2,
+      "explanation": "They propose different mechanisms for increasing economic activity.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the proposed paths from spending or incentives to growth.",
+      "hint": "Compare the proposed paths from spending or incentives to growth.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 30",
+      "prompt": "Why could environmental protection justify action beyond individual choice?",
+      "choices": [
+        "Pollution affects only those voluntarily buying a product",
+        "Private ownership always supplies complete information about risks",
+        "Private ownership prevents industrial emissions from crossing boundaries",
+        "Pollution imposes harms on people outside a transaction"
+      ],
+      "answer": 3,
+      "explanation": "Pollution imposes harms on people outside a transaction.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask who bears costs without choosing the transaction.",
+      "hint": "Ask who bears costs without choosing the transaction.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-1-identity-politics-in-a-fractured-society"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 30",
+      "prompt": "An employer cites compliance costs while residents cite polluted water. What is debated?",
+      "choices": [
+        "Whether water quality has any relationship to public health",
+        "How to weigh economic burdens against collective protections",
+        "Whether every factory should receive identical public subsidies",
+        "Whether residents should administer the national military budget"
+      ],
+      "answer": 1,
+      "explanation": "How to weigh economic burdens against collective protections.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate immediate business burdens from wider public effects.",
+      "hint": "Separate immediate business burdens from wider public effects.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-1-identity-politics-in-a-fractured-society"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 30",
+      "prompt": "How did environmental research influence arguments for the EPA?",
+      "choices": [
+        "Research settled the proper level of regulation without political choices",
+        "Agency creation demonstrated that environmental effects were principally local matters",
+        "Evidence of widespread harm supported coordinated oversight",
+        "Creating an agency automatically removed all pollution sources"
+      ],
+      "answer": 2,
+      "explanation": "Evidence of widespread harm supported coordinated oversight.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect evidence of harm with arguments for oversight.",
+      "hint": "Connect evidence of harm with arguments for oversight.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-1-identity-politics-in-a-fractured-society"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 30",
+      "prompt": "A president defends surveillance of antiwar groups. What constitutional issue follows?",
+      "choices": [
+        "Opposition to a war supplies evidence equivalent to participation in violent crime",
+        "Executive security claims remove the need to consider investigative safeguards",
+        "Security claims must be weighed against lawful dissent",
+        "Security claims establish guilt from political disagreement alone"
+      ],
+      "answer": 2,
+      "explanation": "Security claims must be weighed against lawful dissent.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare public safety claims with lawful political participation.",
+      "hint": "Compare public safety claims with lawful political participation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 30",
+      "prompt": "Why could inflation and unemployment produce changing attitudes toward government?",
+      "choices": [
+        "Economic conditions affect judgments about policy performance",
+        "Policy preferences arise only from foreign military events",
+        "Economic conditions eliminate partisan differences over public priorities",
+        "Policy preferences remain independent of households' experiences"
+      ],
+      "answer": 0,
+      "explanation": "Economic conditions affect judgments about policy performance.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how outcomes influence judgments about methods.",
+      "hint": "Consider how outcomes influence judgments about methods.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 30",
+      "prompt": "Compare regulation of banking and regulation of pollution.",
+      "choices": [
+        "Both address market outcomes through different public safeguards",
+        "Both require ending all private ownership in affected industries",
+        "Banking rules concern only workers' voting qualifications",
+        "Pollution rules concern only domestic national-security investigations"
+      ],
+      "answer": 0,
+      "explanation": "Both address market outcomes through different public safeguards.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify the different risks each rule addresses.",
+      "hint": "Identify the different risks each rule addresses.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-1-identity-politics-in-a-fractured-society"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 30",
+      "prompt": "Why is a simple government-versus-no-government label inadequate?",
+      "choices": [
+        "Market-oriented policy requires government to abandon regulatory design decisions",
+        "Disagreements often concern scope, instruments, and distribution",
+        "Social provision operates outside debates about funding and implementation",
+        "Social-welfare policies require abolishing representative institutions"
+      ],
+      "answer": 1,
+      "explanation": "Disagreements often concern scope, instruments, and distribution.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the scope and means advocates actually propose.",
+      "hint": "Compare the scope and means advocates actually propose.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 30",
+      "prompt": "A program reduces poverty but increases expenditures. How should its effects be evaluated?",
+      "choices": [
+        "Expenditure growth alone establishes that the program failed",
+        "Poverty reduction alone answers every question about financing",
+        "Benefits and costs need comparison against stated objectives",
+        "A program's name provides sufficient evidence of effectiveness"
+      ],
+      "answer": 2,
+      "explanation": "Benefits and costs need comparison against stated objectives.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Use the stated goal as well as its cost.",
+      "hint": "Use the stated goal as well as its cost.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 30",
+      "prompt": "Why did national-security disagreements continue during domestic reform?",
+      "choices": [
+        "Military commitments made domestic welfare priorities independent of fiscal constraints",
+        "Foreign conflict reduced the importance of civil liberties inside the country",
+        "Foreign conflict made poverty and discrimination historically irrelevant",
+        "Foreign conflict raised competing resource and liberty concerns"
+      ],
+      "answer": 3,
+      "explanation": "Foreign conflict raised competing resource and liberty concerns.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how foreign and domestic priorities can compete.",
+      "hint": "Consider how foreign and domestic priorities can compete.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 30",
+      "prompt": "How could deregulation help some groups while exposing others to risk?",
+      "choices": [
+        "Reducing oversight chiefly equalizes bargaining power among affected parties",
+        "Regulation changes administrative costs without affecting protections or market incentives",
+        "Reduced restrictions alter both opportunities and safeguards",
+        "Reduced restrictions guarantee identical benefits across all households"
+      ],
+      "answer": 2,
+      "explanation": "Reduced restrictions alter both opportunities and safeguards.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask who gains flexibility and who loses protection.",
+      "hint": "Ask who gains flexibility and who loses protection.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 30",
+      "prompt": "Why examine public opinion alongside actual policy results?",
+      "choices": [
+        "Support reflects expectations that outcomes may confirm or challenge",
+        "Policy outcomes are determined entirely by campaign advertisements",
+        "Policy outcomes cannot influence later electoral debates",
+        "Support proves policies achieved all their stated objectives"
+      ],
+      "answer": 0,
+      "explanation": "Support reflects expectations that outcomes may confirm or challenge.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish public expectations from measured consequences.",
+      "hint": "Distinguish public expectations from measured consequences.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 30",
+      "prompt": "Compare Medicare and Medicaid as evidence of federal expansion.",
+      "choices": [
+        "Both programs extended the same health benefits to a universal population",
+        "Federal financing eliminated the importance of state administration and eligibility",
+        "Both broadened health-financing responsibilities through distinct eligibility designs",
+        "Both focused exclusively on regulating environmental industrial emissions"
+      ],
+      "answer": 2,
+      "explanation": "Both broadened health-financing responsibilities through distinct eligibility designs.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare eligibility and responsibility before assuming uniform coverage.",
+      "hint": "Compare eligibility and responsibility before assuming uniform coverage.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 30",
+      "prompt": "What connects debates over welfare, environment, and security?",
+      "choices": [
+        "The debates reflect a consistent preference for the same policy instruments",
+        "The debates concern separate problems without a shared question of public responsibility",
+        "They contest how public power should address collective concerns",
+        "They arise independently of economic and social conditions"
+      ],
+      "answer": 2,
+      "explanation": "They contest how public power should address collective concerns.",
+      "standards": [
+        30
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify the shared question beneath the different policy areas.",
+      "hint": "Identify the shared question beneath the different policy areas.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "How could suburban migration weaken city services?",
+      "choices": [
+        "Population losses chiefly reduced municipal obligations before reducing revenues",
+        "Suburban growth provided a direct compensating tax transfer to central cities",
+        "New suburbs automatically funded every urban program",
+        "A reduced tax base constrained public resources"
+      ],
+      "answer": 3,
+      "explanation": "A reduced tax base constrained public resources.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow residents' movement into municipal revenue.",
+      "hint": "Follow residents' movement into municipal revenue.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Why did redlining reinforce unequal wealth accumulation?",
+      "choices": [
+        "Mortgage maps ended residential racial segregation",
+        "Restricted mortgage access limited ownership opportunities",
+        "Mortgage maps guaranteed fair lending everywhere",
+        "Restricted mortgage access equalized property values"
+      ],
+      "answer": 1,
+      "explanation": "Restricted mortgage access limited ownership opportunities.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how access to credit affects asset building.",
+      "hint": "Consider how access to credit affects asset building.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-3-the-american-dream"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "How did Sun Belt growth alter political power?",
+      "choices": [
+        "Population shifts changed congressional apportionment",
+        "Population movement increased each growing state's Senate delegation proportionately",
+        "Regional growth assigned representatives according to economic output rather than population",
+        "Internal migration ended the Electoral College"
+      ],
+      "answer": 0,
+      "explanation": "Population shifts changed congressional apportionment.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check which legislative chamber uses population apportionment.",
+      "hint": "Check which legislative chamber uses population apportionment.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Why did the 1965 Immigration Act change demographics?",
+      "choices": [
+        "The act required equal regional birthrates",
+        "The act ended citizenship for immigrant families",
+        "Revised admission rules broadened migration origins",
+        "Revised admission rules banned all Asian migration"
+      ],
+      "answer": 2,
+      "explanation": "Revised admission rules broadened migration origins.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-29",
+      "where": "Section CS 29 — Residential change, migration, and political power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Inspect the admission framework rather than assuming uniform origins.",
+      "hint": "Inspect the admission framework rather than assuming uniform origins."
+    },
+    {
+      "id": "i37",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Compare Great Society policy with Reagan-era economic policy.",
+      "choices": [
+        "Both approaches expanded direct federal provision through comparable policy mechanisms",
+        "Reagan-era reforms chiefly extended Great Society eligibility rules and regulatory methods",
+        "Federal social provision contrasted with market-oriented tax and regulatory changes",
+        "Both eliminated federal involvement in health care"
+      ],
+      "answer": 2,
+      "explanation": "Federal social provision contrasted with market-oriented tax and regulatory changes.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare mechanisms of provision and market incentives.",
+      "hint": "Compare mechanisms of provision and market incentives.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Why did pollution generate debate over government's role?",
+      "choices": [
+        "Environmental harms affected only voluntary individual choices",
+        "Pollution eliminated disagreements about regulatory costs",
+        "Pollution required abolishing every industrial enterprise",
+        "Environmental harms crossed private property and local boundaries"
+      ],
+      "answer": 3,
+      "explanation": "Environmental harms crossed private property and local boundaries.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider harms extending beyond an individual purchase.",
+      "hint": "Consider harms extending beyond an individual purchase.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-1-identity-politics-in-a-fractured-society"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "How could antiwar surveillance create a constitutional debate?",
+      "choices": [
+        "Security investigations of dissent inherently carried the same proof as criminal convictions",
+        "Security claims competed with protections for political dissent",
+        "Public opposition to war placed political activity outside constitutional protection",
+        "Public protest transferred police powers to foreign governments"
+      ],
+      "answer": 1,
+      "explanation": "Security claims competed with protections for political dissent.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate security investigation from lawful expression.",
+      "hint": "Separate security investigation from lawful expression.",
+      "externalSource": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Why did Medicare and Medicaid expand federal responsibility?",
+      "choices": [
+        "Health financing mainly reduced public responsibility by shifting costs to charities",
+        "Federal participation restricted health care to providers operated directly by Congress",
+        "Government ended public support for medical care",
+        "Government assumed broader health-financing commitments"
+      ],
+      "answer": 3,
+      "explanation": "Government assumed broader health-financing commitments.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-9.html#cs-30",
+      "where": "Section CS 30 — Contested responsibilities for collective problems. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify what responsibility the financing programs assigned to government.",
+      "hint": "Identify what responsibility the financing programs assigned to government.",
+      "externalSource": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

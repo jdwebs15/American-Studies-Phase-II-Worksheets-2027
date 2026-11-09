@@ -1,0 +1,15 @@
+{
+  "rebuiltWorksheetCount": 24,
+  "rebuiltQuestionCount": 840,
+  "vocabularySetsPreserved": 12,
+  "vocabularyQuestionCount": 348,
+  "allWorksheetQuestionsEmbedded": true,
+  "externalQuestionFiles": 0,
+  "strictAudit": "passed",
+  "browserChecks": 33,
+  "vocabularyBrowserCompletions": 12,
+  "localSourceAnchorsChecked": 480,
+  "externalHTTPCitationsChecked": 44,
+  "liveAppsScriptTested": false,
+  "mainModified": false
+}

@@ -1,0 +1,854 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B1-CS4,5-INTRODUCTION-2027-V2",
+    "title": "Block 1 Introduction — Declaration and Northwest Ordinance",
+    "type": "introduction",
+    "block": 1,
+    "standards": [
+      4,
+      5
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 4",
+      "prompt": "A declaration says rights are unalienable. A legislature claims it may revoke liberty by majority vote. Which reasoning challenges the legislature?",
+      "choices": [
+        "Election results settle rights disputes",
+        "Voting cannot create unlimited authority",
+        "Liberty depends on legislative generosity",
+        "Majority rule requires unanimous approval"
+      ],
+      "answer": 1,
+      "explanation": "Voting cannot create unlimited authority.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate a right's origin from majority preferences.",
+      "hint": "Separate a right's origin from majority preferences.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 4",
+      "prompt": "A government cites public order to ban criticism of its leaders. How does the Declaration's account of government's purpose apply?",
+      "choices": [
+        "Order must serve protected rights",
+        "Criticism requires the ruler's permission",
+        "Order takes priority over consent",
+        "Criticism ends all civic obligations"
+      ],
+      "answer": 0,
+      "explanation": "Order must serve protected rights.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare government's stated purpose with its conduct.",
+      "hint": "Compare government's stated purpose with its conduct.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 4",
+      "prompt": "A tax protest cites lack of representation rather than the tax amount. What political relationship is being challenged?",
+      "choices": [
+        "Rights protected without written constitutions",
+        "Commerce conducted without foreign markets",
+        "Authority exercised without public consent",
+        "Property held without equal valuation"
+      ],
+      "answer": 2,
+      "explanation": "Authority exercised without public consent.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish the size of a burden from consent.",
+      "hint": "Distinguish the size of a burden from consent.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 4",
+      "prompt": "An abolitionist distinguishes a founding ideal from founding practice. Which evidence best supports that distinction?",
+      "choices": [
+        "Royal grievances alongside colonial petitions",
+        "Congressional debate alongside printed pamphlets",
+        "Military resistance alongside diplomatic appeals",
+        "Equality language alongside continued enslavement"
+      ],
+      "answer": 3,
+      "explanation": "Equality language alongside continued enslavement.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare a stated principle with who received protection.",
+      "hint": "Compare a stated principle with who received protection.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 4",
+      "prompt": "A reformer argues that a marginalized group deserves rights because its members are human. Which premise supports this claim?",
+      "choices": [
+        "Rights arise from property qualifications",
+        "Rights arise from inherited obligations",
+        "Rights arise from officeholding privileges",
+        "Rights arise from human status"
+      ],
+      "answer": 3,
+      "explanation": "Rights arise from human status.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whether the claim depends on citizenship or humanity.",
+      "hint": "Ask whether the claim depends on citizenship or humanity.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 4",
+      "prompt": "A ruler permits voting but denies religious liberty. Why does consent alone provide an incomplete defense?",
+      "choices": [
+        "Government also must protect rights",
+        "Voting requires a common religion",
+        "Religion determines legitimate political authority",
+        "Religious disputes invalidate all elections"
+      ],
+      "answer": 0,
+      "explanation": "Government also must protect rights.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the difference between authorization and legal limits.",
+      "hint": "Consider the difference between authorization and legal limits.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 4",
+      "prompt": "The Declaration links abuses with failed petitions. Why include both in the argument for separation?",
+      "choices": [
+        "They demonstrate sustained unresponsive rule",
+        "They establish parliamentary legislative supremacy",
+        "They substitute voting for natural rights",
+        "They explain territorial admission procedures"
+      ],
+      "answer": 0,
+      "explanation": "They demonstrate sustained unresponsive rule.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace how unsuccessful remedies strengthen the larger argument.",
+      "hint": "Trace how unsuccessful remedies strengthen the larger argument.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 4",
+      "prompt": "A historian says independence immediately fulfilled equality. Which comparison most effectively tests that claim?",
+      "choices": [
+        "State boundaries versus population distribution",
+        "Declaration publication versus battlefield victories",
+        "Colonial exports versus British military spending",
+        "Political independence versus unequal legal status"
+      ],
+      "answer": 3,
+      "explanation": "Political independence versus unequal legal status.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Test legal status separately from military independence.",
+      "hint": "Test legal status separately from military independence.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 4",
+      "prompt": "A representative defends censorship as the voters' preference. Which distinction matters under Declaration principles?",
+      "choices": [
+        "National offices versus provincial capitals",
+        "Economic interests versus geographic regions",
+        "Delegated power versus inherent rights",
+        "Written policies versus oral statements"
+      ],
+      "answer": 2,
+      "explanation": "Delegated power versus inherent rights.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish delegated authority from ownership of a right.",
+      "hint": "Distinguish delegated authority from ownership of a right.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 4",
+      "prompt": "Residents petition for voting access using consent language. Why is their claim historically connected to the Declaration?",
+      "choices": [
+        "Representation concerns only foreign diplomatic recognition",
+        "Exclusion ends the need for legislation",
+        "Exclusion questions the source of authority",
+        "Representation requires identical individual opinions"
+      ],
+      "answer": 2,
+      "explanation": "Exclusion questions the source of authority.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whose authorization is missing from this arrangement.",
+      "hint": "Ask whose authorization is missing from this arrangement.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 4",
+      "prompt": "A citizen opposes one law and demands immediate revolution. Which part of the Declaration complicates that argument?",
+      "choices": [
+        "Listing signers separately from royal grievances",
+        "Distinguishing temporary grievances from sustained abuses",
+        "Distinguishing civil government from foreign trade",
+        "Listing military conflicts before political principles"
+      ],
+      "answer": 1,
+      "explanation": "Distinguishing temporary grievances from sustained abuses.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for the threshold used to justify political separation.",
+      "hint": "Look for the threshold used to justify political separation.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 4",
+      "prompt": "What evidence would best assess whether a government follows the Declaration's stated purpose?",
+      "choices": [
+        "Number of officials and administrative buildings",
+        "Popularity of leaders and military uniforms",
+        "Growth of revenue and territorial boundaries",
+        "Treatment of rights and public accountability"
+      ],
+      "answer": 3,
+      "explanation": "Treatment of rights and public accountability.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Choose evidence about conduct rather than institutional appearance.",
+      "hint": "Choose evidence about conduct rather than institutional appearance.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 4",
+      "prompt": "A women's-rights petition adapts the Declaration's equality language. What does this strategy accomplish?",
+      "choices": [
+        "Replaces political consent with judicial appointment",
+        "Transfers state suffrage rules to foreign governments",
+        "Judges exclusion against an acknowledged principle",
+        "Treats founding grievances as current criminal statutes"
+      ],
+      "answer": 2,
+      "explanation": "Judges exclusion against an acknowledged principle.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify the shared principle the petition adapts.",
+      "hint": "Identify the shared principle the petition adapts.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 4",
+      "prompt": "A student argues rights exist only when courts enforce them. Which Declaration-based response distinguishes principle from practice?",
+      "choices": [
+        "Judicial protection requires unanimous political consent",
+        "Enforcement protects rights regarded as preexisting",
+        "Judicial disagreement removes every underlying right",
+        "Enforcement creates rights through royal tradition"
+      ],
+      "answer": 1,
+      "explanation": "Enforcement protects rights regarded as preexisting.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate having a right from successfully enforcing it.",
+      "hint": "Separate having a right from successfully enforcing it.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 4",
+      "prompt": "A majority supports a policy restricting a minority's peaceful religious practices. Which distinction is most useful when evaluating it through Declaration principles?",
+      "choices": [
+        "Public authorization does not erase obligations to protect inherent rights",
+        "Consent permits elected representatives to redefine basic rights as privileges",
+        "A policy's popularity is sufficient evidence that its protections are equitable",
+        "Religious disagreements establish that rights depend on the majority's approval"
+      ],
+      "answer": 0,
+      "explanation": "Public authorization does not erase obligations to protect inherent rights.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whether the argument is a principle or merely a complaint.",
+      "hint": "Ask whether the argument is a principle or merely a complaint.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 4",
+      "prompt": "A policymaker equates protecting rights with granting favors. Which comparison corrects that interpretation?",
+      "choices": [
+        "Immediate outcomes versus distant historical consequences",
+        "Obligations owed to people versus discretionary benefits",
+        "Benefits distributed nationally versus benefits distributed locally",
+        "Formal legislation versus informal public discussion"
+      ],
+      "answer": 1,
+      "explanation": "Obligations owed to people versus discretionary benefits.",
+      "standards": [
+        4
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish duties to citizens from discretionary assistance.",
+      "hint": "Distinguish duties to citizens from discretionary assistance.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 5",
+      "prompt": "Territorial officials must recognize jury trials. What governing precedent does this establish?",
+      "choices": [
+        "Public authority operates within legal safeguards",
+        "Public authority derives solely from personal discretion",
+        "Juries possess power to select national legislators",
+        "Juries determine the timing of state admission"
+      ],
+      "answer": 0,
+      "explanation": "Public authority operates within legal safeguards.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider protections that bind officials before state admission.",
+      "hint": "Consider protections that bind officials before state admission.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 5",
+      "prompt": "Article III encourages schools alongside good government. What connection is being proposed?",
+      "choices": [
+        "School ownership determines federal political jurisdiction",
+        "Public learning supports responsible self-government",
+        "School attendance establishes congressional district boundaries",
+        "Public learning replaces representative legislative institutions"
+      ],
+      "answer": 1,
+      "explanation": "Public learning supports responsible self-government.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace the link between civic knowledge and participation.",
+      "hint": "Trace the link between civic knowledge and participation.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 5",
+      "prompt": "A territory is promised admission on equal footing. How does this shape expansion's political meaning?",
+      "choices": [
+        "Admission requires surrendering all local legislative powers",
+        "Growth can enlarge membership rather than dependency",
+        "Growth reserves full sovereignty for original states",
+        "Admission creates permanent western military provinces"
+      ],
+      "answer": 1,
+      "explanation": "Growth can enlarge membership rather than dependency.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare membership in a union with subordinate colonial status.",
+      "hint": "Compare membership in a union with subordinate colonial status.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 5",
+      "prompt": "A governor orders indefinite detention without review. Which Ordinance principle provides the most relevant challenge?",
+      "choices": [
+        "Imprisonment remains subject to legal examination",
+        "State borders follow specified geographical limits",
+        "Education remains a public policy responsibility",
+        "State admission requires a republican constitution"
+      ],
+      "answer": 0,
+      "explanation": "Imprisonment remains subject to legal examination.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify the safeguard addressing confinement rather than elections.",
+      "hint": "Identify the safeguard addressing confinement rather than elections.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 5",
+      "prompt": "Why distinguish slavery's prohibition in the territory from slavery's existence elsewhere?",
+      "choices": [
+        "The territorial rule depended on approval by existing slave states",
+        "The territorial provision amended slavery laws within existing states",
+        "Territorial boundaries determine every person's citizenship",
+        "Geographic scope limits the policy's reach"
+      ],
+      "answer": 3,
+      "explanation": "Geographic scope limits the policy's reach.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check the geographic reach of the provision.",
+      "hint": "Check the geographic reach of the provision.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 5",
+      "prompt": "A settler says protections begin only after statehood. What evidence challenges that position?",
+      "choices": [
+        "Territorial guarantees applied chiefly to admission conventions",
+        "Congress deferred legal protections until a state constitution existed",
+        "The Ordinance protects liberties during territorial governance",
+        "The Ordinance creates a national bill of rights"
+      ],
+      "answer": 2,
+      "explanation": "The Ordinance protects liberties during territorial governance.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Locate when the listed protections become applicable.",
+      "hint": "Locate when the listed protections become applicable.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 5",
+      "prompt": "How does a religious-liberty guarantee constrain territorial government?",
+      "choices": [
+        "Religious communities receive exclusive legislative authority",
+        "Officials cannot condition protection on approved belief",
+        "Officials must require public agreement on doctrine",
+        "Religious practice determines boundaries between future states"
+      ],
+      "answer": 1,
+      "explanation": "Officials cannot condition protection on approved belief.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate public authority from religious approval.",
+      "hint": "Separate public authority from religious approval.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 5",
+      "prompt": "Why did a staged admission process matter for national stability?",
+      "choices": [
+        "It reserved representation for the original states",
+        "It placed new states below Congress in constitutional status",
+        "It eliminated disagreement over settlement and land",
+        "It offered an institutional route into the union"
+      ],
+      "answer": 3,
+      "explanation": "It offered an institutional route into the union.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow the path from temporary institutions to admission.",
+      "hint": "Follow the path from temporary institutions to admission.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 5",
+      "prompt": "A proposed western constitution creates hereditary rule. Which Ordinance precedent makes this objectionable?",
+      "choices": [
+        "Governors had to be chosen by the existing president",
+        "Western legislatures had to follow inherited property titles",
+        "New states must reproduce original state borders",
+        "New states must use republican institutions"
+      ],
+      "answer": 3,
+      "explanation": "New states must use republican institutions.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish republican institutions from inherited personal office.",
+      "hint": "Distinguish republican institutions from inherited personal office.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 5",
+      "prompt": "Compare a protected jury trial with a governor's promise to be fair. Why is the former significant?",
+      "choices": [
+        "A personal promise establishes permanent judicial independence",
+        "A personal promise removes the need for courts",
+        "A legal rule constrains changing officeholders",
+        "A legal rule requires identical jury verdicts"
+      ],
+      "answer": 2,
+      "explanation": "A legal rule constrains changing officeholders.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider whether protection survives a change in governor.",
+      "hint": "Consider whether protection survives a change in governor.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 5",
+      "prompt": "A historian praises civil liberties but notes restricted voting eligibility. Which interpretation fits the evidence?",
+      "choices": [
+        "Territorial admission itself removed existing participation restrictions",
+        "Liberties were chiefly privileges of appointed territorial officeholders",
+        "Voting restrictions resulted from later constitutional amendments",
+        "Rights advances coexisted with political exclusions"
+      ],
+      "answer": 3,
+      "explanation": "Rights advances coexisted with political exclusions.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish guarantees of liberty from eligibility to vote.",
+      "hint": "Distinguish guarantees of liberty from eligibility to vote.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 5",
+      "prompt": "Why can education provisions be studied as a governing precedent?",
+      "choices": [
+        "They establish federal ownership of every school",
+        "They make education a replacement for elections",
+        "They recognize schooling as a public concern",
+        "They require teachers to appoint territorial officials"
+      ],
+      "answer": 2,
+      "explanation": "They recognize schooling as a public concern.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask why government publicly encourages this activity.",
+      "hint": "Ask why government publicly encourages this activity.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 5",
+      "prompt": "The Ordinance prohibited slavery while enabling settlement that threatened Indigenous lands. What should analysis recognize?",
+      "choices": [
+        "Different groups experienced expansion's provisions differently",
+        "The slavery provision also settled Indigenous sovereignty claims",
+        "The education provision transferred tribal lands through consent",
+        "Every affected community gained equivalent political protection"
+      ],
+      "answer": 0,
+      "explanation": "Different groups experienced expansion's provisions differently.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the experiences of different affected communities.",
+      "hint": "Compare the experiences of different affected communities.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 5",
+      "prompt": "A western resident asks why new states should have equal status. What political danger does that arrangement reduce?",
+      "choices": [
+        "Competition between private firms for western trade",
+        "Permanent inequality between older and newer members",
+        "Disagreement among jurors hearing territorial criminal cases",
+        "Differences between religious communities receiving legal protection"
+      ],
+      "answer": 1,
+      "explanation": "Permanent inequality between older and newer members.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how unequal permanent status could affect loyalty.",
+      "hint": "Consider how unequal permanent status could affect loyalty.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 5",
+      "prompt": "Compare the Declaration's consent principle with republican statehood requirements. What relationship is strongest?",
+      "choices": [
+        "An institutional arrangement applies a political ideal",
+        "A territorial boundary replaces a natural-rights claim",
+        "A criminal procedure establishes an independence declaration",
+        "A school policy supersedes every representative institution"
+      ],
+      "answer": 0,
+      "explanation": "An institutional arrangement applies a political ideal.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Match an abstract principle with a governing arrangement.",
+      "hint": "Match an abstract principle with a governing arrangement.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 5",
+      "prompt": "Why must an account of the Ordinance distinguish precedent from complete implementation?",
+      "choices": [
+        "Written guarantees were only private philosophical suggestions",
+        "Territorial officials could change admission terms without Congress",
+        "Written guarantees did not ensure equal lived protection",
+        "Territorial officials lacked any responsibility to implement law"
+      ],
+      "answer": 2,
+      "explanation": "Written guarantees did not ensure equal lived protection.",
+      "standards": [
+        5
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish the text's protection from its enforcement.",
+      "hint": "Distinguish the text's protection from its enforcement.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A petition invokes natural rights denied by a state law. What gives its argument force?",
+      "choices": [
+        "Rights precede government approval",
+        "Rights require unanimous agreement",
+        "Rights follow property ownership",
+        "Rights depend on legislative grants"
+      ],
+      "answer": 0,
+      "explanation": "Rights precede government approval.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare inherent rights with permission from lawmakers.",
+      "hint": "Compare inherent rights with permission from lawmakers.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "Why could abolitionists use the Declaration against slavery?",
+      "choices": [
+        "Its signers granted universal citizenship",
+        "Its equality principle exceeded existing practice",
+        "Its text established federal emancipation",
+        "Its grievances prohibited every plantation"
+      ],
+      "answer": 1,
+      "explanation": "Its equality principle exceeded existing practice.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check whether ideals and actual inclusion developed together.",
+      "hint": "Check whether ideals and actual inclusion developed together.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "A government holds elections but jails religious dissenters. Evaluate its legitimacy under the Declaration.",
+      "choices": [
+        "Majority approval creates natural rights",
+        "Civil liberties depend on wartime needs",
+        "Consent does not excuse violating rights",
+        "Elections justify restrictions on belief"
+      ],
+      "answer": 2,
+      "explanation": "Consent does not excuse violating rights.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Evaluate consent and liberty as separate requirements.",
+      "hint": "Evaluate consent and liberty as separate requirements.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 4",
+      "standards": [
+        4
+      ],
+      "prompt": "Why did later suffragists connect representation with consent?",
+      "choices": [
+        "Voting replaced protection of individual rights",
+        "Exclusion challenged government by the governed",
+        "Representation required identical policy views",
+        "Consent removed limits on national power"
+      ],
+      "answer": 1,
+      "explanation": "Exclusion challenged government by the governed.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-4",
+      "where": "Section CS 4 — Rights, consent, and marginalized groups. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask how exclusion affects claims of public authorization.",
+      "hint": "Ask how exclusion affects claims of public authorization.",
+      "externalSource": "https://www.archives.gov/founding-docs/declaration-transcript"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "A territory funds schools for future voters. Which Ordinance precedent explains this choice?",
+      "choices": [
+        "Education sustains republican government",
+        "Education replaces representative institutions",
+        "Schooling exempts residents from taxation",
+        "Schooling determines national citizenship"
+      ],
+      "answer": 0,
+      "explanation": "Education sustains republican government.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace why education might matter to public decisions.",
+      "hint": "Trace why education might matter to public decisions.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Why did territorial jury protections matter before statehood?",
+      "choices": [
+        "Rights began only after congressional admission",
+        "Juries replaced all appointed officials",
+        "Rights constrained temporary governing officials",
+        "Juries selected the territorial boundaries"
+      ],
+      "answer": 2,
+      "explanation": "Rights constrained temporary governing officials.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider whether rights depend on completed state admission.",
+      "hint": "Consider whether rights depend on completed state admission.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "How did equal statehood reduce a danger of western expansion?",
+      "choices": [
+        "It guaranteed unanimous territorial decisions",
+        "It removed Congress from territorial affairs",
+        "It prohibited migration from original states",
+        "It avoided permanent subordinate provinces"
+      ],
+      "answer": 3,
+      "explanation": "It avoided permanent subordinate provinces.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish future equal membership from permanent dependency.",
+      "hint": "Distinguish future equal membership from permanent dependency.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 5",
+      "standards": [
+        5
+      ],
+      "prompt": "Compare Article 6 with slavery in existing states in 1787.",
+      "choices": [
+        "Territorial prohibition immediately freed everyone",
+        "Existing state law required western slavery",
+        "Existing state law nullified the Ordinance",
+        "Territorial prohibition coexisted with national slavery"
+      ],
+      "answer": 3,
+      "explanation": "Territorial prohibition coexisted with national slavery.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-1.html#cs-5",
+      "where": "Section CS 5 — Liberties, education, and republican statehood. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check where the prohibition applied and where it did not.",
+      "hint": "Check where the prohibition applied and where it did not.",
+      "externalSource": "https://www.archives.gov/milestone-documents/northwest-ordinance"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

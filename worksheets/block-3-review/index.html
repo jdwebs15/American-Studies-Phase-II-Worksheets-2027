@@ -1,7 +1,524 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B3-CS14,15-REVIEW-2027-V2",
+    "title": "Block 3 Review — World Power and Isolationism",
+    "type": "review",
+    "block": 3,
+    "standards": [
+      14,
+      15
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "An admiral seeks bases near Asian routes. What connects commerce and strategy?",
+      "choices": [
+        "Naval reach could protect expanding trade",
+        "Asian markets required abandoning Pacific defenses",
+        "Asian markets prohibited American merchant shipping",
+        "Naval reach would replace every commercial treaty"
+      ],
+      "answer": 0,
+      "explanation": "Naval reach could protect expanding trade.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "Why did annexing Hawaii have effects beyond plantation ownership?",
+      "choices": [
+        "Annexation transferred the navy to territorial officials",
+        "Annexation guaranteed equal political rights immediately",
+        "Pacific location removed disputes about American expansion",
+        "Pacific location strengthened commercial and military reach"
+      ],
+      "answer": 3,
+      "explanation": "Pacific location strengthened commercial and military reach.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "A critic rejects ruling overseas peoples without consent. What contradiction does the critic emphasize?",
+      "choices": [
+        "Overseas trade prevented national military development",
+        "Imperial control conflicted with self-government ideals",
+        "Imperial control required ending maritime commerce",
+        "Overseas trade contradicted all constitutional taxation"
+      ],
+      "answer": 1,
+      "explanation": "Imperial control conflicted with self-government ideals.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "How did the Spanish-American War accelerate a longer development?",
+      "choices": [
+        "Victory eliminated debates about cultural superiority",
+        "Victory reversed industrial production into subsistence farming",
+        "Victory converted expansionist ambitions into overseas control",
+        "Victory ended competition for international markets"
+      ],
+      "answer": 2,
+      "explanation": "Victory converted expansionist ambitions into overseas control.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "Compare economic motives and cultural justifications for expansion.",
+      "choices": [
+        "Markets offered incentives; superiority claims rationalized control",
+        "Both required immediate political equality for colonized peoples",
+        "Markets demanded isolation; superiority claims prohibited intervention",
+        "Both opposed competition among industrial nations"
+      ],
+      "answer": 0,
+      "explanation": "Markets offered incentives; superiority claims rationalized control.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "Why could a larger navy influence diplomacy without fighting?",
+      "choices": [
+        "Credible force abolished treaty negotiations",
+        "Credible force strengthened bargaining leverage",
+        "Naval investment ended rival military spending",
+        "Naval investment eliminated the need for bases"
+      ],
+      "answer": 1,
+      "explanation": "Credible force strengthened bargaining leverage.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "How did World War I differ from earlier overseas expansion?",
+      "choices": [
+        "The war restored Spanish control of Caribbean possessions",
+        "The war prohibited American participation in global finance",
+        "Mass mobilization eliminated America's overseas responsibilities",
+        "Mass mobilization increased influence in a European conflict"
+      ],
+      "answer": 3,
+      "explanation": "Mass mobilization increased influence in a European conflict.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "Which evidence best supports America's rising relative power after 1918?",
+      "choices": [
+        "Europe needed reconstruction while American industrial capacity remained strong",
+        "American shipping ceased trading outside the Western Hemisphere",
+        "Europe avoided wartime debt while American factories disappeared",
+        "American leaders withdrew all diplomats from foreign capitals"
+      ],
+      "answer": 0,
+      "explanation": "Europe needed reconstruction while American industrial capacity remained strong.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "Why is economic growth alone insufficient to explain emerging world power?",
+      "choices": [
+        "Military reach and overseas decisions also mattered",
+        "Foreign policy followed only the size of the population",
+        "Industrial output had no connection to foreign influence",
+        "Agricultural production automatically produced permanent alliances"
+      ],
+      "answer": 0,
+      "explanation": "Military reach and overseas decisions also mattered.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "A port acquisition reduces travel time for warships. What is its strategic consequence?",
+      "choices": [
+        "Port ownership makes trade disputes impossible",
+        "Port ownership guarantees political consent nearby",
+        "Faster deployment ends the need for logistics",
+        "Faster deployment increases regional influence"
+      ],
+      "answer": 3,
+      "explanation": "Faster deployment increases regional influence.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "Why did expansion generate debate within the United States?",
+      "choices": [
+        "Overseas expansion chiefly disputed the original states' constitutional status",
+        "Strategic gains raised questions about consent and sovereignty",
+        "Acquiring territory removed the question of consent from American politics",
+        "Foreign possessions required ending representative government at home"
+      ],
+      "answer": 1,
+      "explanation": "Strategic gains raised questions about consent and sovereignty.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "Compare Big Stick diplomacy with complete nonintervention.",
+      "choices": [
+        "Both approaches transferred foreign policy to private merchants",
+        "Potential force prohibited regional political involvement",
+        "Both approaches avoided using strategic military threats",
+        "Potential force backed diplomatic pressure abroad"
+      ],
+      "answer": 3,
+      "explanation": "Potential force backed diplomatic pressure abroad.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "What sequence best explains American power growth around 1900?",
+      "choices": [
+        "European reconstruction caused the earlier war with Spain",
+        "Naval decline produced expansion and withdrawal from commerce",
+        "League membership produced the annexation of Hawaii",
+        "Industrial capacity supported expansion and stronger international leverage"
+      ],
+      "answer": 3,
+      "explanation": "Industrial capacity supported expansion and stronger international leverage.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "A historian emphasizes markets but omits naval investment. What is missing?",
+      "choices": [
+        "How colonial consent created American industrial output",
+        "How material interests gained military protection",
+        "How diplomacy eliminated all economic motives",
+        "How immigration quotas determined battleship production"
+      ],
+      "answer": 1,
+      "explanation": "How material interests gained military protection.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "Why did wartime mobilization affect America's bargaining position?",
+      "choices": [
+        "Military and financial contributions increased diplomatic influence",
+        "Military contributions transferred treaty authority away from Congress",
+        "Wartime finance ended America's interest in European recovery",
+        "Wartime service guaranteed acceptance of every peace proposal"
+      ],
+      "answer": 0,
+      "explanation": "Military and financial contributions increased diplomatic influence.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "A senator supports disarmament but opposes Article X commitments. What distinguishes these positions?",
+      "choices": [
+        "Limited agreements differed from collective-security obligations",
+        "Arms limitation imposed broader war obligations than League membership",
+        "League opposition prevented negotiating any narrower security arrangement",
+        "League rejection prohibited negotiating any international pact"
+      ],
+      "answer": 0,
+      "explanation": "Limited agreements differed from collective-security obligations.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Why did wartime experience strengthen arguments for isolationism?",
+      "choices": [
+        "Economic growth made foreign commerce constitutionally illegal",
+        "Casualties proved diplomacy could never prevent disagreements",
+        "Casualties encouraged avoidance of future entanglements",
+        "Economic growth restored military authority to Britain"
+      ],
+      "answer": 2,
+      "explanation": "Casualties encouraged avoidance of future entanglements.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "What evidence challenges a claim of complete American withdrawal after 1919?",
+      "choices": [
+        "The United States refused to join the League of Nations",
+        "Voters expressed concern about another European conflict",
+        "Congress debated constitutional authority over war commitments",
+        "The United States participated in international arms agreements"
+      ],
+      "answer": 3,
+      "explanation": "The United States participated in international arms agreements.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Why did rejection of Versailles weaken Wilson's international design?",
+      "choices": [
+        "American nonmembership reduced collective-security participation",
+        "Senate rejection ended American participation in designing the peace",
+        "Senate rejection transferred American treaty powers to European leaders",
+        "Senate rejection ended American industrial and financial influence"
+      ],
+      "answer": 0,
+      "explanation": "American nonmembership reduced collective-security participation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Compare the League and Kellogg-Briand Pact as peace efforts.",
+      "choices": [
+        "Both ended aggressive wars through reliable automatic enforcement",
+        "Both sought peace through cooperation with different commitments",
+        "Both created American obligations to station troops in Europe",
+        "Both required the United States to surrender treaty authority"
+      ],
+      "answer": 1,
+      "explanation": "Both sought peace through cooperation with different commitments.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Why was promising not to wage war insufficient to prevent aggression?",
+      "choices": [
+        "The agreement imposed enforcement duties chiefly on American courts",
+        "The agreement required equal military contributions regardless of circumstances",
+        "States retained force without dependable collective enforcement",
+        "States lacked disagreements over territory and resources"
+      ],
+      "answer": 2,
+      "explanation": "States retained force without dependable collective enforcement.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "A voter favors commerce abroad but rejects military guarantees. What policy tendency fits?",
+      "choices": [
+        "Political isolation required retreat from commercial relations as well",
+        "International trade implied accepting the League's broad military obligations",
+        "Selective engagement alongside avoidance of entanglements",
+        "Permanent transfer of diplomacy to foreign governments"
+      ],
+      "answer": 2,
+      "explanation": "Selective engagement alongside avoidance of entanglements.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "How did constitutional design affect postwar international commitments?",
+      "choices": [
+        "Senate resistance limited presidential treaty ambitions",
+        "Presidential preference automatically bound all future administrations",
+        "Judicial elections determined participation in the League",
+        "State governors could ratify treaties without Congress"
+      ],
+      "answer": 0,
+      "explanation": "Senate resistance limited presidential treaty ambitions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Why distinguish isolationist rhetoric from actual policy in the 1920s?",
+      "choices": [
+        "Isolationist rhetoric required permanent closure of foreign embassies",
+        "Isolationist rhetoric guaranteed withdrawal from all Pacific possessions",
+        "Limited diplomacy ended America's participation in commercial trade",
+        "Limited diplomacy continued despite reluctance toward collective security"
+      ],
+      "answer": 3,
+      "explanation": "Limited diplomacy continued despite reluctance toward collective security.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Which inference best explains support for negotiated naval ratios?",
+      "choices": [
+        "Leaders sought to end American participation in maritime commerce",
+        "Leaders sought security while reducing costly arms competition",
+        "Leaders sought a ban on diplomatic agreements outside the League",
+        "Leaders sought control of foreign legislatures through naval occupation"
+      ],
+      "answer": 1,
+      "explanation": "Leaders sought security while reducing costly arms competition.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "What connects rejection of the League with later neutrality legislation?",
+      "choices": [
+        "Both required automatic defense of every democracy",
+        "Both prohibited private economic activity outside American territory",
+        "Both sought to reduce paths into foreign wars",
+        "Both transferred congressional war powers to international courts"
+      ],
+      "answer": 2,
+      "explanation": "Both sought to reduce paths into foreign wars.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Evaluate the claim that peace efforts and isolationism were mutually exclusive.",
+      "choices": [
+        "Americans could seek peace only by entering permanent alliances",
+        "Isolationism required active support for foreign territorial conquest",
+        "Americans could seek peace without broad enforcement obligations",
+        "Isolationism required rejecting every limitation on naval expansion"
+      ],
+      "answer": 2,
+      "explanation": "Americans could seek peace without broad enforcement obligations.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 14",
+      "standards": [
+        14
+      ],
+      "prompt": "A map shows new Pacific possessions after 1898. What further evidence best tests their effect on world power?",
+      "choices": [
+        "Records of domestic weather patterns during the war",
+        "Records of voting procedures in unrelated inland towns",
+        "Records of changes in local school calendars",
+        "Records of naval access and expanded regional trade"
+      ],
+      "answer": 3,
+      "explanation": "Records of naval access and expanded regional trade.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Why did disagreement with Wilson not mean opposition to every peace initiative?",
+      "choices": [
+        "Peace diplomacy and treaty enforcement involved the same constitutional commitments",
+        "Disputing collective-security obligations meant rejecting arms negotiation as well",
+        "Critics could favor peace while disputing enforcement commitments",
+        "Critics could approve treaties without Senate consideration"
+      ],
+      "answer": 2,
+      "explanation": "Critics could favor peace while disputing enforcement commitments.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 15",
+      "standards": [
+        15
+      ],
+      "prompt": "Compare economic engagement after 1918 with political isolationism.",
+      "choices": [
+        "Trade required the same continuing obligations as collective military defense",
+        "Trade could continue while leaders avoided broad security guarantees",
+        "Limiting military commitments required abandoning economic connections with Europe",
+        "Trade required joining every League enforcement action"
+      ],
+      "answer": 1,
+      "explanation": "Trade could continue while leaders avoided broad security guarantees.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

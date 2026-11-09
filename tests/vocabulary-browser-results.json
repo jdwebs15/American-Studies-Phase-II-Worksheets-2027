@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "block": 1,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 2,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 3,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 4,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 5,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 6,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 7,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 8,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 9,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 10,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 11,
+      "count": 28,
+      "status": "completed with all correct answers"
+    },
+    {
+      "block": 12,
+      "count": 40,
+      "status": "completed with all correct answers"
+    }
+  ],
+  "errors": [],
+  "backend": "mocked; no live submissions"
+}

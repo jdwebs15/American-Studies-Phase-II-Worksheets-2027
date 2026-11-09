@@ -1,0 +1,855 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B10-CS31,32,33-INTRODUCTION-2027-V2",
+    "title": "Block 10 Introduction — Globalized and Post–Cold War America",
+    "type": "introduction",
+    "block": 10,
+    "standards": [
+      31,
+      32,
+      33
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 31",
+      "prompt": "A company coordinates design, supply, and sales across continents. What enables this arrangement?",
+      "choices": [
+        "International coordination makes labor costs economically irrelevant",
+        "Communication networks eliminate the need for transport and materials",
+        "International coordination requires all production in one country",
+        "Communication networks lower coordination barriers across distance"
+      ],
+      "answer": 3,
+      "explanation": "Communication networks lower coordination barriers across distance.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace how information links separated stages of work.",
+      "hint": "Trace how information links separated stages of work.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 31",
+      "prompt": "Imported goods become cheaper while a local plant closes. How should effects be characterized?",
+      "choices": [
+        "Plant closure proves international trade benefits no American household",
+        "Consumer gains can coexist with concentrated employment losses",
+        "Plant closure means the national service sector cannot expand",
+        "Consumer gains establish equal benefits for every local worker"
+      ],
+      "answer": 1,
+      "explanation": "Consumer gains can coexist with concentrated employment losses.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish consumer effects from producer and worker effects.",
+      "hint": "Distinguish consumer effects from producer and worker effects.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 31",
+      "prompt": "Why may retraining matter during a shift toward service work?",
+      "choices": [
+        "Occupational change generally preserves workers' existing qualifications and pay scales",
+        "Service hiring chiefly relies on skills identical to those of displaced manufacturing jobs",
+        "Manufacturing experience prevents workers from learning new tasks",
+        "New occupations may require different skills and qualifications"
+      ],
+      "answer": 3,
+      "explanation": "New occupations may require different skills and qualifications.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare existing skills with requirements of the new jobs.",
+      "hint": "Compare existing skills with requirements of the new jobs.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 31",
+      "prompt": "Compare increased output with decreased factory employment.",
+      "choices": [
+        "Higher productivity requires the same workforce size indefinitely",
+        "Factory employment alone determines the price of imported goods",
+        "Factory employment alone measures every aspect of economic capacity",
+        "Technology can raise productivity while reducing labor demand"
+      ],
+      "answer": 3,
+      "explanation": "Technology can raise productivity while reducing labor demand.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate output per worker from the number employed.",
+      "hint": "Separate output per worker from the number employed.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 31",
+      "prompt": "Why do transnational firms complicate purely local economic explanations?",
+      "choices": [
+        "International firms eliminate regional differences in labor markets",
+        "Investment and production decisions cross national jurisdictions",
+        "Investment decisions are unaffected by local wages and infrastructure",
+        "International firms operate without customers or government rules"
+      ],
+      "answer": 1,
+      "explanation": "Investment and production decisions cross national jurisdictions.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow decisions across jurisdictions and supply networks.",
+      "hint": "Follow decisions across jurisdictions and supply networks.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 31",
+      "prompt": "How could internet access widen inequality as well as opportunity?",
+      "choices": [
+        "Unequal access proves digital communication has no economic benefits",
+        "Technical occupations are evenly distributed among all communities",
+        "Unequal access and skills shape participation in new markets",
+        "Technical occupations offer the same entry requirements as retail"
+      ],
+      "answer": 2,
+      "explanation": "Unequal access and skills shape participation in new markets.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask who has the tools and qualifications to participate.",
+      "hint": "Ask who has the tools and qualifications to participate.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 31",
+      "prompt": "A displaced machinist finds lower-paid retail work. What does this reveal?",
+      "choices": [
+        "Employment totals can conceal changes in job quality",
+        "Retail employment prevents manufacturing output from increasing elsewhere",
+        "Employment totals prove that economic adjustment has no cost",
+        "Retail employment means every service occupation is low-skilled"
+      ],
+      "answer": 0,
+      "explanation": "Employment totals can conceal changes in job quality.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare job counts with pay and working conditions.",
+      "hint": "Compare job counts with pay and working conditions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 31",
+      "prompt": "Why distinguish a trade deficit from an absence of exports?",
+      "choices": [
+        "Imports can exceed exports while substantial trade continues",
+        "A deficit demonstrates that domestic services have disappeared",
+        "A deficit demonstrates that foreign investors avoid American assets",
+        "Imports and exports must be equal for trade to occur"
+      ],
+      "answer": 0,
+      "explanation": "Imports can exceed exports while substantial trade continues.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish a difference between flows from the absence of either flow.",
+      "hint": "Distinguish a difference between flows from the absence of either flow.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 31",
+      "prompt": "Compare offshoring and automation as explanations for job changes.",
+      "choices": [
+        "Different processes require identical technology and labor conditions",
+        "Automation concerns only moving production across national borders",
+        "Different processes can reduce demand for particular domestic workers",
+        "Offshoring concerns only replacing people with domestic machinery"
+      ],
+      "answer": 2,
+      "explanation": "Different processes can reduce demand for particular domestic workers.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare relocating work with changing how work is performed.",
+      "hint": "Compare relocating work with changing how work is performed.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 31",
+      "prompt": "A teacher compares national GDP with town-level factory closures, retail prices, and wage changes. Why is the second set of evidence essential?",
+      "choices": [
+        "Local evidence reveals gains and losses hidden by aggregate growth",
+        "Local evidence proves imported products benefit no American consumers",
+        "A national output figure already establishes uniform household prosperity",
+        "Regional statistics determine every displaced worker's later occupational outcome"
+      ],
+      "answer": 0,
+      "explanation": "Local evidence reveals gains and losses hidden by aggregate growth.",
+      "standards": [
+        31
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look beyond national totals to affected communities.",
+      "hint": "Look beyond national totals to affected communities.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 32",
+      "prompt": "An airline passenger faces expanded screening after September 11. What policy shift appears?",
+      "choices": [
+        "Transportation screening primarily reduced the domestic role of national-security agencies",
+        "Screening decisions concerned foreign military strategy without domestic rights implications",
+        "Security responsibilities expanded in domestic transportation",
+        "Transportation policy ceased involving constitutional and fiscal questions"
+      ],
+      "answer": 2,
+      "explanation": "Security responsibilities expanded in domestic transportation.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect the measure's design with the perceived threat.",
+      "hint": "Connect the measure's design with the perceived threat.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 32",
+      "prompt": "Why did broader surveillance powers prompt privacy debates?",
+      "choices": [
+        "Preventive measures proved that individual protections had expired",
+        "Privacy concerns concerned only relations with foreign governments",
+        "Preventive measures could intrude on lawful personal activity",
+        "Privacy concerns required ending every national criminal investigation"
+      ],
+      "answer": 2,
+      "explanation": "Preventive measures could intrude on lawful personal activity.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare investigative power with protections for lawful conduct.",
+      "hint": "Compare investigative power with protections for lawful conduct.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 32",
+      "prompt": "A neighborhood experiences anti-Muslim harassment after an attack. What distinction is essential?",
+      "choices": [
+        "Security threats originate equally from every religious community",
+        "Religious affiliation supplies sufficient proof of criminal intent",
+        "Security threats make civil-rights protections historically irrelevant",
+        "Individual responsibility differs from stereotypes about group identity"
+      ],
+      "answer": 3,
+      "explanation": "Individual responsibility differs from stereotypes about group identity.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate individual actions from group identity.",
+      "hint": "Separate individual actions from group identity.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 32",
+      "prompt": "States and Congress disagree over health-policy rules. What ongoing issue appears?",
+      "choices": [
+        "Federalism gives every state control of national foreign treaties",
+        "Federalism creates disputes over authority and responsibility",
+        "Health policy eliminates questions of individual rights and access",
+        "Health policy must remain independent of economic conditions"
+      ],
+      "answer": 1,
+      "explanation": "Federalism creates disputes over authority and responsibility.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask which level of government claims authority.",
+      "hint": "Ask which level of government claims authority.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 32",
+      "prompt": "Why could mortgage defaults spread beyond individual homeowners?",
+      "choices": [
+        "Housing markets operated independently of employment and consumption",
+        "Linked financial institutions transmitted losses and credit pressures",
+        "Linked institutions guaranteed insulation from private lending losses",
+        "Housing markets affected only those who had already borrowed"
+      ],
+      "answer": 1,
+      "explanation": "Linked financial institutions transmitted losses and credit pressures.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow losses through connected financial relationships.",
+      "hint": "Follow losses through connected financial relationships.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 32",
+      "prompt": "A bailout stabilizes banks but angers taxpayers. What tradeoff explains the dispute?",
+      "choices": [
+        "Public criticism transferred financial regulation entirely to foreign governments",
+        "Public criticism demonstrated that banks had no wider economic role",
+        "Systemic risk reduction guaranteed equal assistance to every family",
+        "Systemic risk reduction raised fairness and accountability concerns"
+      ],
+      "answer": 3,
+      "explanation": "Systemic risk reduction raised fairness and accountability concerns.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare avoiding collapse with how assistance was distributed.",
+      "hint": "Compare avoiding collapse with how assistance was distributed.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 32",
+      "prompt": "Why did domestic policy debates continue after the Cold War ended?",
+      "choices": [
+        "Ideological rivalry's decline did not resolve social and economic conflicts",
+        "Ending superpower rivalry made domestic economic and social disputes largely obsolete",
+        "The Cold War's conclusion itself settled disagreements over state and federal authority",
+        "The Soviet collapse established uniform agreement on health care"
+      ],
+      "answer": 0,
+      "explanation": "Ideological rivalry's decline did not resolve social and economic conflicts.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify challenges that did not depend on Soviet rivalry.",
+      "hint": "Identify challenges that did not depend on Soviet rivalry.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 32",
+      "prompt": "How can post-Cold War defense cuts affect a local economy?",
+      "choices": [
+        "Reduced procurement can disrupt communities dependent on military contracts",
+        "Communities could replace procurement employment without changes to their labor markets",
+        "Defense cuts affected overseas bases independently of domestic suppliers and workers",
+        "Defense employment concerns only deployed personnel outside the country"
+      ],
+      "answer": 0,
+      "explanation": "Reduced procurement can disrupt communities dependent on military contracts.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect procurement decisions with local employment structures.",
+      "hint": "Connect procurement decisions with local employment structures.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 32",
+      "prompt": "Compare lawful dissent with domestic terrorist conduct.",
+      "choices": [
+        "Unpopular belief establishes the same legal responsibility as violence",
+        "Security agencies may infer criminal guilt from party affiliation",
+        "Belief and protest differ from threats and criminal violence",
+        "Security agencies cannot investigate any politically motivated crime"
+      ],
+      "answer": 2,
+      "explanation": "Belief and protest differ from threats and criminal violence.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish an opinion from an actionable criminal threat.",
+      "hint": "Distinguish an opinion from an actionable criminal threat.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 32",
+      "prompt": "What evidence best assesses a surveillance program's consequences?",
+      "choices": [
+        "Documented security benefits, rights burdens, and oversight performance",
+        "The assumption that secrecy establishes either success or failure",
+        "Only the number of computers used by investigators",
+        "Only officials' statements that the program is necessary"
+      ],
+      "answer": 0,
+      "explanation": "Documented security benefits, rights burdens, and oversight performance.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Seek evidence about both outcomes and constraints.",
+      "hint": "Seek evidence about both outcomes and constraints.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 32",
+      "prompt": "Why did disputes over gun policy involve constitutional interpretation and public safety?",
+      "choices": [
+        "Public safety concerns made constitutional interpretation unnecessary",
+        "Public safety concerns gave local officials treaty-making authority",
+        "Competing claims concerned both rights and protection from harm",
+        "Constitutional rights removed all questions about regulatory design"
+      ],
+      "answer": 2,
+      "explanation": "Competing claims concerned both rights and protection from harm.",
+      "standards": [
+        32
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify the different public values being weighed.",
+      "hint": "Identify the different public values being weighed.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 33",
+      "prompt": "A conflict displaces civilians across borders. Why is it a foreign-policy concern?",
+      "choices": [
+        "Humanitarian needs interact with diplomacy and regional stability",
+        "Displacement is chiefly a domestic social issue without consequences for neighboring states",
+        "Humanitarian need itself determines an agreed response regardless of security concerns",
+        "Refugee movement transfers national borders to international charities"
+      ],
+      "answer": 0,
+      "explanation": "Humanitarian needs interact with diplomacy and regional stability.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider effects that cross a national border.",
+      "hint": "Consider effects that cross a national border.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 33",
+      "prompt": "Why might humanitarian assistance serve strategic as well as moral purposes?",
+      "choices": [
+        "Strategic purposes require direct territorial annexation of recipients",
+        "Strategic purposes make human suffering historically irrelevant",
+        "Relief can support stability and cooperative relationships",
+        "Relief necessarily proves recipients accept every donor policy"
+      ],
+      "answer": 2,
+      "explanation": "Relief can support stability and cooperative relationships.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish a humanitarian purpose from additional diplomatic effects.",
+      "hint": "Distinguish a humanitarian purpose from additional diplomatic effects.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 33",
+      "prompt": "Compare fighting terrorism with conventional territorial defense.",
+      "choices": [
+        "Network threats remove the importance of states and alliances",
+        "Territorial defense makes intelligence and diplomacy unnecessary",
+        "Territorial defense concerns only private commercial trade agreements",
+        "Threats from networks can require different international instruments"
+      ],
+      "answer": 3,
+      "explanation": "Threats from networks can require different international instruments.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the actors and tools relevant to each threat.",
+      "hint": "Compare the actors and tools relevant to each threat.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 33",
+      "prompt": "Weapons-inspection disagreements arise before an intervention. What issue requires evaluation?",
+      "choices": [
+        "Evidence, threat assessment, and the legitimacy of force",
+        "A perceived threat establishes sufficient evidence independently of inspection findings",
+        "Intervention's urgency makes legal authority separate from the decision to use force",
+        "Whether inspection technology guarantees identical national priorities"
+      ],
+      "answer": 0,
+      "explanation": "Evidence, threat assessment, and the legitimacy of force.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask what evidence supports the threat assessment.",
+      "hint": "Ask what evidence supports the threat assessment.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 33",
+      "prompt": "Why did treatment of detainees affect international relations?",
+      "choices": [
+        "Captured persons had no relevance to international humanitarian debate",
+        "Security practices raised legal obligations and diplomatic concerns",
+        "Captured persons automatically became citizens of the detaining country",
+        "Detention decisions concerned only conditions inside American electoral districts"
+      ],
+      "answer": 1,
+      "explanation": "Security practices raised legal obligations and diplomatic concerns.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how treatment affects legal and diplomatic obligations.",
+      "hint": "Consider how treatment affects legal and diplomatic obligations.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 33",
+      "prompt": "A pandemic crosses borders through travel networks. What response follows from this mechanism?",
+      "choices": [
+        "Coordination can address risks beyond one state's control",
+        "Separate national measures are sufficient because disease follows political boundaries",
+        "International travel makes health cooperation less important than isolated local reporting",
+        "National borders make public-health information sharing unnecessary"
+      ],
+      "answer": 0,
+      "explanation": "Coordination can address risks beyond one state's control.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow transmission through cross-border connections.",
+      "hint": "Follow transmission through cross-border connections.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 33",
+      "prompt": "How can trade partnerships create political challenges?",
+      "choices": [
+        "Economic interdependence chiefly removes conflicts over production and labor standards",
+        "Shared markets require bargaining over rules and competing interests",
+        "Partnerships operate through market exchange without negotiating common legal rules",
+        "International commerce concerns only military strategy and defense budgets"
+      ],
+      "answer": 1,
+      "explanation": "Shared markets require bargaining over rules and competing interests.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify interests that partners may not share.",
+      "hint": "Identify interests that partners may not share.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 33",
+      "prompt": "Why could international demand for dollars matter domestically?",
+      "choices": [
+        "Currency use guarantees balanced trade in every year",
+        "Currency use connects American finance with global economic conditions",
+        "Foreign demand eliminates monetary-policy disagreements inside the country",
+        "Foreign demand transfers congressional taxation authority to investors"
+      ],
+      "answer": 1,
+      "explanation": "Currency use connects American finance with global economic conditions.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace currency demand into financial relationships.",
+      "hint": "Trace currency demand into financial relationships.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 33",
+      "prompt": "Compare military operations with humanitarian and economic foreign-policy tools.",
+      "choices": [
+        "Different instruments necessarily operate without affecting each other",
+        "Humanitarian tools exclude public spending and international coordination",
+        "Economic tools guarantee agreement regardless of political interests",
+        "Different instruments pursue interconnected security and stability objectives"
+      ],
+      "answer": 3,
+      "explanation": "Different instruments pursue interconnected security and stability objectives.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how different instruments can interact.",
+      "hint": "Consider how different instruments can interact.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 33",
+      "prompt": "Why did the post-Cold War period require new policy choices?",
+      "choices": [
+        "Superpower rivalry's end ended competing national economic interests",
+        "Superpower rivalry's end guaranteed a permanently peaceful world",
+        "Global connections and changing threats produced unfamiliar combinations of challenges",
+        "Global connections removed the need for international institutions"
+      ],
+      "answer": 2,
+      "explanation": "Global connections and changing threats produced unfamiliar combinations of challenges.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish the end of one rivalry from the end of every challenge.",
+      "hint": "Distinguish the end of one rivalry from the end of every challenge.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 33",
+      "prompt": "A historian examines the pre-intervention intelligence, legal objections, military costs, and later regional conditions. Why is this stronger than repeating an administration's initial claim of success?",
+      "choices": [
+        "A leader's stated goals establish outcomes without additional evidence",
+        "Military costs alone resolve the interpretation of regional political effects",
+        "Earlier intelligence becomes irrelevant whenever later developments are known",
+        "It tests decisions against evidence, constraints, and consequences"
+      ],
+      "answer": 3,
+      "explanation": "It tests decisions against evidence, constraints, and consequences.",
+      "standards": [
+        33
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Evaluate the decision against evidence and later consequences.",
+      "hint": "Evaluate the decision against evidence and later consequences.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "How can digital communication change business organization?",
+      "choices": [
+        "Digital networks prevent overseas competition",
+        "Digital networks guarantee domestic manufacturing growth",
+        "Firms coordinate production across distant locations",
+        "Firms no longer require workers or physical resources"
+      ],
+      "answer": 2,
+      "explanation": "Firms coordinate production across distant locations.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect coordination across distance with business decisions.",
+      "hint": "Connect coordination across distance with business decisions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "Why can cheaper imports produce mixed local effects?",
+      "choices": [
+        "Lower prices distribute gains evenly across producers, consumers, and workers",
+        "Competition affects employment without changing household access to products",
+        "Consumers benefit and every domestic job expands",
+        "Consumers benefit while some producers lose employment"
+      ],
+      "answer": 3,
+      "explanation": "Consumers benefit while some producers lose employment.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare effects on consumers with effects on workers.",
+      "hint": "Compare effects on consumers with effects on workers.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "What complicates a manufacturing-to-services transition?",
+      "choices": [
+        "Service-sector expansion preserves the wage levels and skills of displaced manufacturing work",
+        "New jobs may differ in wages and required skills",
+        "Occupational change chiefly involves employment counts without changes in job requirements",
+        "Services require no training in any occupation"
+      ],
+      "answer": 1,
+      "explanation": "New jobs may differ in wages and required skills.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-31",
+      "where": "Section CS 31 — Global production, communication, and changing work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish changing occupations from unchanged pay and qualifications.",
+      "hint": "Distinguish changing occupations from unchanged pay and qualifications.",
+      "externalSource": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "Why did the PATRIOT Act generate civil-liberties debate?",
+      "choices": [
+        "Expanded security powers raised privacy and oversight concerns",
+        "New investigative authority left existing expectations of personal privacy largely unchanged",
+        "Security legislation made oversight chiefly the responsibility of private technology firms",
+        "The act transferred policing to foreign governments"
+      ],
+      "answer": 0,
+      "explanation": "Expanded security powers raised privacy and oversight concerns.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Weigh new authority against privacy and oversight concerns.",
+      "hint": "Weigh new authority against privacy and oversight concerns.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "How could a mortgage crisis affect the broader economy?",
+      "choices": [
+        "Housing losses remain confined to borrowers rather than the institutions financing them",
+        "Defaults and financial losses reduced credit and demand",
+        "Mortgage defaults tend to expand lending by freeing banks from prior obligations",
+        "Housing losses remained entirely separate from banks"
+      ],
+      "answer": 1,
+      "explanation": "Defaults and financial losses reduced credit and demand.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-32",
+      "where": "Section CS 32 — Post-Cold War domestic challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow household defaults into credit markets.",
+      "hint": "Follow household defaults into credit markets.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "Why do refugee crises present foreign-policy choices?",
+      "choices": [
+        "Humanitarian claims generally remove the need to weigh diplomatic and security interests",
+        "Refugee displacement affects receiving communities without changing international relationships",
+        "Refugee movement affects only domestic entertainment markets",
+        "Humanitarian needs intersect with security and diplomatic commitments"
+      ],
+      "answer": 3,
+      "explanation": "Humanitarian needs intersect with security and diplomatic commitments.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare humanitarian needs with other international obligations.",
+      "hint": "Compare humanitarian needs with other international obligations.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "How did September 11 alter military policy abroad?",
+      "choices": [
+        "Counterterrorism chiefly reduced American military commitments outside national borders",
+        "The attacks made existing alliance relationships less important to overseas operations",
+        "Counterterrorism expanded operations and defense commitments",
+        "The attacks eliminated debates over detention practices"
+      ],
+      "answer": 2,
+      "explanation": "Counterterrorism expanded operations and defense commitments.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace the attack into changed overseas commitments.",
+      "hint": "Trace the attack into changed overseas commitments.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "Why can pandemics become foreign-policy concerns?",
+      "choices": [
+        "Cross-border spread respects national political boundaries",
+        "Cross-border spread requires international coordination",
+        "Public health eliminates every diplomatic disagreement",
+        "Public health affects only military procurement decisions"
+      ],
+      "answer": 1,
+      "explanation": "Cross-border spread requires international coordination.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-10.html#cs-33",
+      "where": "Section CS 33 — Post-Cold War foreign-policy challenges. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider why one country's measures may not be sufficient.",
+      "hint": "Consider why one country's measures may not be sufficient.",
+      "externalSource": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

@@ -1,7 +1,524 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B6-CS22,23-REVIEW-2027-V2",
+    "title": "Block 6 Review — Nuclear Age and Containment",
+    "type": "review",
+    "block": 6,
+    "standards": [
+      22,
+      23
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Compare nuclear monopoly with mutual nuclear capability.",
+      "choices": [
+        "Mutual capability increased concern about retaliation",
+        "Mutual capability restored strategic security by removing retaliation concerns",
+        "Nuclear monopoly required balanced weapons inventories among rival states",
+        "Mutual capability eliminated the need for diplomacy"
+      ],
+      "answer": 0,
+      "explanation": "Mutual capability increased concern about retaliation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Why did Hiroshima and Nagasaki mark a technological turning point?",
+      "choices": [
+        "The attacks created the first international territorial disputes",
+        "Single weapons introduced unprecedented destructive capability",
+        "The attacks ended the relevance of industrial capacity in war",
+        "Single weapons eliminated all later debates over military ethics"
+      ],
+      "answer": 1,
+      "explanation": "Single weapons introduced unprecedented destructive capability.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "An official favors restraint during a crisis despite superior forces. What explains this?",
+      "choices": [
+        "Conventional superiority ensured that a limited conflict would remain limited",
+        "Escalation might trigger unacceptable nuclear retaliation",
+        "Nuclear advantage made political compromise strategically unnecessary",
+        "Nuclear arsenals permit unlimited conflict without civilian risk"
+      ],
+      "answer": 1,
+      "explanation": "Escalation might trigger unacceptable nuclear retaliation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Why is the arms race a reciprocal process?",
+      "choices": [
+        "Weapons research required identical political ideologies",
+        "Each side developed weapons without considering the other",
+        "Each side interpreted rival advances as reasons to expand",
+        "Weapons research eliminated competition over strategic advantage"
+      ],
+      "answer": 2,
+      "explanation": "Each side interpreted rival advances as reasons to expand.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "How did nuclear weapons change civilian vulnerability?",
+      "choices": [
+        "Civilian danger depended only on local population size",
+        "Civilian danger disappeared outside conventional battlefields",
+        "Distant cities became immune to every military threat",
+        "Distant cities could become targets of mass destruction"
+      ],
+      "answer": 3,
+      "explanation": "Distant cities could become targets of mass destruction.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Compare deterrence and actual nuclear use.",
+      "choices": [
+        "Threatened retaliation required continual nuclear attacks on rivals",
+        "Deterrence guaranteed agreement on every territorial dispute",
+        "Threatened retaliation aimed to prevent attacks without launching weapons",
+        "Deterrence prohibited investment in delivery systems"
+      ],
+      "answer": 2,
+      "explanation": "Threatened retaliation aimed to prevent attacks without launching weapons.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Why could an arms agreement serve national security?",
+      "choices": [
+        "Mutual limits could reduce risks of catastrophic escalation",
+        "Negotiated limits chiefly aimed to standardize rival domestic institutions",
+        "Arms agreements transferred national defense authority to weapons manufacturers",
+        "Arms agreements transferred national sovereignty to weapons manufacturers"
+      ],
+      "answer": 0,
+      "explanation": "Mutual limits could reduce risks of catastrophic escalation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "What evidence best supports a nuclear balance-of-power shift in 1949?",
+      "choices": [
+        "European reconstruction made Soviet military technology less relevant to diplomacy",
+        "Both superpowers could develop atomic strike capabilities",
+        "American conventional forces expanded while Soviet atomic capability remained absent",
+        "American officials permanently abandoned military alliances"
+      ],
+      "answer": 1,
+      "explanation": "Both superpowers could develop atomic strike capabilities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Why did nuclear weapons not eliminate smaller wars?",
+      "choices": [
+        "Nuclear weapons were universally controlled by one neutral agency",
+        "States still contested regional influence below nuclear thresholds",
+        "States stopped considering territorial and political interests",
+        "Nuclear weapons could settle every conflict without resistance"
+      ],
+      "answer": 1,
+      "explanation": "States still contested regional influence below nuclear thresholds.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "A historian measures only troop numbers after 1945. What is missing?",
+      "choices": [
+        "Troop numbers explain every diplomatic choice independently",
+        "Industrial capacity became unrelated to military competition",
+        "Weapons' destructive capacity altered relative strategic power",
+        "Military alliances ceased influencing international power relationships"
+      ],
+      "answer": 2,
+      "explanation": "Weapons' destructive capacity altered relative strategic power.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Why might civil-defense campaigns expand alongside weapons development?",
+      "choices": [
+        "Officials had proved urban populations faced no attack risk",
+        "Weapons development ended domestic debate about public security",
+        "Officials sought responses to public fear of nuclear attack",
+        "Weapons development guaranteed permanent civilian evacuation"
+      ],
+      "answer": 2,
+      "explanation": "Officials sought responses to public fear of nuclear attack.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Compare nuclear-era security with earlier conventional defense.",
+      "choices": [
+        "Nuclear strategy reduced civilian vulnerability relative to military targets",
+        "Earlier conventional calculations already assumed the same single-weapon destructive capacity",
+        "Conventional warfare required no political judgments about costs",
+        "Potential destruction expanded beyond traditional battlefield calculations"
+      ],
+      "answer": 3,
+      "explanation": "Potential destruction expanded beyond traditional battlefield calculations.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Why can mutual fear both discourage war and intensify competition?",
+      "choices": [
+        "Retaliation deters attack while insecurity encourages new weapons",
+        "Retaliation guarantees trust while insecurity ends military research",
+        "Fear requires rivals to share one integrated defense command",
+        "Fear removes the possibility of mistaken threat assessments"
+      ],
+      "answer": 0,
+      "explanation": "Retaliation deters attack while insecurity encourages new weapons.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "A government aids an ally's economy rather than sending troops. Can this be containment?",
+      "choices": [
+        "Yes, when economic assistance reversed communist rule through direct occupation",
+        "No, economic recovery concerned trade independently of ideological competition",
+        "Yes, but only after the ally becomes a formal American state",
+        "Yes, limiting communist influence could use economic means"
+      ],
+      "answer": 3,
+      "explanation": "Yes, limiting communist influence could use economic means.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why did Truman Doctrine commitments expand American responsibilities?",
+      "choices": [
+        "The doctrine placed foreign aid solely under state governments",
+        "Support for threatened states ended American involvement abroad",
+        "The doctrine required withdrawal from every European alliance",
+        "Support for threatened states linked local crises to global rivalry"
+      ],
+      "answer": 3,
+      "explanation": "Support for threatened states linked local crises to global rivalry.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Compare containment in Europe with containment in Asia.",
+      "choices": [
+        "Asian conflict ended the significance of western European reconstruction",
+        "Shared objectives produced different regional instruments and conflicts",
+        "Shared objectives required identical geography and political conditions",
+        "European recovery prohibited American involvement in Asian security"
+      ],
+      "answer": 1,
+      "explanation": "Shared objectives produced different regional instruments and conflicts.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why did communist victory in China intensify American debate?",
+      "choices": [
+        "It ended Soviet-American competition throughout East Asia",
+        "It increased concern about the spread of communist influence",
+        "It guaranteed a united noncommunist government in Korea",
+        "It made military alliances in Europe constitutionally invalid"
+      ],
+      "answer": 1,
+      "explanation": "It increased concern about the spread of communist influence.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "An ally seeks defense guarantees against Soviet pressure. Which response fits containment?",
+      "choices": [
+        "Recognition that regional advances should be addressed without collective commitments",
+        "Support for replacing the ally's institutions with a neutral military administration",
+        "A plan transferring the ally's legislature to Soviet control",
+        "A collective-security commitment deterring further expansion"
+      ],
+      "answer": 3,
+      "explanation": "A collective-security commitment deterring further expansion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "How could rebuilding western Europe affect Soviet influence?",
+      "choices": [
+        "Recovery required full Soviet administration of western economies",
+        "Recovery eliminated the need for democratic legitimacy among allies",
+        "Stronger economies could make communist parties less attractive",
+        "Stronger economies automatically removed every domestic political disagreement"
+      ],
+      "answer": 2,
+      "explanation": "Stronger economies could make communist parties less attractive.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why were Korea and Vietnam linked in American policy arguments?",
+      "choices": [
+        "Both conflicts ended with the same political settlement",
+        "Both conflicts began with identical international legal circumstances",
+        "Officials regarded both as conflicts over European colonial borders alone",
+        "Officials interpreted both through fears of communist expansion"
+      ],
+      "answer": 3,
+      "explanation": "Officials interpreted both through fears of communist expansion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "What complicates treating containment as simple defense of democracy?",
+      "choices": [
+        "Strategic anti-communism could support undemocratic partners",
+        "Strategic anti-communism required universal free elections among allies",
+        "Containment had no connection to American security interests",
+        "Containment prohibited cooperation with authoritarian governments"
+      ],
+      "answer": 0,
+      "explanation": "Strategic anti-communism could support undemocratic partners.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Compare aid and military intervention as containment tools.",
+      "choices": [
+        "Aid prohibited diplomatic conditions while intervention prohibited force",
+        "Both required permanent annexation of recipient countries",
+        "Aid guaranteed success while intervention eliminated domestic debate",
+        "Both sought influence but carried different costs and risks"
+      ],
+      "answer": 3,
+      "explanation": "Both sought influence but carried different costs and risks.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why did a local conflict acquire global significance during containment?",
+      "choices": [
+        "Regional disputes were important principally when they caused direct nuclear attacks",
+        "Local actors lost their distinct interests once superpowers became involved",
+        "Leaders connected regional outcomes to wider ideological competition",
+        "Leaders believed geography no longer affected military planning"
+      ],
+      "answer": 2,
+      "explanation": "Leaders connected regional outcomes to wider ideological competition.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "What evidence would best evaluate containment's effectiveness?",
+      "choices": [
+        "Regional outcomes weighed against costs and escalation risks",
+        "The size of one military parade during peacetime",
+        "The assumption that all allied governments remained democratic",
+        "The number of official speeches using the term freedom"
+      ],
+      "answer": 0,
+      "explanation": "Regional outcomes weighed against costs and escalation risks.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why distinguish Soviet control from indigenous communist movements?",
+      "choices": [
+        "Indigenous movements operated without domestic economic or political motivations",
+        "A shared ideology demonstrated uniform direction from the Soviet government",
+        "Local causes could differ from assumptions of centralized direction",
+        "Indigenous movements had no economic or political grievances"
+      ],
+      "answer": 2,
+      "explanation": "Local causes could differ from assumptions of centralized direction.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "How did NATO change peacetime American commitments?",
+      "choices": [
+        "Membership made European recovery the responsibility of private banks only",
+        "An enduring alliance linked American security with allied defense",
+        "An enduring alliance prohibited a continuing military presence abroad",
+        "Membership surrendered congressional power to individual state governors"
+      ],
+      "answer": 1,
+      "explanation": "An enduring alliance linked American security with allied defense.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why could containment increase military spending far from home?",
+      "choices": [
+        "Officials saw distant advances as threats to a wider strategic balance",
+        "Containment limited defense planning chiefly to threats inside national borders",
+        "Distant expenditures were unrelated to the perceived credibility of alliances",
+        "Containment required military operations only inside American territory"
+      ],
+      "answer": 0,
+      "explanation": "Officials saw distant advances as threats to a wider strategic balance.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "A student equates containment with rollback. Which correction is strongest?",
+      "choices": [
+        "Containment meant reversing existing communist governments through immediate military conquest",
+        "Rollback focused on stabilizing noncommunist economies without challenging communist rule",
+        "Rollback meant limiting only private trade with noncommunist allies",
+        "Preventing further spread differed from reversing existing communist rule"
+      ],
+      "answer": 3,
+      "explanation": "Preventing further spread differed from reversing existing communist rule.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "How does an arms race differ from the Marshall Plan within Cold War policy?",
+      "choices": [
+        "Both tools relied only on sending American combat troops",
+        "Weapons competition provided housing; aid established nuclear monopoly",
+        "Weapons competition built deterrence; aid supported economic stability",
+        "Both tools sought to dismantle every western European government"
+      ],
+      "answer": 2,
+      "explanation": "Weapons competition built deterrence; aid supported economic stability.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why study containment across several regions rather than one battle?",
+      "choices": [
+        "Its global objective operated through varied local contexts",
+        "Similar ideology required treating regional circumstances as interchangeable",
+        "A single military outcome supplied sufficient evidence of the policy's global effects",
+        "A single battlefield eliminated the need to study diplomatic policies"
+      ],
+      "answer": 0,
+      "explanation": "Its global objective operated through varied local contexts.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

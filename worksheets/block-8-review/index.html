@@ -1,7 +1,524 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B8-CS27,28-REVIEW-2027-V2",
+    "title": "Block 8 Review — Rights Movements and Postwar Prosperity",
+    "type": "review",
+    "block": 8,
+    "standards": [
+      27,
+      28
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Why did Brown challenge more than one school district?",
+      "choices": [
+        "Its constitutional reasoning authorized separate school systems",
+        "The decision required immediate equal outcomes nationwide",
+        "Its constitutional reasoning undermined state-sponsored school segregation",
+        "The decision abolished every private discriminatory practice"
+      ],
+      "answer": 2,
+      "explanation": "Its constitutional reasoning undermined state-sponsored school segregation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "How did the Montgomery boycott exert pressure?",
+      "choices": [
+        "Coordinated nonparticipation imposed economic and political costs",
+        "The boycott chiefly succeeded by transferring public transit ownership to residents",
+        "Withdrawal replaced the relevance of legal challenges to segregation",
+        "The boycott replaced local government with union administration"
+      ],
+      "answer": 0,
+      "explanation": "Coordinated nonparticipation imposed economic and political costs.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Compare the Civil Rights Act and Voting Rights Act.",
+      "choices": [
+        "They targeted discrimination in different institutions of public life",
+        "They both restricted citizenship to property-owning households",
+        "One restored segregation while the other prohibited protest",
+        "One ended voting while the other ended federal enforcement"
+      ],
+      "answer": 0,
+      "explanation": "They targeted discrimination in different institutions of public life.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Why did national publicity matter to nonviolent campaigns?",
+      "choices": [
+        "Publicity established policy agreement without the need for organized pressure",
+        "Visible repression mainly weakened federal responsibility to enforce civil rights",
+        "Publicity removed the need for organization and strategy",
+        "Visible repression increased pressure for governmental action"
+      ],
+      "answer": 3,
+      "explanation": "Visible repression increased pressure for governmental action.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "A town removes a legal barrier but intimidation continues. What follows?",
+      "choices": [
+        "Formal rights prove equal participation already exists",
+        "Intimidation falls outside any historical study of equality",
+        "Formal rights may require enforcement to become usable",
+        "Intimidation means the legal change had no significance"
+      ],
+      "answer": 2,
+      "explanation": "Formal rights may require enforcement to become usable.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "How did NOW broaden postwar equality debates?",
+      "choices": [
+        "It opposed all employment-related civil-rights legislation",
+        "It sought to remove women's voting rights",
+        "It organized against barriers to women's opportunities",
+        "It restricted rights advocacy to school desegregation alone"
+      ],
+      "answer": 2,
+      "explanation": "It organized against barriers to women's opportunities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Compare AIM with African American civil-rights organizations.",
+      "choices": [
+        "Both challenged exclusion while addressing distinct historical grievances",
+        "Both movements pursued equivalent claims without distinct land and sovereignty issues",
+        "AIM chiefly sought the same institutional remedies as public-school litigation",
+        "Both treated reservation land disputes as irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Both challenged exclusion while addressing distinct historical grievances.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Why did SNCC emphasize voter registration?",
+      "choices": [
+        "Political participation could challenge structures sustaining inequality",
+        "Registration was primarily a symbolic action unrelated to structures of local power",
+        "Organizing aimed chiefly to replace voting institutions with protest committees",
+        "Registration campaigns gave activists control of federal courts"
+      ],
+      "answer": 0,
+      "explanation": "Political participation could challenge structures sustaining inequality.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "How could litigation and federal legislation reinforce each other?",
+      "choices": [
+        "Constitutional decisions made statutory enforcement mechanisms redundant",
+        "Statutory protections addressed matters outside the reach of constitutional equality arguments",
+        "Federal legislation required abandoning constitutional equality arguments",
+        "Court principles and statutory enforcement addressed persistent discrimination"
+      ],
+      "answer": 3,
+      "explanation": "Court principles and statutory enforcement addressed persistent discrimination.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Why examine women within and beyond civil-rights organizations?",
+      "choices": [
+        "Race and gender presented separate barriers without overlapping experiences",
+        "Legal advances made gender-based organizing inside reform movements unnecessary",
+        "Women played no organizing roles before national legislation",
+        "Activism exposed overlapping struggles over race and gender"
+      ],
+      "answer": 3,
+      "explanation": "Activism exposed overlapping struggles over race and gender.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "A farmworker campaign seeks safer conditions and representation. What broader pattern appears?",
+      "choices": [
+        "Workplace campaigns moved away from economic concerns toward ceremonial recognition",
+        "Rights movements extended demands for equal treatment into workplaces",
+        "Labor rights developed separately from wider questions of dignity and equal treatment",
+        "Workplace organizing required ending political participation"
+      ],
+      "answer": 1,
+      "explanation": "Rights movements extended demands for equal treatment into workplaces.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Why is summarizing rights struggles as one group's victory incomplete?",
+      "choices": [
+        "Different movements followed equivalent experiences and therefore interchangeable strategies",
+        "Multiple movements pursued inclusion with different goals and strategies",
+        "Federal legislation settled the major grievances of other groups alongside racial segregation",
+        "Multiple movements held identical experiences of government policy"
+      ],
+      "answer": 1,
+      "explanation": "Multiple movements pursued inclusion with different goals and strategies.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "What evidence best measures voting reform beyond its enactment?",
+      "choices": [
+        "The exact date a bill received its first title",
+        "The number of ceremonial speeches supporting democracy",
+        "Registration, participation, and enforcement in affected communities",
+        "The total membership of an unrelated economic agency"
+      ],
+      "answer": 2,
+      "explanation": "Registration, participation, and enforcement in affected communities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "How did marches connect private experiences with public reform?",
+      "choices": [
+        "Public demonstrations mattered chiefly as replacements for institutional reform",
+        "Collective action made patterns of exclusion politically visible",
+        "Collective protest supplied legal authority independently of courts and legislatures",
+        "Marches automatically replaced all local officials"
+      ],
+      "answer": 1,
+      "explanation": "Collective action made patterns of exclusion politically visible.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Why did postwar service strengthen some equality claims?",
+      "choices": [
+        "Contributions highlighted the contradiction of exclusion at home",
+        "Service contributions showed that domestic barriers had already been removed",
+        "Rights claims depended principally on military status rather than equal citizenship",
+        "Military service was the only source of civil rights"
+      ],
+      "answer": 0,
+      "explanation": "Contributions highlighted the contradiction of exclusion at home.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "How did rising incomes interact with suburban development?",
+      "choices": [
+        "Purchasing power ended dependence on transportation networks",
+        "Suburban growth reduced demand for construction employment",
+        "Purchasing power supported housing and associated consumer demand",
+        "Suburban growth eliminated the need for household appliances"
+      ],
+      "answer": 2,
+      "explanation": "Purchasing power supported housing and associated consumer demand.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Why did automobile ownership reshape postwar land use?",
+      "choices": [
+        "Car ownership encouraged residences to remain concentrated near existing rail stations",
+        "Automobility made residential planning independent of public infrastructure investment",
+        "Automobiles prohibited public investment in roads",
+        "Commuting enabled residential growth farther from city centers"
+      ],
+      "answer": 3,
+      "explanation": "Commuting enabled residential growth farther from city centers.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Compare medicine and nuclear power as scientific changes.",
+      "choices": [
+        "Medicine changed only politics while power changed only culture",
+        "Medicine and power required ending federal research support",
+        "New technologies expanded capabilities while raising policy questions",
+        "New technologies eliminated every public-health and safety risk"
+      ],
+      "answer": 2,
+      "explanation": "New technologies expanded capabilities while raising policy questions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "How did television alter political communication?",
+      "choices": [
+        "Broadcasting prohibited campaign advertising nationwide",
+        "Leaders could reach mass audiences through visual broadcasts",
+        "Broadcasting required unanimous agreement among viewers",
+        "Leaders no longer needed public credibility"
+      ],
+      "answer": 1,
+      "explanation": "Leaders could reach mass audiences through visual broadcasts.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Why did commercial jets affect business and leisure?",
+      "choices": [
+        "Jet transport mainly changed local commuting without affecting distant business ties",
+        "Faster travel reduced the need for cultural and commercial exchanges between regions",
+        "Faster long-distance travel widened practical connections",
+        "Faster travel ended all regional economies"
+      ],
+      "answer": 2,
+      "explanation": "Faster long-distance travel widened practical connections.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "A suburb builds schools rapidly in the 1950s. What combination explains this?",
+      "choices": [
+        "Population decline and military demobilization closed classrooms",
+        "Factory automation eliminated the need for public education",
+        "Television ownership prohibited construction of new schools",
+        "Population growth and residential expansion raised demand"
+      ],
+      "answer": 3,
+      "explanation": "Population growth and residential expansion raised demand.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Why distinguish economic growth from equal opportunity?",
+      "choices": [
+        "Higher total output can coexist with discriminatory access",
+        "Higher total production establishes comparable opportunities among affected communities",
+        "Greater consumption supplies sufficient evidence that discrimination has declined uniformly",
+        "Equal opportunity means no regional differences can remain"
+      ],
+      "answer": 0,
+      "explanation": "Higher total output can coexist with discriminatory access.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "How could the birth control pill affect social expectations?",
+      "choices": [
+        "Reproductive innovation primarily resolved unequal pay through medical access itself",
+        "Greater reproductive control influenced family and work decisions",
+        "The technology imposed a common sequence of education, work, and family choices",
+        "Greater reproductive control ended all gender discrimination"
+      ],
+      "answer": 1,
+      "explanation": "Greater reproductive control influenced family and work decisions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "What evidence would best test television's consumer influence?",
+      "choices": [
+        "Advertising content compared with ownership and purchasing trends",
+        "Only the number of presidents serving after 1945",
+        "The assumption that every viewer accepted every advertisement",
+        "Only the date of the first passenger jet flight"
+      ],
+      "answer": 0,
+      "explanation": "Advertising content compared with ownership and purchasing trends.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Why did prosperity encourage service-sector expansion?",
+      "choices": [
+        "Households stopped buying every manufactured product",
+        "Higher incomes eliminated paid employment outside factories",
+        "Higher incomes prohibited business expansion in suburbs",
+        "Households purchased more health, retail, and leisure services"
+      ],
+      "answer": 3,
+      "explanation": "Households purchased more health, retail, and leisure services.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Compare the Baby Boom's short- and longer-term effects.",
+      "choices": [
+        "Child-related demand preceded later pressures on colleges and jobs",
+        "Both effects guaranteed identical outcomes for every generation",
+        "Both effects were limited entirely to military production",
+        "College enrollment increased before the children were born"
+      ],
+      "answer": 0,
+      "explanation": "Child-related demand preceded later pressures on colleges and jobs.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "How might growing electricity demand influence public debate?",
+      "choices": [
+        "Household electrification ended every industrial energy requirement",
+        "Expanded consumption raised questions about capacity and energy sources",
+        "Household electrification prohibited research into nuclear power",
+        "Expanded consumption proved environmental effects could not occur"
+      ],
+      "answer": 1,
+      "explanation": "Expanded consumption raised questions about capacity and energy sources.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "Why study household routines alongside economic statistics?",
+      "choices": [
+        "National totals already explain household experience without examining adoption patterns",
+        "Household practices mainly reflect personal preferences independent of economic resources",
+        "Daily practices replace the need to examine any economic evidence",
+        "Daily practices show how growth and technology changed lived experience"
+      ],
+      "answer": 3,
+      "explanation": "Daily practices show how growth and technology changed lived experience.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 28",
+      "standards": [
+        28
+      ],
+      "prompt": "What qualifies the image of universal postwar affluence?",
+      "choices": [
+        "Higher national output established similar access to housing across racial groups",
+        "Race, class, and geography shaped access to prosperity",
+        "Scientific progress reduced the need to examine class and regional differences",
+        "Every region abandoned industrial employment immediately"
+      ],
+      "answer": 1,
+      "explanation": "Race, class, and geography shaped access to prosperity.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 27",
+      "standards": [
+        27
+      ],
+      "prompt": "Why did legal victories not end the need for rights organizations?",
+      "choices": [
+        "Court victories transferred rights organizations' responsibilities entirely to federal agencies",
+        "Implementation and remaining exclusions required continued advocacy",
+        "Legal guarantees meant remaining inequality resulted only from individual preferences",
+        "Rights organizations could no longer address workplace barriers"
+      ],
+      "answer": 1,
+      "explanation": "Implementation and remaining exclusions required continued advocacy.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

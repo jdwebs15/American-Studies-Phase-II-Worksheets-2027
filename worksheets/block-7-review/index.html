@@ -1,7 +1,525 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B7-CS24,25,26-REVIEW-2027-V2",
+    "title": "Block 7 Review — Cold War at Home and Abroad",
+    "type": "review",
+    "block": 7,
+    "standards": [
+      24,
+      25,
+      26
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "A teacher loses work after an unsupported accusation. What tension appears?",
+      "choices": [
+        "Foreign aid undermines state taxation",
+        "Electoral reform undermines military recruitment",
+        "Economic recovery undermines religious observance",
+        "Security fears undermine procedural fairness"
+      ],
+      "answer": 3,
+      "explanation": "Security fears undermine procedural fairness.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "Why could televised hearings weaken McCarthy's influence?",
+      "choices": [
+        "Public scrutiny exposed coercive methods and weak evidence",
+        "Broadcasting made unsupported allegations less visible to the public",
+        "Televised appearances transferred investigative authority from senators to network executives",
+        "Television transferred Senate powers to broadcasters"
+      ],
+      "answer": 0,
+      "explanation": "Public scrutiny exposed coercive methods and weak evidence.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "Compare the Second Red Scare with military containment.",
+      "choices": [
+        "Both operated exclusively through overseas combat",
+        "One targeted domestic subversion; the other foreign expansion",
+        "Both required proof of every allegation before action",
+        "One ended ideological rivalry; the other ended elections"
+      ],
+      "answer": 1,
+      "explanation": "One targeted domestic subversion; the other foreign expansion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "Why did suspected communists face pressure in entertainment?",
+      "choices": [
+        "Officials believed performers commanded foreign armies",
+        "Entertainment workers were exempt from constitutional protections",
+        "Entertainment industries controlled the national military draft",
+        "Officials feared media influence on public attitudes"
+      ],
+      "answer": 3,
+      "explanation": "Officials feared media influence on public attitudes.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "A witness refuses to name associates and loses employment. What should historians examine?",
+      "choices": [
+        "Economic sanctions required the same evidentiary standard as criminal conviction",
+        "How coercion extended beyond formal criminal punishment",
+        "Refusal to name associates established membership in a foreign intelligence service",
+        "How public hearings replaced private business ownership"
+      ],
+      "answer": 1,
+      "explanation": "How coercion extended beyond formal criminal punishment.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "Why distinguish an actual espionage case from mass suspicion?",
+      "choices": [
+        "Evidence of some spying proves all dissent is criminal",
+        "Espionage evidence eliminates constitutional trial protections",
+        "Evidence of some spying does not establish everyone's guilt",
+        "Espionage evidence makes political association irrelevant everywhere"
+      ],
+      "answer": 2,
+      "explanation": "Evidence of some spying does not establish everyone's guilt.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "What evidence best evaluates an accusation's credibility?",
+      "choices": [
+        "Corroborated records connecting individuals to specific conduct",
+        "The number of newspapers repeating an allegation",
+        "Repeated speeches using alarming ideological language",
+        "The accused person's refusal to endorse popular policies"
+      ],
+      "answer": 0,
+      "explanation": "Corroborated records connecting individuals to specific conduct.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 24",
+      "standards": [
+        24
+      ],
+      "prompt": "Why did labor unions become Red Scare targets?",
+      "choices": [
+        "Union wage demands were independent of the climate of political suspicion",
+        "Union membership provided sufficient evidence of centralized Soviet direction",
+        "Unions held constitutional authority over nuclear weapons",
+        "Activism and left-wing associations attracted suspicion"
+      ],
+      "answer": 3,
+      "explanation": "Activism and left-wing associations attracted suspicion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "How did Korea's armistice shape later international politics?",
+      "choices": [
+        "Continued division eliminated American regional commitments",
+        "Continued division sustained a security confrontation",
+        "The armistice ended all tensions with China",
+        "The armistice created a unified democratic peninsula"
+      ],
+      "answer": 1,
+      "explanation": "Continued division sustained a security confrontation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "Why was the Cuban Missile Crisis especially dangerous?",
+      "choices": [
+        "Both governments agreed intervention carried no risks",
+        "Both governments had abandoned military force",
+        "Regional confrontation lacked any strategic weapons",
+        "Regional confrontation risked superpower nuclear escalation"
+      ],
+      "answer": 3,
+      "explanation": "Regional confrontation risked superpower nuclear escalation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "Compare Korean and Vietnam War domestic effects.",
+      "choices": [
+        "Both shaped spending and debate, with different protest dynamics",
+        "Neither affected relationships between presidents and Congress",
+        "Both produced identical public support throughout fighting",
+        "Neither linked local conflicts with wider Cold War concerns"
+      ],
+      "answer": 0,
+      "explanation": "Both shaped spending and debate, with different protest dynamics.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "Why did the Bay of Pigs affect American credibility?",
+      "choices": [
+        "The operation guaranteed Soviet withdrawal from Europe",
+        "A failed intervention ended Cuba's revolutionary government",
+        "The operation placed Cuba under United Nations administration",
+        "A failed intervention exposed limits of covert action"
+      ],
+      "answer": 3,
+      "explanation": "A failed intervention exposed limits of covert action.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "How could Cold War policy influence Latin American politics?",
+      "choices": [
+        "Anti-communist priorities required avoiding partnerships with authoritarian governments",
+        "Containment treated political outcomes outside Europe as strategically secondary by definition",
+        "Anti-communist priorities encouraged intervention and allied support",
+        "Anti-communist priorities prohibited involvement outside Europe"
+      ],
+      "answer": 2,
+      "explanation": "Anti-communist priorities encouraged intervention and allied support.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "Why did the United Nations matter in Korea?",
+      "choices": [
+        "The UN's framework resolved disagreement among major powers about Korean sovereignty",
+        "Its framework helped organize multinational military action",
+        "UN involvement converted military intervention into a purely domestic Korean issue",
+        "Its framework eliminated disagreement among major powers"
+      ],
+      "answer": 1,
+      "explanation": "Its framework helped organize multinational military action.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "What links urban unrest and war-policy debate in the 1960s?",
+      "choices": [
+        "Competing priorities sharpened questions about government resources",
+        "Urban unrest ended public concern over military casualties",
+        "War spending guaranteed equal resources for every neighborhood",
+        "Urban unrest directly caused the original Korean partition"
+      ],
+      "answer": 0,
+      "explanation": "Competing priorities sharpened questions about government resources.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "An administration cites credibility to continue Vietnam involvement. What concern drives this?",
+      "choices": [
+        "Withdrawal would directly dissolve existing American alliances as a legal consequence",
+        "Withdrawal might weaken confidence in American commitments",
+        "Credibility concerned local battlefield numbers without implications for other commitments",
+        "Credibility prohibited negotiation under any circumstances"
+      ],
+      "answer": 1,
+      "explanation": "Withdrawal might weaken confidence in American commitments.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "Why examine veterans, protesters, and officials together?",
+      "choices": [
+        "Different experiences reveal contested war consequences",
+        "Official records explain public attitudes without examining differing lived experiences",
+        "The groups' conflicting views make a reasoned historical account impossible",
+        "Different experiences prove no shared evidence is possible"
+      ],
+      "answer": 0,
+      "explanation": "Different experiences reveal contested war consequences.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 25",
+      "standards": [
+        25
+      ],
+      "prompt": "How did Cold War conflict expand presidential responsibilities?",
+      "choices": [
+        "Presidents transferred every military decision to state legislatures",
+        "Ongoing crises removed Congress from constitutional government",
+        "Presidents acquired permanent authority to cancel elections",
+        "Ongoing crises increased executive involvement in security decisions"
+      ],
+      "answer": 3,
+      "explanation": "Ongoing crises increased executive involvement in security decisions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "Why is Soviet collapse best treated as multicausal?",
+      "choices": [
+        "American pressure independently explains regime collapse without internal political choices",
+        "Domestic reform demonstrates that economic constraints were historically insignificant",
+        "Popular protest had no relationship to institutional legitimacy",
+        "External pressure interacted with internal economic and political problems"
+      ],
+      "answer": 3,
+      "explanation": "External pressure interacted with internal economic and political problems.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "How did independent republics change the international system?",
+      "choices": [
+        "Soviet dissolution created new states and diplomatic relationships",
+        "Dissolution preserved one internationally recognized government for the former union",
+        "Successor republics inherited a common predetermined democratic political structure",
+        "Soviet dissolution restored one unified Russian empire immediately"
+      ],
+      "answer": 0,
+      "explanation": "Soviet dissolution created new states and diplomatic relationships.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "Why did American reform assistance follow the Cold War?",
+      "choices": [
+        "Policymakers sought stability during political and economic transition",
+        "Assistance aimed chiefly to restore centralized Soviet economic institutions",
+        "Democratic transition made international economic support strategically unnecessary",
+        "Policymakers sought to restore Soviet one-party rule"
+      ],
+      "answer": 0,
+      "explanation": "Policymakers sought stability during political and economic transition.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "Compare falling communist regimes with successful market transitions.",
+      "choices": [
+        "Removing a ruling party itself settled questions of ownership and market institutions",
+        "Regime collapse did not guarantee easy economic reform",
+        "Economic transition required retaining the earlier one-party political structure",
+        "Market reform prohibited cooperation with western governments"
+      ],
+      "answer": 1,
+      "explanation": "Regime collapse did not guarantee easy economic reform.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "How did the Berlin Wall's fall symbolize broader change?",
+      "choices": [
+        "Opening the border reinforced the governing parties' uncontested political authority",
+        "A major division weakened amid challenges to communist authority",
+        "The event chiefly established the first postwar division of German territory",
+        "The event created the first Soviet occupation of Eastern Europe"
+      ],
+      "answer": 1,
+      "explanation": "A major division weakened amid challenges to communist authority.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "Why could arms competition strain Soviet domestic legitimacy?",
+      "choices": [
+        "Military competition made production shortages impossible",
+        "Military competition eliminated demands for political participation",
+        "Defense burdens competed with unmet civilian needs",
+        "Defense burdens automatically increased consumer satisfaction"
+      ],
+      "answer": 2,
+      "explanation": "Defense burdens competed with unmet civilian needs.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "What evidence best supports reduced Cold War tensions?",
+      "choices": [
+        "Continued disagreement over an unrelated local election",
+        "The opening date of a single private business",
+        "The assumption that all international rivalry disappeared",
+        "Changed alliances, lower confrontation, and negotiated cooperation"
+      ],
+      "answer": 3,
+      "explanation": "Changed alliances, lower confrontation, and negotiated cooperation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "Why should historians include Eastern European reformers?",
+      "choices": [
+        "Local reform movements demonstrate that international pressure had no influence",
+        "Domestic activists became relevant only after outside governments completed regime change",
+        "Local agency shaped outcomes alongside superpower pressure",
+        "Local agency proves international conditions never mattered"
+      ],
+      "answer": 2,
+      "explanation": "Local agency shaped outcomes alongside superpower pressure.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "A claim credits one American speech with Soviet collapse. What is missing?",
+      "choices": [
+        "The complete absence of economic problems in the USSR",
+        "The fact that all reforms began after Soviet dissolution",
+        "Long-term pressures and actions within communist societies",
+        "The claim that local demonstrations opposed political change"
+      ],
+      "answer": 2,
+      "explanation": "Long-term pressures and actions within communist societies.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "Compare American pressure and popular democratic movements.",
+      "choices": [
+        "External constraints and internal mobilization could reinforce change",
+        "External pressure and internal mobilization necessarily pursued the same economic program",
+        "Internal reform made earlier military and economic competition irrelevant",
+        "Internal movements prevented any weakening of ruling parties"
+      ],
+      "answer": 0,
+      "explanation": "External constraints and internal mobilization could reinforce change.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "Why did Cold War's end change defense debates?",
+      "choices": [
+        "Existing alliances lost their constitutional authority when bipolar rivalry ended",
+        "New strategic circumstances left inherited spending priorities unaffected",
+        "Reduced superpower rivalry prompted reassessment of commitments",
+        "Reduced superpower rivalry ended all security threats"
+      ],
+      "answer": 2,
+      "explanation": "Reduced superpower rivalry prompted reassessment of commitments.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 26",
+      "standards": [
+        26
+      ],
+      "prompt": "What qualifies a claim that democracy instantly triumphed everywhere?",
+      "choices": [
+        "Regime change immediately created comparable political institutions across successor states",
+        "Market reform itself established stable democratic rights independent of political choices",
+        "Postcommunist states followed uneven political trajectories",
+        "All new states restored communist governments immediately"
+      ],
+      "answer": 2,
+      "explanation": "Postcommunist states followed uneven political trajectories.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

@@ -1,7 +1,524 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B9-CS29,30-REVIEW-2027-V2",
+    "title": "Block 9 Review — Migration, Demographics, and Public Policy",
+    "type": "review",
+    "block": 9,
+    "standards": [
+      29,
+      30
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "A city loses residents but retains aging infrastructure. What fiscal problem may follow?",
+      "choices": [
+        "Population losses reduce infrastructure maintenance costs in direct proportion",
+        "Fewer taxpayers support continuing service obligations",
+        "Suburban demand primarily funds the remaining central-city service obligations",
+        "Suburban expansion prevents any regional policy disagreement"
+      ],
+      "answer": 1,
+      "explanation": "Fewer taxpayers support continuing service obligations.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Compare white flight and voluntary movement for employment.",
+      "choices": [
+        "Racial restrictions had little influence compared with unrestricted household choice",
+        "Racial exclusion shaped migration alongside economic opportunity",
+        "Northern employment growth had already removed institutional housing barriers",
+        "White flight guaranteed integrated suburban schools"
+      ],
+      "answer": 1,
+      "explanation": "Racial exclusion shaped migration alongside economic opportunity.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Why does population growth affect the House differently from the Senate?",
+      "choices": [
+        "Both chambers automatically assign seats by party membership",
+        "House seats are equal; Senate seats follow population",
+        "House seats are apportioned; Senate representation remains equal by state",
+        "Both chambers distribute representation through presidential appointments"
+      ],
+      "answer": 2,
+      "explanation": "House seats are apportioned; Senate representation remains equal by state.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "A defense contractor expands in Arizona. How might this affect migration?",
+      "choices": [
+        "Defense hiring alters regional employment without affecting related population movement",
+        "Regional opportunities chiefly influence international admission rules rather than internal relocation",
+        "Employment prevents workers from leaving industrial states",
+        "Employment attracts workers and shifts regional population"
+      ],
+      "answer": 3,
+      "explanation": "Employment attracts workers and shifts regional population.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Why did air conditioning matter to Sun Belt growth?",
+      "choices": [
+        "Air conditioning ended manufacturing employment in the North",
+        "Technology removed every regional environmental limit",
+        "Air conditioning directly changed constitutional apportionment rules",
+        "Technology made hot-climate living and work more practical"
+      ],
+      "answer": 3,
+      "explanation": "Technology made hot-climate living and work more practical.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "How could new immigration influence public institutions?",
+      "choices": [
+        "Language diversity increased demand for adapted services",
+        "New residents must share one language before public institutions can respond",
+        "Admission changes influence total numbers without changing local service requirements",
+        "Language diversity eliminated civic participation"
+      ],
+      "answer": 0,
+      "explanation": "Language diversity increased demand for adapted services.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "What evidence best tests migration's political effects?",
+      "choices": [
+        "The assumption that every migrant keeps identical views",
+        "One campaign slogan without demographic evidence",
+        "Population data linked with district changes and electoral patterns",
+        "Only national totals without regional distribution"
+      ],
+      "answer": 2,
+      "explanation": "Population data linked with district changes and electoral patterns.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Why is regional growth not equivalent to uniform prosperity?",
+      "choices": [
+        "Growing regional output establishes comparable gains across local households",
+        "Population expansion reduces infrastructure burdens by distributing resources uniformly",
+        "Internal migration prevents local budget disputes",
+        "Benefits and costs vary within growing communities"
+      ],
+      "answer": 3,
+      "explanation": "Benefits and costs vary within growing communities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "A school district remains segregated after nearby suburban growth. What should historians examine?",
+      "choices": [
+        "Housing practices and boundaries shaping enrollment",
+        "Only students' individual entertainment preferences",
+        "Only changes in national military strategy",
+        "The assumption that residence reflects unrestricted choice"
+      ],
+      "answer": 0,
+      "explanation": "Housing practices and boundaries shaping enrollment.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "How did the 1965 law differ from national-origins quotas?",
+      "choices": [
+        "It required all newcomers to settle in northern cities",
+        "It barred family ties from admission policy entirely",
+        "It dismantled a system favoring selected European origins",
+        "It required ancestry quotas to become permanent"
+      ],
+      "answer": 2,
+      "explanation": "It dismantled a system favoring selected European origins.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Why might Spanish-language media expand after demographic change?",
+      "choices": [
+        "Media expansion resulted chiefly from the disappearance of English-language audiences",
+        "Immigrant audiences affected political participation but not commercial advertising demand",
+        "Growing audiences created cultural and commercial demand",
+        "Growing audiences eliminated English-language communication"
+      ],
+      "answer": 2,
+      "explanation": "Growing audiences created cultural and commercial demand.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Compare demographic change with electoral outcomes.",
+      "choices": [
+        "Population shifts alter constituencies without predetermining every vote",
+        "Population shifts guarantee identical results in all elections",
+        "Voters retain no political agency after census reapportionment",
+        "Voters must change parties whenever they cross state lines"
+      ],
+      "answer": 0,
+      "explanation": "Population shifts alter constituencies without predetermining every vote.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Why should migration analysis include both origins and destinations?",
+      "choices": [
+        "Migration affects cultural life but never public budgets",
+        "Only receiving regions experience economic change",
+        "Only sending regions face new infrastructure demands",
+        "Departures and arrivals reshape resources and political influence"
+      ],
+      "answer": 3,
+      "explanation": "Departures and arrivals reshape resources and political influence.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "A Rust Belt plant closes as a southern technology corridor grows. What pattern follows?",
+      "choices": [
+        "Job geography can redirect internal migration",
+        "Regional job changes influence migration chiefly through national entry restrictions",
+        "Manufacturing decline itself transfers workers into higher-paid technical positions",
+        "Regional decline proves national manufacturing has vanished"
+      ],
+      "answer": 0,
+      "explanation": "Job geography can redirect internal migration.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "How can suburban boundaries affect regional politics?",
+      "choices": [
+        "Independent municipalities mainly distribute metropolitan resources without local differences",
+        "Suburban residence makes tax and education choices unrelated to political interests",
+        "Suburban governments control national immigration admissions",
+        "Separate tax and school systems can divide priorities"
+      ],
+      "answer": 3,
+      "explanation": "Separate tax and school systems can divide priorities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Why did social welfare expansion attract competing interpretations?",
+      "choices": [
+        "Supporters stressed security; critics stressed cost and dependency",
+        "Supporters and critics chiefly disagreed over foreign rather than domestic responsibility",
+        "Program expansion gave recipients comparable benefits regardless of eligibility design",
+        "Critics denied government had any constitutional responsibilities"
+      ],
+      "answer": 0,
+      "explanation": "Supporters stressed security; critics stressed cost and dependency.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "How did supply-side advocates justify tax reductions?",
+      "choices": [
+        "Investment incentives were expected to work mainly through direct federal hiring",
+        "They expected incentives to encourage investment and production",
+        "Tax reductions chiefly aimed to replace private production with public enterprises",
+        "They expected tax cuts to prohibit private investment"
+      ],
+      "answer": 1,
+      "explanation": "They expected incentives to encourage investment and production.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Why did deregulation generate debate?",
+      "choices": [
+        "Removing restrictions chiefly equalizes information and bargaining power among consumers",
+        "Reduced compliance costs provide sufficient evidence of improved outcomes for affected workers",
+        "Potential efficiency gains guaranteed equal outcomes",
+        "Potential efficiency gains competed with protections against harm"
+      ],
+      "answer": 3,
+      "explanation": "Potential efficiency gains competed with protections against harm.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Compare national security debates in the Red Scare and Vietnam era.",
+      "choices": [
+        "Both eliminated congressional debate over executive power",
+        "Both guaranteed that every critic was a foreign agent",
+        "Both occurred without foreign-policy conflict",
+        "Both raised questions about dissent and government surveillance"
+      ],
+      "answer": 3,
+      "explanation": "Both raised questions about dissent and government surveillance.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Why did environmental research affect public policy arguments?",
+      "choices": [
+        "Scientific findings directly settled the preferred balance between protection and cost",
+        "Research made environmental harms primarily a matter of individual consumer preference",
+        "Evidence of collective harm strengthened demands for regulation",
+        "Scientific findings removed the need for public enforcement"
+      ],
+      "answer": 2,
+      "explanation": "Evidence of collective harm strengthened demands for regulation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "An industry objects to pollution controls as costly. What tradeoff is debated?",
+      "choices": [
+        "Environmental benefits versus mandatory national ownership of homes",
+        "Private compliance costs versus public environmental benefits",
+        "Environmental benefits versus the end of representative government",
+        "Private profits versus abolition of all constitutional rights"
+      ],
+      "answer": 1,
+      "explanation": "Private compliance costs versus public environmental benefits.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Why did poverty during economic growth concern Great Society supporters?",
+      "choices": [
+        "National growth supplied sufficient evidence that existing institutions met remaining needs",
+        "Aggregate prosperity had not removed unequal access and need",
+        "Poverty was treated chiefly as a foreign-policy issue outside domestic responsibility",
+        "Poverty existed only outside national borders"
+      ],
+      "answer": 1,
+      "explanation": "Aggregate prosperity had not removed unequal access and need.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "What evidence best evaluates a government health program?",
+      "choices": [
+        "The assumption that every eligible household receives equal care",
+        "Only the number of favorable campaign advertisements",
+        "Coverage, health access, costs, and distribution of benefits",
+        "Only a program's official title and signing date"
+      ],
+      "answer": 2,
+      "explanation": "Coverage, health access, costs, and distribution of benefits.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "How could inflation or unemployment change policy preferences?",
+      "choices": [
+        "Economic conditions removed partisan differences permanently",
+        "Economic conditions altered judgments about intervention and markets",
+        "Economic conditions prohibited changes in tax policy",
+        "Economic conditions required all voters to agree"
+      ],
+      "answer": 1,
+      "explanation": "Economic conditions altered judgments about intervention and markets.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Why is describing debate as government versus no government misleading?",
+      "choices": [
+        "Disputants often disagreed over scope and methods of action",
+        "The major positions accepted the same scope and differed only over agency names",
+        "Market approaches removed the need for government decisions about legal rules",
+        "Disputants never accepted any government responsibilities"
+      ],
+      "answer": 0,
+      "explanation": "Disputants often disagreed over scope and methods of action.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Compare civil liberties and national-security goals.",
+      "choices": [
+        "Security goals apply to governmental action while rights concern only private conduct",
+        "Invoking a security purpose supplies sufficient legal authority without further review",
+        "They can create tensions requiring limits and justification",
+        "Civil liberties automatically prohibit every security investigation"
+      ],
+      "answer": 2,
+      "explanation": "They can create tensions requiring limits and justification.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "Why did creating the EPA matter institutionally?",
+      "choices": [
+        "Environmental protection gained a coordinated federal agency",
+        "Creating an agency transferred environmental protection chiefly to voluntary industry programs",
+        "Federal coordination made regional implementation differences historically insignificant",
+        "Environmental protection became exclusively private charity"
+      ],
+      "answer": 0,
+      "explanation": "Environmental protection gained a coordinated federal agency.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "What links welfare, environmental, and economic debates after 1945?",
+      "choices": [
+        "The debates chiefly sought the same allocation of public and private responsibility",
+        "All contested how government should address collective problems",
+        "Economic conditions shaped market arguments without influencing welfare or environmental positions",
+        "All produced permanent agreement on federal authority"
+      ],
+      "answer": 1,
+      "explanation": "All contested how government should address collective problems.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 29",
+      "standards": [
+        29
+      ],
+      "prompt": "Why could suburban growth increase demand for highways?",
+      "choices": [
+        "Suburban residence lowered transport needs by keeping households near central employment",
+        "Residential expansion made commuting infrastructure less significant to public planning",
+        "Longer commutes linked residential expansion with transport investment",
+        "Longer commutes eliminated local land-use disputes"
+      ],
+      "answer": 2,
+      "explanation": "Longer commutes linked residential expansion with transport investment.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 30",
+      "standards": [
+        30
+      ],
+      "prompt": "A court limits surveillance of peaceful protesters. Which historical debate does this illustrate?",
+      "choices": [
+        "How immigration quotas should distribute congressional representation",
+        "How security responsibilities should coexist with individual rights",
+        "How industrial tariffs should finance urban highway construction",
+        "How defense alliances should select state legislative candidates"
+      ],
+      "answer": 1,
+      "explanation": "How security responsibilities should coexist with individual rights.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

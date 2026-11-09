@@ -1,7 +1,525 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B10-CS31,32,33-REVIEW-2027-V2",
+    "title": "Block 10 Review — Globalized and Post–Cold War America",
+    "type": "review",
+    "block": 10,
+    "standards": [
+      31,
+      32,
+      33
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "A firm designs in Ohio and assembles abroad. What makes this transnational?",
+      "choices": [
+        "Foreign assembly prohibits international communication",
+        "Foreign assembly ends all American employment",
+        "Production stages remain under one city's jurisdiction",
+        "Production stages cross national boundaries"
+      ],
+      "answer": 3,
+      "explanation": "Production stages cross national boundaries.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "Why can internet growth increase both opportunity and inequality?",
+      "choices": [
+        "Access and skills shape who gains from new markets",
+        "Digital access distributes economic gains independently of skills and resources",
+        "Online markets primarily remove regional differences in education and infrastructure",
+        "Digital growth eliminates regional employment differences"
+      ],
+      "answer": 0,
+      "explanation": "Access and skills shape who gains from new markets.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "Compare manufacturing job loss with manufacturing output.",
+      "choices": [
+        "Automation can raise output while reducing labor needs",
+        "Higher output prevents any plant from relocating",
+        "Higher output requires employment to grow identically",
+        "Lower employment always proves zero industrial production"
+      ],
+      "answer": 0,
+      "explanation": "Automation can raise output while reducing labor needs.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "How does overseas competition affect a local factory town?",
+      "choices": [
+        "Plant closures mainly affect investors without changing local fiscal resources",
+        "Plant decisions can alter jobs, tax revenue, and services",
+        "Competitive pressure shifts workers directly into equivalent local employment",
+        "Competition requires city governments to end taxation"
+      ],
+      "answer": 1,
+      "explanation": "Plant decisions can alter jobs, tax revenue, and services.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "Why is service employment not a single economic experience?",
+      "choices": [
+        "Service occupations generally share comparable skill demands and compensation levels",
+        "Service work is concentrated mainly in leisure rather than varied economic sectors",
+        "Occupations vary greatly in wages and qualifications",
+        "Every service occupation pays identical national wages"
+      ],
+      "answer": 2,
+      "explanation": "Occupations vary greatly in wages and qualifications.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "What evidence best assesses globalization's distributional effects?",
+      "choices": [
+        "Prices and employment examined across sectors and communities",
+        "The assumption that all consumers share identical gains",
+        "Only the size of one firm's logo",
+        "Only total national output without local data"
+      ],
+      "answer": 0,
+      "explanation": "Prices and employment examined across sectors and communities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "How can mobile communication affect small businesses?",
+      "choices": [
+        "Mobile networks primarily favor existing large firms by limiting market entry",
+        "Communication costs have little relationship to small firms' coordination opportunities",
+        "Mobile access eliminates the need for financial resources",
+        "Low-cost networks can expand customers and coordination"
+      ],
+      "answer": 3,
+      "explanation": "Low-cost networks can expand customers and coordination.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "Why might trade growth coexist with a trade deficit?",
+      "choices": [
+        "Exports must disappear whenever imports increase",
+        "Imports can rise faster than exports",
+        "A deficit means no domestic services are produced",
+        "A deficit guarantees all foreign investment ends"
+      ],
+      "answer": 1,
+      "explanation": "Imports can rise faster than exports.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "Compare outsourcing and automation.",
+      "choices": [
+        "Automation and outsourcing reduce employment through the same geographic relocation process",
+        "Outsourcing replaces domestic labor chiefly through locally installed machinery",
+        "Both can change labor demand through different mechanisms",
+        "Automation depends exclusively on foreign wage differences"
+      ],
+      "answer": 2,
+      "explanation": "Both can change labor demand through different mechanisms.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 31",
+      "standards": [
+        31
+      ],
+      "prompt": "Why does evaluating trade require more than counting imports?",
+      "choices": [
+        "Import totals alone reveal how trade affects distinct industries and households",
+        "Trade effects mainly concern consumers without changing production or investment",
+        "Imports interact with exports, prices, investment, and employment",
+        "Trade cannot influence regional economic adjustment"
+      ],
+      "answer": 2,
+      "explanation": "Imports interact with exports, prices, investment, and employment.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "Why did airport screening expand after September 11?",
+      "choices": [
+        "Expanded screening chiefly reduced federal responsibility for civilian aviation protection",
+        "Security measures mainly addressed international trade rather than risks to passengers",
+        "Screening transferred aviation policy to private passengers",
+        "Officials sought to reduce risks to commercial aviation"
+      ],
+      "answer": 3,
+      "explanation": "Officials sought to reduce risks to commercial aviation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "Compare security measures and Islamophobic discrimination.",
+      "choices": [
+        "Religious affiliation offers evidence comparable to an individualized threat investigation",
+        "Security policy requires distinguishing threats from group stereotypes",
+        "National-security objectives make broad religious stereotypes a neutral policy instrument",
+        "Group stereotypes provide individualized evidence of wrongdoing"
+      ],
+      "answer": 1,
+      "explanation": "Security policy requires distinguishing threats from group stereotypes.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "How do state-federal disagreements shape domestic policy?",
+      "choices": [
+        "Federalism assigns social issues to one level without overlapping responsibilities",
+        "National debate mainly reflects disagreement over implementation rather than governing authority",
+        "States possess no authority over any social policy",
+        "Different jurisdictions contest authority over shared issues"
+      ],
+      "answer": 3,
+      "explanation": "Different jurisdictions contest authority over shared issues.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "Why did financial bailouts generate conflicting judgments?",
+      "choices": [
+        "Stabilizing financial institutions supplied comparable relief to every affected household",
+        "Financial assistance settled questions of accountability by separating banks from the wider economy",
+        "Bailouts proved housing and finance were unrelated",
+        "Stabilization goals competed with fairness and accountability concerns"
+      ],
+      "answer": 3,
+      "explanation": "Stabilization goals competed with fairness and accountability concerns.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "A legislature debates health coverage and fiscal costs. What ongoing challenge appears?",
+      "choices": [
+        "Health-financing decisions chiefly concern allocation of overseas military resources",
+        "Balancing access, public responsibility, and financing",
+        "Expanding access leaves public costs and institutional responsibility largely unaffected",
+        "Balancing military alliances against colonial expansion"
+      ],
+      "answer": 1,
+      "explanation": "Balancing access, public responsibility, and financing.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "Why is domestic terrorism difficult to address within a free society?",
+      "choices": [
+        "Lawful political association supplies sufficient evidence for preventive criminal punishment",
+        "Protecting expression makes investigating specific threats constitutionally unavailable",
+        "Prevention must respect lawful belief and association",
+        "Civil liberties prohibit investigating specific criminal conduct"
+      ],
+      "answer": 2,
+      "explanation": "Prevention must respect lawful belief and association.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "What evidence best evaluates postattack surveillance policy?",
+      "choices": [
+        "Security benefits weighed against rights costs and oversight",
+        "Only the number of agencies using acronyms",
+        "The assumption that expanded authority is always harmless",
+        "Only the popularity of one official speech"
+      ],
+      "answer": 0,
+      "explanation": "Security benefits weighed against rights costs and oversight.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "How did reduced post-Cold War defense spending pose domestic challenges?",
+      "choices": [
+        "Communities dependent on military contracts faced adjustment",
+        "Lower procurement chiefly affects military personnel without consequences for civilian suppliers",
+        "Defense-dependent regions tend to replace contracts without local economic adjustment",
+        "Reduced spending permanently ended military procurement"
+      ],
+      "answer": 0,
+      "explanation": "Communities dependent on military contracts faced adjustment.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "Why did gun-policy disputes persist after the Cold War?",
+      "choices": [
+        "Public safety regulation operates independently of constitutional and jurisdictional disputes",
+        "Debates concern private consumption without competing claims about rights or protection",
+        "State governments lacked any role in public safety",
+        "Public safety arguments competed with rights and federalism claims"
+      ],
+      "answer": 3,
+      "explanation": "Public safety arguments competed with rights and federalism claims.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "Compare mortgage defaults with unemployment as crisis mechanisms.",
+      "choices": [
+        "Mortgage losses increase purchasing power by reducing continuing debt obligations",
+        "Housing losses and reduced income could reinforce each other",
+        "Unemployment largely insulates lenders by discouraging additional borrowing",
+        "Unemployment had no relationship to debt repayment"
+      ],
+      "answer": 1,
+      "explanation": "Housing losses and reduced income could reinforce each other.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "Why did weapons-of-mass-destruction concerns influence intervention debates?",
+      "choices": [
+        "Perceived threats raised disputes over evidence and legitimate force",
+        "Perceived dangers themselves resolve questions about evidence and legitimate intervention",
+        "Weapons concerns mainly reduce the relevance of alliances and international diplomacy",
+        "Weapons concerns eliminated alliance disagreements"
+      ],
+      "answer": 0,
+      "explanation": "Perceived threats raised disputes over evidence and legitimate force.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "How can humanitarian aid advance foreign-policy goals?",
+      "choices": [
+        "Aid principally establishes direct donor authority over recipient domestic institutions",
+        "Humanitarian policy develops independently of security and diplomatic relationships",
+        "Relief can support stability and diplomatic relationships",
+        "Aid affects only private donors without public consequences"
+      ],
+      "answer": 2,
+      "explanation": "Relief can support stability and diplomatic relationships.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "Why did detainee treatment become an international issue?",
+      "choices": [
+        "Military custody makes legal treatment chiefly a private domestic administrative matter",
+        "Security claims remove detention decisions from international ethical and diplomatic debate",
+        "Security practices raised legal, ethical, and diplomatic questions",
+        "Detention eliminated concerns about national reputation"
+      ],
+      "answer": 2,
+      "explanation": "Security practices raised legal, ethical, and diplomatic questions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "Compare trade partnerships with counterterrorism alliances.",
+      "choices": [
+        "Both guarantee identical interests on every policy",
+        "Trade agreements require common military command",
+        "Security alliances require complete economic isolation",
+        "Both coordinate states around different shared challenges"
+      ],
+      "answer": 3,
+      "explanation": "Both coordinate states around different shared challenges.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "Why can the dollar's international role affect American policy?",
+      "choices": [
+        "Currency use requires foreign control of Congress",
+        "Global demand links currency stability with international finance",
+        "Global demand eliminates every trade deficit",
+        "Currency use prevents financial crises permanently"
+      ],
+      "answer": 1,
+      "explanation": "Global demand links currency stability with international finance.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "How can overseas outsourcing become a foreign-policy debate?",
+      "choices": [
+        "Foreign production mainly changes prices without influencing domestic employment debates",
+        "Outsourcing questions are separate from negotiated trade rules and partnerships",
+        "Economic ties create tensions over jobs, rules, and partnerships",
+        "Outsourcing requires abandoning every international agreement"
+      ],
+      "answer": 2,
+      "explanation": "Economic ties create tensions over jobs, rules, and partnerships.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "Why did Middle Eastern conflicts involve the UN as well as states?",
+      "choices": [
+        "International participation settles disagreements over the objectives of military intervention",
+        "UN involvement chiefly replaces national interests with uniform regional priorities",
+        "Legitimacy and collective responses became contested international issues",
+        "UN participation prohibited humanitarian assistance"
+      ],
+      "answer": 2,
+      "explanation": "Legitimacy and collective responses became contested international issues.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "What makes global disease control different from a purely local response?",
+      "choices": [
+        "Movement across borders links health systems and diplomatic choices",
+        "Disease control requires suspending every international relationship",
+        "Disease control has no relationship to public confidence",
+        "Movement across borders prevents information sharing"
+      ],
+      "answer": 0,
+      "explanation": "Movement across borders links health systems and diplomatic choices.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 32",
+      "standards": [
+        32
+      ],
+      "prompt": "Why should historians separate Muslims from perpetrators when studying postattack responses?",
+      "choices": [
+        "Group identity supplies sufficient evidence for criminal guilt",
+        "Security policy eliminates protections against discrimination",
+        "Security policy requires uniform suspicion of religious minorities",
+        "Group identity does not establish individual responsibility"
+      ],
+      "answer": 3,
+      "explanation": "Group identity does not establish individual responsibility.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 33",
+      "standards": [
+        33
+      ],
+      "prompt": "Why did the end of Soviet rivalry not end foreign-policy challenges?",
+      "choices": [
+        "Global integration reduced policy concerns to the former Soviet military threat",
+        "New conflicts and global connections created different responsibilities",
+        "The disappearance of one rivalry left international economic and social problems unchanged",
+        "Global connections prevented international humanitarian emergencies"
+      ],
+      "answer": 1,
+      "explanation": "New conflicts and global connections created different responsibilities.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

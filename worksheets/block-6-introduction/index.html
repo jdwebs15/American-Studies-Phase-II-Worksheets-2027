@@ -1,0 +1,854 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B6-CS22,23-INTRODUCTION-2027-V2",
+    "title": "Block 6 Introduction — Nuclear Age and Containment",
+    "type": "introduction",
+    "block": 6,
+    "standards": [
+      22,
+      23
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 22",
+      "prompt": "Why did atomic attacks change judgments about the scale of war?",
+      "choices": [
+        "A single weapon removed the need for delivery systems",
+        "Atomic force made civilian location irrelevant to strategy",
+        "Atomic force ended the possibility of conventional conflict",
+        "A single weapon could devastate a city"
+      ],
+      "answer": 3,
+      "explanation": "A single weapon could devastate a city.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare destructive capacity per weapon, not only troop totals.",
+      "hint": "Compare destructive capacity per weapon, not only troop totals.",
+      "externalSource": "https://openstax.org/books/us-history/pages/27-4-the-pacific-theater-and-the-atomic-bomb"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 22",
+      "prompt": "Compare American atomic monopoly with the situation after Soviet testing.",
+      "choices": [
+        "Monopoly required equal arsenals among the major powers",
+        "Monopoly prevented conflict over regional political influence",
+        "Rival capability restored exclusive American strategic control",
+        "Rival capability introduced a direct retaliation threat"
+      ],
+      "answer": 3,
+      "explanation": "Rival capability introduced a direct retaliation threat.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask what changed when another power gained the capability.",
+      "hint": "Ask what changed when another power gained the capability.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 22",
+      "prompt": "Why might a state build weapons it hopes never to launch?",
+      "choices": [
+        "Threatened retaliation can discourage an opponent's attack",
+        "Weapons development establishes public consent for military policies",
+        "Threatened retaliation guarantees agreement on diplomatic priorities",
+        "Weapons development substitutes completely for alliances"
+      ],
+      "answer": 0,
+      "explanation": "Threatened retaliation can discourage an opponent's attack.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate using a weapon from threatening retaliation.",
+      "hint": "Separate using a weapon from threatening retaliation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 22",
+      "prompt": "An arms increase prompts a rival increase. What dynamic appears?",
+      "choices": [
+        "Defensive preparations can intensify mutual insecurity",
+        "A larger arsenal prevents future technological competition",
+        "A larger arsenal removes uncertainty about rival intentions",
+        "Defensive preparations necessarily demonstrate common political goals"
+      ],
+      "answer": 0,
+      "explanation": "Defensive preparations can intensify mutual insecurity.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how each side interprets the other's preparation.",
+      "hint": "Consider how each side interprets the other's preparation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 22",
+      "prompt": "How could nuclear superiority influence a crisis without actual use?",
+      "choices": [
+        "Nuclear advantage guarantees an opponent will accept every demand",
+        "Nuclear advantage eliminates the importance of conventional forces",
+        "Destructive capacity transfers diplomacy to private weapons firms",
+        "Destructive capacity affects bargaining and perceived risks"
+      ],
+      "answer": 3,
+      "explanation": "Destructive capacity affects bargaining and perceived risks.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish bargaining influence from guaranteed obedience.",
+      "hint": "Distinguish bargaining influence from guaranteed obedience.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 22",
+      "prompt": "Why did civilian-defense planning grow in the nuclear age?",
+      "choices": [
+        "Defense planning ended public concern about international rivalry",
+        "Defense planning guaranteed protection from every possible attack",
+        "Mass destruction confined risks to professional military personnel",
+        "Mass destruction made distant population centers vulnerable"
+      ],
+      "answer": 3,
+      "explanation": "Mass destruction made distant population centers vulnerable.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider which places could become vulnerable targets.",
+      "hint": "Consider which places could become vulnerable targets.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 22",
+      "prompt": "Compare possessing nuclear weapons with successfully controlling escalation.",
+      "choices": [
+        "Escalation depends solely on the number of soldiers mobilized",
+        "Capability does not eliminate miscalculation or political uncertainty",
+        "Capability establishes identical objectives among competing governments",
+        "Escalation becomes impossible when both states possess arsenals"
+      ],
+      "answer": 1,
+      "explanation": "Capability does not eliminate miscalculation or political uncertainty.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate technical capacity from knowledge of intentions.",
+      "hint": "Separate technical capacity from knowledge of intentions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 22",
+      "prompt": "Why could negotiated arms limits serve rival powers' interests?",
+      "choices": [
+        "Restraint could reduce costs and catastrophic risks",
+        "Arms limits chiefly sought agreement on each rival's domestic ideology",
+        "Negotiation made a state's security independent of the rival's capabilities",
+        "Restraint required accepting the other side's ideology"
+      ],
+      "answer": 0,
+      "explanation": "Restraint could reduce costs and catastrophic risks.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whether opponents can share an interest despite rivalry.",
+      "hint": "Ask whether opponents can share an interest despite rivalry.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 22",
+      "prompt": "A historian counts troops but omits atomic capacity. What is missing?",
+      "choices": [
+        "Troop numbers no longer mattered in any regional war",
+        "Troop numbers alone determined each government's political legitimacy",
+        "Technological change made geography irrelevant in every conflict",
+        "Technological change altered how power could be exercised"
+      ],
+      "answer": 3,
+      "explanation": "Technological change altered how power could be exercised.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check whether the measure captures destructive technology.",
+      "hint": "Check whether the measure captures destructive technology.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 22",
+      "prompt": "Why distinguish nuclear deterrence from an expectation of easy victory?",
+      "choices": [
+        "Retaliation guaranteed that a first strike would face no response",
+        "Retaliation could make even military success intolerably costly",
+        "Deterrence required continual nuclear attacks against rival cities",
+        "Deterrence concerned only conflicts without civilian populations"
+      ],
+      "answer": 1,
+      "explanation": "Retaliation could make even military success intolerably costly.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare battlefield success with the costs of retaliation.",
+      "hint": "Compare battlefield success with the costs of retaliation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 22",
+      "prompt": "How did Soviet testing affect superpower status?",
+      "choices": [
+        "It ended Soviet-American ideological competition",
+        "It narrowed a major American strategic advantage",
+        "Testing transferred America's alliance commitments to neutral states",
+        "Testing removed Soviet dependence on military research"
+      ],
+      "answer": 1,
+      "explanation": "It narrowed a major American strategic advantage.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify the strategic advantage that became less exclusive.",
+      "hint": "Identify the strategic advantage that became less exclusive.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 22",
+      "prompt": "Why did nuclear danger increase the importance of crisis communication?",
+      "choices": [
+        "Misread intentions disappeared when arsenals reached equal size",
+        "Communication eliminated the possibility of political disagreement",
+        "Misread intentions could trigger disproportionate escalation",
+        "Communication made strategic intelligence permanently unnecessary"
+      ],
+      "answer": 2,
+      "explanation": "Misread intentions could trigger disproportionate escalation.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Think about the consequences of a mistaken interpretation.",
+      "hint": "Think about the consequences of a mistaken interpretation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 22",
+      "prompt": "Compare arms competition and civil-defense campaigns.",
+      "choices": [
+        "Civil defense replaced every need for offensive military planning",
+        "Civil defense ensured public agreement on nuclear policy",
+        "International rivalry influenced diplomacy but not civilian behavior",
+        "International rivalry generated both weapons growth and domestic responses"
+      ],
+      "answer": 3,
+      "explanation": "International rivalry generated both weapons growth and domestic responses.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace an international development into domestic preparation.",
+      "hint": "Trace an international development into domestic preparation.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 22",
+      "prompt": "Why did nuclear weapons change war rather than abolish it?",
+      "choices": [
+        "Nuclear weapons made regional disputes economically irrelevant",
+        "States abandoned political objectives outside their own borders",
+        "States still pursued objectives through lower-level force",
+        "Nuclear weapons required ending conventional military alliances"
+      ],
+      "answer": 2,
+      "explanation": "States still pursued objectives through lower-level force.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish preventing one kind of war from ending conflict.",
+      "hint": "Distinguish preventing one kind of war from ending conflict.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 22",
+      "prompt": "What evidence would demonstrate a changed balance of power?",
+      "choices": [
+        "One leader's popularity without international policy evidence",
+        "New strike capabilities influencing diplomatic and military choices",
+        "A growing population without evidence of strategic effects",
+        "A list of unrelated domestic legislation dates"
+      ],
+      "answer": 1,
+      "explanation": "New strike capabilities influencing diplomatic and military choices.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Seek evidence that capabilities changed actual decisions.",
+      "hint": "Seek evidence that capabilities changed actual decisions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 22",
+      "prompt": "Why might public fear persist as arsenals become stronger?",
+      "choices": [
+        "Greater destructive power increases the stakes of failure",
+        "Arsenal growth proves rival governments have identical intentions",
+        "Arsenal growth removes civilian dependence on government decisions",
+        "Greater destructive power ensures protection against accidental launch"
+      ],
+      "answer": 0,
+      "explanation": "Greater destructive power increases the stakes of failure.",
+      "standards": [
+        22
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare strength with the consequences of its failure.",
+      "hint": "Compare strength with the consequences of its failure.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 23",
+      "prompt": "A recovery program restores European production. How can this serve containment?",
+      "choices": [
+        "Recovery makes military security commitments legally unnecessary",
+        "Recovery automatically removes every domestic political disagreement",
+        "Economic stability can reduce communist political appeal",
+        "Economic stability requires direct American territorial annexation"
+      ],
+      "answer": 2,
+      "explanation": "Economic stability can reduce communist political appeal.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect recovery and domestic political stability.",
+      "hint": "Connect recovery and domestic political stability.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 23",
+      "prompt": "Why combine a defense alliance with economic assistance?",
+      "choices": [
+        "Military protection addressed economic grievances more directly than recovery aid",
+        "Reconstruction primarily transferred allied defense decisions to private banks",
+        "Different tools require abandoning diplomatic negotiation entirely",
+        "Different tools address military and political vulnerabilities"
+      ],
+      "answer": 3,
+      "explanation": "Different tools address military and political vulnerabilities.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish military threats from economic vulnerability.",
+      "hint": "Distinguish military threats from economic vulnerability.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 23",
+      "prompt": "A local communist movement has domestic grievances. Why examine them separately from Soviet policy?",
+      "choices": [
+        "Local motives may differ from superpower assumptions",
+        "Local grievances established that communist parties had no international connections",
+        "Ideological similarity supplied sufficient evidence of direct Soviet command",
+        "Local motives demonstrate that external influence is impossible"
+      ],
+      "answer": 0,
+      "explanation": "Local motives may differ from superpower assumptions.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare local political conditions with superpower assumptions.",
+      "hint": "Compare local political conditions with superpower assumptions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 23",
+      "prompt": "How did communist victory in China affect American calculations?",
+      "choices": [
+        "It intensified concern about communist influence in Asia",
+        "Chinese developments required immediate American occupation of China",
+        "It ended the relevance of security commitments in Europe",
+        "Chinese developments guaranteed a unified noncommunist Korean state"
+      ],
+      "answer": 0,
+      "explanation": "It intensified concern about communist influence in Asia.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace why developments in one region affected wider fears.",
+      "hint": "Trace why developments in one region affected wider fears.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 23",
+      "prompt": "Compare containment with isolationism.",
+      "choices": [
+        "Both required withdrawing American diplomats from allied capitals",
+        "Both treated distant political developments as unrelated to security",
+        "One sought to shape foreign outcomes rather than avoid commitments",
+        "One prohibited economic aid while the other required alliances"
+      ],
+      "answer": 2,
+      "explanation": "One sought to shape foreign outcomes rather than avoid commitments.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare foreign involvement with avoidance of commitments.",
+      "hint": "Compare foreign involvement with avoidance of commitments.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 23",
+      "prompt": "Why did policymakers connect Korea with wider strategic credibility?",
+      "choices": [
+        "The outcome concerned only boundaries without implications for allied confidence",
+        "A regional outcome could influence confidence in American commitments",
+        "American commitments required identical interventions regardless of local conditions",
+        "Korean security depended exclusively on European customs arrangements"
+      ],
+      "answer": 1,
+      "explanation": "A regional outcome could influence confidence in American commitments.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how allies interpret promises in other regions.",
+      "hint": "Consider how allies interpret promises in other regions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 23",
+      "prompt": "An ally receives aid despite authoritarian rule. What tension appears?",
+      "choices": [
+        "Anti-communist strategy could conflict with democratic ideals",
+        "Aid demonstrated that local institutions were strategically irrelevant",
+        "Anti-communist strategy required equal voting access everywhere",
+        "Aid automatically transferred the ally's sovereignty to Congress"
+      ],
+      "answer": 0,
+      "explanation": "Anti-communist strategy could conflict with democratic ideals.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare strategic priorities with the partner's institutions.",
+      "hint": "Compare strategic priorities with the partner's institutions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 23",
+      "prompt": "Why did containment expand American responsibilities after 1945?",
+      "choices": [
+        "Containment required identical interventions in every threatened country",
+        "Containment removed the need to consider regional conditions",
+        "Distant political changes became linked to national security",
+        "Distant political changes were assigned solely to private businesses"
+      ],
+      "answer": 2,
+      "explanation": "Distant political changes became linked to national security.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace how distant outcomes become security concerns.",
+      "hint": "Trace how distant outcomes become security concerns.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 23",
+      "prompt": "Compare NATO and the Truman Doctrine.",
+      "choices": [
+        "The doctrine prohibited military assistance outside American territory",
+        "The doctrine dissolved European collective-defense arrangements",
+        "An institutional alliance concerned only domestic civil-rights enforcement",
+        "An institutional alliance and a policy commitment supported resistance"
+      ],
+      "answer": 3,
+      "explanation": "An institutional alliance and a policy commitment supported resistance.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate an ongoing alliance from a declared commitment.",
+      "hint": "Separate an ongoing alliance from a declared commitment.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 23",
+      "prompt": "A government chooses financial aid over troops. What would establish its containment purpose?",
+      "choices": [
+        "Evidence that assistance aimed to limit communist expansion",
+        "Evidence that assistance increased any recipient's population",
+        "The absence of direct Soviet occupation inside the United States",
+        "The absence of every military alliance with the recipient"
+      ],
+      "answer": 0,
+      "explanation": "Evidence that assistance aimed to limit communist expansion.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for the aid's stated objective and target.",
+      "hint": "Look for the aid's stated objective and target.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 23",
+      "prompt": "Why can evaluating containment require more than counting victories?",
+      "choices": [
+        "A single battle eliminates the need to study economic instruments",
+        "Strategic outcomes are independent of allied political conditions",
+        "Strategic outcomes must be weighed against costs and consequences",
+        "A single battle always determines the policy's global success"
+      ],
+      "answer": 2,
+      "explanation": "Strategic outcomes must be weighed against costs and consequences.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Weigh outcomes against resources, risks, and consequences.",
+      "hint": "Weigh outcomes against resources, risks, and consequences.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 23",
+      "prompt": "A leader assumes every local uprising is Soviet-directed. What analytical error is possible?",
+      "choices": [
+        "Ignoring distinct local causes and actors",
+        "Comparing political movements' different historical circumstances",
+        "Giving too much weight to Soviet military orders",
+        "Distinguishing regional grievances from international rivalry"
+      ],
+      "answer": 0,
+      "explanation": "Ignoring distinct local causes and actors.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whose motives the explanation overlooks.",
+      "hint": "Ask whose motives the explanation overlooks.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 23",
+      "prompt": "How could reconstruction and collective defense reinforce each other?",
+      "choices": [
+        "Recovery reduced the importance of stable political institutions among allies",
+        "Military guarantees mainly substituted for rebuilding productive economic capacity",
+        "Security and economic recovery could strengthen allied resilience",
+        "Security made investment and recovery politically unnecessary"
+      ],
+      "answer": 2,
+      "explanation": "Security and economic recovery could strengthen allied resilience.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Think about how stable economies and security interact.",
+      "hint": "Think about how stable economies and security interact.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 23",
+      "prompt": "Why did Asian containment create different challenges from European recovery?",
+      "choices": [
+        "European policies relied exclusively on direct combat intervention",
+        "Local wars and political conditions required different instruments",
+        "European policies excluded economic considerations from planning",
+        "Local conditions were identical across both regions"
+      ],
+      "answer": 1,
+      "explanation": "Local wars and political conditions required different instruments.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare contexts before assuming identical tools.",
+      "hint": "Compare contexts before assuming identical tools.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 23",
+      "prompt": "Compare stopping further expansion with overthrowing an existing regime.",
+      "choices": [
+        "Regime overthrow concerns only changes in domestic election procedures",
+        "Containment requires permanent invasion of every communist state",
+        "Regime overthrow is the sole available economic aid strategy",
+        "Containment can preserve boundaries without demanding immediate reversal"
+      ],
+      "answer": 3,
+      "explanation": "Containment can preserve boundaries without demanding immediate reversal.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish preserving a boundary from reversing a regime.",
+      "hint": "Distinguish preserving a boundary from reversing a regime.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 23",
+      "prompt": "What sources best assess how containment operated in practice?",
+      "choices": [
+        "Only speeches defining freedom without implementation records",
+        "Aid records, alliance commitments, and intervention outcomes",
+        "The assumption that every official statement matched actual results",
+        "Only statistics of unrelated household consumer purchases"
+      ],
+      "answer": 1,
+      "explanation": "Aid records, alliance commitments, and intervention outcomes.",
+      "standards": [
+        23
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for implementation records alongside policy statements.",
+      "hint": "Look for implementation records alongside policy statements.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Why did Soviet atomic testing in 1949 alter diplomacy?",
+      "choices": [
+        "American conventional forces disappeared",
+        "Soviet testing prohibited further weapons research",
+        "American nuclear monopoly ended",
+        "Soviet influence in Europe ended"
+      ],
+      "answer": 2,
+      "explanation": "American nuclear monopoly ended.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare monopoly with a rival's successful test.",
+      "hint": "Compare monopoly with a rival's successful test.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "How did nuclear destruction change military calculation?",
+      "choices": [
+        "Victory no longer required political objectives",
+        "Nuclear possession removed every security dilemma",
+        "Victory could carry catastrophic reciprocal costs",
+        "Nuclear possession made conventional wars impossible"
+      ],
+      "answer": 2,
+      "explanation": "Victory could carry catastrophic reciprocal costs.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the cost of reciprocal destruction.",
+      "hint": "Consider the cost of reciprocal destruction.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "Why could more powerful weapons produce greater public insecurity?",
+      "choices": [
+        "Weapons development eliminated uncertainty about enemy intentions",
+        "Weapons development prevented investment in civil defense",
+        "Rival retaliation guaranteed permanent diplomatic agreement",
+        "Rival retaliation threatened civilian populations"
+      ],
+      "answer": 3,
+      "explanation": "Rival retaliation threatened civilian populations.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whether greater capability necessarily reduces fear.",
+      "hint": "Ask whether greater capability necessarily reduces fear.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "How did Marshall Plan aid serve containment?",
+      "choices": [
+        "Recovery could reduce conditions favoring communist influence",
+        "Recovery required direct American annexation of recipient states",
+        "Aid replaced every diplomatic and military instrument",
+        "Aid prohibited cooperation among western European governments"
+      ],
+      "answer": 0,
+      "explanation": "Recovery could reduce conditions favoring communist influence.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace economic recovery into political influence.",
+      "hint": "Trace economic recovery into political influence.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Compare NATO with the Marshall Plan.",
+      "choices": [
+        "Both limited containment exclusively to Latin America",
+        "Collective defense complemented economic reconstruction",
+        "Collective defense replaced all recovery assistance",
+        "Both required American rule over member governments"
+      ],
+      "answer": 1,
+      "explanation": "Collective defense complemented economic reconstruction.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish reconstruction from collective defense.",
+      "hint": "Distinguish reconstruction from collective defense.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why did containment not necessarily mean conquering existing communist states?",
+      "choices": [
+        "Containment depended on reversing communist rule before providing economic assistance",
+        "It focused on restricting further expansion",
+        "Limiting expansion required direct occupation of existing communist capitals",
+        "It prohibited aid to threatened noncommunist societies"
+      ],
+      "answer": 1,
+      "explanation": "It focused on restricting further expansion.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare preventing expansion with reversing existing rule.",
+      "hint": "Compare preventing expansion with reversing existing rule.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 22",
+      "standards": [
+        22
+      ],
+      "prompt": "How did atomic weapons affect the balance of power?",
+      "choices": [
+        "Destructive capacity made economic resources politically irrelevant",
+        "Nuclear weapons transferred every military decision to the United Nations",
+        "Destructive capacity became a major measure of superpower status",
+        "Nuclear weapons restored European empires to uncontested dominance"
+      ],
+      "answer": 2,
+      "explanation": "Destructive capacity became a major measure of superpower status.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-22",
+      "where": "Section CS 22 — Atomic weapons and strategic power. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider technology's effect on strategic status.",
+      "hint": "Consider technology's effect on strategic status.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 23",
+      "standards": [
+        23
+      ],
+      "prompt": "Why did Korea become a containment conflict?",
+      "choices": [
+        "Korean independence made communist influence globally irrelevant",
+        "Northern invasion threatened expansion into South Korea",
+        "Northern invasion ended all international involvement in Asia",
+        "Korean independence required abolishing American commitments in Europe"
+      ],
+      "answer": 1,
+      "explanation": "Northern invasion threatened expansion into South Korea.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-6.html#cs-23",
+      "where": "Section CS 23 — Containment across regions and policy instruments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Locate the regional threat officials associated with expansion.",
+      "hint": "Locate the regional threat officials associated with expansion.",
+      "externalSource": "https://openstax.org/books/us-history/pages/28-2-the-cold-war"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

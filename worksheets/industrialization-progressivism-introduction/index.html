@@ -1,0 +1,858 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B12-CS8,9,10,11,12,13-INTRODUCTION-2027-V2",
+    "title": "Block 12 Introduction — Industrialization and Progressivism",
+    "type": "introduction",
+    "block": 12,
+    "standards": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 8",
+      "prompt": "A mechanized farm expands output with fewer workers. How can this reshape employment?",
+      "choices": [
+        "Labor can move toward growing urban industries",
+        "Farm productivity requires every rural household to gain wealth",
+        "Mechanization prevents farmers from entering national markets",
+        "Mechanization eliminates demand for agricultural products"
+      ],
+      "answer": 0,
+      "explanation": "Labor can move toward growing urban industries.",
+      "standards": [
+        8
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-8",
+      "where": "Section CS 8 — Corporate growth, mechanization, and work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow productivity changes into demand for different kinds of labor.",
+      "hint": "Follow productivity changes into demand for different kinds of labor.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-1-inventors-of-the-age"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 8",
+      "prompt": "Why did corporations help finance heavy industry?",
+      "choices": [
+        "Corporate ownership required production without managerial coordination",
+        "Corporate ownership ended competition over access to resources",
+        "Pooled investment eliminated the risk of industrial failure",
+        "Pooled investment could support expensive large-scale facilities"
+      ],
+      "answer": 3,
+      "explanation": "Pooled investment could support expensive large-scale facilities.",
+      "standards": [
+        8
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-8",
+      "where": "Section CS 8 — Corporate growth, mechanization, and work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the scale of investment with available financing.",
+      "hint": "Compare the scale of investment with available financing.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-2-from-invention-to-industrial-growth"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 8",
+      "prompt": "An assembly line narrows workers' tasks. What change should be analyzed?",
+      "choices": [
+        "Higher output required each worker to build complete products",
+        "Higher output accompanied altered skill and control requirements",
+        "Task specialization restored independent craft ownership of factories",
+        "Task specialization removed management's role in setting production speed"
+      ],
+      "answer": 1,
+      "explanation": "Higher output accompanied altered skill and control requirements.",
+      "standards": [
+        8
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-8",
+      "where": "Section CS 8 — Corporate growth, mechanization, and work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish greater output from control over the work process.",
+      "hint": "Distinguish greater output from control over the work process.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-1-inventors-of-the-age"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 8",
+      "prompt": "Why could industrial urban growth strain public health?",
+      "choices": [
+        "Population concentration outpaced housing and sanitation services",
+        "Population growth supplies municipal capacity in proportion to housing demand",
+        "Higher factory wages generally remove the need for organized public sanitation",
+        "Urban wages prevented factories from generating waste"
+      ],
+      "answer": 0,
+      "explanation": "Population concentration outpaced housing and sanitation services.",
+      "standards": [
+        8
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-8",
+      "where": "Section CS 8 — Corporate growth, mechanization, and work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the speed of growth with the capacity of services.",
+      "hint": "Compare the speed of growth with the capacity of services.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-2-from-invention-to-industrial-growth"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 8",
+      "prompt": "Compare mechanization and mass production.",
+      "choices": [
+        "Both eliminated dependence on investment and distribution networks",
+        "Mechanization required labor to remain entirely on farms",
+        "Mechanization changed only culture while factories changed only politics",
+        "Both increased productive capacity while reorganizing work"
+      ],
+      "answer": 3,
+      "explanation": "Both increased productive capacity while reorganizing work.",
+      "standards": [
+        8
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-8",
+      "where": "Section CS 8 — Corporate growth, mechanization, and work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for changes in both production and the organization of work.",
+      "hint": "Look for changes in both production and the organization of work.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-1-inventors-of-the-age"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 9",
+      "prompt": "Why might isolated workers organize rather than negotiate separately?",
+      "choices": [
+        "Collective action guaranteed acceptance of every wage demand",
+        "Individual bargaining required government ownership of employers",
+        "Individual bargaining prevented firms from setting working hours",
+        "Collective action could increase bargaining leverage"
+      ],
+      "answer": 3,
+      "explanation": "Collective action could increase bargaining leverage.",
+      "standards": [
+        9
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-9",
+      "where": "Section CS 9 — Labor organization and laissez-faire policy. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare an individual's leverage with coordinated action.",
+      "hint": "Compare an individual's leverage with coordinated action.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-3-building-industrial-america-on-the-backs-of-labor"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 9",
+      "prompt": "Long hours persist despite rapid industrial growth. What explains union demands?",
+      "choices": [
+        "Output gains made employment disputes economically irrelevant",
+        "Output gains did not ensure improved working conditions",
+        "Industrialization required all workers to reject higher wages",
+        "Industrialization reduced employers' influence over workplace rules"
+      ],
+      "answer": 1,
+      "explanation": "Output gains did not ensure improved working conditions.",
+      "standards": [
+        9
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-9",
+      "where": "Section CS 9 — Labor organization and laissez-faire policy. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate gains in production from gains in conditions.",
+      "hint": "Separate gains in production from gains in conditions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-3-building-industrial-america-on-the-backs-of-labor"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 9",
+      "prompt": "How did laissez-faire attitudes shape employer-labor relations?",
+      "choices": [
+        "Private ownership prohibited courts from issuing labor injunctions",
+        "Limited regulation guaranteed neutral state responses to every strike",
+        "Limited regulation left substantial discretion to business owners",
+        "Private ownership eliminated workers' shared economic interests"
+      ],
+      "answer": 2,
+      "explanation": "Limited regulation left substantial discretion to business owners.",
+      "standards": [
+        9
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-9",
+      "where": "Section CS 9 — Labor organization and laissez-faire policy. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider what happens when rules leave decisions to employers.",
+      "hint": "Consider what happens when rules leave decisions to employers.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-3-building-industrial-america-on-the-backs-of-labor"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 9",
+      "prompt": "Compare a strike with a boycott.",
+      "choices": [
+        "Both require a federal criminal conviction before beginning",
+        "Both transfer ownership of factories directly to organizers",
+        "Workers regulate public money while consumers appoint legislators",
+        "Workers withhold labor while consumers withhold purchases"
+      ],
+      "answer": 3,
+      "explanation": "Workers withhold labor while consumers withhold purchases.",
+      "standards": [
+        9
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-9",
+      "where": "Section CS 9 — Labor organization and laissez-faire policy. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify what participants withhold in each strategy.",
+      "hint": "Identify what participants withhold in each strategy.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-3-building-industrial-america-on-the-backs-of-labor"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 9",
+      "prompt": "Why examine government responses to labor violence?",
+      "choices": [
+        "Government institutions operated separately from the distribution of bargaining power",
+        "Public power could shape the balance between employers and workers",
+        "Intervention itself settled the underlying disputes over wages and working conditions",
+        "Public power operated independently of economic interests"
+      ],
+      "answer": 1,
+      "explanation": "Public power could shape the balance between employers and workers.",
+      "standards": [
+        9
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-9",
+      "where": "Section CS 9 — Labor organization and laissez-faire policy. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Examine how intervention affects the parties' relative strength.",
+      "hint": "Examine how intervention affects the parties' relative strength.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-3-building-industrial-america-on-the-backs-of-labor"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 10",
+      "prompt": "A city gains immigrant workers and new ethnic institutions. What linked effects appear?",
+      "choices": [
+        "Ethnic institutions required newcomers to abandon family networks",
+        "Ethnic institutions prevented participation in urban economic life",
+        "Labor demand eliminated tensions over national identity",
+        "Labor demand and cultural diversity developed together"
+      ],
+      "answer": 3,
+      "explanation": "Labor demand and cultural diversity developed together.",
+      "standards": [
+        10
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-10",
+      "where": "Section CS 10 — Migration, urban institutions, and culture. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider economic and cultural changes together.",
+      "hint": "Consider economic and cultural changes together.",
+      "externalSource": "https://openstax.org/books/us-history/pages/19-2-the-african-american-great-migration-and-new-european-immigration"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 10",
+      "prompt": "Why did internal migration increase pressure on city housing?",
+      "choices": [
+        "New arrivals expanded demand faster than adequate supply",
+        "New arrivals automatically financed municipal sanitation improvements",
+        "Factory growth prevented landlords from subdividing older buildings",
+        "Factory growth reduced the need for residential construction"
+      ],
+      "answer": 0,
+      "explanation": "New arrivals expanded demand faster than adequate supply.",
+      "standards": [
+        10
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-10",
+      "where": "Section CS 10 — Migration, urban institutions, and culture. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare arrivals with available adequate housing.",
+      "hint": "Compare arrivals with available adequate housing.",
+      "externalSource": "https://openstax.org/books/us-history/pages/19-2-the-african-american-great-migration-and-new-european-immigration"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 10",
+      "prompt": "A streetcar connects outer neighborhoods with downtown jobs. What change follows?",
+      "choices": [
+        "Transit concentrated residence near workplaces by making longer commutes less practical",
+        "Transport access made infrastructure planning largely independent of settlement patterns",
+        "Commuting can spread urban residence across larger areas",
+        "Commuting requires industrial employment to become exclusively agricultural"
+      ],
+      "answer": 2,
+      "explanation": "Commuting can spread urban residence across larger areas.",
+      "standards": [
+        10
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-10",
+      "where": "Section CS 10 — Migration, urban institutions, and culture. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace transit connections into residential possibilities.",
+      "hint": "Trace transit connections into residential possibilities.",
+      "externalSource": "https://openstax.org/books/us-history/pages/19-1-urbanization-and-its-challenges"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 10",
+      "prompt": "Compare opportunity and exclusion in immigrant neighborhoods.",
+      "choices": [
+        "Ethnic networks primarily prevented newcomers from participating in urban employment",
+        "Mutual support could coexist with discrimination and crowding",
+        "Community support meant discriminatory institutions no longer shaped newcomers' lives",
+        "Residential concentration eliminated demand for sanitation and schools"
+      ],
+      "answer": 1,
+      "explanation": "Mutual support could coexist with discrimination and crowding.",
+      "standards": [
+        10
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-10",
+      "where": "Section CS 10 — Migration, urban institutions, and culture. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider community support alongside wider institutional barriers.",
+      "hint": "Consider community support alongside wider institutional barriers.",
+      "externalSource": "https://openstax.org/books/us-history/pages/19-2-the-african-american-great-migration-and-new-european-immigration"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 10",
+      "prompt": "Why connect the Great Migration with economic and cultural change?",
+      "choices": [
+        "Migration affected labor supply without changing cultural audiences and institutions",
+        "New workers and audiences reshaped northern city institutions",
+        "Northern residence immediately weakened the relevance of southern experiences",
+        "Migration occurred independently of employment and racial violence"
+      ],
+      "answer": 1,
+      "explanation": "New workers and audiences reshaped northern city institutions.",
+      "standards": [
+        10
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-10",
+      "where": "Section CS 10 — Migration, urban institutions, and culture. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Follow people into both workplaces and cultural institutions.",
+      "hint": "Follow people into both workplaces and cultural institutions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/19-2-the-african-american-great-migration-and-new-european-immigration"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 11",
+      "prompt": "A railroad crosses treaty lands to reach mineral deposits. What causal relationship appears?",
+      "choices": [
+        "Rail construction chiefly reduced settler demand for land and mineral access",
+        "Investment decisions ensured treaty commitments were honored through voluntary agreements",
+        "Transportation investment ended federal involvement in western lands",
+        "Resource demand increased pressure on Indigenous territory"
+      ],
+      "answer": 3,
+      "explanation": "Resource demand increased pressure on Indigenous territory.",
+      "standards": [
+        11
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-11",
+      "where": "Section CS 11 — Westward expansion and Indigenous sovereignty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect transport and resources with competing land claims.",
+      "hint": "Connect transport and resources with competing land claims.",
+      "externalSource": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 11",
+      "prompt": "Why did allotment threaten tribal autonomy?",
+      "choices": [
+        "Individual property titles chiefly expanded tribal authority over collective territory",
+        "Allotment preserved existing communal landholding while changing only farming technology",
+        "Individual parcels undermined collective landholding and sovereignty",
+        "Allotment prohibited federal influence over Native education"
+      ],
+      "answer": 2,
+      "explanation": "Individual parcels undermined collective landholding and sovereignty.",
+      "standards": [
+        11
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-11",
+      "where": "Section CS 11 — Westward expansion and Indigenous sovereignty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare collective political control with individual allotment.",
+      "hint": "Compare collective political control with individual allotment.",
+      "externalSource": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 11",
+      "prompt": "A family is displaced to a reservation while its children face compulsory attendance at a distant residential school. What shared feature connects these different policies?",
+      "choices": [
+        "Land controls and cultural assimilation constrained different aspects of autonomy",
+        "Schooling policy guaranteed preservation of every tribal language",
+        "Schooling policy operated independently of federal assimilation objectives",
+        "Land controls concerned only farming technology and rail fares"
+      ],
+      "answer": 0,
+      "explanation": "Land controls and cultural assimilation constrained different aspects of autonomy.",
+      "standards": [
+        11
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-11",
+      "where": "Section CS 11 — Westward expansion and Indigenous sovereignty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish controls over territory from controls over cultural life.",
+      "hint": "Distinguish controls over territory from controls over cultural life.",
+      "externalSource": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 11",
+      "prompt": "Why examine Indigenous resistance rather than only federal policy?",
+      "choices": [
+        "Native communities actively contested dispossession and assimilation",
+        "Resistance proves no treaties or negotiations ever occurred",
+        "Native communities shared identical responses to every policy",
+        "Resistance removes the need to study military coercion"
+      ],
+      "answer": 0,
+      "explanation": "Native communities actively contested dispossession and assimilation.",
+      "standards": [
+        11
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-11",
+      "where": "Section CS 11 — Westward expansion and Indigenous sovereignty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Include choices made by the communities facing policy.",
+      "hint": "Include choices made by the communities facing policy.",
+      "externalSource": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 11",
+      "prompt": "How did settler incentives affect western conflict?",
+      "choices": [
+        "Land policies eliminated economic motives for western expansion",
+        "Settlement guaranteed recognition of tribal sovereignty",
+        "Settlement reduced demand for transportation and resource extraction",
+        "Land policies intensified competition over Indigenous homelands"
+      ],
+      "answer": 3,
+      "explanation": "Land policies intensified competition over Indigenous homelands.",
+      "standards": [
+        11
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-11",
+      "where": "Section CS 11 — Westward expansion and Indigenous sovereignty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace settlement incentives into demand for land.",
+      "hint": "Trace settlement incentives into demand for land.",
+      "externalSource": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 12",
+      "prompt": "Why did ending military Reconstruction affect southern political institutions?",
+      "choices": [
+        "Troop withdrawal left federal enforcement capacity unchanged in southern communities",
+        "Citizenship amendments ceased having constitutional force when occupation ended",
+        "Reduced enforcement enabled white supremacist restoration of control",
+        "Troop withdrawal transferred state elections to national courts"
+      ],
+      "answer": 2,
+      "explanation": "Reduced enforcement enabled white supremacist restoration of control.",
+      "standards": [
+        12
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-12",
+      "where": "Section CS 12 — Post-Reconstruction power and institutional racism. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare formal rights with resources enforcing them.",
+      "hint": "Compare formal rights with resources enforcing them.",
+      "externalSource": "https://openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 12",
+      "prompt": "A literacy test is applied selectively. What makes this institutional discrimination?",
+      "choices": [
+        "Literacy requirements affect only candidates seeking public office",
+        "Official procedures reproduce unequal political access",
+        "Literacy requirements establish equal educational opportunity by themselves",
+        "Official procedures eliminate local discretion in registration"
+      ],
+      "answer": 1,
+      "explanation": "Official procedures reproduce unequal political access.",
+      "standards": [
+        12
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-12",
+      "where": "Section CS 12 — Post-Reconstruction power and institutional racism. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look at how the rule is administered, not only its wording.",
+      "hint": "Look at how the rule is administered, not only its wording.",
+      "externalSource": "https://openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 12",
+      "prompt": "How did Plessy influence later segregation practices?",
+      "choices": [
+        "Judicial approval prohibited racial separation in public facilities",
+        "The ruling guaranteed equal funding in every segregated institution",
+        "The ruling restored federal military supervision of southern elections",
+        "Judicial approval strengthened separate-but-equal legal claims"
+      ],
+      "answer": 3,
+      "explanation": "Judicial approval strengthened separate-but-equal legal claims.",
+      "standards": [
+        12
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-12",
+      "where": "Section CS 12 — Post-Reconstruction power and institutional racism. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the effect of a legal precedent on later institutions.",
+      "hint": "Consider the effect of a legal precedent on later institutions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 12",
+      "prompt": "Compare racial intimidation with restrictive voting rules.",
+      "choices": [
+        "Official election procedures protected voters from the political effects of intimidation",
+        "Informal coercion and formal institutions reinforced exclusion",
+        "Private violence chiefly influenced personal attitudes rather than participation or power",
+        "Informal coercion operated without influencing political participation"
+      ],
+      "answer": 1,
+      "explanation": "Informal coercion and formal institutions reinforced exclusion.",
+      "standards": [
+        12
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-12",
+      "where": "Section CS 12 — Post-Reconstruction power and institutional racism. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare different mechanisms reinforcing the same exclusion.",
+      "hint": "Compare different mechanisms reinforcing the same exclusion.",
+      "externalSource": "https://openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 12",
+      "prompt": "Why describe Jim Crow as a system rather than isolated prejudice?",
+      "choices": [
+        "Legal segregation mainly reflected unrelated personal decisions outside institutional rules",
+        "A systemic explanation requires identical local conditions before comparing racial exclusion",
+        "Connected laws and practices sustained unequal power",
+        "Systemic patterns exclude violence from historical explanation"
+      ],
+      "answer": 2,
+      "explanation": "Connected laws and practices sustained unequal power.",
+      "standards": [
+        12
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-12",
+      "where": "Section CS 12 — Post-Reconstruction power and institutional racism. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for connected institutions rather than a single attitude.",
+      "hint": "Look for connected institutions rather than a single attitude.",
+      "externalSource": "https://openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 13",
+      "prompt": "Why did muckraking strengthen demands for reform?",
+      "choices": [
+        "Investigations automatically enacted reporters' preferred policies",
+        "Investigations linked private suffering with public institutional problems",
+        "Public exposure transferred governmental authority to newspaper editors",
+        "Public exposure eliminated disputes over the causes of poverty"
+      ],
+      "answer": 1,
+      "explanation": "Investigations linked private suffering with public institutional problems.",
+      "standards": [
+        13
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace exposure of a problem into public demands.",
+      "hint": "Trace exposure of a problem into public demands.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-1-the-origins-of-the-progressive-spirit-in-america"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 13",
+      "prompt": "How did consumer-protection legislation respond to industrialization?",
+      "choices": [
+        "Inspection chiefly replaced consumer choice with government ownership of food producers",
+        "Public oversight addressed risks consumers could not easily assess",
+        "Public oversight addressed wages while leaving product information to private sellers",
+        "Inspection laws concerned only the wages of agricultural workers"
+      ],
+      "answer": 1,
+      "explanation": "Public oversight addressed risks consumers could not easily assess.",
+      "standards": [
+        13
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider what information consumers could obtain independently.",
+      "hint": "Consider what information consumers could obtain independently.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-4-progressivism-in-the-white-house"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 13",
+      "prompt": "Compare building codes and settlement houses.",
+      "choices": [
+        "Regulatory and community services addressed different urban needs",
+        "Building codes dealt only with national banking policy",
+        "Both eliminated municipalities' responsibilities for public sanitation",
+        "Settlement houses required federal ownership of immigrant businesses"
+      ],
+      "answer": 0,
+      "explanation": "Regulatory and community services addressed different urban needs.",
+      "standards": [
+        13
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare a legal requirement with direct community services.",
+      "hint": "Compare a legal requirement with direct community services.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-2-progressivism-at-the-grassroots-level"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 13",
+      "prompt": "Why did direct election of senators target corruption concerns?",
+      "choices": [
+        "Direct election transferred senators' legislative decisions to binding popular referenda",
+        "The amendment redistributed Senate seats according to each state's population",
+        "Voters gained a more direct role in choosing senators",
+        "The amendment distributed Senate seats by state population size"
+      ],
+      "answer": 2,
+      "explanation": "Voters gained a more direct role in choosing senators.",
+      "standards": [
+        13
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish choosing representatives from controlling every policy vote.",
+      "hint": "Distinguish choosing representatives from controlling every policy vote.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-4-progressivism-in-the-white-house"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 13",
+      "prompt": "A conservation policy restricts timber use. What tradeoff requires evaluation?",
+      "choices": [
+        "Timber regulation versus equal representation in the Senate",
+        "Timber regulation versus the constitutional right to jury trials",
+        "Long-term protection versus abolition of all private property",
+        "Long-term resource protection versus immediate commercial access"
+      ],
+      "answer": 3,
+      "explanation": "Long-term resource protection versus immediate commercial access.",
+      "standards": [
+        13
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare present access with future resource conditions.",
+      "hint": "Compare present access with future resource conditions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-4-progressivism-in-the-white-house"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 13",
+      "prompt": "Why did banking reform fit the Progressive agenda?",
+      "choices": [
+        "The new banking system chiefly provided direct emergency relief to unemployed families",
+        "National coordination reduced the importance of overseeing credit and money conditions",
+        "Institutional oversight sought greater financial stability and accountability",
+        "The Federal Reserve existed only to provide emergency food relief"
+      ],
+      "answer": 2,
+      "explanation": "Institutional oversight sought greater financial stability and accountability.",
+      "standards": [
+        13
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Identify the instability reformers sought to manage.",
+      "hint": "Identify the instability reformers sought to manage.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-4-progressivism-in-the-white-house"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 13",
+      "prompt": "How should the success of Progressive reforms be judged?",
+      "choices": [
+        "Reformers' good intentions without evidence of implementation",
+        "The assumption that enactment ensured equal benefits everywhere",
+        "Results and exclusions compared with identified social problems",
+        "The number of statutes without their actual consequences"
+      ],
+      "answer": 2,
+      "explanation": "Results and exclusions compared with identified social problems.",
+      "standards": [
+        13
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare actual implementation with the problems identified.",
+      "hint": "Compare actual implementation with the problems identified.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-4-progressivism-in-the-white-house"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 8",
+      "standards": [
+        8
+      ],
+      "prompt": "How could mechanized farming encourage industrial urban growth?",
+      "choices": [
+        "Fewer farm laborers sought expanding city employment",
+        "Farm machinery prohibited migration into cities",
+        "Farm machinery eliminated demand for factory goods",
+        "Fewer farm laborers ended agricultural production"
+      ],
+      "answer": 0,
+      "explanation": "Fewer farm laborers sought expanding city employment.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-8",
+      "where": "Section CS 8 — Corporate growth, mechanization, and work. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace labor demand in farms and cities together.",
+      "hint": "Trace labor demand in farms and cities together.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-1-inventors-of-the-age"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 9",
+      "standards": [
+        9
+      ],
+      "prompt": "Why did unions grow amid industrial expansion?",
+      "choices": [
+        "Industrial growth made bargaining chiefly an issue of individual preference rather than power",
+        "Factory expansion generally gave workers bargaining leverage equivalent to employers",
+        "Workers sought collective leverage over conditions",
+        "Factory growth guaranteed safe working conditions"
+      ],
+      "answer": 2,
+      "explanation": "Workers sought collective leverage over conditions.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-9",
+      "where": "Section CS 9 — Labor organization and laissez-faire policy. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider bargaining leverage under the existing working conditions.",
+      "hint": "Consider bargaining leverage under the existing working conditions.",
+      "externalSource": "https://openstax.org/books/us-history/pages/18-3-building-industrial-america-on-the-backs-of-labor"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 10",
+      "standards": [
+        10
+      ],
+      "prompt": "How did immigration transform cities beyond workforce size?",
+      "choices": [
+        "Immigration affected labor totals while leaving neighborhood culture largely unchanged",
+        "New communities changed culture and service demands",
+        "Ethnic diversity primarily reduced demand for schools and urban public services",
+        "Immigration ended the need for public transport"
+      ],
+      "answer": 1,
+      "explanation": "New communities changed culture and service demands.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-10",
+      "where": "Section CS 10 — Migration, urban institutions, and culture. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for effects beyond the number of available workers.",
+      "hint": "Look for effects beyond the number of available workers.",
+      "externalSource": "https://openstax.org/books/us-history/pages/19-2-the-african-american-great-migration-and-new-european-immigration"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 11",
+      "standards": [
+        11
+      ],
+      "prompt": "How did resource demand intensify western conflict?",
+      "choices": [
+        "Industrial demand removed interest in western land",
+        "Expansion guaranteed every treaty would be honored",
+        "Industrial demand ended federal assimilation policies",
+        "Expansion encroached on Indigenous lands and sovereignty"
+      ],
+      "answer": 3,
+      "explanation": "Expansion encroached on Indigenous lands and sovereignty.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-11",
+      "where": "Section CS 11 — Westward expansion and Indigenous sovereignty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect resource incentives with control of territory.",
+      "hint": "Connect resource incentives with control of territory.",
+      "externalSource": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 12",
+      "standards": [
+        12
+      ],
+      "prompt": "Why did troop withdrawal after Reconstruction matter?",
+      "choices": [
+        "Reduced enforcement enabled white supremacist political restoration",
+        "Withdrawal strengthened local institutions already enforcing equal voting participation",
+        "Reconstruction reforms remained secure because their enforcement was wholly local",
+        "Withdrawal immediately repealed constitutional citizenship rights"
+      ],
+      "answer": 0,
+      "explanation": "Reduced enforcement enabled white supremacist political restoration.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-12",
+      "where": "Section CS 12 — Post-Reconstruction power and institutional racism. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask what changed in the enforcement of political rights.",
+      "hint": "Ask what changed in the enforcement of political rights.",
+      "externalSource": "https://openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 13",
+      "standards": [
+        13
+      ],
+      "prompt": "How did muckraking support Progressive reform?",
+      "choices": [
+        "Investigations made systemic problems publicly visible",
+        "Investigative exposure itself supplied legal enforcement without legislative decisions",
+        "Public reports chiefly reduced pressure for regulating industrial and political practices",
+        "Journalism eliminated disagreement over reform goals"
+      ],
+      "answer": 0,
+      "explanation": "Investigations made systemic problems publicly visible.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how evidence of a problem reaches the public.",
+      "hint": "Consider how evidence of a problem reaches the public.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-1-the-origins-of-the-progressive-spirit-in-america"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 13",
+      "standards": [
+        13
+      ],
+      "prompt": "Compare direct Senate elections and food inspection.",
+      "choices": [
+        "Both prohibited federal regulation of commercial activity",
+        "Both guaranteed equal participation for all residents",
+        "Both addressed public problems through different institutional reforms",
+        "Both transferred congressional powers to factory owners"
+      ],
+      "answer": 2,
+      "explanation": "Both addressed public problems through different institutional reforms.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-13",
+      "where": "Section CS 13 — Progressive reforms and their results. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the institutions changed by each reform.",
+      "hint": "Compare the institutions changed by each reform.",
+      "externalSource": "https://openstax.org/books/us-history/pages/21-4-progressivism-in-the-white-house"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 11",
+      "standards": [
+        11
+      ],
+      "prompt": "Why is the Dawes Act linked with assimilation?",
+      "choices": [
+        "Allotment undermined collective landholding and tribal autonomy",
+        "Allotment expanded collective landholding while decentralizing federal supervision",
+        "The policy treated Indigenous communal sovereignty as the basis of private ownership",
+        "Allotment expanded collective sovereignty without interference"
+      ],
+      "answer": 0,
+      "explanation": "Allotment undermined collective landholding and tribal autonomy.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-12.html#cs-11",
+      "where": "Section CS 11 — Westward expansion and Indigenous sovereignty. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish individual ownership from collective sovereignty.",
+      "hint": "Distinguish individual ownership from collective sovereignty.",
+      "externalSource": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

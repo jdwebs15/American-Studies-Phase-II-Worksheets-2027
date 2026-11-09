@@ -1,7 +1,525 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
-<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
-<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
-<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
-<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
-<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
-</main><script src="questions.js"></script><script src="app.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B4-CS16,17,18-REVIEW-2027-V2",
+    "title": "Block 4 Review — Migration, Culture, and the 1920s",
+    "type": "review",
+    "block": 4,
+    "standards": [
+      16,
+      17,
+      18
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "An employer recruits Black workers while landlords enforce segregation. What conclusion follows?",
+      "choices": [
+        "Migration immediately ended institutional discrimination",
+        "Labor recruitment caused equal political participation",
+        "Housing restrictions prevented all northern industrial employment",
+        "Migration offered opportunity alongside new barriers"
+      ],
+      "answer": 3,
+      "explanation": "Migration offered opportunity alongside new barriers.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "Why did the revived Klan target immigrants and religious minorities?",
+      "choices": [
+        "Nativist ideas defined national belonging narrowly",
+        "Immigration laws granted newcomers superior voting rights",
+        "Religious diversity ended competition for urban housing",
+        "Industrial unions required religious exclusion nationally"
+      ],
+      "answer": 0,
+      "explanation": "Nativist ideas defined national belonging narrowly.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "A strike is labeled a foreign revolutionary conspiracy without evidence. What dynamic appears?",
+      "choices": [
+        "Economic protest supplied sufficient proof of foreign revolutionary control",
+        "Fear of radicalism delegitimized labor protest",
+        "Radical rhetoric established that wage grievances lacked domestic causes",
+        "Political suspicion increased protection for union organizers"
+      ],
+      "answer": 1,
+      "explanation": "Fear of radicalism delegitimized labor protest.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "Compare southern Jim Crow with northern housing discrimination.",
+      "choices": [
+        "Northern employment opportunities made housing exclusion a minor legal issue",
+        "Southern segregation operated chiefly through private choices outside public law",
+        "Different institutions sustained racial inequality in both regions",
+        "Both systems disappeared when wartime factory hiring expanded"
+      ],
+      "answer": 2,
+      "explanation": "Different institutions sustained racial inequality in both regions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "How did the Russian Revolution affect American domestic tensions?",
+      "choices": [
+        "Revolution abroad required American immigration quotas to end",
+        "Foreign revolution eliminated disputes over workers' wages",
+        "Foreign revolution established communist control of Congress",
+        "Revolution abroad intensified fears attached to domestic unrest"
+      ],
+      "answer": 3,
+      "explanation": "Revolution abroad intensified fears attached to domestic unrest.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "Why did race riots contradict claims of a uniformly prosperous decade?",
+      "choices": [
+        "Racial violence proved factories stopped producing consumer goods",
+        "Growth necessarily required universal social agreement",
+        "Growth coexisted with insecurity and racial exclusion",
+        "Racial violence affected only communities outside the United States"
+      ],
+      "answer": 2,
+      "explanation": "Growth coexisted with insecurity and racial exclusion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "An immigration law favors northern Europe over southern Europe. What explains its social meaning?",
+      "choices": [
+        "It guaranteed equal entry for refugees of all origins",
+        "It removed nationality from immigration decisions",
+        "It made ethnic hierarchy part of federal policy",
+        "It gave foreign governments control of American citizenship"
+      ],
+      "answer": 2,
+      "explanation": "It made ethnic hierarchy part of federal policy.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "Why did deportations during the Red Scare raise civil-liberties concerns?",
+      "choices": [
+        "Association could substitute for proof of unlawful conduct",
+        "Deportation procedures supplied safeguards beyond ordinary criminal trials",
+        "Immigration status made claims about evidence separate from civil liberties",
+        "Political beliefs had no role in investigations of radicals"
+      ],
+      "answer": 0,
+      "explanation": "Association could substitute for proof of unlawful conduct.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "How did job and housing competition intensify racial tensions after war?",
+      "choices": [
+        "Scarcity interacted with discriminatory attitudes and institutions",
+        "Labor demand eliminated discriminatory reactions among established residents",
+        "Scarcity made violence inevitable regardless of public policy",
+        "New arrivals received exclusive ownership of northern housing"
+      ],
+      "answer": 0,
+      "explanation": "Scarcity interacted with discriminatory attitudes and institutions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "What evidence best challenges equating immigration with revolutionary activity?",
+      "choices": [
+        "Public officials feared attacks connected to political violence",
+        "Some radicals were immigrants from European countries",
+        "The Russian Revolution influenced international political debates",
+        "Immigrant communities held diverse occupations and political views"
+      ],
+      "answer": 3,
+      "explanation": "Immigrant communities held diverse occupations and political views.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "Why did assembly-line production affect consumer access?",
+      "choices": [
+        "Higher productivity raised unit costs and restricted the consumer market",
+        "Lower unit costs could make goods affordable to more buyers",
+        "Factory specialization chiefly restored demand for expensive individual craftwork",
+        "Mass production prohibited advertising and installment purchases"
+      ],
+      "answer": 1,
+      "explanation": "Lower unit costs could make goods affordable to more buyers.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "A rural family hears the same program as urban listeners. What changed?",
+      "choices": [
+        "Communication linked audiences across geographic distance",
+        "Broadcasting removed the need for regional markets",
+        "Communication ended rural religious and cultural traditions",
+        "Broadcasting made every household equally wealthy"
+      ],
+      "answer": 0,
+      "explanation": "Communication linked audiences across geographic distance.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "Why could modernization increase cultural tension?",
+      "choices": [
+        "New behavior challenged established expectations about authority",
+        "Improved transport required agreement on religious teaching",
+        "Improved transport prevented younger people from traveling independently",
+        "New behavior eliminated every distinction between generations"
+      ],
+      "answer": 0,
+      "explanation": "New behavior challenged established expectations about authority.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "Compare automobile growth with radio growth.",
+      "choices": [
+        "Both ended dependence on advertising and mass production",
+        "Both reshaped daily routines and commercial markets",
+        "Cars eliminated suburbs while radio eliminated consumer spending",
+        "Cars reduced mobility while radio reduced shared experiences"
+      ],
+      "answer": 1,
+      "explanation": "Both reshaped daily routines and commercial markets.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "Why is average prosperity insufficient to describe all 1920s households?",
+      "choices": [
+        "Benefits of growth required every occupation to expand equally",
+        "Benefits of growth varied across groups and regions",
+        "New technologies had no influence on household routines",
+        "New technologies prevented farmers from entering national markets"
+      ],
+      "answer": 1,
+      "explanation": "Benefits of growth varied across groups and regions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "How did talking films contribute to cultural change?",
+      "choices": [
+        "They prohibited regional audiences from viewing common stories",
+        "They returned entertainment mainly to household production",
+        "They made public debate over morality disappear",
+        "They expanded shared entertainment and public models of behavior"
+      ],
+      "answer": 3,
+      "explanation": "They expanded shared entertainment and public models of behavior.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "A town expands roads as car ownership grows. What relationship is illustrated?",
+      "choices": [
+        "Car ownership eliminated commercial demand for fuel",
+        "Car ownership required all residents to abandon cities",
+        "Public infrastructure made private vehicle production unnecessary",
+        "Private consumption stimulated changes in public infrastructure"
+      ],
+      "answer": 3,
+      "explanation": "Private consumption stimulated changes in public infrastructure.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "Why did Harlem Renaissance writing have political significance?",
+      "choices": [
+        "Artistic success eliminated racial exclusion across the nation",
+        "Artistic success required rejecting experiences of discrimination",
+        "Cultural expression challenged stereotypes and asserted Black identity",
+        "Cultural expression replaced every campaign for legal equality"
+      ],
+      "answer": 2,
+      "explanation": "Cultural expression challenged stereotypes and asserted Black identity.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "How did Great Migration and Harlem Renaissance developments connect?",
+      "choices": [
+        "Cultural innovation eliminated economic motives for migration",
+        "Cultural innovation caused the original creation of Jim Crow",
+        "Population movement supported institutions sustaining cultural innovation",
+        "Population movement prevented musicians from finding new audiences"
+      ],
+      "answer": 2,
+      "explanation": "Population movement supported institutions sustaining cultural innovation.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "A woman votes but faces occupational exclusion. What distinction matters?",
+      "choices": [
+        "Occupational exclusion ended the constitutional right to vote",
+        "Political enfranchisement did not ensure full social equality",
+        "Political enfranchisement applied only to unemployed women",
+        "Occupational exclusion meant the suffrage amendment was unratified"
+      ],
+      "answer": 1,
+      "explanation": "Political enfranchisement did not ensure full social equality.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "Why did Prohibition's enforcement costs affect public support?",
+      "choices": [
+        "Persistent illegal markets weakened confidence in the policy",
+        "Persistent illegal markets proved alcohol demand had vanished",
+        "Enforcement costs required constitutional prohibition to become permanent",
+        "Enforcement costs guaranteed universal obedience to federal law"
+      ],
+      "answer": 0,
+      "explanation": "Persistent illegal markets weakened confidence in the policy.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "Compare suffrage reform with Prohibition as social change.",
+      "choices": [
+        "Both used amendments, but pursued different changes in behavior and power",
+        "Both guaranteed equal economic outcomes across all communities",
+        "Both removed federal authority to regulate public affairs",
+        "Both immediately resolved disputes over cultural and political inclusion"
+      ],
+      "answer": 0,
+      "explanation": "Both used amendments, but pursued different changes in behavior and power.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "What does repeal of Prohibition show about constitutional change?",
+      "choices": [
+        "Judicial appointments are the sole method for repealing amendments",
+        "Later amendments can reverse an earlier national policy",
+        "Presidential disagreement automatically removes constitutional amendments",
+        "Local elections can invalidate amendments without national action"
+      ],
+      "answer": 1,
+      "explanation": "Later amendments can reverse an earlier national policy.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "Why did jazz's wider popularity matter beyond entertainment?",
+      "choices": [
+        "Popular music replaced formal campaigns for voting access",
+        "African American cultural innovation influenced national life",
+        "African American cultural innovation ended segregation in every venue",
+        "Popular music stopped migration from southern rural communities"
+      ],
+      "answer": 1,
+      "explanation": "African American cultural innovation influenced national life.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "How did women's greater political participation affect public life?",
+      "choices": [
+        "New voters could influence parties and reform agendas",
+        "Enfranchisement affected formal voting rules without changing party incentives",
+        "Women's votes formed a single constituency with a uniform national program",
+        "Women's voting eliminated differences of class and race"
+      ],
+      "answer": 0,
+      "explanation": "New voters could influence parties and reform agendas.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "Which conclusion best connects the decade's major social movements?",
+      "choices": [
+        "Cultural innovation produced uniform agreement about social values",
+        "Cultural innovation removed political conflict from urban communities",
+        "Expanded participation made federal reforms unnecessary thereafter",
+        "Expanded participation coexisted with resistance and unresolved inequality"
+      ],
+      "answer": 3,
+      "explanation": "Expanded participation coexisted with resistance and unresolved inequality.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 16",
+      "standards": [
+        16
+      ],
+      "prompt": "A newspaper portrays all immigrants as disloyal during labor unrest. What effect could this framing have?",
+      "choices": [
+        "The framing narrowed attention to independently documented individual misconduct",
+        "The framing reduced support for nationality-based admission restrictions",
+        "It could encourage exclusion by generalizing political suspicion",
+        "It could eliminate the influence of nativist organizations"
+      ],
+      "answer": 2,
+      "explanation": "It could encourage exclusion by generalizing political suspicion.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 17",
+      "standards": [
+        17
+      ],
+      "prompt": "Why might expanded advertising increase installment buying?",
+      "choices": [
+        "Advertising usually reduced interest in purchases financed through credit",
+        "Installment purchases chiefly resulted from advertisers discouraging consumer aspirations",
+        "Consumer aspirations could exceed immediately available household cash",
+        "Consumer aspirations automatically removed the cost of credit"
+      ],
+      "answer": 2,
+      "explanation": "Consumer aspirations could exceed immediately available household cash.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "What evidence would best test Prohibition's effectiveness beyond its legal adoption?",
+      "choices": [
+        "The date Congress proposed the Eighteenth Amendment",
+        "The number of states represented in the national legislature",
+        "The number of speeches praising constitutional amendment procedures",
+        "Consumption trends, enforcement costs, and illegal-market activity"
+      ],
+      "answer": 3,
+      "explanation": "Consumption trends, enforcement costs, and illegal-market activity.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 18",
+      "standards": [
+        18
+      ],
+      "prompt": "A historian links Black urban newspapers, readers, and migration. What explanation follows?",
+      "choices": [
+        "Newspapers required all Black residents to settle in Harlem",
+        "Migration expanded networks for cultural and political expression",
+        "Migration made discriminatory employment practices disappear",
+        "Newspapers replaced the economic motives for leaving the South"
+      ],
+      "answer": 1,
+      "explanation": "Migration expanded networks for cultural and political expression.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

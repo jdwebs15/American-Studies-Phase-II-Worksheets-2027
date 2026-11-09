@@ -1,0 +1,1965 @@
+{
+  "vocabulary": [
+    {
+      "block": 1,
+      "count": 28,
+      "positions": {
+        "2": 7,
+        "0": 7,
+        "1": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v03",
+        "v15",
+        "v08",
+        "v24"
+      ],
+      "largeLengthGaps": [
+        "v28",
+        "v22",
+        "v16",
+        "v03",
+        "v02",
+        "v26",
+        "v27",
+        "v08",
+        "v20",
+        "v14",
+        "v21",
+        "v04"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 2,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v04",
+        "v05",
+        "v14",
+        "v18",
+        "v26"
+      ],
+      "largeLengthGaps": [
+        "v01",
+        "v02",
+        "v04",
+        "v09",
+        "v10",
+        "v14",
+        "v15",
+        "v16",
+        "v17",
+        "v18",
+        "v24",
+        "v25",
+        "v26"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 3,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v07",
+        "v11",
+        "v13",
+        "v21"
+      ],
+      "largeLengthGaps": [
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v11",
+        "v13",
+        "v14",
+        "v17",
+        "v19",
+        "v20",
+        "v21",
+        "v27"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 4,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v12",
+        "v17"
+      ],
+      "largeLengthGaps": [
+        "v01",
+        "v02",
+        "v05",
+        "v09",
+        "v11",
+        "v13",
+        "v14",
+        "v15",
+        "v17",
+        "v19",
+        "v23",
+        "v26"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 5,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v04",
+        "v26"
+      ],
+      "largeLengthGaps": [
+        "v01",
+        "v04",
+        "v05",
+        "v07",
+        "v18",
+        "v21",
+        "v22",
+        "v25",
+        "v26",
+        "v28"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 6,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v09"
+      ],
+      "largeLengthGaps": [
+        "v01",
+        "v04",
+        "v05",
+        "v07",
+        "v08",
+        "v09",
+        "v13",
+        "v14",
+        "v17",
+        "v18",
+        "v19",
+        "v21",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 7,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v19",
+        "v21"
+      ],
+      "largeLengthGaps": [
+        "v01",
+        "v17",
+        "v18",
+        "v19",
+        "v23",
+        "v24",
+        "v25"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 8,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v04",
+        "v09",
+        "v10",
+        "v12",
+        "v26"
+      ],
+      "largeLengthGaps": [
+        "v04",
+        "v07",
+        "v08",
+        "v09",
+        "v10",
+        "v12",
+        "v16",
+        "v18",
+        "v22",
+        "v23",
+        "v26",
+        "v28"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 9,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v08",
+        "v24",
+        "v26"
+      ],
+      "largeLengthGaps": [
+        "v01",
+        "v03",
+        "v04",
+        "v06",
+        "v08",
+        "v09",
+        "v10",
+        "v12",
+        "v14",
+        "v15",
+        "v18",
+        "v20",
+        "v22",
+        "v23",
+        "v26",
+        "v28"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 10,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "v11",
+        "v17",
+        "v23",
+        "v25"
+      ],
+      "largeLengthGaps": [
+        "v01",
+        "v04",
+        "v06",
+        "v08",
+        "v13",
+        "v17",
+        "v19",
+        "v20",
+        "v22",
+        "v23",
+        "v25",
+        "v28"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 11,
+      "count": 28,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [],
+      "largeLengthGaps": [
+        "v01",
+        "v02",
+        "v08",
+        "v09",
+        "v13",
+        "v15",
+        "v16",
+        "v18",
+        "v19",
+        "v20",
+        "v25",
+        "v26",
+        "v27",
+        "v28"
+      ],
+      "unchanged": true
+    },
+    {
+      "block": 12,
+      "count": 40,
+      "positions": {
+        "2": 10,
+        "3": 10,
+        "1": 10,
+        "0": 10
+      },
+      "uniquelyLongest": [
+        "v27",
+        "v09",
+        "v21",
+        "v38",
+        "v26",
+        "v28"
+      ],
+      "largeLengthGaps": [
+        "v40",
+        "v31",
+        "v05",
+        "v09",
+        "v04",
+        "v38",
+        "v08",
+        "v26",
+        "v15"
+      ],
+      "unchanged": true
+    }
+  ],
+  "structuralFailures": [],
+  "contentWarnings": [],
+  "assignments": [
+    {
+      "assignment": "B1 introduction",
+      "count": 40,
+      "positions": {
+        "1": 10,
+        "0": 10,
+        "2": 10,
+        "3": 10
+      },
+      "uniquelyLongest": [
+        "i34"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B1 review",
+      "count": 30,
+      "positions": {
+        "1": 8,
+        "0": 7,
+        "2": 8,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "r01",
+        "r14",
+        "r24"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B2 introduction",
+      "count": 40,
+      "positions": {
+        "0": 10,
+        "3": 10,
+        "2": 10,
+        "1": 10
+      },
+      "uniquelyLongest": [
+        "i38"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B2 review",
+      "count": 30,
+      "positions": {
+        "2": 8,
+        "3": 8,
+        "0": 7,
+        "1": 7
+      },
+      "uniquelyLongest": [
+        "r06",
+        "r22",
+        "r27"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B3 introduction",
+      "count": 40,
+      "positions": {
+        "1": 10,
+        "2": 10,
+        "0": 10,
+        "3": 10
+      },
+      "uniquelyLongest": [
+        "i40"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B3 review",
+      "count": 30,
+      "positions": {
+        "0": 8,
+        "3": 8,
+        "1": 7,
+        "2": 7
+      },
+      "uniquelyLongest": [
+        "r08"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B4 introduction",
+      "count": 40,
+      "positions": {
+        "3": 10,
+        "1": 10,
+        "0": 10,
+        "2": 10
+      },
+      "uniquelyLongest": [
+        "i12",
+        "i17",
+        "i28",
+        "i33"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B4 review",
+      "count": 30,
+      "positions": {
+        "3": 7,
+        "0": 8,
+        "1": 8,
+        "2": 7
+      },
+      "uniquelyLongest": [
+        "r16",
+        "r22"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B5 introduction",
+      "count": 40,
+      "positions": {
+        "0": 10,
+        "3": 10,
+        "2": 10,
+        "1": 10
+      },
+      "uniquelyLongest": [
+        "i10",
+        "i12"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B5 review",
+      "count": 30,
+      "positions": {
+        "0": 7,
+        "1": 8,
+        "3": 7,
+        "2": 8
+      },
+      "uniquelyLongest": [
+        "r23"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B6 introduction",
+      "count": 40,
+      "positions": {
+        "3": 10,
+        "0": 10,
+        "1": 10,
+        "2": 10
+      },
+      "uniquelyLongest": [
+        "i21",
+        "i25"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B6 review",
+      "count": 30,
+      "positions": {
+        "0": 7,
+        "1": 7,
+        "2": 8,
+        "3": 8
+      },
+      "uniquelyLongest": [
+        "r04",
+        "r06",
+        "r15",
+        "r17",
+        "r22",
+        "r27"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B7 introduction",
+      "count": 40,
+      "positions": {
+        "3": 10,
+        "0": 10,
+        "2": 10,
+        "1": 10
+      },
+      "uniquelyLongest": [
+        "i10",
+        "i15"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B7 review",
+      "count": 30,
+      "positions": {
+        "3": 8,
+        "0": 8,
+        "1": 7,
+        "2": 7
+      },
+      "uniquelyLongest": [],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B8 introduction",
+      "count": 40,
+      "positions": {
+        "0": 10,
+        "1": 10,
+        "3": 10,
+        "2": 10
+      },
+      "uniquelyLongest": [
+        "i07",
+        "i10",
+        "i37",
+        "i39"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B8 review",
+      "count": 30,
+      "positions": {
+        "2": 7,
+        "0": 8,
+        "3": 7,
+        "1": 8
+      },
+      "uniquelyLongest": [
+        "r19",
+        "r25",
+        "r26",
+        "r27"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B9 introduction",
+      "count": 40,
+      "positions": {
+        "1": 10,
+        "3": 10,
+        "0": 10,
+        "2": 10
+      },
+      "uniquelyLongest": [
+        "i11",
+        "i14",
+        "i30",
+        "i38"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B9 review",
+      "count": 30,
+      "positions": {
+        "1": 8,
+        "2": 8,
+        "3": 7,
+        "0": 7
+      },
+      "uniquelyLongest": [
+        "r03",
+        "r07",
+        "r24"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B10 introduction",
+      "count": 40,
+      "positions": {
+        "3": 10,
+        "1": 10,
+        "2": 10,
+        "0": 10
+      },
+      "uniquelyLongest": [
+        "i09",
+        "i10",
+        "i21",
+        "i29",
+        "i31"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B10 review",
+      "count": 30,
+      "positions": {
+        "3": 8,
+        "0": 7,
+        "1": 7,
+        "2": 8
+      },
+      "uniquelyLongest": [
+        "r03",
+        "r25",
+        "r28"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B11 introduction",
+      "count": 40,
+      "positions": {
+        "3": 10,
+        "1": 10,
+        "2": 10,
+        "0": 10
+      },
+      "uniquelyLongest": [
+        "i30"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B11 review",
+      "count": 30,
+      "positions": {
+        "1": 7,
+        "0": 8,
+        "3": 8,
+        "2": 7
+      },
+      "uniquelyLongest": [
+        "r12",
+        "r15",
+        "r21",
+        "r23",
+        "r26",
+        "r28"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B12 introduction",
+      "count": 40,
+      "positions": {
+        "0": 10,
+        "3": 10,
+        "1": 10,
+        "2": 10
+      },
+      "uniquelyLongest": [
+        "i18",
+        "i39"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    },
+    {
+      "assignment": "B12 review",
+      "count": 30,
+      "positions": {
+        "0": 8,
+        "1": 8,
+        "2": 7,
+        "3": 7
+      },
+      "uniquelyLongest": [
+        "r01",
+        "r15",
+        "r26"
+      ],
+      "largeLengthGaps": [],
+      "maxStreak": 2,
+      "duplicatePrompts": [],
+      "nearDuplicateCandidates": [],
+      "reusedDistractors": {},
+      "weakDistractorCandidates": [],
+      "inheritedPrompts": 0
+    }
+  ],
+  "coverage": {
+    "1": {
+      "4": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i33",
+          "i34",
+          "i35",
+          "i36"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10",
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r29"
+        ]
+      },
+      "5": {
+        "introduction": [
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i37",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r15",
+          "r16",
+          "r17",
+          "r18",
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r28",
+          "r30"
+        ]
+      }
+    },
+    "2": {
+      "6": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i33",
+          "i34",
+          "i35",
+          "i36"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10",
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r28"
+        ]
+      },
+      "7": {
+        "introduction": [
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i37",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r16",
+          "r17",
+          "r18",
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r29",
+          "r30"
+        ]
+      }
+    },
+    "3": {
+      "14": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i33",
+          "i34",
+          "i35",
+          "i36"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10",
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r28"
+        ]
+      },
+      "15": {
+        "introduction": [
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i37",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r16",
+          "r17",
+          "r18",
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r29",
+          "r30"
+        ]
+      }
+    },
+    "4": {
+      "16": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i33",
+          "i34",
+          "i35"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10",
+          "r27"
+        ]
+      },
+      "17": {
+        "introduction": [
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i36",
+          "i37"
+        ],
+        "review": [
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r16",
+          "r17",
+          "r28"
+        ]
+      },
+      "18": {
+        "introduction": [
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r18",
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r29",
+          "r30"
+        ]
+      }
+    },
+    "5": {
+      "19": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i11",
+          "i12",
+          "i33",
+          "i34",
+          "i35"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10",
+          "r28"
+        ]
+      },
+      "20": {
+        "introduction": [
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i36",
+          "i37"
+        ],
+        "review": [
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r16",
+          "r17",
+          "r18",
+          "r29"
+        ]
+      },
+      "21": {
+        "introduction": [
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r30"
+        ]
+      }
+    },
+    "6": {
+      "22": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i33",
+          "i34",
+          "i35",
+          "i39"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10",
+          "r11",
+          "r12",
+          "r13"
+        ]
+      },
+      "23": {
+        "introduction": [
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i36",
+          "i37",
+          "i38",
+          "i40"
+        ],
+        "review": [
+          "r14",
+          "r15",
+          "r16",
+          "r17",
+          "r18",
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r28",
+          "r29",
+          "r30"
+        ]
+      }
+    },
+    "7": {
+      "24": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i33",
+          "i34",
+          "i39"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08"
+        ]
+      },
+      "25": {
+        "introduction": [
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i22",
+          "i35",
+          "i36",
+          "i40"
+        ],
+        "review": [
+          "r09",
+          "r10",
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r16",
+          "r17",
+          "r18"
+        ]
+      },
+      "26": {
+        "introduction": [
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i37",
+          "i38"
+        ],
+        "review": [
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r28",
+          "r29",
+          "r30"
+        ]
+      }
+    },
+    "8": {
+      "27": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i33",
+          "i34",
+          "i35",
+          "i36"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10",
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r30"
+        ]
+      },
+      "28": {
+        "introduction": [
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i37",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r16",
+          "r17",
+          "r18",
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r28",
+          "r29"
+        ]
+      }
+    },
+    "9": {
+      "29": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i33",
+          "i34",
+          "i35",
+          "i36"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10",
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r29"
+        ]
+      },
+      "30": {
+        "introduction": [
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i37",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r16",
+          "r17",
+          "r18",
+          "r19",
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r28",
+          "r30"
+        ]
+      }
+    },
+    "10": {
+      "31": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i33",
+          "i34",
+          "i35"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10"
+        ]
+      },
+      "32": {
+        "introduction": [
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i36",
+          "i37"
+        ],
+        "review": [
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r16",
+          "r17",
+          "r18",
+          "r19",
+          "r20",
+          "r29"
+        ]
+      },
+      "33": {
+        "introduction": [
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r28",
+          "r30"
+        ]
+      }
+    },
+    "11": {
+      "1": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i33",
+          "i34",
+          "i35"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05",
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10"
+        ]
+      },
+      "2": {
+        "introduction": [
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i16",
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i21",
+          "i36",
+          "i37"
+        ],
+        "review": [
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15",
+          "r16",
+          "r17",
+          "r18",
+          "r19"
+        ]
+      },
+      "3": {
+        "introduction": [
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i38",
+          "i39",
+          "i40"
+        ],
+        "review": [
+          "r20",
+          "r21",
+          "r22",
+          "r23",
+          "r24",
+          "r25",
+          "r26",
+          "r27",
+          "r28",
+          "r29",
+          "r30"
+        ]
+      }
+    },
+    "12": {
+      "8": {
+        "introduction": [
+          "i01",
+          "i02",
+          "i03",
+          "i04",
+          "i05",
+          "i33"
+        ],
+        "review": [
+          "r01",
+          "r02",
+          "r03",
+          "r04",
+          "r05"
+        ]
+      },
+      "9": {
+        "introduction": [
+          "i06",
+          "i07",
+          "i08",
+          "i09",
+          "i10",
+          "i34"
+        ],
+        "review": [
+          "r06",
+          "r07",
+          "r08",
+          "r09",
+          "r10"
+        ]
+      },
+      "10": {
+        "introduction": [
+          "i11",
+          "i12",
+          "i13",
+          "i14",
+          "i15",
+          "i35"
+        ],
+        "review": [
+          "r11",
+          "r12",
+          "r13",
+          "r14",
+          "r15"
+        ]
+      },
+      "11": {
+        "introduction": [
+          "i16",
+          "i17",
+          "i18",
+          "i19",
+          "i20",
+          "i36",
+          "i40"
+        ],
+        "review": [
+          "r16",
+          "r17",
+          "r18",
+          "r19",
+          "r20"
+        ]
+      },
+      "12": {
+        "introduction": [
+          "i21",
+          "i22",
+          "i23",
+          "i24",
+          "i25",
+          "i37"
+        ],
+        "review": [
+          "r21",
+          "r22",
+          "r23",
+          "r24"
+        ]
+      },
+      "13": {
+        "introduction": [
+          "i26",
+          "i27",
+          "i28",
+          "i29",
+          "i30",
+          "i31",
+          "i32",
+          "i38",
+          "i39"
+        ],
+        "review": [
+          "r25",
+          "r26",
+          "r27",
+          "r28",
+          "r29",
+          "r30"
+        ]
+      }
+    }
+  },
+  "crossBankDuplicates": [],
+  "crossBankNearDuplicates": [],
+  "vocabularyFilesVerified": 24,
+  "vocabularyQuestionSetsVerified": 12,
+  "limitations": [
+    "Single defensibly correct answer requires substantive review.",
+    "Semantic duplicates, answer leakage, historical accuracy, and distractor plausibility are not fully machine-verifiable.",
+    "Inherited Introduction prompts remain a known scope gap.",
+    "Absolute-word heuristics produce candidates, not automatic historical judgments."
+  ]
+}

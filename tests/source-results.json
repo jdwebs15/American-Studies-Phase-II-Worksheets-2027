@@ -1,0 +1,3300 @@
+{
+  "checkedUTC": "2026-11-09T17:20:34.877641+00:00",
+  "localReferences": 480,
+  "validLocalReferences": 480,
+  "uniqueHTTPCitations": 44,
+  "localChecks": [
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i01",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i02",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i03",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i04",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i05",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i06",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i07",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i08",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i09",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i10",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i11",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i12",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i13",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i14",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i15",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i16",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i17",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i18",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i19",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i20",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i21",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i22",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i23",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i24",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i25",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i26",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i27",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i28",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i29",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i30",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i31",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i32",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i33",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i34",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i35",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i36",
+      "source": "../../sources/block-8.html#cs-27",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i37",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i38",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i39",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-8-introduction",
+      "question": "i40",
+      "source": "../../sources/block-8.html#cs-28",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i01",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i02",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i03",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i04",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i05",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i06",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i07",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i08",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i09",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i10",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i11",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i12",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i13",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i14",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i15",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i16",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i17",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i18",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i19",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i20",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i21",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i22",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i23",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i24",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i25",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i26",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i27",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i28",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i29",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i30",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i31",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i32",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i33",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i34",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i35",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i36",
+      "source": "../../sources/block-1.html#cs-4",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i37",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i38",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i39",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-1-introduction",
+      "question": "i40",
+      "source": "../../sources/block-1.html#cs-5",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i01",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i02",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i03",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i04",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i05",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i06",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i07",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i08",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i09",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i10",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i11",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i12",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i13",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i14",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i15",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i16",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i17",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i18",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i19",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i20",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i21",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i22",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i23",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i24",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i25",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i26",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i27",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i28",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i29",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i30",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i31",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i32",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i33",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i34",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i35",
+      "source": "../../sources/block-4.html#cs-16",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i36",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i37",
+      "source": "../../sources/block-4.html#cs-17",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i38",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i39",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-4-introduction",
+      "question": "i40",
+      "source": "../../sources/block-4.html#cs-18",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i01",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i02",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i03",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i04",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i05",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i06",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i07",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i08",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i09",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i10",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i11",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i12",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i13",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i14",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i15",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i16",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i17",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i18",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i19",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i20",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i21",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i22",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i23",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i24",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i25",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i26",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i27",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i28",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i29",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i30",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i31",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i32",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i33",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i34",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i35",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i36",
+      "source": "../../sources/block-3.html#cs-14",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i37",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i38",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i39",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-3-introduction",
+      "question": "i40",
+      "source": "../../sources/block-3.html#cs-15",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i01",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i02",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i03",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i04",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i05",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i06",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i07",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i08",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i09",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i10",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i11",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i12",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i13",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i14",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i15",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i16",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i17",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i18",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i19",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i20",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i21",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i22",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i23",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i24",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i25",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i26",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i27",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i28",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i29",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i30",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i31",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i32",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i33",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i34",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i35",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i36",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i37",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i38",
+      "source": "../../sources/block-7.html#cs-26",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i39",
+      "source": "../../sources/block-7.html#cs-24",
+      "valid": true
+    },
+    {
+      "worksheet": "block-7-introduction",
+      "question": "i40",
+      "source": "../../sources/block-7.html#cs-25",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i01",
+      "source": "../../sources/block-12.html#cs-8",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i02",
+      "source": "../../sources/block-12.html#cs-8",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i03",
+      "source": "../../sources/block-12.html#cs-8",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i04",
+      "source": "../../sources/block-12.html#cs-8",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i05",
+      "source": "../../sources/block-12.html#cs-8",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i06",
+      "source": "../../sources/block-12.html#cs-9",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i07",
+      "source": "../../sources/block-12.html#cs-9",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i08",
+      "source": "../../sources/block-12.html#cs-9",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i09",
+      "source": "../../sources/block-12.html#cs-9",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i10",
+      "source": "../../sources/block-12.html#cs-9",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i11",
+      "source": "../../sources/block-12.html#cs-10",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i12",
+      "source": "../../sources/block-12.html#cs-10",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i13",
+      "source": "../../sources/block-12.html#cs-10",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i14",
+      "source": "../../sources/block-12.html#cs-10",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i15",
+      "source": "../../sources/block-12.html#cs-10",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i16",
+      "source": "../../sources/block-12.html#cs-11",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i17",
+      "source": "../../sources/block-12.html#cs-11",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i18",
+      "source": "../../sources/block-12.html#cs-11",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i19",
+      "source": "../../sources/block-12.html#cs-11",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i20",
+      "source": "../../sources/block-12.html#cs-11",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i21",
+      "source": "../../sources/block-12.html#cs-12",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i22",
+      "source": "../../sources/block-12.html#cs-12",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i23",
+      "source": "../../sources/block-12.html#cs-12",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i24",
+      "source": "../../sources/block-12.html#cs-12",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i25",
+      "source": "../../sources/block-12.html#cs-12",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i26",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i27",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i28",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i29",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i30",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i31",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i32",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i33",
+      "source": "../../sources/block-12.html#cs-8",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i34",
+      "source": "../../sources/block-12.html#cs-9",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i35",
+      "source": "../../sources/block-12.html#cs-10",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i36",
+      "source": "../../sources/block-12.html#cs-11",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i37",
+      "source": "../../sources/block-12.html#cs-12",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i38",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i39",
+      "source": "../../sources/block-12.html#cs-13",
+      "valid": true
+    },
+    {
+      "worksheet": "industrialization-progressivism-introduction",
+      "question": "i40",
+      "source": "../../sources/block-12.html#cs-11",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i01",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i02",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i03",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i04",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i05",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i06",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i07",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i08",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i09",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i10",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i11",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i12",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i13",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i14",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i15",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i16",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i17",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i18",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i19",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i20",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i21",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i22",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i23",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i24",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i25",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i26",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i27",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i28",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i29",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i30",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i31",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i32",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i33",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i34",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i35",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i36",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i37",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i38",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i39",
+      "source": "../../sources/block-6.html#cs-22",
+      "valid": true
+    },
+    {
+      "worksheet": "block-6-introduction",
+      "question": "i40",
+      "source": "../../sources/block-6.html#cs-23",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i01",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i02",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i03",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i04",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i05",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i06",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i07",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i08",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i09",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i10",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i11",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i12",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i13",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i14",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i15",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i16",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i17",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i18",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i19",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i20",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i21",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i22",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i23",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i24",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i25",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i26",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i27",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i28",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i29",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i30",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i31",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i32",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i33",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i34",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i35",
+      "source": "../../sources/block-5.html#cs-19",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i36",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i37",
+      "source": "../../sources/block-5.html#cs-20",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i38",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i39",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-5-introduction",
+      "question": "i40",
+      "source": "../../sources/block-5.html#cs-21",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i01",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i02",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i03",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i04",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i05",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i06",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i07",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i08",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i09",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i10",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i11",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i12",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i13",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i14",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i15",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i16",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i17",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i18",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i19",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i20",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i21",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i22",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i23",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i24",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i25",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i26",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i27",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i28",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i29",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i30",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i31",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i32",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i33",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i34",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i35",
+      "source": "../../sources/block-11.html#cs-1",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i36",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i37",
+      "source": "../../sources/block-11.html#cs-2",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i38",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i39",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-11-introduction",
+      "question": "i40",
+      "source": "../../sources/block-11.html#cs-3",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i01",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i02",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i03",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i04",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i05",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i06",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i07",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i08",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i09",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i10",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i11",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i12",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i13",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i14",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i15",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i16",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i17",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i18",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i19",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i20",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i21",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i22",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i23",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i24",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i25",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i26",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i27",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i28",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i29",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i30",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i31",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i32",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i33",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i34",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i35",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i36",
+      "source": "../../sources/block-2.html#cs-6",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i37",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i38",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i39",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-2-introduction",
+      "question": "i40",
+      "source": "../../sources/block-2.html#cs-7",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i01",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i02",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i03",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i04",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i05",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i06",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i07",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i08",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i09",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i10",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i11",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i12",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i13",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i14",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i15",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i16",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i17",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i18",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i19",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i20",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i21",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i22",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i23",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i24",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i25",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i26",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i27",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i28",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i29",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i30",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i31",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i32",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i33",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i34",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i35",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i36",
+      "source": "../../sources/block-9.html#cs-29",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i37",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i38",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i39",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-9-introduction",
+      "question": "i40",
+      "source": "../../sources/block-9.html#cs-30",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i01",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i02",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i03",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i04",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i05",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i06",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i07",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i08",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i09",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i10",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i11",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i12",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i13",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i14",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i15",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i16",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i17",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i18",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i19",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i20",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i21",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i22",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i23",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i24",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i25",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i26",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i27",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i28",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i29",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i30",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i31",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i32",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i33",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i34",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i35",
+      "source": "../../sources/block-10.html#cs-31",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i36",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i37",
+      "source": "../../sources/block-10.html#cs-32",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i38",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i39",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    },
+    {
+      "worksheet": "block-10-introduction",
+      "question": "i40",
+      "source": "../../sources/block-10.html#cs-33",
+      "valid": true
+    }
+  ],
+  "httpChecks": [
+    {
+      "url": "https://openstax.org/books/us-history/pages/28-2-the-cold-war",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/28-2-the-cold-war",
+      "referencePages": [
+        "block-7.html",
+        "block-7.html",
+        "block-6.html",
+        "block-6.html"
+      ],
+      "bytes": 344529
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/30-3-vietnam-the-downward-spiral",
+      "referencePages": [
+        "block-7.html",
+        "block-9.html"
+      ],
+      "bytes": 331256
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/31-3-a-new-world-order",
+      "referencePages": [
+        "block-7.html"
+      ],
+      "bytes": 339734
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/25-1-the-stock-market-crash-of-1929",
+      "referencePages": [
+        "block-5.html"
+      ],
+      "bytes": 357871
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/26-2-the-first-new-deal",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/26-2-the-first-new-deal",
+      "referencePages": [
+        "block-5.html"
+      ],
+      "bytes": 350144
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/26-3-the-second-new-deal",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/26-3-the-second-new-deal",
+      "referencePages": [
+        "block-5.html"
+      ],
+      "bytes": 358570
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/27-1-the-origins-of-war-europe-asia-and-the-united-states",
+      "referencePages": [
+        "block-5.html"
+      ],
+      "bytes": 343806
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/27-2-the-home-front",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/27-2-the-home-front",
+      "referencePages": [
+        "block-5.html"
+      ],
+      "bytes": 358980
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/18-1-inventors-of-the-age",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/18-1-inventors-of-the-age",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 330081
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/18-2-from-invention-to-industrial-growth",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/18-2-from-invention-to-industrial-growth",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 340650
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/18-3-building-industrial-america-on-the-backs-of-labor",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/18-3-building-industrial-america-on-the-backs-of-labor",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 347626
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/19-1-urbanization-and-its-challenges",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/19-1-urbanization-and-its-challenges",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 341411
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/19-2-the-african-american-great-migration-and-new-european-immigration",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/19-2-the-african-american-great-migration-and-new-european-immigration",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 330871
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/17-4-the-assault-on-american-indian-life-and-culture",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 328830
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/16-4-the-collapse-of-reconstruction",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 349134
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/21-1-the-origins-of-the-progressive-spirit-in-america",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/21-1-the-origins-of-the-progressive-spirit-in-america",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 320213
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/21-2-progressivism-at-the-grassroots-level",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/21-2-progressivism-at-the-grassroots-level",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 342201
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/21-4-progressivism-in-the-white-house",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/21-4-progressivism-in-the-white-house",
+      "referencePages": [
+        "block-12.html"
+      ],
+      "bytes": 350737
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/23-5-demobilization-and-its-difficult-aftermath",
+      "referencePages": [
+        "block-4.html"
+      ],
+      "bytes": 332812
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/24-2-transformation-and-backlash",
+      "referencePages": [
+        "block-4.html",
+        "block-4.html"
+      ],
+      "bytes": 339832
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/24-1-prosperity-and-the-production-of-popular-entertainment",
+      "referencePages": [
+        "block-4.html",
+        "block-4.html"
+      ],
+      "bytes": 339872
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/24-3-a-new-generation",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/24-3-a-new-generation",
+      "referencePages": [
+        "block-4.html"
+      ],
+      "bytes": 339270
+    },
+    {
+      "url": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101",
+      "status": 200,
+      "resolvedURL": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101",
+      "referencePages": [
+        "block-11.html",
+        "block-11.html"
+      ],
+      "bytes": 1835783
+    },
+    {
+      "url": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102",
+      "status": 200,
+      "resolvedURL": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102",
+      "referencePages": [
+        "block-11.html"
+      ],
+      "bytes": 1835783
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/22-1-turner-mahan-and-the-roots-of-empire",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/22-1-turner-mahan-and-the-roots-of-empire",
+      "referencePages": [
+        "block-3.html"
+      ],
+      "bytes": 338409
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/22-2-the-spanish-american-war-and-overseas-empire",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/22-2-the-spanish-american-war-and-overseas-empire",
+      "referencePages": [
+        "block-3.html"
+      ],
+      "bytes": 339467
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/22-4-roosevelts-big-stick-foreign-policy",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/22-4-roosevelts-big-stick-foreign-policy",
+      "referencePages": [
+        "block-3.html"
+      ],
+      "bytes": 331232
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/23-4-from-war-to-peace",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/23-4-from-war-to-peace",
+      "referencePages": [
+        "block-3.html",
+        "block-3.html"
+      ],
+      "bytes": 331559
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/28-5-the-african-american-struggle-for-civil-rights",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/28-5-the-african-american-struggle-for-civil-rights",
+      "referencePages": [
+        "block-8.html"
+      ],
+      "bytes": 337201
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/29-3-the-civil-rights-movement-marches-on",
+      "referencePages": [
+        "block-8.html"
+      ],
+      "bytes": 349563
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/29-4-challenging-the-status-quo",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/29-4-challenging-the-status-quo",
+      "referencePages": [
+        "block-8.html"
+      ],
+      "bytes": 325975
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/28-3-the-american-dream",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/28-3-the-american-dream",
+      "referencePages": [
+        "block-8.html",
+        "block-9.html"
+      ],
+      "bytes": 338799
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/28-4-popular-culture-and-mass-media",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/28-4-popular-culture-and-mass-media",
+      "referencePages": [
+        "block-8.html"
+      ],
+      "bytes": 322022
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/27-4-the-pacific-theater-and-the-atomic-bomb",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/27-4-the-pacific-theater-and-the-atomic-bomb",
+      "referencePages": [
+        "block-6.html"
+      ],
+      "bytes": 326095
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/31-1-the-reagan-revolution",
+      "referencePages": [
+        "block-9.html",
+        "block-9.html"
+      ],
+      "bytes": 332598
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/29-2-lyndon-johnson-and-the-great-society",
+      "referencePages": [
+        "block-9.html"
+      ],
+      "bytes": 337087
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/30-1-identity-politics-in-a-fractured-society",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/30-1-identity-politics-in-a-fractured-society",
+      "referencePages": [
+        "block-9.html"
+      ],
+      "bytes": 343638
+    },
+    {
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "status": 200,
+      "resolvedURL": "https://www.archives.gov/founding-docs/declaration-transcript",
+      "referencePages": [
+        "block-1.html"
+      ],
+      "bytes": 48690
+    },
+    {
+      "url": "https://www.archives.gov/milestone-documents/northwest-ordinance",
+      "status": 200,
+      "resolvedURL": "https://www.archives.gov/milestone-documents/northwest-ordinance",
+      "referencePages": [
+        "block-1.html"
+      ],
+      "bytes": 54937
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/31-4-bill-clinton-and-the-new-economy",
+      "referencePages": [
+        "block-10.html",
+        "block-10.html"
+      ],
+      "bytes": 352922
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/32-1-the-war-on-terror",
+      "referencePages": [
+        "block-10.html",
+        "block-10.html"
+      ],
+      "bytes": 343452
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/32-2-the-domestic-mission",
+      "referencePages": [
+        "block-10.html"
+      ],
+      "bytes": 339546
+    },
+    {
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "status": 200,
+      "resolvedURL": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "referencePages": [
+        "block-2.html"
+      ],
+      "bytes": 70555
+    },
+    {
+      "url": "https://openstax.org/books/us-history/pages/7-4-the-constitutional-convention-and-federal-constitution",
+      "status": 200,
+      "resolvedURL": "https://openstax.org/books/us-history/pages/7-4-the-constitutional-convention-and-federal-constitution",
+      "referencePages": [
+        "block-2.html"
+      ],
+      "bytes": 333470
+    }
+  ],
+  "failures": [],
+  "limits": "Local anchor validity and HTTP availability are automated. Historical support was assessed separately against the official historical explanations; an HTTP success alone does not establish support."
+}
