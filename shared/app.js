@@ -1,5 +1,5 @@
 'use strict';
-const APPS_SCRIPT_URL="https://script.google.com/macros/s/AKfycbxOkyzvD3SgH2O2VH1I5NAGU8aWANuIiqZPlJGzj5QX90DZluNZ0T9dVSNag-P_w5t9Yw/exec";
+const APPS_SCRIPT_URL="https://script.google.com/macros/s/AKfycbxENUBm5pd966tRn1g9R7HH0zSXcEI10LGLivzQzN0pn6b0ytZHJdV8HU9i0ihYtHJW/exec";
 const C=window.BLOCK_CONFIG,Q=window.BLOCK_QUESTIONS,K=PhaseCore,$=id=>document.getElementById(id);
 let wasHidden=document.hidden;
 let state=null,started=false,locked=false,timer=null,last=Date.now(),currentId=null,cloudTimer;
