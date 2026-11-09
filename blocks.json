@@ -1,0 +1,119 @@
+[
+  {
+    "number": 1,
+    "title": "Declaration and Northwest Ordinance",
+    "standards": [
+      4,
+      5
+    ],
+    "slug": "block-1"
+  },
+  {
+    "number": 2,
+    "title": "Constitution and Ratification",
+    "standards": [
+      6,
+      7
+    ],
+    "slug": "block-2"
+  },
+  {
+    "number": 3,
+    "title": "World Power and Isolationism",
+    "standards": [
+      14,
+      15
+    ],
+    "slug": "block-3"
+  },
+  {
+    "number": 4,
+    "title": "Migration, Culture, and the 1920s",
+    "standards": [
+      16,
+      17,
+      18
+    ],
+    "slug": "block-4"
+  },
+  {
+    "number": 5,
+    "title": "Depression, World War II, and Mobilization",
+    "standards": [
+      19,
+      20,
+      21
+    ],
+    "slug": "block-5"
+  },
+  {
+    "number": 6,
+    "title": "Nuclear Age and Containment",
+    "standards": [
+      22,
+      23
+    ],
+    "slug": "block-6"
+  },
+  {
+    "number": 7,
+    "title": "Cold War at Home and Abroad",
+    "standards": [
+      24,
+      25,
+      26
+    ],
+    "slug": "block-7"
+  },
+  {
+    "number": 8,
+    "title": "Rights Movements and Postwar Prosperity",
+    "standards": [
+      27,
+      28
+    ],
+    "slug": "block-8"
+  },
+  {
+    "number": 9,
+    "title": "Migration, Demographics, and Public Policy",
+    "standards": [
+      29,
+      30
+    ],
+    "slug": "block-9"
+  },
+  {
+    "number": 10,
+    "title": "Globalized and Post\u2013Cold War America",
+    "standards": [
+      31,
+      32,
+      33
+    ],
+    "slug": "block-10"
+  },
+  {
+    "number": 11,
+    "title": "Historical Thinking and Skills",
+    "standards": [
+      1,
+      2,
+      3
+    ],
+    "slug": "block-11"
+  },
+  {
+    "number": 12,
+    "title": "Industrialization and Progressivism",
+    "standards": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "slug": "industrialization-progressivism"
+  }
+]

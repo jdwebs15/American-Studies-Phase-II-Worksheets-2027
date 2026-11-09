@@ -1,0 +1,7 @@
+{
+  "name": "american-studies-phase-ii-2027",
+  "private": true,
+  "description": "Static worksheets; Playwright is a development-only test dependency.",
+  "scripts": { "test": "python3 tests/run.py", "audit": "python3 tests/audit.py", "audit:strict": "python3 tests/audit.py --strict-content" },
+  "devDependencies": { "playwright": "1.62.1" }
+}
