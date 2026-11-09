@@ -1,0 +1,528 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B12-CS8,9,10,11,12,13-REVIEW-2027-V2",
+    "title": "Block 12 Review — Industrialization and Progressivism",
+    "type": "review",
+    "block": 12,
+    "standards": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "questions": [
+    {
+      "id": "r01",
+      "cs": "CS 8",
+      "standards": [
+        8
+      ],
+      "prompt": "A corporation controls suppliers and distribution. What advantage can follow?",
+      "choices": [
+        "Coordination can reduce costs and strengthen market power",
+        "Control eliminates the need for investment capital",
+        "Coordination guarantees competition will increase indefinitely",
+        "Control makes consumer demand irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Coordination can reduce costs and strengthen market power.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r02",
+      "cs": "CS 8",
+      "standards": [
+        8
+      ],
+      "prompt": "How did assembly lines change skill requirements?",
+      "choices": [
+        "Assembly production generally increased each worker's control over the full craft process",
+        "Tasks could be divided into narrower repeated operations",
+        "The production system required workers to perform more complete product assembly individually",
+        "Assembly lines ended the use of machines"
+      ],
+      "answer": 1,
+      "explanation": "Tasks could be divided into narrower repeated operations.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r03",
+      "cs": "CS 8",
+      "standards": [
+        8
+      ],
+      "prompt": "Why could industrial growth worsen urban sanitation?",
+      "choices": [
+        "Population growth automatically expanded every municipal budget",
+        "Factories prevented workers from settling near jobs",
+        "Population and production grew faster than services",
+        "Factories eliminated waste and crowding"
+      ],
+      "answer": 2,
+      "explanation": "Population and production grew faster than services.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r04",
+      "cs": "CS 8",
+      "standards": [
+        8
+      ],
+      "prompt": "Compare farm mechanization and factory mechanization.",
+      "choices": [
+        "Both increased output while changing labor demands",
+        "Farms ended production while factories abandoned machinery",
+        "Farms and factories became independent of national markets",
+        "Both guaranteed equal gains for every worker"
+      ],
+      "answer": 0,
+      "explanation": "Both increased output while changing labor demands.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r05",
+      "cs": "CS 8",
+      "standards": [
+        8
+      ],
+      "prompt": "Why did corporations facilitate large industrial projects?",
+      "choices": [
+        "Corporations chiefly reduced reliance on pooled capital for major industrial investments",
+        "Large projects became practical because corporate ownership removed investment uncertainty",
+        "Corporations prohibited firms from operating across state borders",
+        "Pooled capital supported costly infrastructure and equipment"
+      ],
+      "answer": 3,
+      "explanation": "Pooled capital supported costly infrastructure and equipment.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r06",
+      "cs": "CS 9",
+      "standards": [
+        9
+      ],
+      "prompt": "Why could laissez-faire policy intensify labor conflict?",
+      "choices": [
+        "Limited oversight distributed bargaining leverage more equally between firms and workers",
+        "Limited regulation left employers broad control over conditions",
+        "Laissez-faire policy kept public institutions separate from responses to strikes",
+        "Limited regulation guaranteed workers equal bargaining power"
+      ],
+      "answer": 1,
+      "explanation": "Limited regulation left employers broad control over conditions.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r07",
+      "cs": "CS 9",
+      "standards": [
+        9
+      ],
+      "prompt": "Compare individual bargaining with collective bargaining.",
+      "choices": [
+        "Collective negotiation mainly formalized the terms individual employers had already chosen",
+        "Individual bargaining gave each worker leverage comparable to a coordinated labor force",
+        "Organized workers could negotiate with greater shared leverage",
+        "Individual bargaining required national public ownership"
+      ],
+      "answer": 2,
+      "explanation": "Organized workers could negotiate with greater shared leverage.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r08",
+      "cs": "CS 9",
+      "standards": [
+        9
+      ],
+      "prompt": "How could violence against strikes affect union organizing?",
+      "choices": [
+        "Repression guaranteed immediate success for every union",
+        "Violence eliminated public debate over industrial conditions",
+        "Repression increased risks while highlighting power imbalances",
+        "Violence proved workers had no economic grievances"
+      ],
+      "answer": 2,
+      "explanation": "Repression increased risks while highlighting power imbalances.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r09",
+      "cs": "CS 9",
+      "standards": [
+        9
+      ],
+      "prompt": "Why did child-labor restrictions challenge prevailing business practices?",
+      "choices": [
+        "Restrictions chiefly reduced public involvement by leaving employment terms to families",
+        "Reform preserved inexpensive child labor while focusing only on industrial production methods",
+        "Restrictions ended every need for household income",
+        "They limited employers' access to cheap vulnerable labor"
+      ],
+      "answer": 3,
+      "explanation": "They limited employers' access to cheap vulnerable labor.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r10",
+      "cs": "CS 9",
+      "standards": [
+        9
+      ],
+      "prompt": "A court injunction halts a strike. What relationship deserves analysis?",
+      "choices": [
+        "Court involvement operated independently of the parties' economic bargaining strength",
+        "Judicial action chiefly transferred ownership decisions from firms to union organizers",
+        "Courts required universal union membership nationally",
+        "Government action could reinforce employers' bargaining position"
+      ],
+      "answer": 3,
+      "explanation": "Government action could reinforce employers' bargaining position.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r11",
+      "cs": "CS 10",
+      "standards": [
+        10
+      ],
+      "prompt": "How did streetcars influence urban development?",
+      "choices": [
+        "Improved transit encouraged housing to remain concentrated beside central workplaces",
+        "Commuting connections reduced the effect of transportation on residential development",
+        "Commuting expanded feasible distances between homes and jobs",
+        "Streetcars ended municipal concerns about infrastructure"
+      ],
+      "answer": 2,
+      "explanation": "Commuting expanded feasible distances between homes and jobs.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r12",
+      "cs": "CS 10",
+      "standards": [
+        10
+      ],
+      "prompt": "Why did tenement growth create policy pressures?",
+      "choices": [
+        "Dense construction generally supplied sanitation services without municipal intervention",
+        "Housing growth chiefly reduced pressure for fire, safety, and building standards",
+        "Tenements prevented immigrants from forming neighborhoods",
+        "Dense housing exposed sanitation and safety problems"
+      ],
+      "answer": 3,
+      "explanation": "Dense housing exposed sanitation and safety problems.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r13",
+      "cs": "CS 10",
+      "standards": [
+        10
+      ],
+      "prompt": "Compare immigration and internal migration.",
+      "choices": [
+        "Both involved crossing international borders in every case",
+        "Internal migration required federal entry visas",
+        "Both supplied urban labor through different geographic movements",
+        "Immigration occurred only among existing American citizens"
+      ],
+      "answer": 2,
+      "explanation": "Both supplied urban labor through different geographic movements.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r14",
+      "cs": "CS 10",
+      "standards": [
+        10
+      ],
+      "prompt": "Why could ethnic neighborhoods aid newcomers?",
+      "choices": [
+        "Community networks supported work, language, and mutual assistance",
+        "Community institutions chiefly isolated newcomers from available employment information",
+        "Shared networks reduced cultural exchange without providing practical mutual support",
+        "Neighborhood formation prevented cultural exchange permanently"
+      ],
+      "answer": 0,
+      "explanation": "Community networks supported work, language, and mutual assistance.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r15",
+      "cs": "CS 10",
+      "standards": [
+        10
+      ],
+      "prompt": "How did the Great Migration reshape northern culture?",
+      "choices": [
+        "Black communities immediately ended northern racial discrimination",
+        "Migration occurred without economic or safety concerns",
+        "Migration eliminated the influence of southern experiences",
+        "Black communities expanded artistic, commercial, and political networks"
+      ],
+      "answer": 3,
+      "explanation": "Black communities expanded artistic, commercial, and political networks.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r16",
+      "cs": "CS 11",
+      "standards": [
+        11
+      ],
+      "prompt": "Why did railroads intensify conflict on the Plains?",
+      "choices": [
+        "Railroads ended military involvement in western disputes",
+        "Railroads eliminated demand for land and minerals",
+        "Transport corridors accelerated settlement and resource extraction",
+        "Transport corridors guaranteed respect for all tribal boundaries"
+      ],
+      "answer": 2,
+      "explanation": "Transport corridors accelerated settlement and resource extraction.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r17",
+      "cs": "CS 11",
+      "standards": [
+        11
+      ],
+      "prompt": "Compare reservations and residential schools.",
+      "choices": [
+        "Both arrangements expanded tribal choice over federal administration and cultural policy",
+        "Both imposed controls that threatened Indigenous autonomy and culture",
+        "Residential schools chiefly preserved Native languages while land rules encouraged collective ownership",
+        "Reservations addressed only transport while schools addressed only trade"
+      ],
+      "answer": 1,
+      "explanation": "Both imposed controls that threatened Indigenous autonomy and culture.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r18",
+      "cs": "CS 11",
+      "standards": [
+        11
+      ],
+      "prompt": "Why examine Indigenous resistance to assimilation?",
+      "choices": [
+        "Resistance proves no treaties were negotiated",
+        "Resistance makes federal policy irrelevant to historical explanation",
+        "Native peoples uniformly accepted every federal program",
+        "Native peoples acted to defend communities and sovereignty"
+      ],
+      "answer": 3,
+      "explanation": "Native peoples acted to defend communities and sovereignty.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r19",
+      "cs": "CS 11",
+      "standards": [
+        11
+      ],
+      "prompt": "How did the Homestead Acts affect western land conflicts?",
+      "choices": [
+        "Homestead incentives reduced competition by reserving contested land for Indigenous communities",
+        "Settlement policy mainly discouraged migration into areas with valuable natural resources",
+        "Settler incentives increased pressure on Indigenous territories",
+        "Settlement ended disputes over natural resources"
+      ],
+      "answer": 2,
+      "explanation": "Settler incentives increased pressure on Indigenous territories.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r20",
+      "cs": "CS 11",
+      "standards": [
+        11
+      ],
+      "prompt": "Why is Wounded Knee significant to evaluating expansion?",
+      "choices": [
+        "The violence demonstrated that territorial control relied principally on voluntary consent",
+        "Violence exposed coercion behind control of Indigenous peoples",
+        "Federal military action strengthened recognition of independent Indigenous sovereignty",
+        "Violence proved federal policy relied only on consent"
+      ],
+      "answer": 1,
+      "explanation": "Violence exposed coercion behind control of Indigenous peoples.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r21",
+      "cs": "CS 12",
+      "standards": [
+        12
+      ],
+      "prompt": "How did literacy tests restrict voting beyond their stated purpose?",
+      "choices": [
+        "Discriminatory administration excluded Black citizens",
+        "Testing procedures largely removed officials' discretion over Black voter eligibility",
+        "Written requirements guaranteed access by separating registration from racial administration",
+        "Tests applied only to candidates for federal office"
+      ],
+      "answer": 0,
+      "explanation": "Discriminatory administration excluded Black citizens.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r22",
+      "cs": "CS 12",
+      "standards": [
+        12
+      ],
+      "prompt": "Why did Plessy strengthen Jim Crow institutions?",
+      "choices": [
+        "The decision restored federal Reconstruction governments",
+        "The decision guaranteed immediate equal funding everywhere",
+        "Constitutional approval prohibited racial separation",
+        "Constitutional approval gave segregation legal support"
+      ],
+      "answer": 3,
+      "explanation": "Constitutional approval gave segregation legal support.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r23",
+      "cs": "CS 12",
+      "standards": [
+        12
+      ],
+      "prompt": "Compare intimidation and discriminatory election laws.",
+      "choices": [
+        "Intimidation applied only to federal officials",
+        "Both reinforced racial political exclusion through different means",
+        "Election laws had no relationship to racial power",
+        "Both guaranteed every citizen equal ballot access"
+      ],
+      "answer": 1,
+      "explanation": "Both reinforced racial political exclusion through different means.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r24",
+      "cs": "CS 12",
+      "standards": [
+        12
+      ],
+      "prompt": "Why is institutionalized racism more than individual prejudice?",
+      "choices": [
+        "Laws and organizations reproduced unequal rights and opportunities",
+        "Discrimination mainly reflected private beliefs without durable organizational mechanisms",
+        "Institutional rules influenced attitudes without changing opportunities or enforceable rights",
+        "Institutions acted without affecting daily experiences"
+      ],
+      "answer": 0,
+      "explanation": "Laws and organizations reproduced unequal rights and opportunities.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r25",
+      "cs": "CS 13",
+      "standards": [
+        13
+      ],
+      "prompt": "How could antitrust action address industrial capitalism's problems?",
+      "choices": [
+        "Antitrust chiefly equalized profits by regulating firms' individual production quotas",
+        "It challenged concentrated power restricting competition",
+        "The legislation reduced public oversight by protecting exclusive control of competitors",
+        "It prohibited every large business organization"
+      ],
+      "answer": 1,
+      "explanation": "It challenged concentrated power restricting competition.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r26",
+      "cs": "CS 13",
+      "standards": [
+        13
+      ],
+      "prompt": "Why did settlement houses respond to urbanization?",
+      "choices": [
+        "Settlement houses transferred elections to private charities",
+        "They provided services amid rapid growth and limited support",
+        "They eliminated the need for municipal sanitation",
+        "Settlement houses required every immigrant to leave cities"
+      ],
+      "answer": 1,
+      "explanation": "They provided services amid rapid growth and limited support.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r27",
+      "cs": "CS 13",
+      "standards": [
+        13
+      ],
+      "prompt": "How did the Seventeenth Amendment target political corruption?",
+      "choices": [
+        "Direct election reduced state-legislative control of Senate selection",
+        "The amendment abolished representation by state",
+        "The amendment required senators to serve without elections",
+        "Direct election eliminated every influence of money in politics"
+      ],
+      "answer": 0,
+      "explanation": "Direct election reduced state-legislative control of Senate selection.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r28",
+      "cs": "CS 13",
+      "standards": [
+        13
+      ],
+      "prompt": "Why evaluate reform outcomes rather than intentions alone?",
+      "choices": [
+        "Reformers' stated motives provide sufficient evidence of successful implementation",
+        "Implementation and exclusions could limit promised benefits",
+        "A statute's passage establishes that affected groups received comparable benefits",
+        "Legislation prevents historians from studying unintended effects"
+      ],
+      "answer": 1,
+      "explanation": "Implementation and exclusions could limit promised benefits.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r29",
+      "cs": "CS 13",
+      "standards": [
+        13
+      ],
+      "prompt": "Compare conservation policy and consumer protection.",
+      "choices": [
+        "Both expanded public oversight of private economic activity",
+        "Conservation regulated food labels while inspection managed forests",
+        "Conservation and inspection depended only on voluntary charity",
+        "Both ended every form of resource extraction"
+      ],
+      "answer": 0,
+      "explanation": "Both expanded public oversight of private economic activity.",
+      "provenance": "newly authored"
+    },
+    {
+      "id": "r30",
+      "cs": "CS 13",
+      "standards": [
+        13
+      ],
+      "prompt": "Why did the Federal Reserve reflect Progressive institutional reform?",
+      "choices": [
+        "A national system addressed money and banking instability",
+        "The system primarily supplied pensions and jobs rather than banking oversight",
+        "National reform made monetary stability chiefly the responsibility of state legislatures",
+        "A national system prohibited every commercial loan"
+      ],
+      "answer": 0,
+      "explanation": "A national system addressed money and banking instability.",
+      "provenance": "newly authored"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

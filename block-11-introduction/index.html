@@ -1,0 +1,855 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="../../shared/styles.css"></head><body><main><a href="../../index.html">← All assignments</a><header><p class="eyebrow">American Studies / Phase II</p><h1 id="title"></h1><p id="description"></p></header><form id="identity"><h2>Ready to begin?</h2><label>Student name<input id="studentName" autocomplete="name" required maxlength="100"></label><label>Class period<select id="period" required><option value="">Select a period</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><label>School email<input id="email" type="email" autocomplete="email" required maxlength="254"></label><div class="actions"><button type="submit">Start / Continue</button><button type="button" id="loadCloud" class="secondary">Load Previous from server</button><label class="fileLabel">Load progress file<input type="file" id="loadFile" accept=".json,application/json"></label></div><p>Start / Continue restores saved work on this device. Use your school email consistently. Progress files let you move work between devices.</p></form><section id="workspace" hidden><p id="stats" aria-live="polite"></p><p id="runStatus" role="status"></p><article id="questionCard" class="card"></article><section id="ticket" aria-label="Assignment result" hidden></section><div class="actions"><button id="save">Save Progress</button><button id="download" class="secondary">Download progress</button><button id="restart" class="secondary">New reshuffled run</button></div></section><p id="saveStatus" role="status" aria-live="polite"></p></main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B11-CS1,2,3-INTRODUCTION-2027-V2",
+    "title": "Block 11 Introduction — Historical Thinking and Skills",
+    "type": "introduction",
+    "block": 11,
+    "standards": [
+      1,
+      2,
+      3
+    ]
+  },
+  "questions": [
+    {
+      "id": "i01",
+      "cs": "CS 1",
+      "prompt": "A company report praises safety; inspection records list repeated injuries. What should a historian do first?",
+      "choices": [
+        "Discard both sources because their conclusions differ",
+        "Select the more dramatic account as inherently reliable",
+        "Treat official business figures as automatically conclusive",
+        "Compare incentives, methods, and corroborating evidence"
+      ],
+      "answer": 3,
+      "explanation": "Compare incentives, methods, and corroborating evidence.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare each account's purpose with independently checkable records.",
+      "hint": "Compare each account's purpose with independently checkable records.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i02",
+      "cs": "CS 1",
+      "prompt": "A diary describes a strike the writer never attended. What limits its evidentiary value?",
+      "choices": [
+        "It cannot reveal anything about contemporary public attitudes",
+        "It may document perceptions better than firsthand events",
+        "Private writing is more reliable than all public records",
+        "Private writing necessarily reflects independent direct observation"
+      ],
+      "answer": 1,
+      "explanation": "It may document perceptions better than firsthand events.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish direct observation from evidence of contemporary perceptions.",
+      "hint": "Distinguish direct observation from evidence of contemporary perceptions.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i03",
+      "cs": "CS 1",
+      "prompt": "Three articles repeat one eyewitness account. How much independent corroboration do they supply?",
+      "choices": [
+        "The same as three unrelated firsthand witnesses",
+        "More than any contemporary administrative record",
+        "None for studying circulation of public information",
+        "Less than three separately documented observations"
+      ],
+      "answer": 3,
+      "explanation": "Less than three separately documented observations.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace the reports back to their original source.",
+      "hint": "Trace the reports back to their original source.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i04",
+      "cs": "CS 1",
+      "prompt": "A wartime poster depicts unanimous enthusiasm. What claim does it support most directly?",
+      "choices": [
+        "Every citizen privately endorsed the government's policy",
+        "Military recruitment proceeded without any administrative difficulties",
+        "Officials wanted to encourage public cooperation",
+        "Opposition to the war was absent nationwide"
+      ],
+      "answer": 2,
+      "explanation": "Officials wanted to encourage public cooperation.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare what the poster seeks with what it proves.",
+      "hint": "Compare what the poster seeks with what it proves.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i05",
+      "cs": "CS 1",
+      "prompt": "A photograph excludes a nearby protest. Why examine framing?",
+      "choices": [
+        "Selection shapes the event viewers perceive",
+        "Photographs cannot contain historical information",
+        "A surviving image necessarily represents all participants",
+        "Visual evidence is independent of the photographer's choices"
+      ],
+      "answer": 0,
+      "explanation": "Selection shapes the event viewers perceive.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider what lies outside the selected view.",
+      "hint": "Consider what lies outside the selected view.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i06",
+      "cs": "CS 1",
+      "prompt": "An economic specialist writes about wages using cited payrolls. What supports credibility?",
+      "choices": [
+        "The publication's claim that criticism is unnecessary",
+        "The absence of any interpretation of the data",
+        "The author's agreement with the reader's politics",
+        "Relevant expertise combined with inspectable evidence"
+      ],
+      "answer": 3,
+      "explanation": "Relevant expertise combined with inspectable evidence.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Check both qualifications and the supporting documentation.",
+      "hint": "Check both qualifications and the supporting documentation.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i07",
+      "cs": "CS 1",
+      "prompt": "A memoir recalls childhood events sixty years later. What comparison would strengthen its use?",
+      "choices": [
+        "The writer's fame against unrelated public figures",
+        "The publisher's sales totals against library circulation",
+        "Contemporary records against the later recollection",
+        "The book's length against other popular memoirs"
+      ],
+      "answer": 2,
+      "explanation": "Contemporary records against the later recollection.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare later memory with records made nearer the event.",
+      "hint": "Compare later memory with records made nearer the event.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i08",
+      "cs": "CS 1",
+      "prompt": "A source contradicts itself about the same event's date. What should follow?",
+      "choices": [
+        "Ignore the contradiction if the author is respected",
+        "Reject every other claim without further examination",
+        "Investigate the discrepancy using context and other records",
+        "Assume internal disagreement demonstrates complete neutrality"
+      ],
+      "answer": 2,
+      "explanation": "Investigate the discrepancy using context and other records.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Investigate the contradiction rather than dismissing or ignoring it.",
+      "hint": "Investigate the contradiction rather than dismissing or ignoring it.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i09",
+      "cs": "CS 1",
+      "prompt": "A letter was written while an employer monitored correspondence. What circumstance matters?",
+      "choices": [
+        "Surveillance may constrain what the writer expressed",
+        "Employment monitoring makes personal correspondence a complete record of private opinion",
+        "Workplace status itself establishes an author's expertise about national events",
+        "Employment makes personal accounts politically irrelevant"
+      ],
+      "answer": 0,
+      "explanation": "Surveillance may constrain what the writer expressed.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how monitoring may shape what can be said.",
+      "hint": "Consider how monitoring may shape what can be said.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i10",
+      "cs": "CS 1",
+      "prompt": "A newspaper uses stereotypes to explain migration. What should be evaluated?",
+      "choices": [
+        "Whether migration occurred before newspaper publication began",
+        "Whether stereotypes were printed in large type",
+        "Whether the article agrees with modern popular opinion",
+        "Whether group generalizations substitute for evidence"
+      ],
+      "answer": 3,
+      "explanation": "Whether group generalizations substitute for evidence.",
+      "standards": [
+        1
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask whether the argument examines people or assumes group traits.",
+      "hint": "Ask whether the argument examines people or assumes group traits.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i11",
+      "cs": "CS 2",
+      "prompt": "Practice data show rising city jobs and falling farm employment. Which thesis fits their relationship?",
+      "choices": [
+        "City growth resulted solely from overseas immigration",
+        "Industrial growth helped redirect labor toward cities",
+        "Every farmer obtained a better-paid factory position",
+        "Mechanization had no relationship to population movement"
+      ],
+      "answer": 1,
+      "explanation": "Industrial growth helped redirect labor toward cities.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Choose an interpretation that fits the limits of the data.",
+      "hint": "Choose an interpretation that fits the limits of the data.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i12",
+      "cs": "CS 2",
+      "prompt": "A thesis claims all workers prospered, but wage records show marked disparities. What revision is strongest?",
+      "choices": [
+        "Growth benefited workers unevenly across occupations",
+        "Differences in wages demonstrate that industrial growth produced no worker gains",
+        "National prosperity can be inferred from the highest-paying occupation alone",
+        "Wage differences prove national production did not expand"
+      ],
+      "answer": 0,
+      "explanation": "Growth benefited workers unevenly across occupations.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Match the scope of the claim to the differences shown.",
+      "hint": "Match the scope of the claim to the differences shown.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i13",
+      "cs": "CS 2",
+      "prompt": "Two towns adopt similar reforms but experience different results. What thesis is best supported?",
+      "choices": [
+        "Implementation and local conditions shaped reform outcomes",
+        "Different outcomes establish that one town's records are worthless",
+        "Similar laws necessarily produced identical lived experiences",
+        "Different outcomes prove reform had no historical consequences"
+      ],
+      "answer": 0,
+      "explanation": "Implementation and local conditions shaped reform outcomes.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider implementation and local context alongside formal policy.",
+      "hint": "Consider implementation and local context alongside formal policy.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i14",
+      "cs": "CS 2",
+      "prompt": "A student lists dates of protests without interpreting them. What would create an argument?",
+      "choices": [
+        "Replace source citations with a confident personal opinion",
+        "Arrange the same events alphabetically by location",
+        "Explain how mobilization contributed to institutional change",
+        "Add more dates without discussing their relationships"
+      ],
+      "answer": 2,
+      "explanation": "Explain how mobilization contributed to institutional change.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish listing events from explaining their significance.",
+      "hint": "Distinguish listing events from explaining their significance.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i15",
+      "cs": "CS 2",
+      "prompt": "A claim blames migration only on wages; letters describe fear of violence. How should evidence affect the thesis?",
+      "choices": [
+        "Expand the explanation to include interacting motives",
+        "Exclude letters because they complicate the initial claim",
+        "Assume economic records cannot inform any migration study",
+        "Assume every migrant shared precisely the same experiences"
+      ],
+      "answer": 0,
+      "explanation": "Expand the explanation to include interacting motives.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Let new evidence test the original explanation.",
+      "hint": "Let new evidence test the original explanation.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i16",
+      "cs": "CS 2",
+      "prompt": "One prosperous household is used to claim universal affluence. What is the central weakness?",
+      "choices": [
+        "Household evidence cannot support any historical interpretation",
+        "The evidence does not match the claim's scope",
+        "A household's wealth makes all its documents unreliable",
+        "A broad claim is stronger when based on one example"
+      ],
+      "answer": 1,
+      "explanation": "The evidence does not match the claim's scope.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the size of the claim with the sample.",
+      "hint": "Compare the size of the claim with the sample.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i17",
+      "cs": "CS 2",
+      "prompt": "Why explain how a quotation supports an argument?",
+      "choices": [
+        "Quotations prove every claim regardless of context",
+        "Readers need the connection between evidence and interpretation",
+        "Citing a document eliminates the need for reasoning",
+        "Citing a document requires accepting its author's entire worldview"
+      ],
+      "answer": 1,
+      "explanation": "Readers need the connection between evidence and interpretation.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Connect the selected passage with the argument it supports.",
+      "hint": "Connect the selected passage with the argument it supports.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i18",
+      "cs": "CS 2",
+      "prompt": "New sources reveal a policy's benefits and exclusions. Which thesis uses both?",
+      "choices": [
+        "The policy expanded protection while distributing access unequally",
+        "Unequal access prevents comparison of institutional outcomes",
+        "The policy either helped everyone or had no significance",
+        "Unequal access proves the law was never enacted"
+      ],
+      "answer": 0,
+      "explanation": "The policy expanded protection while distributing access unequally.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Use evidence of gains and exclusions together.",
+      "hint": "Use evidence of gains and exclusions together.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i19",
+      "cs": "CS 2",
+      "prompt": "A historian's claim is challenged by a credible conflicting record. What response strengthens scholarship?",
+      "choices": [
+        "Attack the challenger's personal character instead of the evidence",
+        "Repeat the original conclusion without examining the discrepancy",
+        "Address the conflict and revise the interpretation if needed",
+        "Omit the record to preserve a consistent narrative"
+      ],
+      "answer": 2,
+      "explanation": "Address the conflict and revise the interpretation if needed.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Respond to the evidence rather than its messenger.",
+      "hint": "Respond to the evidence rather than its messenger.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i20",
+      "cs": "CS 2",
+      "prompt": "A thesis connects suburban growth with highways. What evidence most directly tests it?",
+      "choices": [
+        "Only a photograph of one suburban family",
+        "A quotation praising roads without information about their effects",
+        "Only a list of presidents during the same period",
+        "Residential and commuting changes alongside road development"
+      ],
+      "answer": 3,
+      "explanation": "Residential and commuting changes alongside road development.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for records linking transport and residence over time.",
+      "hint": "Look for records linking transport and residence over time.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i21",
+      "cs": "CS 2",
+      "prompt": "Why can two defensible interpretations use some of the same evidence?",
+      "choices": [
+        "Different questions and contextual relationships shape explanation",
+        "Every interpretation is equally supported by every document",
+        "Evidence has no role in distinguishing stronger arguments",
+        "Historical reasoning depends only on the writer's preferences"
+      ],
+      "answer": 0,
+      "explanation": "Different questions and contextual relationships shape explanation.",
+      "standards": [
+        2
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the historical questions and relationships emphasized.",
+      "hint": "Compare the historical questions and relationships emphasized.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i22",
+      "cs": "CS 3",
+      "prompt": "Practice data show factory expansion before migration rises. What additional evidence supports causation?",
+      "choices": [
+        "An unrelated technological invention from the same year",
+        "Only the fact that the dates appear in order",
+        "Recruitment and job decisions linking workers to new positions",
+        "A list of cities without employment or migration records"
+      ],
+      "answer": 2,
+      "explanation": "Recruitment and job decisions linking workers to new positions.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Seek a mechanism linking the earlier event with the later change.",
+      "hint": "Seek a mechanism linking the earlier event with the later change.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i23",
+      "cs": "CS 3",
+      "prompt": "A depression combines debt, bank failures, and policy contraction. What approach fits the evidence?",
+      "choices": [
+        "Assume chronology eliminates every need for a causal mechanism",
+        "Select the latest event as the sole sufficient cause",
+        "Treat simultaneous developments as necessarily unrelated",
+        "Explain interactions among several contributing conditions"
+      ],
+      "answer": 3,
+      "explanation": "Explain interactions among several contributing conditions.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how contributing factors interact.",
+      "hint": "Consider how contributing factors interact.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i24",
+      "cs": "CS 3",
+      "prompt": "A strike follows years of low wages and an immediate pay cut. How should causes be distinguished?",
+      "choices": [
+        "The immediate trigger makes earlier conditions irrelevant",
+        "The pay cut proves workers had no prior grievances",
+        "Long-term conditions combined with a short-term trigger",
+        "Long-term causes must occur after the strike begins"
+      ],
+      "answer": 2,
+      "explanation": "Long-term conditions combined with a short-term trigger.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish underlying conditions from the immediate trigger.",
+      "hint": "Distinguish underlying conditions from the immediate trigger.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i25",
+      "cs": "CS 3",
+      "prompt": "Two trends rise together but a third factor may influence both. What caution applies?",
+      "choices": [
+        "A common cause proves one observed trend is fictitious",
+        "Correlation alone does not establish a direct causal link",
+        "A common cause makes chronological evidence unnecessary",
+        "Correlation demonstrates that neither trend can be studied"
+      ],
+      "answer": 1,
+      "explanation": "Correlation alone does not establish a direct causal link.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Look for possible common influences on both trends.",
+      "hint": "Look for possible common influences on both trends.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i26",
+      "cs": "CS 3",
+      "prompt": "An intervention achieves an initial victory but creates later instability. What does this demonstrate?",
+      "choices": [
+        "Consequences can differ across time horizons",
+        "The original objective is sufficient to establish the policy's long-term effects",
+        "Later instability shows that short-term military events lacked political significance",
+        "Later outcomes depend only on policymakers' original intentions"
+      ],
+      "answer": 0,
+      "explanation": "Consequences can differ across time horizons.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare immediate results with later consequences.",
+      "hint": "Compare immediate results with later consequences.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i27",
+      "cs": "CS 3",
+      "prompt": "A reform follows protests, elections, and a court decision. What explanation is strongest?",
+      "choices": [
+        "Multiple influences prevent any assessment of causation",
+        "The nearest event must explain the entire outcome",
+        "All earlier influences became irrelevant after legislation passed",
+        "Different forms of pressure jointly contributed to change"
+      ],
+      "answer": 3,
+      "explanation": "Different forms of pressure jointly contributed to change.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider multiple channels of influence rather than only the last event.",
+      "hint": "Consider multiple channels of influence rather than only the last event.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i28",
+      "cs": "CS 3",
+      "prompt": "Why compare regions experiencing similar economic change but different outcomes?",
+      "choices": [
+        "Similar economies eliminate the importance of local institutions",
+        "Variation proves no shared cause can have influence",
+        "Similar economies require identical political and cultural responses",
+        "Variation can reveal additional conditions shaping effects"
+      ],
+      "answer": 3,
+      "explanation": "Variation can reveal additional conditions shaping effects.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Use differences to investigate conditions beyond the shared factor.",
+      "hint": "Use differences to investigate conditions beyond the shared factor.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i29",
+      "cs": "CS 3",
+      "prompt": "A drought worsens an existing debt crisis. How should the relationship be analyzed?",
+      "choices": [
+        "Environmental shock interacted with financial vulnerability",
+        "Weather eliminated the importance of earlier lending practices",
+        "Weather demonstrates that policy could not affect outcomes",
+        "Debt began only after the drought ended"
+      ],
+      "answer": 0,
+      "explanation": "Environmental shock interacted with financial vulnerability.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Trace the shock through preexisting vulnerabilities.",
+      "hint": "Trace the shock through preexisting vulnerabilities.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i30",
+      "cs": "CS 3",
+      "prompt": "A war speeds an innovation already underway. What interpretation avoids a false starting point?",
+      "choices": [
+        "War's influence means earlier research had no significance",
+        "War accelerated an existing development rather than creating it entirely",
+        "Earlier innovation proves the war had no effect",
+        "Earlier innovation requires an unchanged rate of later adoption"
+      ],
+      "answer": 1,
+      "explanation": "War accelerated an existing development rather than creating it entirely.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish accelerating an existing process from initiating it.",
+      "hint": "Distinguish accelerating an existing process from initiating it.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i31",
+      "cs": "CS 3",
+      "prompt": "A policy produces behavior officials did not anticipate. Why study that response?",
+      "choices": [
+        "Unintended outcomes prove officials held no stated objectives",
+        "Intentions and actual consequences can diverge",
+        "Unintended outcomes make original documents historically useless",
+        "Unintended outcomes must be unrelated to the policy's incentives"
+      ],
+      "answer": 1,
+      "explanation": "Intentions and actual consequences can diverge.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare the policy's incentives with its stated purpose.",
+      "hint": "Compare the policy's incentives with its stated purpose.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i32",
+      "cs": "CS 3",
+      "prompt": "How should sequence contribute to explaining a historical relationship?",
+      "choices": [
+        "Ignore order when a source offers a persuasive conclusion",
+        "Ignore alternatives after finding an official policy statement",
+        "Establish order, then treat every earlier event as a cause",
+        "Establish order, then test mechanisms and alternative explanations"
+      ],
+      "answer": 3,
+      "explanation": "Establish order, then test mechanisms and alternative explanations.",
+      "standards": [
+        3
+      ],
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Establish order before testing the connection.",
+      "hint": "Establish order before testing the connection.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i33",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "A factory owner calls a strike harmless; hospital records show injuries. What next?",
+      "choices": [
+        "Compare purpose, context, and independent evidence",
+        "Select the account written closest to management as the more informed record",
+        "Treat disagreement as sufficient reason to exclude the inspection evidence",
+        "Assume disagreement makes both accounts worthless"
+      ],
+      "answer": 0,
+      "explanation": "Compare purpose, context, and independent evidence.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare incentives and independent records for the same event.",
+      "hint": "Compare incentives and independent records for the same event.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i34",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "Why can a diary be valuable despite bias?",
+      "choices": [
+        "Private writing supplies a neutral account independent of the writer's interests",
+        "Personal experience makes comparison with other evidence less historically relevant",
+        "Perspective reveals experience when critically contextualized",
+        "Private writing replaces the need for corroboration"
+      ],
+      "answer": 2,
+      "explanation": "Perspective reveals experience when critically contextualized.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Separate a useful perspective from complete factual reliability.",
+      "hint": "Separate a useful perspective from complete factual reliability.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i35",
+      "cs": "CS 1",
+      "standards": [
+        1
+      ],
+      "prompt": "A historian studies wages using a politician's speech. What limitation matters?",
+      "choices": [
+        "Public persuasion establishes specialized knowledge of the conditions described",
+        "Persuasive purpose may distort economic claims",
+        "A speech's popularity supplies independent corroboration of its economic claims",
+        "Public speaking eliminates the need to examine audience"
+      ],
+      "answer": 1,
+      "explanation": "Persuasive purpose may distort economic claims.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-1",
+      "where": "Section CS 1 — Evaluating credibility. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider the author's purpose and the evidence behind the claim.",
+      "hint": "Consider the author's purpose and the evidence behind the claim.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i36",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "How does a thesis differ from a chronology?",
+      "choices": [
+        "It includes every available date without interpretation",
+        "It replaces historical explanation with a document title",
+        "It interprets significance rather than merely listing events",
+        "It avoids evidence in favor of personal certainty"
+      ],
+      "answer": 2,
+      "explanation": "It interprets significance rather than merely listing events.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Ask what interpretation connects the facts.",
+      "hint": "Ask what interpretation connects the facts.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i37",
+      "cs": "CS 2",
+      "standards": [
+        2
+      ],
+      "prompt": "New records contradict a thesis about voting access. What should follow?",
+      "choices": [
+        "Assume all evidence has equal reliability automatically",
+        "Reassess the claim using the additional evidence",
+        "Preserve the thesis without addressing the records",
+        "Discard the records because the thesis came first"
+      ],
+      "answer": 1,
+      "explanation": "Reassess the claim using the additional evidence.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-2",
+      "where": "Section CS 2 — Building evidence-based arguments. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Let conflicting evidence test rather than disappear from the argument.",
+      "hint": "Let conflicting evidence test rather than disappear from the argument.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=101"
+    },
+    {
+      "id": "i38",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Factories expand before migration rises. Is sequence enough to prove causation?",
+      "choices": [
+        "Yes, earlier industrial growth establishes causation without examining migrant decisions",
+        "No, differences in timing make causal historical explanations inherently unreliable",
+        "No, a mechanism and other causes require examination",
+        "No, historical causes can never be investigated"
+      ],
+      "answer": 2,
+      "explanation": "No, a mechanism and other causes require examination.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Distinguish sequence from a demonstrated mechanism.",
+      "hint": "Distinguish sequence from a demonstrated mechanism.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i39",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Why distinguish immediate triggers from structural causes?",
+      "choices": [
+        "Structural causes make individual decisions irrelevant",
+        "Different timescales explain how conditions became an event",
+        "Different timescales prove only one cause can operate",
+        "Structural causes always occur after immediate triggers"
+      ],
+      "answer": 1,
+      "explanation": "Different timescales explain how conditions became an event.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Consider how different timescales contribute to one outcome.",
+      "hint": "Consider how different timescales contribute to one outcome.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    },
+    {
+      "id": "i40",
+      "cs": "CS 3",
+      "standards": [
+        3
+      ],
+      "prompt": "Two regions industrialize but experience different unrest. What should be examined?",
+      "choices": [
+        "The assumption that correlation always proves necessity",
+        "Only the shared fact of industrial growth",
+        "The assumption that evidence from one region is invalid",
+        "Additional conditions shaping different outcomes"
+      ],
+      "answer": 3,
+      "explanation": "Additional conditions shaping different outcomes.",
+      "provenance": "newly authored",
+      "source": "../../sources/block-11.html#cs-3",
+      "where": "Section CS 3 — Causation, sequence, and correlation. Read the historical explanation, especially its examples and stated relationships. Then use this reasoning check: Compare additional conditions where similar developments diverged.",
+      "hint": "Compare additional conditions where similar developments diverged.",
+      "externalSource": "https://education.ohio.gov/getattachment/Topics/Learning-in-Ohio/Social-Studies/Model-Curriculum-for-Social-Studies/OhiosModelCurriculumSocialStudies.pdf.aspx?lang=en-US#page=102"
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="../../shared/core.js"></script><script src="../../shared/app.js"></script></body></html>

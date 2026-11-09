@@ -1,0 +1,492 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>American Studies Phase II</title><link rel="stylesheet" href="styles.css"></head><body><main>
+<header><p class="eyebrow">AMERICAN STUDIES • PHASE II</p><h1 id="pageTitle">Assignment</h1><p id="pageDescription"></p><div class="rule"><strong>How this assignment is scored:</strong> <span id="scoringText"></span></div></header>
+<section class="panel" id="studentPanel"><h2>Student information</h2><div class="form"><label>Full name<input id="studentName" autocomplete="name"></label><label>Class period<select id="period"><option value="">Choose</option><option>Period 1</option><option>Period 2</option><option>Period 3</option><option>Period 4</option><option>Period 5</option><option>Period 6</option><option>Period 7</option><option>Period 8</option></select></label><label>School email<input id="email" type="email" autocomplete="email"></label></div><div class="actions"><button id="startBtn">Start / Continue</button><button id="loadBtn" class="secondary">Load previous work</button><button id="saveBtn" class="secondary">Save progress</button><button id="resetBtn" class="danger">Reset assignment</button></div><p id="saveStatus" class="status"></p></section>
+<section class="panel practice"><strong>Practice focus:</strong> <span id="practiceText"></span></section>
+<section id="workspace" class="hidden"><div class="stats"><div><span>Mastered</span><strong id="progressStat">0 / 0</strong></div><div><span id="scoreLabel">Accuracy</span><strong id="scoreStat">100%</strong></div><div><span>Active time</span><strong id="runtimeStat">0:00</strong></div></div><article id="questionCard" class="question"></article></section>
+<section id="completion" class="panel completion hidden"><p class="eyebrow">MASTERY TICKET</p><h2>Assignment mastered</h2><p id="completionSummary"></p><button id="submitBtn">Submit mastery ticket</button><p id="submitStatus" class="status"></p></section>
+</main><script id="assignment-data" type="application/json">{
+  "config": {
+    "assignmentKey": "AS-P2-B9-CS29–30-VOCAB-2027",
+    "title": "Block 9 Vocabulary — Migration, Demographics, and Public Policy",
+    "description": "CS 29–30 • Phase II correctable vocabulary mastery • 28 questions.",
+    "practice": "Use feedback and hints to master the essential vocabulary for CS 29–30."
+  },
+  "questions": [
+    {
+      "id": "v01",
+      "cs": "CS 29",
+      "topic": "White flight",
+      "prompt": "Which term matches this definition: movement of many white residents from cities to suburbs?",
+      "choices": [
+        "White flight",
+        "Redlining",
+        "1965 Immigration Act",
+        "High-technology industry"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is White flight: movement of many white residents from cities to suburbs.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v02",
+      "cs": "CS 29",
+      "topic": "Redlining",
+      "prompt": "Which term matches this definition: discriminatory denial of loans or services based on neighborhood race?",
+      "choices": [
+        "Urban-suburban polarization",
+        "Redlining",
+        "Demographic change",
+        "Great Society"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Redlining: discriminatory denial of loans or services based on neighborhood race.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v03",
+      "cs": "CS 29",
+      "topic": "Urban-suburban polarization",
+      "prompt": "Which term matches this definition: growing political and economic differences between central cities and suburbs?",
+      "choices": [
+        "Urban riots",
+        "Hispanic population growth",
+        "Urban-suburban polarization",
+        "Medicare"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Urban-suburban polarization: growing political and economic differences between central cities and suburbs.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v04",
+      "cs": "CS 29",
+      "topic": "Urban riots",
+      "prompt": "Which term matches this definition: violent unrest connected to inequality, policing, and economic frustration?",
+      "choices": [
+        "Rust Belt",
+        "Bilingual education",
+        "Medicaid",
+        "Urban riots"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Urban riots: violent unrest connected to inequality, policing, and economic frustration.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v05",
+      "cs": "CS 29",
+      "topic": "Rust Belt",
+      "prompt": "Which term matches this definition: older industrial region losing factories and population?",
+      "choices": [
+        "Rust Belt",
+        "Sun Belt",
+        "Voting balance",
+        "Supply-side economics"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Rust Belt: older industrial region losing factories and population.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v06",
+      "cs": "CS 29",
+      "topic": "Sun Belt",
+      "prompt": "Which term matches this definition: southern and western region gaining people, jobs, and political influence?",
+      "choices": [
+        "Reapportionment",
+        "Sun Belt",
+        "Defense industry",
+        "Deregulation"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Sun Belt: southern and western region gaining people, jobs, and political influence.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v07",
+      "cs": "CS 29",
+      "topic": "Reapportionment",
+      "prompt": "Which term matches this definition: redistribution of legislative seats based on population?",
+      "choices": [
+        "1965 Immigration Act",
+        "High-technology industry",
+        "Reapportionment",
+        "Environmental movement"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Reapportionment: redistribution of legislative seats based on population.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v08",
+      "cs": "CS 29",
+      "topic": "1965 Immigration Act",
+      "prompt": "Which term matches this definition: law ending the national-origins quota system?",
+      "choices": [
+        "Demographic change",
+        "Great Society",
+        "EPA",
+        "1965 Immigration Act"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is 1965 Immigration Act: law ending the national-origins quota system.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v09",
+      "cs": "CS 29",
+      "topic": "Demographic change",
+      "prompt": "Which term matches this definition: shift in the size, location, or composition of a population?",
+      "choices": [
+        "Demographic change",
+        "Hispanic population growth",
+        "Medicare",
+        "Climate change"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Demographic change: shift in the size, location, or composition of a population.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v10",
+      "cs": "CS 29",
+      "topic": "Hispanic population growth",
+      "prompt": "Which term matches this definition: increasing number and influence of Americans with Latin American heritage?",
+      "choices": [
+        "Bilingual education",
+        "Hispanic population growth",
+        "Medicaid",
+        "Social welfare debate"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Hispanic population growth: increasing number and influence of Americans with Latin American heritage.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v11",
+      "cs": "CS 29",
+      "topic": "Bilingual education",
+      "prompt": "Which term matches this definition: instruction using two languages to support student learning?",
+      "choices": [
+        "Voting balance",
+        "Supply-side economics",
+        "Bilingual education",
+        "National security debate"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Bilingual education: instruction using two languages to support student learning.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v12",
+      "cs": "CS 29",
+      "topic": "Voting balance",
+      "prompt": "Which term matches this definition: distribution of political influence among groups and regions?",
+      "choices": [
+        "Defense industry",
+        "Deregulation",
+        "Vietnam protest",
+        "Voting balance"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Voting balance: distribution of political influence among groups and regions.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v13",
+      "cs": "CS 29",
+      "topic": "Defense industry",
+      "prompt": "Which term matches this definition: businesses producing military technology and equipment?",
+      "choices": [
+        "Defense industry",
+        "High-technology industry",
+        "Environmental movement",
+        "Civil rights enforcement"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Defense industry: businesses producing military technology and equipment.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v14",
+      "cs": "CS 29",
+      "topic": "High-technology industry",
+      "prompt": "Which term matches this definition: business sector based on advanced science and computing?",
+      "choices": [
+        "Great Society",
+        "High-technology industry",
+        "EPA",
+        "Poverty"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is High-technology industry: business sector based on advanced science and computing.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v15",
+      "cs": "CS 30",
+      "topic": "Great Society",
+      "prompt": "Which term matches this definition: federal programs designed to reduce poverty and expand opportunity?",
+      "choices": [
+        "Medicare",
+        "Climate change",
+        "Great Society",
+        "Liberty-security balance"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Great Society: federal programs designed to reduce poverty and expand opportunity.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v16",
+      "cs": "CS 30",
+      "topic": "Medicare",
+      "prompt": "Which term matches this definition: federal health-insurance program primarily serving older Americans?",
+      "choices": [
+        "Medicaid",
+        "Social welfare debate",
+        "White flight",
+        "Medicare"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Medicare: federal health-insurance program primarily serving older Americans.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v17",
+      "cs": "CS 30",
+      "topic": "Medicaid",
+      "prompt": "Which term matches this definition: joint federal-state health program for eligible low-income people?",
+      "choices": [
+        "Medicaid",
+        "Supply-side economics",
+        "National security debate",
+        "Redlining"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Medicaid: joint federal-state health program for eligible low-income people.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v18",
+      "cs": "CS 30",
+      "topic": "Supply-side economics",
+      "prompt": "Which term matches this definition: policy emphasizing tax cuts and incentives for investment and production?",
+      "choices": [
+        "Deregulation",
+        "Supply-side economics",
+        "Vietnam protest",
+        "Urban-suburban polarization"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Supply-side economics: policy emphasizing tax cuts and incentives for investment and production.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v19",
+      "cs": "CS 30",
+      "topic": "Deregulation",
+      "prompt": "Which term matches this definition: reduction of government rules affecting business activity?",
+      "choices": [
+        "Environmental movement",
+        "Civil rights enforcement",
+        "Deregulation",
+        "Urban riots"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Deregulation: reduction of government rules affecting business activity.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v20",
+      "cs": "CS 30",
+      "topic": "Environmental movement",
+      "prompt": "Which term matches this definition: organized effort to protect natural systems and public health?",
+      "choices": [
+        "EPA",
+        "Poverty",
+        "Rust Belt",
+        "Environmental movement"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Environmental movement: organized effort to protect natural systems and public health.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v21",
+      "cs": "CS 30",
+      "topic": "EPA",
+      "prompt": "Which term matches this definition: federal agency created to enforce environmental protections?",
+      "choices": [
+        "EPA",
+        "Climate change",
+        "Liberty-security balance",
+        "Sun Belt"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is EPA: federal agency created to enforce environmental protections.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v22",
+      "cs": "CS 30",
+      "topic": "Climate change",
+      "prompt": "Which term matches this definition: long-term alteration of climate strongly linked to greenhouse-gas emissions?",
+      "choices": [
+        "Social welfare debate",
+        "Climate change",
+        "White flight",
+        "Reapportionment"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Climate change: long-term alteration of climate strongly linked to greenhouse-gas emissions.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v23",
+      "cs": "CS 30",
+      "topic": "Social welfare debate",
+      "prompt": "Which term matches this definition: disagreement over government responsibility for economic security and opportunity?",
+      "choices": [
+        "National security debate",
+        "Redlining",
+        "Social welfare debate",
+        "1965 Immigration Act"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Social welfare debate: disagreement over government responsibility for economic security and opportunity.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v24",
+      "cs": "CS 30",
+      "topic": "National security debate",
+      "prompt": "Which term matches this definition: disagreement over how government should protect the country?",
+      "choices": [
+        "Vietnam protest",
+        "Urban-suburban polarization",
+        "Demographic change",
+        "National security debate"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is National security debate: disagreement over how government should protect the country.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v25",
+      "cs": "CS 30",
+      "topic": "Vietnam protest",
+      "prompt": "Which term matches this definition: public opposition that challenged Cold War policy and government credibility?",
+      "choices": [
+        "Vietnam protest",
+        "Civil rights enforcement",
+        "Urban riots",
+        "Hispanic population growth"
+      ],
+      "answer": 0,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Vietnam protest: public opposition that challenged Cold War policy and government credibility.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v26",
+      "cs": "CS 30",
+      "topic": "Civil rights enforcement",
+      "prompt": "Which term matches this definition: government action to implement equal protection and anti-discrimination law?",
+      "choices": [
+        "Poverty",
+        "Civil rights enforcement",
+        "Rust Belt",
+        "Bilingual education"
+      ],
+      "answer": 1,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Civil rights enforcement: government action to implement equal protection and anti-discrimination law.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v27",
+      "cs": "CS 30",
+      "topic": "Poverty",
+      "prompt": "Which term matches this definition: lack of sufficient income and resources for basic needs?",
+      "choices": [
+        "Liberty-security balance",
+        "Sun Belt",
+        "Poverty",
+        "Voting balance"
+      ],
+      "answer": 2,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Poverty: lack of sufficient income and resources for basic needs.",
+      "hint": "Focus on the defining clue and its historical role."
+    },
+    {
+      "id": "v28",
+      "cs": "CS 30",
+      "topic": "Liberty-security balance",
+      "prompt": "Which term matches this definition: tension between personal freedoms and protective government powers?",
+      "choices": [
+        "White flight",
+        "Reapportionment",
+        "Defense industry",
+        "Liberty-security balance"
+      ],
+      "answer": 3,
+      "source": "https://www.archives.gov/milestone-documents/immigration-and-nationality-act",
+      "where": "Use the source to connect the description with the period’s people, policy, event, or idea.",
+      "explanation": "This is Liberty-security balance: tension between personal freedoms and protective government powers.",
+      "hint": "Focus on the defining clue and its historical role."
+    }
+  ]
+}</script><script>const assignment=JSON.parse(document.getElementById("assignment-data").textContent);window.BLOCK_CONFIG=assignment.config;window.BLOCK_QUESTIONS=assignment.questions;</script><script src="app.js"></script></body></html>
